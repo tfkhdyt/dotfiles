@@ -795,10 +795,6 @@ colors:
 # in the order they were defined in.
 key_bindings:
   - { key: Return,   mods: Control|Shift, action: CreateNewWindow }
-  # GitHub PAT
-  - { key: G, mods: Super, chars: "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" }
-  # Codeberg Password
-  - { key: C, mods: Super, chars: "t35QMOaT09RteT" }
 
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
