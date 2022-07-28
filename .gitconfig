@@ -3,3 +3,5 @@
 	email = tfkhdyt@pm.me
 [init]
 	defaultBranch = main
+[credential]
+	helper = store
