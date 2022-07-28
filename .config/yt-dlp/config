@@ -1,0 +1,20 @@
+ # Do not copy the mtime
+ --no-mtime
+
+ # Download all available subs, except live chat
+ --sub-langs all,-live_chat
+
+ # Embed video's subs into the video
+ --embed-subs
+
+ # Embed video's thumbnail into the video
+ --embed-thumbnail
+
+ # Embed video's metadata into the video
+#  --embed-metadata
+
+ # Embed video's chapters into the video
+ --embed-chapters
+
+ # Embed sponsorblock mark as chapters into the video
+ --sponsorblock-mark all
