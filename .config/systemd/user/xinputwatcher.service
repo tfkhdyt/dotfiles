@@ -1,0 +1,10 @@
+[Unit]
+Description=xinputwatcher
+
+[Service]
+Type=simple
+ExecStart=/home/tfkhdyt/.xinputwatcher.sh
+KillMode=process
+
+[Install]
+WantedBy=graphical-session.target
