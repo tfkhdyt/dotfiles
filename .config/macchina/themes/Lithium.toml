@@ -20,9 +20,9 @@ visible         = false
 hide_delimiters = true
 
 [box]
-title           = " "
-border          = "plain"
-visible         = false
+title           = " System Information "
+border          = "rounded"
+visible         = true
 
 [box.inner_margin]
 x               = 2

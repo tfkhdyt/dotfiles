@@ -45,5 +45,5 @@ theme = "Lithium"
 #   - Memory
 #   - Battery
 # Example:
-#   show = ["Battery", "Memory", ...]
+show = ["Host", "Machine", "Kernel", "Distribution", "OperatingSystem", "DesktopEnvironment", "WindowManager", "Resolution", "Packages", "Terminal", "Shell", "Uptime", "Processor", "ProcessorLoad", "Memory", "Battery"]
 
