@@ -10,7 +10,7 @@ separator_color = "Yellow"
 [palette]
 type            = "Light"
 glyph           = " ● "
-visible         = true
+visible         = false
 
 [bar]
 glyph           = "●"
