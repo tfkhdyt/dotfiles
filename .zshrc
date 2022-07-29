@@ -135,3 +135,6 @@ source ~/.aliases
 # doas autocompletion
 complete -cf doas
 #zprof
+
+# system information
+macchina
