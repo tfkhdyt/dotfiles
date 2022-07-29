@@ -18,6 +18,7 @@
 - Program-specific config:
   - Alacritty
   - Bottom
+  - Macchina
   - mpv
   - nvim (NvChad)
   - openrazer
