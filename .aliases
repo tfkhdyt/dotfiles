@@ -1,6 +1,6 @@
 alias ls="exa --icons --group-directories-first"
 alias ll="exa -lbh --group-directories-first"
-alias code=codium
+# alias code=codium
 alias fing="ping 45.90.28.139"
 alias systemupgrade="sudo pacman -Syu && SKIP_AUTOSNAP=1 paru -Sua"
 alias killorphans="paru -Qtdq | paru -Rns -"
