@@ -75,13 +75,14 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git systemd evalcache auto-notify)
+plugins=(git systemd evalcache auto-notify command-not-found golang thefuck vscode)
 
+source ~/.zsh-autopair/autopair.zsh
+autopair-init
+source /usr/share/doc/pkgfile/command-not-found.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
-source ~/.zsh-autopair/autopair.zsh
-autopair-init
 source $ZSH/oh-my-zsh.sh
 
 #echo 'checking autopair is exists or not'
@@ -134,7 +135,8 @@ source ~/.aliases
 
 # doas autocompletion
 complete -cf doas
-#zprof
 
 # system information
 macchina
+
+#zprof
