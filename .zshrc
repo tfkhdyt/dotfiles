@@ -140,3 +140,4 @@ complete -cf doas
 macchina
 
 #zprof
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
