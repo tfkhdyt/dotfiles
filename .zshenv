@@ -16,4 +16,8 @@ export ANDROID_HOME="$XDG_DATA_HOME"/android
 export HISTFILE="${XDG_STATE_HOME}"/bash/history
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export GOPATH="$XDG_DATA_HOME"/go
-
+export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+export KDEHOME="$XDG_CONFIG_HOME"/kde 
+export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+export MYSQL_HISTFILE="$XDG_DATA_HOME"/mysql_history
+export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
