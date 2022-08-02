@@ -128,10 +128,10 @@ _evalcache starship init zsh
 #eval $(thefuck --alias)
 
 # setting env
-source ~/.zshenv
+source "$XDG_CONFIG_HOME"/zsh/.zshenv
 
 # setting aliases
-source ~/.aliases
+source "$XDG_CONFIG_HOME"/zsh/.aliases
 
 # doas autocompletion
 complete -cf doas
