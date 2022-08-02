@@ -24,3 +24,4 @@ export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 export PSQL_HISTORY="$XDG_DATA_HOME/psql_history"
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export WINEPREFIX="$XDG_DATA_HOME"/wine
+export HISTFILE="$XDG_STATE_HOME"/zsh/history
