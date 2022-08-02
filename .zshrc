@@ -128,7 +128,7 @@ _evalcache starship init zsh
 #eval $(thefuck --alias)
 
 # setting env
-source ~/.env
+source ~/.zshenv
 
 # setting aliases
 source ~/.aliases
