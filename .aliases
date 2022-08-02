@@ -8,3 +8,4 @@ alias checkupdates-aur="paru -Qua || there's no update!"
 
 # alias sudo="doas"
 # alias sudoedit="doas rnano"
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
