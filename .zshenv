@@ -22,3 +22,4 @@ export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 export MYSQL_HISTFILE="$XDG_DATA_HOME"/mysql_history
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 export PSQL_HISTORY="$XDG_DATA_HOME/psql_history"
+export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
