@@ -15,4 +15,5 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export ANDROID_HOME="$XDG_DATA_HOME"/android
 export HISTFILE="${XDG_STATE_HOME}"/bash/history
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export GOPATH="$XDG_DATA_HOME"/go
 
