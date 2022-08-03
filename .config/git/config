@@ -5,3 +5,5 @@
 	defaultBranch = main
 [credential]
 	helper = store
+[color]
+	ui = auto
