@@ -1,7 +1,7 @@
 #zmodload zsh/zprof
 # If you come from bash you might have to change your $PATH.
-export GOBIN="/home/tfkhdyt/go/bin"
-export PATH=$GOBIN:$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH
+export GOBIN="$XDG_DATA_HOME/go/bin"
+export PATH=$GOBIN:$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -35,7 +35,6 @@ ZSH_THEME="robbyrussell"
 
 # disable omz auto update
 DISABLE_AUTO_UPDATE="true"
-
 # Uncomment the following line if pasting URLs and other text is messed up.
 DISABLE_MAGIC_FUNCTIONS="true"
 
@@ -128,10 +127,10 @@ _evalcache starship init zsh
 #eval $(thefuck --alias)
 
 # setting env
-source "$XDG_CONFIG_HOME"/zsh/.zshenv
+source ~/.config/zsh/.zshenv
 
 # setting aliases
-source "$XDG_CONFIG_HOME"/zsh/.aliases
+source ~/.config/zsh/.aliases
 
 # doas autocompletion
 complete -cf doas
