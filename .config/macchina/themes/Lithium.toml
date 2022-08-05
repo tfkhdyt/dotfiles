@@ -22,7 +22,7 @@ hide_delimiters = true
 [box]
 title           = " System Information "
 border          = "rounded"
-visible         = true
+visible         = false
 
 [box.inner_margin]
 x               = 2
