@@ -5,6 +5,7 @@ alias fing="ping 45.90.28.139"
 alias systemupgrade="sudo pacman -Syu && SKIP_AUTOSNAP=1 paru -Sua"
 alias killorphans="paru -Qtdq | paru -Rns -"
 alias checkupdates="checkupdates && paru -Qua"
+alias numberofupdates="(checkupdates && paru -Qua) | wc -l"
 
 # alias sudo="doas"
 # alias sudoedit="doas rnano"
