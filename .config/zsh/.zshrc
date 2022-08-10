@@ -76,18 +76,18 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git systemd evalcache auto-notify command-not-found golang thefuck vscode)
 
+source $ZSH/oh-my-zsh.sh
+if [[ ! -d ~/.zsh-autopair ]]; then
+  git clone https://github.com/hlissner/zsh-autopair ~/.zsh-autopair
+fi
 source ~/.zsh-autopair/autopair.zsh
 autopair-init
 source /usr/share/doc/pkgfile/command-not-found.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
-source $ZSH/oh-my-zsh.sh
 
 #echo 'checking autopair is exists or not'
-#if [[ ! -d ~/.zsh-autopair ]]; then
-#  git clone https://github.com/hlissner/zsh-autopair ~/.zsh-autopair
-#fi
 
 
 # User configuration
