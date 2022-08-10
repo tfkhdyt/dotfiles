@@ -2,26 +2,26 @@
 
 spacing         = 1
 padding         = 0
-hide_ascii      = true
-separator       = " "
-key_color       = "Yellow"
-separator_color = "Yellow"
+hide_ascii      = false
+separator       = "->"
+key_color       = "#3b82f6"
+separator_color = "#50fa7b"
 
 [palette]
 type            = "Light"
-glyph           = " ● "
+glyph           = "● "
 visible         = false
 
 [bar]
 glyph           = "●"
 symbol_open     = '('
 symbol_close    = ')'
-visible         = false
+visible         = true
 hide_delimiters = true
 
 [box]
 title           = " System Information "
-border          = "rounded"
+border          = "plain"
 visible         = false
 
 [box.inner_margin]
@@ -29,7 +29,8 @@ x               = 2
 y               = 1
 
 [custom_ascii]
-color           = "Yellow"
+color           = "#3b82f6"
+path            = "/home/tfkhdyt/.config/macchina/arch_linux"
 
 [randomize]
 key_color       = false
