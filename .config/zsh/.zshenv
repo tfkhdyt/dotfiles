@@ -7,7 +7,7 @@ export PATH="$PNPM_HOME:$PATH"
 export HISTSIZE=1000
 export SAVEHIST=1000
 export AUTO_NOTIFY_EXPIRE_TIME=5000
-export BROWSER=brave
+export BROWSER=chromium
 export EDITOR=nvim
 export PAGER=most
 
