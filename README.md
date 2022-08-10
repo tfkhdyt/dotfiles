@@ -4,7 +4,7 @@
   <img src='https://user-images.githubusercontent.com/47195537/181524542-59a3d2a7-e229-4a25-a444-c44bb350cf8f.png' alt='thumbnail' />
 </div>
 
-<p align=center>🐧My Linux desktop dotfiles🐧</p>
+<p align=center>🐧 My Linux desktop dotfiles 🐧</p>
 
 ## Features
 
@@ -23,6 +23,7 @@
   - nvim (NvChad)
   - openrazer
   - Polychromatic
+  - Starship
   - yt-dlp
 - fontconfig (emoji)
 - systemd user services:
