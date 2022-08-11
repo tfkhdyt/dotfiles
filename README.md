@@ -19,6 +19,7 @@
   - Alacritty
   - Bottom
   - Macchina
+  - MangoHUD
   - mpv
   - nvim (NvChad)
   - openrazer
