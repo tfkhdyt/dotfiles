@@ -1,1 +1,5 @@
 .config/mpv/watch_later
+.config/nvim/plugin
+.config/nvim/custom
+.config/nvim/spell
+
