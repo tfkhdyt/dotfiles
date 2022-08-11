@@ -14,7 +14,17 @@ vim.api.nvim_create_autocmd("Filetype", {
 })
 
 local options = {
-  ensure_installed = { "lua-language-server" }, -- not an option from mason.nvim
+  ensure_installed = {
+    "lua-language-server",
+    "gofumpt",
+    "goimports",
+    "golangci-lint",
+    "golangci-lint-langserver",
+    "gopls",
+    "prettier",
+    "tailwindcss-language-server",
+    "typescript-language-server"
+  }, -- not an option from mason.nvim
 
   ui = {
     icons = {
