@@ -136,7 +136,7 @@ source ~/.config/zsh/.aliases
 complete -cf doas
 
 # system information
-macchina
+# macchina
 
 #zprof
 compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
