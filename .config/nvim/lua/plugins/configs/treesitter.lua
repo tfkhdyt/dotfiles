@@ -15,6 +15,9 @@ local options = {
     enable = true,
     use_languagetree = true,
   },
+  auto_tag = {
+    enable = true
+  }
 }
 
 -- check for any override
