@@ -7,6 +7,14 @@ alias killorphans="paru -Qtdq | paru -Rns -"
 alias checkupdates="checkupdates && paru -Qua"
 alias numberofupdates="(checkupdates && paru -Qua) | wc -l"
 
+# Paru aliases
+alias prr="paru -Rns"
+alias pri="paru -S"
+alias prss="paru -Ss"
+alias prsi="paru -Si"
+alias prqs="paru -Qs"
+alias prqi="paru -Qi"
+
 # alias sudo="doas"
 # alias sudoedit="doas rnano"
-alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
