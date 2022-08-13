@@ -10,7 +10,7 @@ symbol = " "
 symbol = " "
 
 [cmd_duration]
-format = '\[[⏱  $duration]($style)\]'
+format = '\[[ $duration]($style)\]'
 
 [conda]
 symbol = " "
