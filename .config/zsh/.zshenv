@@ -11,6 +11,7 @@ export AUTO_NOTIFY_EXPIRE_TIME=5000
 export BROWSER=chromium
 export EDITOR=nvim
 export MYVIMRC="$XDG_CONFIG_HOME/nvim/init.lua"
+# export AUTO_NOTIFY_URGENCY="normal"
 
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_HOME="$HOME/.config"
