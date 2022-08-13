@@ -6,21 +6,16 @@ local M = {}
 -- example of changing theme:
 
 M.ui = {
-	theme = "doomchad",
+	theme = "ayu-dark",
 }
 
 M.plugins = {
 	user = {
-		["goolord/alpha-nvim"] = {
-			disable = false,
-		},
-		["jose-elias-alvarez/null-ls.nvim"] = {
-			after = "nvim-lspconfig",
-			config = function()
-				require("custom.plugins.null-ls")
-			end,
-		},
 		["windwp/nvim-ts-autotag"] = {},
+    ["pangloss/vim-javascript"] = {},
+    ["leafgarland/typescript-vim"] = {},
+    ["famiu/nvim-reload"] = {},
+    ["peitalin/vim-jsx-typescript"] = {},
 	},
 }
 
