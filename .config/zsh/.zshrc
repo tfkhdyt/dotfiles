@@ -118,8 +118,8 @@ source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#52605f'
-ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=#2377ff'
-ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=#2377ff'
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=#3b82f6'
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=#3b82f6'
 
 _evalcache zoxide init zsh
 _evalcache starship init zsh
