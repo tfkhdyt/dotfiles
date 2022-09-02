@@ -1,4 +1,4 @@
-"Chromium"
+"(Chromium|VSCodium)"
 None,      Up,   Button4, 3.25
 None,      Down, Button5, 3.25
 Control_L, Up,   Control_L|Button4
