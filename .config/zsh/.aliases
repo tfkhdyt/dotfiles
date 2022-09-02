@@ -7,6 +7,7 @@ alias killorphans="paru -Qtdq | paru -Rns -"
 alias checkupdates="checkupdates && paru -Qua"
 alias numberofupdates="(checkupdates && paru -Qua) | wc -l"
 alias kdc=kdeconnect-cli
+alias yt2mp3='yt-dlp -f 'ba' -x --audio-format mp3'
 
 # Paru aliases
 alias prr="paru -Rns"
