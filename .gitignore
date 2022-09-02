@@ -2,4 +2,4 @@
 .config/nvim/plugin
 .config/nvim/custom
 .config/nvim/spell
-
+.config/zsh/.zcompdump*
