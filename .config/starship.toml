@@ -6,6 +6,9 @@ symbol = "  "
 [buf]
 symbol = " "
 
+[bun]
+format = '\[[$symbol($version)]($style)\]'
+
 [c]
 symbol = " "
 
