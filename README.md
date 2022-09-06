@@ -18,6 +18,7 @@
 - Program-specific config:
   - Alacritty
   - Bottom
+  - FireDragon
   - Macchina
   - MangoHUD
   - mpv
