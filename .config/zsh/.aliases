@@ -8,6 +8,7 @@ alias numberofupdates="(checkupdates && paru -Qua) | wc -l"
 
 alias kdc=kdeconnect-cli
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
+alias nv=nvim
 
 # Paru aliases
 alias prr="paru -Rns"
