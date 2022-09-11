@@ -18,6 +18,7 @@
 - Program-specific config:
   - Alacritty
   - Bottom
+  - Dunst
   - FireDragon
   - Macchina
   - MangoHUD
