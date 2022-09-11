@@ -26,6 +26,7 @@
   - mpv
   - nvim (NvChad)
   - openrazer
+  - Picom
   - Polychromatic
   - Starship
   - yt-dlp
