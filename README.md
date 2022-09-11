@@ -20,6 +20,7 @@
   - Bottom
   - Dunst
   - FireDragon
+  - i3
   - Macchina
   - MangoHUD
   - mpv
