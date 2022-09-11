@@ -29,6 +29,7 @@
   - Picom
   - Polybar
   - Polychromatic
+  - Rofi
   - Starship
   - yt-dlp
 - fontconfig (emoji)
