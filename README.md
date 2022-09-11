@@ -27,6 +27,7 @@
   - nvim (NvChad)
   - openrazer
   - Picom
+  - Polybar
   - Polychromatic
   - Starship
   - yt-dlp
