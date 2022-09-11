@@ -7,11 +7,11 @@ do
     then
       systemctl --user start --now imwheel
       echo "starting imwheel"
-      source .disable_accel.sh
-      echo "acceleration disabled"
+      #source .disable_accel.sh
+      #echo "acceleration disabled"
     else
       echo "imwheel already running"
-      echo "acceleration already disabled"
+      #echo "acceleration already disabled"
     fi
   else
     if [[ $(systemctl --user is-active imwheel) == active ]];
