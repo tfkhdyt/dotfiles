@@ -13,7 +13,7 @@
 # is used in the bar {} block below.
 set $mod Mod4
 
-font pango:Iosevka 11
+font pango:Noto Sans, JetBrainsMono Nerd Font 11
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -249,6 +249,10 @@ for_window [class=".*"] border pixel 2
 ### gaps
 gaps inner 10
 gaps outer 2
+
+### disable border and gaps when there is only one container
+hide_edge_borders smart
+smart_gaps on
 
 ### border color
 #client.focused          #4c7899 #339af0 #ffffff #2e9ef4   #285577
