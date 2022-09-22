@@ -19,7 +19,7 @@
   - Alacritty
   - Bottom
   - Dunst
-  - FireDragon
+  - Firefox
   - i3
   - Macchina
   - MangoHUD
