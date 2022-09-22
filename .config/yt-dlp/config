@@ -8,7 +8,7 @@
 --embed-subs
 
 # Embed video's thumbnail into the video
---embed-thumbnail
+# --embed-thumbnail
 
 # Embed video's chapters into the video
 --embed-chapters
