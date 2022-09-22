@@ -4,7 +4,7 @@ alias ll="exa -lbh --group-directories-first"
 alias systemupgrade="sudo timeshift --create && paru"
 alias killorphans="paru -Qtdq | paru -Rns -"
 alias checkupdates="checkupdates && paru -Qua"
-alias numberofupdates="(checkupdates && paru -Qua) | wc -l"
+alias numberofupdates="(checkupdates) | wc -l"
 
 alias kdc=kdeconnect-cli
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
@@ -19,3 +19,6 @@ alias prqs="paru -Qs"
 alias prqi="paru -Qi"
 
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
