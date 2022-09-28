@@ -276,12 +276,15 @@ bindsym Mod4+r mode "resize"
 
 # my config
 
+## startup sound
+exec --no-startup-id mpv --no-video ~/Startup\ Sounds/bababooey.mp3
+
 ## autostart
 exec --no-startup-id feh --no-xinerama --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
-#exec --no-startup-id systemctl --user start xinputwatcher.service
 exec --no-startup-id picom -b
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
 exec_always --no-startup-id $HOME/.config/dunst/launch.sh
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## keybinding
 
@@ -303,7 +306,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 ## etc
 
 ### disable title bar
-for_window [class=".*"] border pixel 3
+for_window [class=".*"] border pixel 2
 
 ### gaps
 gaps inner 10
@@ -315,13 +318,17 @@ smart_gaps on
 
 ### border color
 #client.focused          #4c7899 #339af0 #ffffff #2e9ef4   #285577
-client.focused          #4c7899 #285577 #ffffff #5BB318   #448EF6
+client.focused          #5b6078 #5b6078 #ffffff #a6da95 #8aadf4
 
 ### zoom
 for_window [class="(.*join\?action\=join.*|.*zoom.*)"] floating enable
 for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom - Licensed Account"] floating disable
 for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom Meeting"] floating disable
 
+## floating window
+for_window [class="SimpleScreenRecorder"] floating enable
+for_window [class="Pavucontrol"] floating enable
+for_window [class="Nm-connection-editor"] floating enable
+for_window [class="PacketTracer"] floating enable
 
-### startup sound
-exec_always --no-startup-id mpv --no-video ~/Startup\ Sounds/bababooey.mp3
+
