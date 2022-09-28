@@ -3,7 +3,7 @@ alias ll="exa -lbh --group-directories-first"
 
 alias systemupgrade="sudo timeshift --create && paru"
 alias killorphans="paru -Qtdq | paru -Rns -"
-alias checkupdates="checkupdates && paru -Qua"
+# alias checkupdates="checkupdates && paru -Qua"
 alias numberofupdates="(checkupdates) | wc -l"
 
 alias kdc=kdeconnect-cli
