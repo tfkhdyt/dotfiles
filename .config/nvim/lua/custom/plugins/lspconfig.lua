@@ -3,7 +3,7 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "clangd", "gopls", "tsserver", "intelephense", "emmet_ls"}
+local servers = { "html", "cssls", "jsonls", "tsserver", "gopls"}
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
