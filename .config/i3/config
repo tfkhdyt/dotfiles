@@ -280,7 +280,7 @@ bindsym Mod4+r mode "resize"
 exec --no-startup-id mpv --no-video ~/Startup\ Sounds/bababooey.mp3
 
 ## autostart
-exec --no-startup-id feh --no-xinerama --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
+exec_always --no-startup-id feh --no-xinerama --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
 exec --no-startup-id picom -b
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
 exec_always --no-startup-id $HOME/.config/dunst/launch.sh
