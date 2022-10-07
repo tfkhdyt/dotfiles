@@ -32,3 +32,4 @@ export WINEPREFIX="$XDG_DATA_HOME"/wine
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 export ZDOTDIR="$HOME"/.config/zsh
 export QT_QPA_PLATFORMTHEME=qt5ct
+export DATE=$(date -I)
