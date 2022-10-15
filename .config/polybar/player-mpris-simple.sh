@@ -14,6 +14,8 @@ if [ "$player_status" == "Playing" ]; then
       fi
 
       echo " ${title:0:32}"
+    elif [ "$artist" == "" ]; then
+      echo " ${title:0:32}"
     else 
       if [[ ${#artist} -gt $L ]]; then
         artist="${artist:0:L}..."
@@ -39,6 +41,8 @@ elif [ "$player_status" == "Paused" ]; then
         title="$title"
       fi
 
+      echo " ${title:0:32}"
+    elif [ "$artist" == "" ]; then
       echo " ${title:0:32}"
     else 
       if [[ ${#artist} -gt $L ]]; then
