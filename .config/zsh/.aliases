@@ -1,5 +1,5 @@
 alias ls="exa --icons --group-directories-first"
-alias ll="exa -lbh --group-directories-first"
+alias ll="exa -lbh --icons --group-directories-first"
 
 alias systemupgrade="sudo timeshift --create && paru"
 alias killorphans="paru -Qtdq | paru -Rns -"
@@ -25,3 +25,4 @@ alias pbpaste='xclip -selection clipboard -o'
 
 alias pctr=pactree
 alias pctrr="pactree -r"
+alias dar="dart run"
