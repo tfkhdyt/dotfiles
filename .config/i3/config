@@ -31,7 +31,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy -- maim
 
 # xidlehook
-exec --no-startup-id ./locker.sh
+exec --no-startup-id $XDG_CONFIG_HOME/i3/locker.sh
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -301,8 +301,8 @@ bindsym Ctrl+$mod+Print exec --no-startup-id maim -u --window $(xdotool getactiv
 bindsym Ctrl+Shift+Print exec --no-startup-id maim -u --select | xclip -selection clipboard -t image/png
 
 ### screen brightness
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -e set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -e set 5%-
 
 ## etc
 
