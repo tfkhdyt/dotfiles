@@ -280,7 +280,7 @@ bindsym Mod4+r mode "resize"
 exec --no-startup-id mpv --no-video ~/Startup\ Sounds/bababooey.mp3
 
 ## autostart
-exec_always --no-startup-id feh --no-xinerama --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
+exec --no-startup-id feh --no-xinerama --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
 exec --no-startup-id picom -b
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
 exec_always --no-startup-id $HOME/.config/dunst/launch.sh
@@ -303,6 +303,11 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim -u --select | xclip -selectio
 ### screen brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -e set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -e set 5%-
+
+### move to next/prev workspaces
+bindsym $mod+Tab workspace back_and_forth
+bindsym $mod+bracketleft workspace prev
+bindsym $mod+bracketright workspace next
 
 ## etc
 
