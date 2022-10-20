@@ -1,7 +1,7 @@
 # TFKHDYT's dotfiles
 
 <div align=center>
-  <img src='https://i.postimg.cc/k47NyWwR/Setup-i3-11-Sep-22.png' alt='thumbnail' />
+  <img src='assets/img/preview.png' alt='thumbnail' />
 </div>
 
 <p align=center>🐧 My Linux desktop dotfiles 🐧</p>
@@ -21,6 +21,7 @@
   - Dunst
   - Firefox
   - i3
+  - libinput-gesture
   - Macchina
   - MangoHUD
   - mpv
