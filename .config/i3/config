@@ -286,6 +286,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id $HOME/.config/dunst/launch.sh
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec --no-startup-id redshift -l -6.914744:107.609810 -t 6500:3000
+exec --no-startup-id libinput-gestures-setup start
 
 ## keybinding
 
@@ -312,19 +313,19 @@ bindsym $mod+bracketright workspace next
 ## etc
 
 ### disable title bar
-for_window [class=".*"] border pixel 2
+for_window [class=".*"] border pixel 1
 
 ### gaps
 gaps inner 8
 gaps outer 0
 
 ### disable border and gaps when there is only one container
-hide_edge_borders smart
-smart_gaps on
+# hide_edge_borders smart
+# smart_gaps on
 
 ### border color
 #client.focused          #4c7899 #339af0 #ffffff #2e9ef4   #285577
-client.focused          #5b6078 #5b6078 #ffffff #a6da95 #8aadf4
+client.focused          #8aadf4 #8aadf4 #000000 #a6da95 #8aadf4
 
 ### zoom
 for_window [class="(.*join\?action\=join.*|.*zoom.*)"] floating enable
