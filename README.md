@@ -25,6 +25,7 @@
   - Macchina
   - MangoHUD
   - mpv
+  - Neofetch
   - nvim (NvChad)
   - openrazer
   - Picom
