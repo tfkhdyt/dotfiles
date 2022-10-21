@@ -287,6 +287,7 @@ exec_always --no-startup-id $HOME/.config/dunst/launch.sh
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec --no-startup-id redshift -l -6.914744:107.609810 -t 6500:3000
 exec --no-startup-id libinput-gestures-setup start
+exec_always --no-startup-id autotiling
 
 ## keybinding
 
@@ -325,7 +326,7 @@ gaps outer 0
 
 ### border color
 #client.focused          #4c7899 #339af0 #ffffff #2e9ef4   #285577
-client.focused          #8aadf4 #8aadf4 #000000 #a6da95 #8aadf4
+client.focused          #8aadf4 #8aadf4 #000000 #8aadf4 #8aadf4
 
 ### zoom
 for_window [class="(.*join\?action\=join.*|.*zoom.*)"] floating enable
