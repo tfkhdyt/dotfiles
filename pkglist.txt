@@ -10,18 +10,19 @@ alsa-utils
 amd-ucode
 android-tools
 apache
-appimagelauncher
 appmenu-gtk-module
 arandr
 arc-gtk-theme
 aria2
 ark
+atool
 audacious
 audacity
 authy
 auto-cpufreq
 autoconf
 automake
+autotiling
 b43-fwcutter
 base
 bash-completion
@@ -48,6 +49,7 @@ cryptsetup
 cups
 cups-filters
 cups-pdf
+dart
 dbeaver
 device-mapper
 dhclient
@@ -97,12 +99,14 @@ firefox-pwa-bin
 firewalld
 flatpak
 flex
+focalboard-bin
 foomatic-db
 foomatic-db-engine
 foomatic-db-gutenprint-ppds
 foomatic-db-nonfree
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
+fpc
 freebasic
 fsarchiver
 gamemode
@@ -137,8 +141,10 @@ gzip
 haveged
 hdparm
 heroic-games-launcher-bin
+highlight
 hplip
 htop
+httrack
 hwdetect
 hwinfo
 hyperfine
@@ -163,6 +169,8 @@ jq
 kdenlive
 kinit
 kio-fuse
+kvantum
+kvantum-theme-catppuccin-git
 less
 lib32-libva-mesa-driver
 lib32-mesa-vdpau
@@ -170,6 +178,7 @@ lib32-vulkan-icd-loader
 lib32-vulkan-radeon
 libdvdcss
 libgsf
+libinput-gestures
 libopenraw
 libtool
 libtpms
@@ -189,7 +198,6 @@ lvm2
 lxappearance
 ly
 m4
-macchina-bin
 maim
 make
 man-db
@@ -212,7 +220,6 @@ modemmanager
 mongodb-bin
 mongodb-compass
 most
-mpd
 mpv-mpris
 mtools
 nano
@@ -228,7 +235,6 @@ networkmanager-openvpn
 nfs-utils
 nilfs-utils
 nmap
-nnn-nerd
 noisetorch
 noto-fonts
 noto-fonts-emoji
@@ -252,8 +258,10 @@ papirus-icon-theme
 paru
 patch
 pavucontrol
+pcmanfm
 perl
-pfetch
+perl-image-exiftool
+pfetch-git
 php
 php-apache
 php-cs-fixer
@@ -275,6 +283,7 @@ postgresql
 postman-bin
 ppp
 pptpclient
+procs
 protonup-qt
 pv
 python
@@ -287,7 +296,10 @@ qemu-base
 qogir-gtk-theme
 qt5ct
 qt6ct
+rabbitmq
 rebuild-detector
+redis
+redshift
 reflector
 reflector-simple
 reiserfsprogs
@@ -317,6 +329,7 @@ stow
 stylua
 sudo
 swtpm
+syncthing
 sysfsutils
 system-config-printer
 systemd-sysvcompat
@@ -328,6 +341,7 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 timeshift-bin
+tokei
 trash-cli
 tree
 ttf-bitstream-vera
@@ -344,7 +358,6 @@ usbutils
 v4l2loopback-dkms
 vi
 virt-manager
-vnstat
 vpnc
 vscodium-bin
 vulkan-radeon
@@ -356,7 +369,9 @@ which
 whois
 wireless-regdb
 wireless_tools
+wmctrl
 wpa_supplicant
+wrk
 xclip
 xdg-ninja
 xdg-user-dirs
@@ -370,6 +385,7 @@ xidlehook
 xl2tpd
 xorg-server
 xorg-xdpyinfo
+xorg-xev
 xorg-xinit
 xorg-xinput
 xorg-xkill
@@ -381,6 +397,7 @@ xterm
 yad-eos
 yay
 yt-dlp
+zip
 zoom
 zoxide
 zramd
