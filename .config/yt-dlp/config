@@ -14,7 +14,7 @@
 --embed-chapters
 
 # Embed sponsorblock mark as chapters into the video
---sponsorblock-mark all
+# --sponsorblock-mark all
 
 # Use aria2c as external downloader
 --downloader aria2c
@@ -22,3 +22,5 @@
 # Display progress in console titlebar
 --console-title
 
+# limit file name length
+-o "%(title).30s.%(ext)s"
