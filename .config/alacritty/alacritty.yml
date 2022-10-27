@@ -8,8 +8,8 @@
 #
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
-#import:
-#  - /path/to/alacritty.yml
+import:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -541,7 +541,7 @@ schemes:
       - { index: 17, color: '#F5E0DC' }
 
 # Colors (Dracula)
-colors: *mocha
+# colors: *mocha
   # Default colors
   # primary:
   #   background: '#282a36'
