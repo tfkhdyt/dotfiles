@@ -31,7 +31,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy -- maim
 
 # xidlehook
-exec --no-startup-id $XDG_CONFIG_HOME/i3/locker.sh
+exec_always --no-startup-id $XDG_CONFIG_HOME/i3/locker.sh
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -276,8 +276,6 @@ bindsym Mod4+r mode "resize"
 
 # my config
 
-## startup sound
-exec --no-startup-id mpv --no-video ~/Startup\ Sounds/bababooey.mp3
 
 ## autostart
 exec --no-startup-id feh --no-xinerama --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
