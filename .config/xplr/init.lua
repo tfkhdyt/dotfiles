@@ -13,15 +13,15 @@ package.path = home
 require("xclip").setup()
 require"icons".setup()
 require("dual-pane").setup()
--- require("alacritty").setup()
+require("alacritty").setup()
 require("fzf").setup()
 require("trash-cli").setup()
 
--- xplr.config.modes.builtin.action.key_bindings.on_key["!"].messages = {
---   { Call = { command = "zsh", args = { "-i" } } },
---   "ExplorePwdAsync",
---   "PopMode",
--- }
+xplr.config.modes.builtin.action.key_bindings.on_key["!"].messages = {
+  { Call = { command = "zsh", args = { "-i" } } },
+  "ExplorePwdAsync",
+  "PopMode",
+}
 
 local colors = {
   blue = { Rgb = { 137, 180, 250 } },
@@ -35,10 +35,13 @@ xplr.config.node_types.symlink.style.add_modifiers = { "Bold" }
 xplr.config.node_types.mime_essence = {
   video = {
     -- application/*
-    ["*"] = { style = { fg = colors.magenta } }
+    ["*"] = { meta = { icon = "" }, style = { fg = colors.magenta } }
   },
   audio = {
-    ["*"] = { style = { fg = colors.teal } }
+    ["*"] = { meta = { icon = "" }, style = { fg = colors.teal } }
+  },
+  image = {
+    ["*"] = { meta = { icon = "" } }
   }
 }
 
@@ -86,8 +89,8 @@ xplr.config.modes.builtin.go_to = {
             BashExecSilently0 = [===[
               if [ -z "$OPENER" ]; then
                 if command -v xdg-open; then
-                  OPENER="gio open"
-                  elif command -v open; then
+                  OPENER="xdg-open"
+                elif command -v open; then
                   OPENER=open
                 else
                   "$XPLR" -m 'LogError: "$OPENER not found"'
@@ -95,7 +98,7 @@ xplr.config.modes.builtin.go_to = {
                 fi
               fi
               (while IFS= read -r -d '' PTH; do
-                $OPENER "${PTH:?}" > /dev/null 2>&1
+                $OPENER "${PTH:?}" > /dev/null 2>&1 &
               done < "${XPLR_PIPE_RESULT_OUT:?}")
             ]===],
           },
@@ -106,3 +109,4 @@ xplr.config.modes.builtin.go_to = {
     },
   },
 }
+
