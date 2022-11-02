@@ -300,6 +300,9 @@ bindsym Ctrl+Print exec --no-startup-id maim -u | xclip -selection clipboard -t 
 bindsym Ctrl+$mod+Print exec --no-startup-id maim -u --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim -u --select | xclip -selection clipboard -t image/png
 
+### app runner
+bindsym $mod+x exec --no-startup-id alacritty -e xplr
+
 ### screen brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -e set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -e set 5%-
@@ -312,7 +315,7 @@ bindsym $mod+bracketright workspace next
 ## etc
 
 ### disable title bar
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border pixel 2
 
 ### gaps
 gaps inner 8
