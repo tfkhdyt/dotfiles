@@ -27,3 +27,5 @@ alias pctr=pactree
 alias pctrr="pactree -r"
 alias dar="dart run"
 alias lg=lazygit
+alias mnt-windows="doas mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
+alias umnt-windows="doas umount /mnt/windows"
