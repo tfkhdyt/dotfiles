@@ -1,7 +1,6 @@
 alias ls="exa --icons --group-directories-first"
 alias ll="exa -lbh --icons --group-directories-first"
 
-alias systemupgrade="sudo timeshift --create && paru"
 alias killorphans="paru -Qtdq | paru -Rns -"
 # alias checkupdates="checkupdates && paru -Qua"
 alias numberofupdates="(checkupdates) | wc -l"

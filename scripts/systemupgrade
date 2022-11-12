@@ -1,0 +1,32 @@
+#!/bin/sh
+
+NOCOLOR='\033[0m'
+GREEN='\033[0;32m'
+
+print_log() {
+  TIMESTAMP="${GREEN}[$(date --rfc-3339=s)]${NOCOLOR} "
+  echo -e $TIMESTAMP $1
+}
+
+# backup
+print_log "Backing up system with Timeshift..."
+sudo timeshift --create
+
+# system upgrade
+print_log "Updating database and upgrading system..." 
+paru
+
+# updating pkgfile
+print_log "Updating pkgfile..."
+sudo pkgfile -u
+
+# backup packages name
+print_log "Backing up packages list..."
+paru -Qqe > $HOME/.dotfiles/pkglist.txt
+
+# clean trash
+print_log "Cleaning up trashes..."
+trash-empty 30
+
+# done
+print_log "Update is done, please reboot the system"
