@@ -4,11 +4,27 @@ version = '0.20.0'
 ---@diagnostic enable
 
 local home = os.getenv("HOME")
+local xpm_path = home .. "/.local/share/xplr/dtomvan/xpm.xplr"
+local xpm_url = "https://github.com/dtomvan/xpm.xplr"
+
 package.path = home
 .. "/.config/xplr/plugins/?/init.lua;"
 .. home
 .. "/.config/xplr/plugins/?.lua;"
+.. xpm_path
+.. "/?.lua;"
+.. xpm_path
+.. "/?/init.lua;"
 .. package.path
+
+os.execute(
+  string.format(
+    "[ -e '%s' ] || git clone '%s' '%s'",
+    xpm_path,
+    xpm_url,
+    xpm_path
+  )
+)
 
 require("xclip").setup()
 require"icons".setup()
@@ -18,6 +34,47 @@ require("fzf").setup()
 require("trash-cli").setup()
 require("ouch").setup()
 require("map").setup()
+require("xpm").setup({
+  plugins = {
+    -- Let xpm manage itself
+    'dtomvan/xpm.xplr',
+    'Junker/nuke.xplr'
+  },
+  auto_install = true,
+  auto_cleanup = true,
+})
+require("nuke").setup{
+  pager = "less -R", -- default: less -R
+  open = {
+    run_executables = true, -- default: false
+    custom = {
+      -- {extension = "image", command = "sxiv {}"},
+      {mime = "application/pdf", command = "okular {} &"},
+      {extension = "md", command = "ghostwriter {} &"},
+      {mime_regex = "^image/.*", command = "ristretto {} &"},
+      {mime_regex = "^video/.*", command = "mpv --no-terminal {} &"},
+      {mime_regex = "^audio/.*", command = "mpv --no-terminal {} &"},
+      {mime_regex = ".*", command = "xdg-open {} &"}
+    }
+  },
+  view = {
+    show_line_numbers = true, -- default: false
+  },
+  smart_view = {
+    custom = {
+      {extension = "so", command = "ldd -r {} | less"},
+    }
+  }
+}
+
+local key = xplr.config.modes.builtin.default.key_bindings.on_key
+
+key.v = {
+  help = "nuke",
+  messages = {"PopMode", {SwitchModeCustom = "nuke"}}
+}
+key["f3"] = xplr.config.modes.custom.nuke.key_bindings.on_key.v
+key["enter"] = xplr.config.modes.custom.nuke.key_bindings.on_key.o
 
 xplr.config.modes.builtin.action.key_bindings.on_key["!"].messages = {
   { Call = { command = "zsh", args = { "-i" } } },
@@ -205,6 +262,47 @@ xplr.config.modes.builtin.create_file = {
     default = {
       messages = {
         "UpdateInputBufferFromKey",
+      },
+    },
+  },
+}
+
+-- The builtin quit mode.
+--
+-- Type: [Mode](https://xplr.dev/en/mode)
+xplr.config.modes.builtin.quit = {
+  name = "quit",
+  key_bindings = {
+    on_key = {
+      -- ["enter"] = {
+      --   help = "just quit",
+      --   messages = {
+      --     "Quit",
+      --   },
+      -- },
+      ["p"] = {
+        help = "quit printing pwd",
+        messages = {
+          "PrintPwdAndQuit",
+        },
+      },
+      ["f"] = {
+        help = "quit printing focus",
+        messages = {
+          "PrintFocusPathAndQuit",
+        },
+      },
+      ["s"] = {
+        help = "quit printing selection",
+        messages = {
+          "PrintSelectionAndQuit",
+        },
+      },
+      ["r"] = {
+        help = "quit printing result",
+        messages = {
+          "PrintResultAndQuit",
+        },
       },
     },
   },
