@@ -1,5 +1,5 @@
 accountsservice
-activate-linux
+activate-linux-git
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -38,7 +38,6 @@ brave-bin
 bridge-utils
 brightnessctl
 btrfs-progs
-bun
 cantarell-fonts
 catppuccin-gtk-theme-macchiato
 chaotic-keyring
@@ -62,6 +61,7 @@ dmraid
 dnscrypt-proxy
 dnsmasq
 docker
+docker-compose
 dosfstools
 downgrade
 duf
@@ -73,6 +73,7 @@ efitools
 endeavouros-keyring
 endeavouros-mirrorlist
 endeavouros-theming
+entr
 eos-apps-info
 eos-hooks
 eos-log-tool
@@ -114,10 +115,12 @@ gawk
 gcc
 gettext
 ghostscript
+ghostwriter
 gimp
 git
 gksu
 glava
+global
 glow
 gnome-keyring
 gnu-netcat
@@ -162,7 +165,6 @@ ipw2200-fw
 iwd
 jdk-openjdk
 jfsutils
-joplin-desktop
 jp2a
 jpegoptim
 jq
@@ -171,6 +173,9 @@ kinit
 kio-fuse
 kvantum
 kvantum-theme-catppuccin-git
+lazarus
+lazarus-qt5
+lazygit
 less
 lib32-libva-mesa-driver
 lib32-mesa-vdpau
@@ -207,7 +212,6 @@ mariadb
 mdadm
 mediainfo
 meld
-melonds-git
 mesa-utils
 mesa-vdpau
 micro
@@ -247,6 +251,7 @@ onlyoffice-bin
 openconnect
 opendoas
 openrazer-meta
+openssl-1.1
 openvpn
 optipng
 os-prober
@@ -264,7 +269,6 @@ perl-image-exiftool
 pfetch-git
 php
 php-apache
-php-cs-fixer
 phpactor
 picard
 picom
@@ -305,6 +309,7 @@ reflector-simple
 reiserfsprogs
 ripgrep
 ristretto
+rmlint
 rofi
 rp-pppoe
 rsync
@@ -320,8 +325,6 @@ sof-firmware
 solid
 speedtest-cli
 splix
-spotify-tui
-spotifyd
 sshfs
 starship
 steam
@@ -361,7 +364,6 @@ virt-manager
 vpnc
 vscodium-bin
 vulkan-radeon
-w3m
 warpinator
 welcome
 wget
@@ -372,6 +374,7 @@ wireless_tools
 wmctrl
 wpa_supplicant
 wrk
+xautolock
 xclip
 xdg-ninja
 xdg-user-dirs
@@ -390,6 +393,7 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
+xplr
 xsane
 xsettingsd
 xss-lock
