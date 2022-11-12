@@ -74,7 +74,7 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git systemd evalcache auto-notify command-not-found golang thefuck vscode)
+plugins=(git systemd evalcache auto-notify command-not-found golang thefuck vscode docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 if [[ ! -d ~/.zsh-autopair ]]; then
