@@ -31,7 +31,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy -- maim
 
 # xidlehook
-exec_always --no-startup-id $XDG_CONFIG_HOME/i3/locker.sh
+exec --no-startup-id $XDG_CONFIG_HOME/i3/locker.sh
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -281,11 +281,11 @@ bindsym Mod4+r mode "resize"
 exec --no-startup-id feh --no-xinerama --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
 exec --no-startup-id picom -b
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
-exec_always --no-startup-id $HOME/.config/dunst/launch.sh
+exec --no-startup-id $HOME/.config/dunst/launch.sh
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec --no-startup-id redshift -l -6.914744:107.609810 -t 6500:3000
 exec --no-startup-id libinput-gestures-setup start
-exec_always --no-startup-id autotiling
+exec_always --no-startup-id pidof autotiling && pkill autotiling || autotiling
 
 ## keybinding
 
@@ -318,8 +318,8 @@ bindsym $mod+bracketright workspace next
 for_window [class=".*"] border pixel 2
 
 ### gaps
-gaps inner 8
-gaps outer 0
+gaps inner 10
+gaps outer 5
 
 ### disable border and gaps when there is only one container
 # hide_edge_borders smart
@@ -328,9 +328,9 @@ gaps outer 0
 ### border color        border  bg      text    indctr  child_border
 #client.focused         #4c7899 #339af0 #ffffff #2e9ef4 #285577
 client.focused          #8aadf4 #8aadf4 #000000 #8aadf4 #8aadf4
-client.focused_inactive #24273a #24273a #ffffff #24273a   #24273a
-client.unfocused        #24273a #222222 #888888 #292d2e   #222222
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.focused_inactive #24273abf #24273abf #ffffff #24273abf   #24273abf
+client.unfocused        #24273abf #222222 #888888 #292d2e   #222222
+client.urgent           #2f343abf #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 ### zoom
