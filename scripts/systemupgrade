@@ -8,25 +8,30 @@ print_log() {
   echo -e $TIMESTAMP $1
 }
 
+handle_error() {
+  print_log $1
+  exit 1
+}
+
 # backup
 print_log "Backing up system with Timeshift..."
-sudo timeshift --create
+sudo timeshift --create || handle_error "Failed to backup system"
 
 # system upgrade
 print_log "Updating database and upgrading system..." 
-paru
+paru || handle_error "Failed to upgrading system"
 
 # updating pkgfile
 print_log "Updating pkgfile..."
-sudo pkgfile -u
+sudo pkgfile -u || handle_error "Failed to updating pkgfile"
 
 # backup packages name
 print_log "Backing up packages list..."
-paru -Qqe > $HOME/.dotfiles/pkglist.txt
+paru -Qqe > $HOME/.dotfiles/pkglist.txt || handle_error "Failed to backup packages name"
 
 # clean trash
 print_log "Cleaning up trashes..."
-trash-empty 30
+trash-empty 30 || handle_error "Failed to clean trashes"
 
 # done
 print_log "Update is done, please reboot the system"
