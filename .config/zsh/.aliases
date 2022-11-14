@@ -1,21 +1,21 @@
 alias ls="exa --icons --group-directories-first"
 alias ll="exa -lbh --icons --group-directories-first"
 
-alias killorphans="paru -Qtdq | paru -Rns -"
-# alias checkupdates="checkupdates && paru -Qua"
+alias killorphans="yay -Qtdq | yay -Rns -"
+# alias checkupdates="checkupdates && yay -Qua"
 alias numberofupdates="(checkupdates) | wc -l"
 
 alias kdc=kdeconnect-cli
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
 alias nv=nvim
 
-# Paru aliases
-alias prr="paru -Rns"
-alias pri="paru -S"
-alias prss="paru -Ss"
-alias prsi="paru -Si"
-alias prqs="paru -Qs"
-alias prqi="paru -Qi"
+# yay aliases
+alias yr="yay -Rns"
+alias yi="yay -S"
+alias yss="yay -Ss"
+alias ysi="yay -Si"
+alias yqs="yay -Qs"
+alias yqi="yay -Qi"
 
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 
