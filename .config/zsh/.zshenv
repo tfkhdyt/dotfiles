@@ -10,8 +10,7 @@ export HISTSIZE=1000
 export SAVEHIST=1000
 export AUTO_NOTIFY_EXPIRE_TIME=5000
 export BROWSER=chromium
-export EDITOR=nvim
-export MYVIMRC="$XDG_CONFIG_HOME/nvim/init.lua"
+export EDITOR=lvim
 # export AUTO_NOTIFY_URGENCY="normal"
 
 export XDG_DATA_HOME="$HOME/.local/share"

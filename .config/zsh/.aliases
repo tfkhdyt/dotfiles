@@ -7,7 +7,7 @@ alias numberofupdates="(checkupdates) | wc -l"
 
 alias kdc=kdeconnect-cli
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
-alias nv=nvim
+alias lv=lvim
 
 # yay aliases
 alias yr="yay -Rns"
