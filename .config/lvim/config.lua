@@ -202,3 +202,6 @@ lvim.plugins = {
 
 vim.opt.relativenumber = true
 vim.opt.wrap = true
+vim.opt.breakindent = true
+vim.opt.showbreak = "  "
+vim.opt.linebreak = true
