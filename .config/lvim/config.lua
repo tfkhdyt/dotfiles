@@ -163,12 +163,19 @@ lvim.builtin.treesitter.highlight.enable = true
 -- }
 
 -- Additional Plugins
--- lvim.plugins = {
---     {
---       "folke/trouble.nvim",
---       cmd = "TroubleToggle",
---     },
--- }
+lvim.plugins = {
+  -- {
+  --   "folke/trouble.nvim",
+  --   cmd = "TroubleToggle",
+  -- },
+  {
+    "windwp/nvim-spectre",
+    event = "BufRead",
+    config = function()
+      require("spectre").setup()
+    end,
+  },
+}
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
@@ -186,6 +193,3 @@ lvim.builtin.treesitter.highlight.enable = true
 
 vim.opt.relativenumber = true
 vim.opt.wrap = true
-lvim.builtin.terminal.execs = {
-  { vim.o.shell, "<C-BSlash>", "Horizontal Terminal", "horizontal", 0.3 }
-}
