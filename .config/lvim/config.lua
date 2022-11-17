@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = true
-lvim.colorscheme = "tokyonight-night"
+lvim.colorscheme = "catppuccin-mocha"
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -175,6 +175,15 @@ lvim.plugins = {
       require("spectre").setup()
     end,
   },
+  {
+    "catppuccin/nvim",
+    as = "catppuccin",
+    config = function()
+      require("catppuccin").setup({
+        flavour = "mocha"
+      })
+    end
+  }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
