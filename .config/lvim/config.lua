@@ -87,6 +87,7 @@ lvim.builtin.treesitter.ensure_installed = {
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enable = true
 lvim.builtin.treesitter.highlight.additional_vim_regex_highlighting = true
+lvim.builtin.treesitter.indent.enable = true
 
 
 -- generic LSP settings
@@ -112,8 +113,8 @@ lvim.builtin.treesitter.highlight.additional_vim_regex_highlighting = true
 -- ---see the full default list `:lua print(vim.inspect(lvim.lsp.automatic_configuration.skipped_servers))`
 -- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "pyright" })
 -- local opts = {} -- check the lspconfig documentation for a list of all possible options
--- require("lvim.lsp.manager").setup("pyright", opts)
-
+require("lvim.lsp.manager").setup("marksman")
+require("lvim.lsp.manager").setup("eslint-lsp")
 -- ---remove a server from the skipped list, e.g. eslint, or emmet_ls. !!Requires `:LvimCacheReset` to take effect!!
 -- ---`:LvimInfo` lists which server(s) are skipped for the current filetype
 -- lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
@@ -151,6 +152,10 @@ formatters.setup {
   {
     name = "fixjson",
     filetypes = { "json" }
+  },
+  {
+    name = "markdownlint",
+    filetypes = { "markdown" }
   },
 }
 
@@ -246,3 +251,4 @@ lspconfig.emmet_ls.setup({
     },
   }
 })
+
