@@ -86,11 +86,12 @@ lvim.builtin.treesitter.ensure_installed = {
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enable = true
-lvim.builtin.treesitter.highlight.additional_vim_regex_highlighting = true
-lvim.builtin.treesitter.indent.enable = true
+-- lvim.builtin.treesitter.highlight.additional_vim_regex_highlighting = true
+-- lvim.builtin.treesitter.indent.enable = true
 
 
 -- generic LSP settings
+-- lvim.lsp.templates_dir = join_paths(get_runtime_dir(), "after", "ftplugin")
 
 -- -- make sure server will always be installed even if the server is in skipped_servers list
 -- lvim.lsp.installer.setup.ensure_installed = {
@@ -111,14 +112,35 @@ lvim.builtin.treesitter.indent.enable = true
 
 -- ---configure a server manually. !!Requires `:LvimCacheReset` to take effect!!
 -- ---see the full default list `:lua print(vim.inspect(lvim.lsp.automatic_configuration.skipped_servers))`
--- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "pyright" })
--- local opts = {} -- check the lspconfig documentation for a list of all possible options
+---@diagnostic disable-next-line: missing-parameter
+-- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "jedi_language_server", "emmet_ls", "eslint", "marksman" })
+-- require("lvim.lsp.manager").setup("pylsp", {
+--   plugins = {
+--     flake8 = {
+--       enabled = true
+--     }
+--   }
+-- })
+-- require("lvim.lsp.manager").setup("jedi_language_server")
+require("lvim.lsp.manager").setup("emmet_ls")
+require("lvim.lsp.manager").setup("eslint")
 require("lvim.lsp.manager").setup("marksman")
-require("lvim.lsp.manager").setup("eslint-lsp")
+-- local opts = {} -- check the lspconfig documentation for a list of all possible options
+-- lvim.lsp.templates_dir = join_paths(get_runtime_dir(), "after", "ftplugin")
+-- require'lspconfig'.jedi_language_server
+-- require("lvim.lsp.manager").setup("pylsp")
 -- ---remove a server from the skipped list, e.g. eslint, or emmet_ls. !!Requires `:LvimCacheReset` to take effect!!
 -- ---`:LvimInfo` lists which server(s) are skipped for the current filetype
 -- lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
 --   return server ~= "emmet_ls"
+-- end, lvim.lsp.automatic_configuration.skipped_servers)
+
+-- lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
+--   return server ~= "eslint"
+-- end, lvim.lsp.automatic_configuration.skipped_servers)
+
+-- lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
+--   return server ~= "jedi_language_server"
 -- end, lvim.lsp.automatic_configuration.skipped_servers)
 
 -- -- you can set a custom on_attach function that will be used for all the language servers
@@ -157,24 +179,28 @@ formatters.setup {
     name = "markdownlint",
     filetypes = { "markdown" }
   },
+  {
+    name = "black",
+    filetypes = { "python" }
+  },
 }
 
 -- -- set additional linters
 -- local linters = require "lvim.lsp.null-ls.linters"
 -- linters.setup {
--- { command = "flake8", filetypes = { "python" } },
--- {
---   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
---   command = "shellcheck",
---   ---@usage arguments to pass to the formatter
---   -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
---   extra_args = { "--severity", "warning" },
--- },
--- {
---   command = "codespell",
---   ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
---   filetypes = { "javascript", "python" },
--- },
+--   { command = "flake8", filetypes = { "python" } },
+  -- {
+  --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
+  --   command = "shellcheck",
+  --   ---@usage arguments to pass to the formatter
+  --   -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
+  --   extra_args = { "--severity", "warning" },
+  -- },
+  -- {
+  --   command = "codespell",
+  --   ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
+  --   filetypes = { "javascript", "python" },
+  -- },
 -- }
 
 -- Additional Plugins
@@ -205,6 +231,9 @@ lvim.plugins = {
       require("nvim-ts-autotag").setup()
     end,
   },
+  {
+    "wakatime/vim-wakatime"
+  }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
@@ -233,22 +262,21 @@ lvim.builtin.which_key.mappings["l"]["f"] = {
   "Format",
 }
 
-local lspconfig = require('lspconfig')
--- local configs = require('lspconfig/configs')
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities.textDocument.completion.completionItem.snippetSupport = true
+-- local lspconfig = require('lspconfig')
+-- -- local configs = require('lspconfig/configs')
+-- local capabilities = vim.lsp.protocol.make_client_capabilities()
+-- capabilities.textDocument.completion.completionItem.snippetSupport = true
 
-lspconfig.emmet_ls.setup({
-  -- on_attach = on_attach,
-  capabilities = capabilities,
-  filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less' },
-  init_options = {
-    html = {
-      options = {
-        -- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
-        ["bem.enabled"] = true,
-      },
-    },
-  }
-})
-
+-- lspconfig.emmet_ls.setup({
+--   -- on_attach = on_attach,
+--   capabilities = capabilities,
+--   filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less' },
+--   init_options = {
+--     html = {
+--       options = {
+--         -- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
+--         ["bem.enabled"] = true,
+--       },
+--     },
+--   }
+-- })
