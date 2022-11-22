@@ -287,6 +287,7 @@ exec --no-startup-id redshift -l -6.914744:107.609810 -t 6500:3000
 exec --no-startup-id libinput-gestures-setup start
 exec_always --no-startup-id pidof autotiling && pkill autotiling || autotiling
 exec --no-startup-id udiskie -s
+exec --no-startup-id caffeine
 
 ## keybinding
 
@@ -317,6 +318,7 @@ bindsym $mod+bracketright workspace next
 
 ### disable title bar
 for_window [class=".*"] border pixel 2
+# default_border pixel 4
 
 ### gaps
 gaps inner 10
