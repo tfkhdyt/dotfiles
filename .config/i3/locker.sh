@@ -4,7 +4,7 @@
 # export PRIMARY_DISPLAY="$(xrandr | awk '/ primary/{print $1}')"
 
 # xautolock -time 10 -locker "i3lock-fancy -- maim" -detectsleep -corners "00--" -killtime 30 -killer "systemctl suspend"
-xidlehook --not-when-fullscreen --not-when-audio --timer 600 'i3lock-fancy -- maim' '' --timer 1800 'systemctl suspend' ''
+xidlehook --detect-sleep --not-when-fullscreen --not-when-audio --timer 600 'i3lock-fancy -- maim' '' --timer 1800 'systemctl suspend' ''
 
 # # # Run xidlehook
 # xidlehook \
