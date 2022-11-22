@@ -123,7 +123,7 @@ lvim.builtin.treesitter.highlight.enable = true
 -- })
 -- require("lvim.lsp.manager").setup("jedi_language_server")
 require("lvim.lsp.manager").setup("emmet_ls")
-require("lvim.lsp.manager").setup("eslint", {
+--[[ require("lvim.lsp.manager").setup("eslint", {
   settings = {
     -- autoFixOnSave = true,
     codeActionOnSave = {
@@ -131,7 +131,7 @@ require("lvim.lsp.manager").setup("eslint", {
       mode = "all"
     },
   }
-})
+}) ]]
 require("lvim.lsp.manager").setup("marksman")
 -- local opts = {} -- check the lspconfig documentation for a list of all possible options
 -- lvim.lsp.templates_dir = join_paths(get_runtime_dir(), "after", "ftplugin")
@@ -168,12 +168,13 @@ formatters.setup {
   -- { command = "isort", filetypes = { "python" } },
   {
     -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
-    name = "prettier",
+    command = "prettierd",
     ---@usage arguments to pass to the formatter
     -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
-    extra_args = { "--single-quote", "--jsx-single-quote", "--semi" },
+    -- extra_args = { "--single-quote", "--jsx-single-quote", "--semi" },
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
-    filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact" },
+    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
+      "json", "jsonc", "yaml", "markdown", "markdown.mdx", "graphql", "handlebars" },
   },
   {
     name = "gofumpt",
@@ -197,7 +198,7 @@ formatters.setup {
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
   -- { command = "flake8", filetypes = { "python" } },
-  -- { command = "staticcheck", filetypes = { "go" } },
+  { command = "eslint_d", filetypes = { "javascript", "typescript" } },
   -- {
   --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
   --   command = "shellcheck",
@@ -266,7 +267,7 @@ vim.opt.showbreak = "  "
 vim.opt.linebreak = true
 lvim.builtin.which_key.mappings["l"]["f"] = {
   function()
-    require("lvim.lsp.utils").format { timeout_ms = 2000 }
+    require("lvim.lsp.utils").format { timeout_ms = 5000 }
   end,
   "Format",
 }
