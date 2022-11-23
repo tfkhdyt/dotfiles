@@ -10,7 +10,7 @@ an executable
 
 -- general
 lvim.log.level = "warn"
--- lvim.format_on_save.enabled = true
+lvim.format_on_save.enabled = true
 lvim.colorscheme = "catppuccin-mocha"
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
@@ -174,7 +174,7 @@ formatters.setup {
     -- extra_args = { "--single-quote", "--jsx-single-quote", "--semi" },
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
     filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
-      "json", "jsonc", "yaml", "markdown", "markdown.mdx", "graphql", "handlebars" },
+      "jsonc", "yaml", "markdown.mdx", "graphql", "handlebars" },
   },
   {
     name = "gofumpt",
@@ -271,7 +271,8 @@ lvim.builtin.which_key.mappings["l"]["f"] = {
   end,
   "Format",
 }
-
+-- require("lvim.lsp.utils").format { timeout_ms = 5000 }
+-- vim.lsp.buf.format({ timeout_ms = 5000 })
 -- local lspconfig = require('lspconfig')
 -- -- local configs = require('lspconfig/configs')
 -- local capabilities = vim.lsp.protocol.make_client_capabilities()
