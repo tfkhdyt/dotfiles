@@ -65,7 +65,7 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
-lvim.builtin.nvimtree.setup.view.side = "left"
+lvim.builtin.nvimtree.setup.view.side = "right"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 
 -- if you don't want all the parsers change this to a table of the ones you want
@@ -132,7 +132,7 @@ require("lvim.lsp.manager").setup("emmet_ls")
     },
   }
 }) ]]
-require("lvim.lsp.manager").setup("marksman")
+require("lvim.lsp.manager").setup("marksman", {})
 -- local opts = {} -- check the lspconfig documentation for a list of all possible options
 -- lvim.lsp.templates_dir = join_paths(get_runtime_dir(), "after", "ftplugin")
 -- require'lspconfig'.jedi_language_server
@@ -200,6 +200,7 @@ linters.setup {
   -- { command = "flake8", filetypes = { "python" } },
   { command = "eslint_d", filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" } },
   { command = "markdownlint", filetypes = { "markdown" } },
+  { command = "jsonlint", filetypes = { "json" } },
   -- {
   --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
   --   command = "shellcheck",
@@ -292,3 +293,6 @@ lvim.builtin.which_key.mappings["l"]["f"] = {
 --     },
 --   }
 -- })
+
+lvim.builtin.nvimtree.setup.view.number = true
+lvim.builtin.nvimtree.setup.view.relativenumber = true
