@@ -108,7 +108,7 @@ lvim.builtin.treesitter.highlight.enable = true
 -- }
 
 -- ---@usage disable automatic installation of servers
--- lvim.lsp.installer.setup.automatic_installation = false
+lvim.lsp.installer.setup.automatic_installation = false
 
 -- ---configure a server manually. !!Requires `:LvimCacheReset` to take effect!!
 -- ---see the full default list `:lua print(vim.inspect(lvim.lsp.automatic_configuration.skipped_servers))`
@@ -121,7 +121,7 @@ lvim.builtin.treesitter.highlight.enable = true
 --     }
 --   }
 -- })
--- require("lvim.lsp.manager").setup("jedi_language_server")
+require("lvim.lsp.manager").setup("tsserver")
 require("lvim.lsp.manager").setup("emmet_ls")
 --[[ require("lvim.lsp.manager").setup("eslint", {
   settings = {
@@ -198,9 +198,10 @@ formatters.setup {
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
   -- { command = "flake8", filetypes = { "python" } },
-  { command = "eslint_d", filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" } },
+  { command = "eslint_d", filetypes = { "javascript", "javascriptreact" } },
   { command = "markdownlint", filetypes = { "markdown" } },
   { command = "jsonlint", filetypes = { "json" } },
+  { command = "tsc", filetypes = { "typescript", "typescriptreact" } },
   -- {
   --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
   --   command = "shellcheck",
@@ -213,6 +214,16 @@ linters.setup {
   --   ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
   --   filetypes = { "javascript", "python" },
   -- },
+}
+
+local code_actions = require "lvim.lsp.null-ls.code_actions"
+code_actions.setup {
+  {
+    name = "eslint_d"
+  },
+  {
+    name = "refactoring"
+  },
 }
 
 -- Additional Plugins
