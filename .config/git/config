@@ -1,9 +1,12 @@
 [user]
 	name = tfkhdyt
 	email = tfkhdyt@pm.me
+	signingkey = 6D0821A9045D6758
 [init]
 	defaultBranch = main
 [credential]
 	helper = store
 [color]
 	ui = auto
+[commit]
+	gpgsign = true
