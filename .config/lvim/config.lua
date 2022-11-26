@@ -174,7 +174,7 @@ formatters.setup {
     -- extra_args = { "--single-quote", "--jsx-single-quote", "--semi" },
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
     filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
-      "jsonc", "yaml", "markdown.mdx", "graphql", "handlebars" },
+      "jsonc", "markdown.mdx", "graphql", "handlebars" },
   },
   {
     name = "gofumpt",
@@ -192,6 +192,10 @@ formatters.setup {
     name = "black",
     filetypes = { "python" }
   },
+  {
+    name = "yamlfmt",
+    filetypes = { "yaml" }
+  },
 }
 
 -- -- set additional linters
@@ -202,6 +206,7 @@ linters.setup {
   { command = "markdownlint", filetypes = { "markdown" } },
   { command = "jsonlint", filetypes = { "json" } },
   { command = "tsc", filetypes = { "typescript", "typescriptreact" } },
+  { command = "yamllint", filetypes = { "yaml" }, extra_args = { "-d", "relaxed" } },
   -- {
   --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
   --   command = "shellcheck",
