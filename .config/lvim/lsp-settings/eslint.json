@@ -1,0 +1,6 @@
+{
+  "eslint.packageManager": "pnpm",
+  "eslint.run": "onType",
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.autoFixOnSave": true
+}
