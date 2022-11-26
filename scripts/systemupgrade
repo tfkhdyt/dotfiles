@@ -21,7 +21,7 @@ print_log() {
 
 # backup
 print_log "Backing up system with Timeshift..."
-doas timeshift --create 
+sudo timeshift --create 
 
 # system upgrade
 print_log "Updating database and upgrading system..." 
@@ -29,7 +29,7 @@ yay
 
 # updating pkgfile
 print_log "Updating pkgfile..."
-doas pkgfile -u 
+sudo pkgfile -u 
 
 # backup packages name
 print_log "Backing up packages list..."

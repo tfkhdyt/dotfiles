@@ -133,7 +133,7 @@ source ~/.config/zsh/.zshenv
 source ~/.config/zsh/.aliases
 
 # doas autocompletion
-complete -cf doas
+# complete -cf doas
 
 # system information
 # macchina
