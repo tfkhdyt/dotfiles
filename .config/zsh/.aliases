@@ -22,8 +22,8 @@ alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
-alias pctr=pactree
-alias pctrr="pactree -r"
+alias pctr="pactree -o"
+alias pctrr="pactree -r -o"
 alias dar="dart run"
 alias lg=lazygit
 alias mnt-windows="doas mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
