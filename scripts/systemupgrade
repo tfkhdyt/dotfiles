@@ -1,37 +1,43 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
+set -euo pipefail
 
 NOCOLOR='\033[0m'
 GREEN='\033[0;32m'
 
+get_timestamp() {
+  echo "${GREEN}[$(date --rfc-3339=s)]${NOCOLOR} "
+}
+
 print_log() {
-  TIMESTAMP="${GREEN}[$(date --rfc-3339=s)]${NOCOLOR} "
+  TIMESTAMP=$(get_timestamp)
   echo -e $TIMESTAMP $1
 }
 
-handle_error() {
-  print_log $1
-  exit 1
-}
+# handle_error() {
+#   print_log $1
+#   exit 1
+# }
 
 # backup
 print_log "Backing up system with Timeshift..."
-doas timeshift --create || handle_error "Failed to backup system"
+doas timeshift --create 
 
 # system upgrade
 print_log "Updating database and upgrading system..." 
-yay || handle_error "Failed to upgrading system"
+yay 
 
 # updating pkgfile
 print_log "Updating pkgfile..."
-doas pkgfile -u || handle_error "Failed to updating pkgfile"
+doas pkgfile -u 
 
 # backup packages name
 print_log "Backing up packages list..."
-yay -Qqe > $HOME/.dotfiles/pkglist.txt || handle_error "Failed to backup packages name"
+yay -Qqe > $HOME/.dotfiles/pkglist.txt 
 
 # clean trash
 print_log "Cleaning up trashes..."
-trash-empty 30 || handle_error "Failed to clean trashes"
+trash-empty 30 
 
 # done
 print_log "Update is done, please reboot the system"
