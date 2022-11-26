@@ -2,6 +2,7 @@ activate-linux-git
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
+aic94xx-firmware
 alacritty
 alsa-firmware
 alsa-plugins
@@ -9,6 +10,7 @@ alsa-utils
 amd-ucode
 android-tools
 apache
+appmenu-gtk-module
 arandr
 arc-gtk-theme
 aria2
@@ -35,6 +37,7 @@ brave-bin
 bridge-utils
 brightnessctl
 btrfs-progs
+caffeine-ng
 cantarell-fonts
 catppuccin-gtk-theme-macchiato
 chaotic-keyring
@@ -123,6 +126,7 @@ gnome-keyring
 gnu-netcat
 go
 gofumpt
+gparted
 gping
 grep
 groff
@@ -189,6 +193,7 @@ libwnck3
 lightly-qt
 linux
 linux-firmware
+linux-firmware-qlogic
 linux-headers
 linux-lts
 linux-lts-headers
@@ -266,7 +271,6 @@ perl-image-exiftool
 pfetch-git
 php
 php-apache
-phpactor
 picard
 picom
 pipewire-alsa
@@ -298,7 +302,6 @@ qogir-gtk-theme
 qt5ct
 qt6ct
 rabbitmq
-rebuild-detector
 redis
 redshift
 reflector
@@ -346,8 +349,10 @@ ttf-liberation
 ttf-ms-fonts
 ttf-opensans
 tumbler
+udiskie
 unrar
 unzip
+upd72020x-fw
 upower
 usb_modeswitch
 usbutils
@@ -357,7 +362,7 @@ virt-manager
 vpnc
 vscodium-bin
 vulkan-radeon
-warpinator
+wd719x-firmware
 welcome
 wget
 which
