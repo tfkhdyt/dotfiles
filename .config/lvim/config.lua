@@ -123,6 +123,8 @@ lvim.lsp.installer.setup.automatic_installation = false
 -- })
 require("lvim.lsp.manager").setup("tsserver")
 require("lvim.lsp.manager").setup("emmet_ls")
+require("lvim.lsp.manager").setup("phpactor")
+
 --[[ require("lvim.lsp.manager").setup("eslint", {
   settings = {
     -- autoFixOnSave = true,
@@ -196,6 +198,10 @@ formatters.setup {
     name = "yamlfmt",
     filetypes = { "yaml" }
   },
+  {
+    command = "phpcsfixer",
+    filetypes = { "php" }
+  }
 }
 
 -- -- set additional linters
@@ -206,6 +212,7 @@ linters.setup {
   { command = "markdownlint", filetypes = { "markdown" } },
   { command = "jsonlint", filetypes = { "json" } },
   { command = "tsc", filetypes = { "typescript", "typescriptreact" } },
+  -- { command = "phpcs", filetypes = { "php" } },
   { command = "yamllint", filetypes = { "yaml" }, extra_args = { "-d", "relaxed" } },
   -- {
   --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
