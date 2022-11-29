@@ -34,4 +34,4 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export DATE=$(date -I)
 # export TIMESTAMP=$(shell date +%Y-%m-%dT%H:%M:%S) 
 export PRETTIERD_DEFAULT_CONFIG="$HOME/.config/lvim/prettierd/.prettierrc"
-export PATH="$PATH:$MY_SCRIPTS"
+export PATH="$PATH:$MY_SCRIPTS:$PNPM_HOME"
