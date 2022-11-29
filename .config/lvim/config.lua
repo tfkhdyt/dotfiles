@@ -67,6 +67,8 @@ lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "right"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
+-- lvim.builtin.breadcrumbs.active = false
+lvim.builtin.breadcrumbs.options.depth_limit = 3
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
@@ -319,3 +321,34 @@ lvim.builtin.which_key.mappings["l"]["f"] = {
 
 lvim.builtin.nvimtree.setup.view.number = true
 lvim.builtin.nvimtree.setup.view.relativenumber = true
+vim.cmd([[
+if exists("g:neovide")
+  " Put anything you want to happen only in Neovide here
+  set guifont=JetBrainsMono\ Nerd\ Font,Noto\ Color\ Emoji:h8
+  let g:neovide_cursor_vfx_mode = "pixiedust"
+  " let g:neovide_scale_factor=0.5
+  let g:neovide_scale_factor=1.0
+  function! ChangeScaleFactor(delta)
+    let g:neovide_scale_factor = g:neovide_scale_factor * a:delta
+  endfunction
+  nnoremap <expr><C-=> ChangeScaleFactor(1.25)
+  nnoremap <expr><C--> ChangeScaleFactor(1/1.25)
+endif
+]])
+
+vim.g.terminal_color_0 = "#45475A" -- black
+vim.g.terminal_color_1 = "#F38BA8" -- dark red
+vim.g.terminal_color_2 = "#A6E3A1" -- dark green
+vim.g.terminal_color_3 = "#F9E2AF" -- dark yellow
+vim.g.terminal_color_4 = "#89B4FA" -- dark blue
+vim.g.terminal_color_5 = "#F5C2E7" -- dark magenta
+vim.g.terminal_color_6 = "#94E2D5" -- dark cyan
+vim.g.terminal_color_7 = "#A6ADC8" -- light gray
+vim.g.terminal_color_8 = "#BAC2DE" -- dark gray
+vim.g.terminal_color_9 = "#F38BA8" -- red
+vim.g.terminal_color_10 = "#A6E3A1" -- green
+vim.g.terminal_color_11 = "#F9E2AF" -- yellow
+vim.g.terminal_color_12 = "#89B4FA" -- blue 
+vim.g.terminal_color_13 = "#F5C2E7" -- magenta 
+vim.g.terminal_color_14 = "#94E2D5" -- cyan 
+vim.g.terminal_color_15 = "#BAC2DE" -- white
