@@ -172,13 +172,14 @@ formatters.setup {
   -- { command = "isort", filetypes = { "python" } },
   {
     -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
-    command = "prettierd",
+    command = "eslint_d",
     ---@usage arguments to pass to the formatter
     -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
     -- extra_args = { "--single-quote", "--jsx-single-quote", "--semi" },
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
-    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
-      "jsonc", "markdown.mdx", "graphql", "handlebars" },
+    -- filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
+    -- "jsonc", "markdown.mdx", "graphql", "handlebars" },
+    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" }
   },
   {
     name = "gofumpt",
@@ -213,7 +214,7 @@ linters.setup {
   { command = "eslint_d", filetypes = { "javascript", "javascriptreact" } },
   { command = "markdownlint", filetypes = { "markdown" } },
   { command = "jsonlint", filetypes = { "json" } },
-  { command = "tsc", filetypes = { "typescript", "typescriptreact" } },
+  -- { command = "tsc", filetypes = { "typescript", "typescriptreact" } },
   -- { command = "phpcs", filetypes = { "php" } },
   { command = "yamllint", filetypes = { "yaml" }, extra_args = { "-d", "relaxed" } },
   -- {
@@ -233,11 +234,12 @@ linters.setup {
 local code_actions = require "lvim.lsp.null-ls.code_actions"
 code_actions.setup {
   {
-    name = "eslint_d"
+    name = "eslint_d",
+    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact" }
   },
-  {
-    name = "refactoring"
-  },
+  -- {
+  --   name = "refactoring",
+  -- },
 }
 
 -- Additional Plugins
@@ -348,7 +350,15 @@ lvim.builtin.nvimtree.setup.view.relativenumber = true
 -- vim.g.terminal_color_9 = "#F38BA8" -- red
 -- vim.g.terminal_color_10 = "#A6E3A1" -- green
 -- vim.g.terminal_color_11 = "#F9E2AF" -- yellow
--- vim.g.terminal_color_12 = "#89B4FA" -- blue 
--- vim.g.terminal_color_13 = "#F5C2E7" -- magenta 
--- vim.g.terminal_color_14 = "#94E2D5" -- cyan 
+-- vim.g.terminal_color_12 = "#89B4FA" -- blue
+-- vim.g.terminal_color_13 = "#F5C2E7" -- magenta
+-- vim.g.terminal_color_14 = "#94E2D5" -- cyan
 -- vim.g.terminal_color_15 = "#BAC2DE" -- white
+
+vim.o.autoread = true
+vim.api.nvim_create_autocmd({ "BufEnter", "CursorHold", "CursorHoldI", "FocusGained" }, {
+  command = "if mode() != 'c' | checktime | endif",
+  pattern = { "*" },
+})
+
+lvim.lsp.diagnostics.virtual_text = false
