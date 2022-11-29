@@ -8,6 +8,7 @@ alias numberofupdates="(checkupdates) | wc -l"
 alias kdc=kdeconnect-cli
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
 alias lv=lvim
+alias nv="neovide --neovim-bin $HOME/.local/bin/lvim"
 
 # yay aliases
 alias yr="yay -Rns"
