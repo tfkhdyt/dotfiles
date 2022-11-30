@@ -182,6 +182,17 @@ formatters.setup {
     filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" }
   },
   {
+    -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
+    command = "prettierd",
+    ---@usage arguments to pass to the formatter
+    -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
+    -- extra_args = { "--single-quote", "--jsx-single-quote", "--semi" },
+    ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
+    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
+      "jsonc", "markdown.mdx", "graphql", "handlebars" },
+    -- filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" }
+  },
+  {
     name = "gofumpt",
     filetypes = { "go" }
   },
@@ -211,10 +222,10 @@ formatters.setup {
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
   -- { command = "flake8", filetypes = { "python" } },
-  { command = "eslint_d", filetypes = { "javascript", "javascriptreact" } },
+  { command = "eslint_d", filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" } },
   { command = "markdownlint", filetypes = { "markdown" } },
   { command = "jsonlint", filetypes = { "json" } },
-  -- { command = "tsc", filetypes = { "typescript", "typescriptreact" } },
+  { command = "tsc", filetypes = { "typescript", "typescriptreact" } },
   -- { command = "phpcs", filetypes = { "php" } },
   { command = "yamllint", filetypes = { "yaml" }, extra_args = { "-d", "relaxed" } },
   -- {
@@ -260,7 +271,12 @@ lvim.plugins = {
     as = "catppuccin",
     config = function()
       require("catppuccin").setup({
-        flavour = "mocha"
+        flavour = "mocha",
+        dim_inactive = {
+          enabled = false,
+          shade = "dark",
+          percentage = 0.15,
+        },
       })
     end
   },
