@@ -378,3 +378,11 @@ vim.api.nvim_create_autocmd({ "BufEnter", "CursorHold", "CursorHoldI", "FocusGai
 })
 
 lvim.lsp.diagnostics.virtual_text = false
+-- lvim.builtin.terminal.execs = {
+--   { vim.o.shell, "<C-\\>", "Horizontal Terminal", "horizontal", 0.3 },
+--   { vim.o.shell, "<M-2>", "Vertical Terminal", "vertical", 0.4 },
+--   { vim.o.shell, "<M-3>", "Float Terminal", "float", nil },
+-- }
+lvim.builtin.terminal.direction = "horizontal"
+-- lvim.builtin.terminal.persist_size = true
+lvim.builtin.terminal.size = 13
