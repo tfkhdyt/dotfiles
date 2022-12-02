@@ -7,6 +7,49 @@ a global executable or a path to
 an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
+-- Additional Plugins
+lvim.plugins = {
+  -- {
+  --   "folke/trouble.nvim",
+  --   cmd = "TroubleToggle",
+  -- },
+  {
+    "lewis6991/impatient.nvim",
+    config = function()
+      require("impatient")
+    end
+  },
+  -- {
+  --   "windwp/nvim-spectre",
+  --   event = "BufRead",
+  --   config = function()
+  --     require("spectre").setup()
+  --   end,
+  -- },
+  {
+    "catppuccin/nvim",
+    as = "catppuccin",
+    config = function()
+      require("catppuccin").setup({
+        flavour = "mocha",
+        dim_inactive = {
+          enabled = false,
+          shade = "dark",
+          percentage = 0.15,
+        },
+      })
+    end
+  },
+  {
+    "windwp/nvim-ts-autotag",
+    config = function()
+      require("nvim-ts-autotag").setup()
+    end,
+  },
+  {
+    "wakatime/vim-wakatime"
+  }
+}
 
 -- general
 lvim.log.level = "warn"
@@ -253,43 +296,6 @@ code_actions.setup {
   -- },
 }
 
--- Additional Plugins
-lvim.plugins = {
-  -- {
-  --   "folke/trouble.nvim",
-  --   cmd = "TroubleToggle",
-  -- },
-  {
-    "windwp/nvim-spectre",
-    event = "BufRead",
-    config = function()
-      require("spectre").setup()
-    end,
-  },
-  {
-    "catppuccin/nvim",
-    as = "catppuccin",
-    config = function()
-      require("catppuccin").setup({
-        flavour = "mocha",
-        dim_inactive = {
-          enabled = false,
-          shade = "dark",
-          percentage = 0.15,
-        },
-      })
-    end
-  },
-  {
-    "windwp/nvim-ts-autotag",
-    config = function()
-      require("nvim-ts-autotag").setup()
-    end,
-  },
-  {
-    "wakatime/vim-wakatime"
-  }
-}
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
