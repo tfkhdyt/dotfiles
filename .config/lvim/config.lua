@@ -48,7 +48,25 @@ lvim.plugins = {
   },
   {
     "wakatime/vim-wakatime"
-  }
+  },
+  {
+    "dkarter/bullets.vim"
+  },
+  -- {
+  --   'simrat39/rust-tools.nvim',
+  --   config = function()
+  --     require("rust-tools").setup({
+  --       -- server = {
+  --       --   on_attach = function(_, bufnr)
+  --       --     -- Hover actions
+  --       --     vim.keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
+  --       --     -- Code action groups
+  --       --     vim.keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
+  --       --   end,
+  --       -- },
+  --     })
+  --   end
+  -- }
 }
 
 -- general
@@ -167,8 +185,11 @@ lvim.lsp.installer.setup.automatic_installation = false
 --   }
 -- })
 require("lvim.lsp.manager").setup("tsserver")
+require("lvim.lsp.manager").setup("eslint")
 require("lvim.lsp.manager").setup("emmet_ls")
 require("lvim.lsp.manager").setup("phpactor")
+require("lvim.lsp.manager").setup("marksman")
+require("lvim.lsp.manager").setup("rust_analyzer")
 
 --[[ require("lvim.lsp.manager").setup("eslint", {
   settings = {
@@ -179,7 +200,7 @@ require("lvim.lsp.manager").setup("phpactor")
     },
   }
 }) ]]
-require("lvim.lsp.manager").setup("marksman", {})
+-- require("lvim.lsp.manager").setup("marksman", {})
 -- local opts = {} -- check the lspconfig documentation for a list of all possible options
 -- lvim.lsp.templates_dir = join_paths(get_runtime_dir(), "after", "ftplugin")
 -- require'lspconfig'.jedi_language_server
