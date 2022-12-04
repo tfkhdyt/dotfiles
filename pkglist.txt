@@ -17,7 +17,6 @@ aria2
 ark
 audacious
 audacity
-authy
 auto-cpufreq
 autoconf
 automake
@@ -48,6 +47,7 @@ cryptsetup
 cups
 cups-filters
 cups-pdf
+curlie
 dart
 dbeaver
 device-mapper
@@ -151,7 +151,6 @@ httrack
 hwdetect
 hwinfo
 hyperfine
-hypnotix
 i3-gaps
 i3lock
 i3lock-fancy-git
@@ -185,6 +184,8 @@ libdvdcss
 libgsf
 libinput-gestures
 libopenraw
+libreoffice-fresh
+libreoffice-fresh-id
 libtool
 libtpms
 libva-mesa-driver
@@ -263,6 +264,9 @@ pacman
 pacman-contrib
 papirus-icon-theme
 paru
+pass
+pass-otp
+passff-host
 patch
 pavucontrol
 pcmanfm
@@ -354,6 +358,7 @@ unrar
 unzip
 upd72020x-fw
 upower
+upscayl-bin
 usb_modeswitch
 usbutils
 v4l2loopback-dkms
