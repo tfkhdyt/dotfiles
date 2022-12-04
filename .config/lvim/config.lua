@@ -413,3 +413,6 @@ lvim.lsp.diagnostics.virtual_text = false
 -- lvim.builtin.terminal.direction = "horizontal"
 -- lvim.builtin.terminal.persist_size = true
 -- lvim.builtin.terminal.size = 13
+
+vim.api.nvim_set_keymap("n", "<C-u>", "<C-u>zz", {})
+vim.api.nvim_set_keymap("n", "<C-d>", "<C-d>zz", {})
