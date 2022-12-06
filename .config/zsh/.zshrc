@@ -1,4 +1,4 @@
-#zmodload zsh/zprof
+# zmodload zsh/zprof
 # If you come from bash you might have to change your $PATH.
 export GOBIN="$XDG_DATA_HOME/go/bin"
 export PATH=$GOBIN:$HOME/.local/bin:$PATH
@@ -74,7 +74,7 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git systemd evalcache auto-notify command-not-found golang thefuck vscode docker docker-compose)
+plugins=(git systemd auto-notify command-not-found golang docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 if [[ ! -d ~/.zsh-autopair ]]; then
@@ -121,8 +121,8 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#52605f'
 ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=#3b82f6'
 ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=#3b82f6'
 
-_evalcache zoxide init zsh
-_evalcache starship init zsh
+eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
 #echo 'running thefuck commands'
 #eval $(thefuck --alias)
 
@@ -139,4 +139,4 @@ source ~/.config/zsh/.aliases
 # macchina
 
 #zprof
-compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+# compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
