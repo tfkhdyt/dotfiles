@@ -185,7 +185,7 @@ lvim.lsp.installer.setup.automatic_installation = false
 --   }
 -- })
 require("lvim.lsp.manager").setup("tsserver")
-require("lvim.lsp.manager").setup("eslint")
+-- require("lvim.lsp.manager").setup("eslint")
 require("lvim.lsp.manager").setup("emmet_ls")
 require("lvim.lsp.manager").setup("phpactor")
 require("lvim.lsp.manager").setup("marksman")
