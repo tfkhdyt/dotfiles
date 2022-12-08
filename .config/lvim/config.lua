@@ -52,22 +52,33 @@ lvim.plugins = {
   {
     "dkarter/bullets.vim"
   },
+  {
+    'kristijanhusak/vim-carbon-now-sh'
+  },
+  {
+    "norcalli/nvim-colorizer.lua",
+    config = function()
+      require("colorizer").setup({ "css", "scss", "html", "javascript", "dosini", "i3config" }, {
+        RGB = true, -- #RGB hex codes
+        RRGGBB = true, -- #RRGGBB hex codes
+        RRGGBBAA = true, -- #RRGGBBAA hex codes
+        rgb_fn = true, -- CSS rgb() and rgba() functions
+        hsl_fn = true, -- CSS hsl() and hsla() functions
+        css = true, -- Enable all CSS features: rgb_fn, hsl_fn, names, RGB, RRGGBB
+        css_fn = true, -- Enable all CSS *functions*: rgb_fn, hsl_fn
+      })
+    end,
+  },
   -- {
-  --   'simrat39/rust-tools.nvim',
+  --   "ray-x/lsp_signature.nvim",
+  --   -- event = "BufRead",
   --   config = function()
-  --     require("rust-tools").setup({
-  --       -- server = {
-  --       --   on_attach = function(_, bufnr)
-  --       --     -- Hover actions
-  --       --     vim.keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
-  --       --     -- Code action groups
-  --       --     vim.keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
-  --       --   end,
-  --       -- },
-  --     })
-  --   end
-  -- }
+  --     require("lsp_signature").setup()
+  --   end,
+  -- },
 }
+
+lvim.builtin.treesitter.rainbow.enable = true
 
 -- general
 lvim.log.level = "warn"
@@ -416,3 +427,4 @@ lvim.lsp.diagnostics.virtual_text = false
 
 vim.api.nvim_set_keymap("n", "<C-u>", "<C-u>zz", {})
 vim.api.nvim_set_keymap("n", "<C-d>", "<C-d>zz", {})
+-- lvim.keys.normal_mode["<Leader>r"] = ":e<CR>"
