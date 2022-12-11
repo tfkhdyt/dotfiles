@@ -16,7 +16,6 @@ arc-gtk-theme
 aria2
 ark
 audacious
-audacity
 auto-cpufreq
 autoconf
 automake
@@ -212,6 +211,7 @@ man-pages
 mangohud
 mariadb
 mdadm
+mechvibes
 mediainfo
 meld
 mesa-utils
@@ -317,6 +317,8 @@ rmlint
 rofi
 rp-pppoe
 rsync
+rust-analyzer
+rustdesk-bin
 rustup
 s-nail
 scrcpy
@@ -333,7 +335,6 @@ sshfs
 starship
 steam
 stow
-stylua
 sudo
 swtpm
 syncthing
@@ -341,11 +342,12 @@ sysfsutils
 system-config-printer
 systemd-sysvcompat
 tealdeer
+tenacity-git
 texinfo
 thefuck
 timeshift-bin
 tokei
-trash-cli
+trash-cli-git
 tree
 ttf-bitstream-vera
 ttf-dejavu
