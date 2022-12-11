@@ -201,6 +201,7 @@ require("lvim.lsp.manager").setup("emmet_ls")
 require("lvim.lsp.manager").setup("phpactor")
 require("lvim.lsp.manager").setup("marksman")
 require("lvim.lsp.manager").setup("rust_analyzer")
+require("lvim.lsp.manager").setup("pasls")
 
 --[[ require("lvim.lsp.manager").setup("eslint", {
   settings = {
