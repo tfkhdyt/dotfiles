@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+panic() {
+  echo $1
+  exit 1
+}
+
+if [[ $# -eq 1 ]]; then
+  MIN=0
+  MAX=$1
+elif [[ $# -eq 2 ]]; then
+  MIN=$1
+  MAX=$2
+  if [[ $MIN -ge $MAX ]]; then
+    panic "Error: min value can't be greater or equal than max value"
+  fi
+else
+  panic "Error: getting $# argument(s), expecting 1 - 2 arguments"
+fi
+
+echo "$(( $RANDOM % $MAX + $MIN ))"
