@@ -307,3 +307,7 @@ xplr.config.modes.builtin.quit = {
     },
   },
 }
+
+for _, mode in pairs(xplr.config.modes.builtin) do
+  mode.layout = nil
+end
