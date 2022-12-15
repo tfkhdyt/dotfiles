@@ -202,7 +202,7 @@ require("lvim.lsp.manager").setup("phpactor")
 require("lvim.lsp.manager").setup("marksman")
 require("lvim.lsp.manager").setup("rust_analyzer")
 require("lvim.lsp.manager").setup("pasls")
-require("lvim.lsp.manager").setup("tailwindcss")
+-- require("lvim.lsp.manager").setup("tailwindcss")
 
 --[[ require("lvim.lsp.manager").setup("eslint", {
   settings = {
@@ -256,7 +256,7 @@ formatters.setup {
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
     -- filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
     -- "jsonc", "markdown.mdx", "graphql", "handlebars" },
-    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" }
+    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "svelte" }
   },
   {
     -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
@@ -266,7 +266,7 @@ formatters.setup {
     -- extra_args = { "--single-quote", "--jsx-single-quote", "--semi" },
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
     filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
-      "jsonc", "markdown.mdx", "graphql", "handlebars" },
+      "jsonc", "markdown.mdx", "graphql", "handlebars", "svelte" },
     -- filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" }
   },
   {
@@ -323,7 +323,7 @@ local code_actions = require "lvim.lsp.null-ls.code_actions"
 code_actions.setup {
   {
     name = "eslint_d",
-    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact" }
+    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact", "svelte" }
   },
   -- {
   --   name = "refactoring",
