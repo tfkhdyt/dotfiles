@@ -287,7 +287,7 @@ exec --no-startup-id redshift -l -6.914744:107.609810 -t 6500:3000
 exec --no-startup-id libinput-gestures-setup start
 # exec_always --no-startup-id pidof autotiling && pkill autotiling || autotiling
 # exec_always --no-startup-id /home/tfkhdyt/git-cloned/autotiling/target/release/autotiling
-exec --no-startup-id autotiling-rs
+# exec --no-startup-id autotiling-rs
 exec --no-startup-id udiskie -s
 # exec --no-startup-id caffeine
 
