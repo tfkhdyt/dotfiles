@@ -20,6 +20,7 @@ auto-cpufreq
 autoconf
 automake
 autotiling
+autotiling-rs-git
 b43-fwcutter
 base
 bash-completion
@@ -42,6 +43,7 @@ chaotic-keyring
 chaotic-mirrorlist
 cmatrix
 composer
+cpupower
 cryptsetup
 cups
 cups-filters
@@ -114,7 +116,6 @@ gawk
 gcc
 gettext
 ghostscript
-ghostwriter
 gimp
 git
 gksu
@@ -226,11 +227,14 @@ modemmanager
 mongodb-bin
 mongodb-compass
 most
+mpc
+mpd
 mpv-mpris
 mtools
 nano
 nano-syntax-highlighting
 nbd
+ncmpcpp
 ndisc6
 neofetch
 neovim
@@ -346,6 +350,7 @@ tenacity-git
 texinfo
 thefuck
 timeshift-bin
+tlpui
 tokei
 trash-cli-git
 tree
@@ -403,7 +408,7 @@ xsane
 xsettingsd
 xss-lock
 xterm
-yad-eos
+yad
 yay
 yt-dlp
 zip
