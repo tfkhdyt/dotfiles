@@ -83,9 +83,10 @@ fi
 source ~/.zsh-autopair/autopair.zsh
 autopair-init
 source /usr/share/doc/pkgfile/command-not-found.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
+source ~/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 #echo 'checking autopair is exists or not'
 
@@ -116,10 +117,10 @@ source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#52605f'
-ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=#3b82f6'
-ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=#3b82f6'
+# ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#52605f'
+# ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=#3b82f6'
+# ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=#3b82f6'
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
