@@ -13,12 +13,12 @@ lvim.plugins = {
   --   "folke/trouble.nvim",
   --   cmd = "TroubleToggle",
   -- },
-  {
-    "lewis6991/impatient.nvim",
-    config = function()
-      require("impatient")
-    end
-  },
+  -- {
+  --   "lewis6991/impatient.nvim",
+  --   config = function()
+  --     require("impatient")
+  --   end
+  -- },
   -- {
   --   "windwp/nvim-spectre",
   --   event = "BufRead",
@@ -256,7 +256,7 @@ formatters.setup {
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
     -- filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
     -- "jsonc", "markdown.mdx", "graphql", "handlebars" },
-    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "svelte" }
+    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" }
   },
   {
     -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
@@ -266,7 +266,7 @@ formatters.setup {
     -- extra_args = { "--single-quote", "--jsx-single-quote", "--semi" },
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
     filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html",
-      "jsonc", "markdown.mdx", "graphql", "handlebars", "svelte" },
+      "jsonc", "markdown.mdx", "graphql", "handlebars" },
     -- filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" }
   },
   {
@@ -323,7 +323,7 @@ local code_actions = require "lvim.lsp.null-ls.code_actions"
 code_actions.setup {
   {
     name = "eslint_d",
-    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact", "svelte" }
+    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact" }
   },
   -- {
   --   name = "refactoring",
