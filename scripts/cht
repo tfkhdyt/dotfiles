@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+QUERY=$1
+curlie "cht.sh/$QUERY" | less
