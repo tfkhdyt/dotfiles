@@ -74,6 +74,9 @@ lvim.plugins = {
     config = function()
       require('leap').add_default_mappings()
     end
+  },
+  {
+    'imsnif/kdl.vim'
   }
   -- {
   --   "ray-x/lsp_signature.nvim",
