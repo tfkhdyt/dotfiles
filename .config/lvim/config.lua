@@ -58,7 +58,7 @@ lvim.plugins = {
   {
     "norcalli/nvim-colorizer.lua",
     config = function()
-      require("colorizer").setup({ "css", "scss", "html", "javascript", "dosini", "i3config" }, {
+      require("colorizer").setup({ "css", "scss", "html", "javascript", "dosini", "i3config", "yaml" }, {
         RGB = true, -- #RGB hex codes
         RRGGBB = true, -- #RRGGBB hex codes
         RRGGBBAA = true, -- #RRGGBBAA hex codes
