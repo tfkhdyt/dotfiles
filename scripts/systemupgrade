@@ -39,7 +39,7 @@ yay -Qqe > $HOME/.dotfiles/pkglist.txt
 
 # clean trash
 print_log "Cleaning up trashes..."
-yes | trash-empty 30 
+trash-empty 30 
 
 # done
 print_log "Update is done, please reboot the system"
