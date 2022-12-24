@@ -133,6 +133,10 @@ source ~/.config/zsh/.zshenv
 # setting aliases
 source ~/.config/zsh/.aliases
 
+if [ -f /usr/share/nnn/quitcd/quitcd.bash_zsh ]; then
+    source /usr/share/nnn/quitcd/quitcd.bash_zsh
+fi
+
 # doas autocompletion
 # complete -cf doas
 
