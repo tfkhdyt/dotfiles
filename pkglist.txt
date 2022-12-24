@@ -39,8 +39,10 @@ btrfs-progs
 caffeine-ng
 cantarell-fonts
 catppuccin-gtk-theme-macchiato
+catppuccin-gtk-theme-mocha
 chaotic-keyring
 chaotic-mirrorlist
+cht.sh-git
 cmatrix
 composer
 cpupower
@@ -167,8 +169,6 @@ jfsutils
 jp2a
 jpegoptim
 jq
-kdenlive
-kinit
 kio-fuse
 kvantum
 kvantum-theme-catppuccin-git
@@ -244,16 +244,17 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+nnn-nerd
 noisetorch
 noto-fonts
 noto-fonts-emoji
 nss-mdns
+nsxiv
 ntfs-3g
 ntp
 obs-studio
 octave
 octave-communications
-okular
 onlyoffice-bin
 openconnect
 opendoas
@@ -262,6 +263,7 @@ openssl-1.1
 openvpn
 optipng
 os-prober
+ouch
 p7zip
 packettracer
 pacman
@@ -279,6 +281,8 @@ perl-image-exiftool
 pfetch-git
 php
 php-apache
+php-gd
+php-intl
 picard
 picom
 pipewire-alsa
@@ -326,8 +330,10 @@ rustdesk-bin
 rustup
 s-nail
 scrcpy
+screenkey
 sed
 sg3_utils
+shotcut
 simplescreenrecorder
 smartmontools
 sndcpy-bin
@@ -350,7 +356,6 @@ tenacity-git
 texinfo
 thefuck
 timeshift-bin
-tlpui
 tokei
 trash-cli-git
 tree
@@ -372,7 +377,6 @@ v4l2loopback-dkms
 vi
 virt-manager
 vpnc
-vscodium-bin
 vulkan-radeon
 wd719x-firmware
 welcome
@@ -411,6 +415,9 @@ xterm
 yad
 yay
 yt-dlp
+zathura
+zathura-pdf-poppler
+zellij
 zip
 zoom
 zoxide
