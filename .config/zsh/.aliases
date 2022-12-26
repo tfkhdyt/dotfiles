@@ -33,3 +33,7 @@ alias timestamp="date +%Y-%m-%dT%H-%M-%S"
 alias http=curlie
 alias cal="cal --monday"
 alias pg="ping -O"
+
+open() {
+  xdg-open $1 &!
+}
