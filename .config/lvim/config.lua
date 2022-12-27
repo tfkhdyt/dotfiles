@@ -8,6 +8,7 @@ an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 -- Additional Plugins
+vim.o.termguicolors = true
 lvim.plugins = {
   -- {
   --   "folke/trouble.nvim",
@@ -58,7 +59,7 @@ lvim.plugins = {
   {
     "norcalli/nvim-colorizer.lua",
     config = function()
-      require("colorizer").setup({ "css", "scss", "html", "javascript", "dosini", "i3config", "yaml" }, {
+      require("colorizer").setup({ "css", "scss", "html", "javascript", "dosini", "i3config", "yaml", "conf" }, {
         RGB = true, -- #RGB hex codes
         RRGGBB = true, -- #RRGGBB hex codes
         RRGGBBAA = true, -- #RRGGBBAA hex codes
