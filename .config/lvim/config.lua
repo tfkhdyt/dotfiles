@@ -38,6 +38,7 @@ lvim.plugins = {
           shade = "dark",
           percentage = 0.15,
         },
+        transparent_background = true,
       })
     end
   },
@@ -47,15 +48,9 @@ lvim.plugins = {
       require("nvim-ts-autotag").setup()
     end,
   },
-  {
-    "wakatime/vim-wakatime"
-  },
-  {
-    "dkarter/bullets.vim"
-  },
-  {
-    'kristijanhusak/vim-carbon-now-sh'
-  },
+  "wakatime/vim-wakatime",
+  "dkarter/bullets.vim",
+  'kristijanhusak/vim-carbon-now-sh',
   {
     "norcalli/nvim-colorizer.lua",
     config = function()
