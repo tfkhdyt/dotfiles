@@ -84,7 +84,6 @@ eos-packagelist
 eos-quickstart
 eos-rankmirrors
 eos-update-notifier
-ethtool
 evillimiter
 exa
 exfatprogs
@@ -99,7 +98,6 @@ file
 findutils
 firefox
 firefox-i18n-id
-firefox-pwa-bin
 firewalld
 flatpak
 flex
@@ -238,11 +236,13 @@ ncmpcpp
 ndisc6
 neofetch
 neovim
+nerd-fonts-jetbrains-mono
 netctl
 network-manager-applet
 networkmanager
 networkmanager-openvpn
 nfs-utils
+ngrok
 nilfs-utils
 nnn-nerd
 noisetorch
@@ -251,7 +251,6 @@ noto-fonts-emoji
 nss-mdns
 nsxiv
 ntfs-3g
-ntp
 obs-studio
 octave
 octave-communications
