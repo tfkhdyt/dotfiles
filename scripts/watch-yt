@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# watch-yt - simple bash script to search and watch youtube video from terminal
+#
+# Dependencies:
+# - yt-dlp
+# - mpv
+# - fzf
+
+set -euo pipefail
+
+QUERY="$1"
+YOUTUBE_ID=$(yt-dlp ytsearch5:"$QUERY" --print 'channel' --print 'title' --print 'id' | while read line1; do read line2; read line3; echo -e "$line1\t$line2\t$line3"; done | fzf | awk -F'\t' '{print $3}')
+VIDEO_URL="https://youtu.be/$YOUTUBE_ID"
+VIDEO_ID=$(yt-dlp -F "$VIDEO_URL" | sed '/ID/,$!d' | grep -v 'mhtml' | grep -v 'audio only' | fzf --tac | awk '{print $1}')
+AUDIO_ID="bestaudio"
+
+mpv --ytdl-format="${VIDEO_ID}+${AUDIO_ID}/best" --no-terminal $VIDEO_URL & disown
