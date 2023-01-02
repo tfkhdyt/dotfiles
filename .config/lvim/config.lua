@@ -74,6 +74,7 @@ lvim.plugins = {
   {
     'imsnif/kdl.vim'
   },
+  'iamcco/markdown-preview.nvim'
   -- {
   --   'xiyaowong/nvim-transparent',
   --   config = function()
