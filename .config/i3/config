@@ -324,7 +324,7 @@ for_window [class=".*"] border pixel 2
 
 ### gaps
 gaps inner 8
-gaps outer 0
+gaps outer 8
 
 ### disable border and gaps when there is only one container
 # hide_edge_borders smart
