@@ -38,7 +38,7 @@ else
   VIDEO_URL="https://youtu.be/$YOUTUBE_ID"
 fi
 
-VIDEO_ID=$(yt-dlp -F "$VIDEO_URL" | sed '/ID/,$!d' | grep -v 'mhtml' | grep -v 'audio only' | fzf --tac | awk '{print $1}')
+VIDEO_ID=$(yt-dlp -F "$VIDEO_URL" | sed '/ID/,$!d' | grep -v 'mhtml' | grep -v 'audio only' | grep -vi 'avc1' | fzf --tac | awk '{print $1}')
 AUDIO_ID="bestaudio"
 
 echo "Video is loading, please wait..."
