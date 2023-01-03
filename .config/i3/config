@@ -319,7 +319,7 @@ bindsym $mod+bracketright workspace next
 ## etc
 
 ### disable title bar
-for_window [class=".*"] border pixel 2
+for_window [class=".*"] border pixel 3
 # default_border pixel 4
 
 ### gaps
