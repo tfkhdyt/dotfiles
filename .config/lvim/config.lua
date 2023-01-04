@@ -456,3 +456,15 @@ lvim.lsp.diagnostics.virtual_text = false
 -- vim.api.nvim_set_keymap("n", "<C-u>", "<C-u>zz", {})
 -- vim.api.nvim_set_keymap("n", "<C-d>", "<C-d>zz", {})
 -- lvim.keys.normal_mode["<Leader>r"] = ":e<CR>"
+
+-- nvim ufo - fold
+-- vim.o.foldcolumn = '1' -- '0' is not bad
+-- vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
+-- vim.o.foldlevelstart = 99
+-- vim.o.foldenable = true
+-- vim.o.foldnestmax = '1'
+-- vim.o.fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]]
+
+-- -- Using ufo provider need remap `zR` and `zM`. If Neovim is 0.6.1, remap yourself
+-- vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
+-- vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
