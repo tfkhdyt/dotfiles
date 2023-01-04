@@ -1,6 +1,7 @@
 {
     "config_version": 8,
     "controller": {
+        "download_device_images": true,
         "landing_tab": 0,
         "show_menu_bar": true,
         "system_qt_theme": false,
