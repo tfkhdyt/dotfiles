@@ -220,9 +220,24 @@ lvim.lsp.installer.setup.automatic_installation = false
 --     }
 --   }
 -- })
+
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
 require("lvim.lsp.manager").setup("tsserver")
 -- require("lvim.lsp.manager").setup("eslint")
-require("lvim.lsp.manager").setup("emmet_ls")
+require("lvim.lsp.manager").setup("emmet_ls", {
+  capabilities = capabilities,
+  filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less', "svelte" },
+  init_options = {
+    html = {
+      options = {
+        -- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
+        ["bem.enabled"] = true,
+      },
+    },
+  }
+})
 require("lvim.lsp.manager").setup("phpactor")
 require("lvim.lsp.manager").setup("marksman")
 require("lvim.lsp.manager").setup("rust_analyzer")
