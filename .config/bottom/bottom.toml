@@ -18,7 +18,7 @@
 # Whether to set CPU% on a process to be based on the total CPU or just current usage.
 #current_usage = false
 # Whether to group processes with the same name together by default.
-#group_processes = false
+# group_processes = true
 # Whether to make process searching case sensitive by default.
 #case_sensitive = false
 # Whether to make process searching look for matching the entire word by default.
@@ -48,7 +48,7 @@
 # Remove space in tables
 #hide_table_gap = false
 # Show the battery widgets
-battery = true
+# battery = false
 # Disable mouse clicks
 #disable_click = false
 # Built-in themes.  Valid values are "default", "default-light", "gruvbox", "gruvbox-light", "nord", "nord-light"
@@ -56,7 +56,7 @@ battery = true
 # Show memory values in the processes widget as values by default
 #mem_as_value = false
 # Show tree mode by default in the processes widget.
-#tree = false
+# tree = true
 # Shows an indicator in table widgets tracking where in the list you are.
 #show_table_scroll_position = false
 # Show processes as their commands by default in the process widget.
@@ -72,6 +72,29 @@ battery = true
 
 # These are all the components that support custom theming.  Note that colour support
 # will depend on terminal support.
+
+[colors]
+table_header_color = "#f5e0dc"
+all_cpu_color = "#f5e0dc"
+avg_cpu_color = "#eba0ac"
+cpu_core_colors = ["#f38ba8","#fab387","#f9e2af","#a6e3a1","#74c7ec","#cba6f7"]
+ram_color = "#a6e3a1"
+swap_color = "#fab387"
+rx_color = "#a6e3a1"
+tx_color = "#f38ba8"
+widget_title_color = "#f2cdcd"
+border_color = "#585b70"
+highlighted_border_color = "#f5c2e7"
+text_color = "#cdd6f4"
+graph_color = "#a6adc8"
+cursor_color = "#f5c2e7"
+selected_text_color = "#11111b"
+selected_bg_color = "#cba6f7"
+high_battery_color = "#a6e3a1"
+medium_battery_color = "#f9e2af"
+low_battery_color = "#f38ba8"
+gpu_core_colors = ["#74c7ec","#cba6f7","#f38ba8","#fab387","#f9e2af","#a6e3a1"]
+arc_color = "#89dceb"
 
 #[colors] # Uncomment if you want to use custom colors
 # Represents the colour of table headers (processes, CPU, disks, temperature).
