@@ -332,7 +332,7 @@ gaps outer 8
 
 ### border color        border  bg      text    indctr  child_border
 #client.focused         #4c7899 #339af0 #ffffff #2e9ef4 #285577
-client.focused          #8aadf4 #8aadf4 #000000 #8aadf4 #8aadf4
+client.focused          #8aadf4 #8aadf4 #000000 #fab387 #8aadf4
 client.focused_inactive #24273abf #24273abf #ffffff #24273abf   #24273abf
 client.unfocused        #24273abf #222222 #888888 #292d2e   #222222
 client.urgent           #2f343abf #900000 #ffffff #900000   #900000
