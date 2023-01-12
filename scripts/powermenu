@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+LIST_OF_ACTION="poweroff\nreboot"
+LIST_OF_CONFIRMATION="no\nyes"
+
+ACTION=$(echo -e $LIST_OF_ACTION | dmenu -fn 'JetBrainsMono Nerd Font-13' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89dceb' -sf '#1e1e2e' -i -b -p 'Power menu: ')
+CONFIRMATION=$(echo -e $LIST_OF_CONFIRMATION | dmenu -fn 'JetBrainsMono Nerd Font-13' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89dceb' -sf '#1e1e2e' -i -b -p "Are you sure want to ${ACTION}?: ")
+
+if [ $CONFIRMATION == "yes" ]; then
+  eval "$ACTION"
+else
+  echo "Gak jadi"
+fi
