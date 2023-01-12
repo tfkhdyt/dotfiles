@@ -65,7 +65,7 @@ bindsym Mod4+Shift+q kill
 # bindsym $mod+d exec --no-startup-id rofi -show drun
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -fn 'JetBrainsMono Nerd Font' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89dceb' -sf '#1e1e2e' -i -b"
 # bindsym $mod+d exec --no-startup-id dmenu_run -fn 'JetBrainsMono Nerd Font-13' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89dceb' -sf '#1e1e2e' -i 
-bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -fn 'JetBrainsMono Nerd Font-13' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89dceb' -sf '#1e1e2e' -i -b --term=alacritty"
+bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -fn 'JetBrainsMono Nerd Font-13' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89dceb' -sf '#1e1e2e' -i -b" --term=alacritty
 # A more modern dmenu replacement is rofi:
 # bindsym Mod4+d exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
