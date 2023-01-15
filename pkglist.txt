@@ -2,12 +2,14 @@ activate-linux-git
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
+advcpmv
 aic94xx-firmware
 alacritty
 alsa-firmware
 alsa-plugins
 alsa-utils
 amd-ucode
+android-file-transfer
 android-tools
 apache
 appmenu-gtk-module
@@ -153,6 +155,7 @@ inxi
 ipw2100-fw
 ipw2200-fw
 iwd
+j4-dmenu-desktop
 jdk-openjdk
 jfsutils
 jp2a
@@ -196,8 +199,9 @@ man-db
 man-pages
 mangohud
 mariadb
+mcpelauncher-linux-git
+mcpelauncher-ui-git
 mdadm
-mechvibes
 mediainfo
 meld
 mesa-utils
@@ -211,7 +215,7 @@ mongodb-bin
 mongodb-compass
 mpc
 mpd
-mpv-mpris
+mpv
 mtools
 nano
 nano-syntax-highlighting
@@ -229,6 +233,7 @@ nilfs-utils
 nnn-nerd
 noisetorch
 noto-fonts
+noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
 nsxiv
@@ -261,7 +266,6 @@ perl
 php
 php-apache
 php-gd
-php-intl
 picard
 picom
 pipewire-alsa
@@ -269,7 +273,6 @@ pipewire-jack
 pipewire-pulse
 pkgconf
 pkgfile
-playerctl
 pnpm-bin
 polkit-gnome
 polybar
@@ -281,6 +284,7 @@ ppp
 pptpclient
 procs
 protonup-qt
+protonvpn-cli
 python
 python-capng
 python-packaging
