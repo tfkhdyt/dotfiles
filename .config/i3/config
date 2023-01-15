@@ -330,9 +330,6 @@ bindsym $mod+Shift+p exec --no-startup-id powermenu
 # rustyvibes-dmenu
 bindsym $mod+m exec --no-startup-id rustyvibes-dmenu
 
-# emoji picker
-bindsym $mod+n exec --no-startup-id emoji-picker
-
 ## etc
 
 ### disable title bar
