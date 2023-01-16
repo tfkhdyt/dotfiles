@@ -7,7 +7,7 @@ export MY_SCRIPTS="$HOME/.dotfiles/scripts"
 export HISTSIZE=10000
 export SAVEHIST=10000
 export AUTO_NOTIFY_EXPIRE_TIME=5000
-export BROWSER=brave
+export BROWSER=
 export EDITOR=lvim
 # export AUTO_NOTIFY_URGENCY="normal"
 
