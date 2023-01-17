@@ -312,8 +312,8 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim -u --select | xclip -selectio
 bindsym $mod+x exec --no-startup-id alacritty -e xplr
 
 ### screen brightness
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -e set +5%
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -e set 5%-
+bindsym XF86MonBrightnessUp exec --no-startup-id /home/tfkhdyt/.dotfiles/scripts/brightness.sh up
+bindsym XF86MonBrightnessDown exec --no-startup-id /home/tfkhdyt/.dotfiles/scripts/brightness.sh down
 
 ### move to next/prev workspaces
 bindsym $mod+Tab workspace back_and_forth
