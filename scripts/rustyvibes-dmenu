@@ -6,11 +6,11 @@ SOUND_PACK=$({ \ls $XDG_DATA_HOME/rustyvibes/soundpacks; echo -e "\nkill"; } | x
 
 if [ "$SOUND_PACK" == "kill" ]; then
   pidof rustyvibes && killall rustyvibes
-  notify-send "Rustyvibes has been killed" "Bye bye..."
+  notify-send -i stop "Rustyvibes has been killed" "Bye bye..."
   exit 0
 fi
 
 SOUND_PACK_PATH="$XDG_DATA_HOME/rustyvibes/soundpacks/$SOUND_PACK"
 
 rustyvibes $SOUND_PACK_PATH & disown
-notify-send "Rustyvibes has been activated" "Using $SOUND_PACK soundpack"
+notify-send -i checkmark "Rustyvibes has been activated" "Using $SOUND_PACK soundpack"
