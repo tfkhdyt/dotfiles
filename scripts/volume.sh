@@ -1,14 +1,5 @@
 #!/usr/bin/env bash
 
-# You can call this script like this:
-# $ ./volumeControl.sh up
-# $ ./volumeControl.sh down
-# $ ./volumeControl.sh mute
-
-# Script modified from these wonderful people:
-# https://github.com/dastorm/volume-notification-dunst/blob/master/volume.sh
-# https://gist.github.com/sebastiencs/5d7227f388d93374cebdf72e783fbd6a
-
 function get_volume {
   amixer -D pulse get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1
 }
@@ -24,21 +15,14 @@ function send_notification {
     dunstify -i $iconSound -r 2593 -u normal -h int:value:0 "Volume [Muted]"
   else
     volume=$(get_volume)
-    # Make the bar with the special character ─ (it's not dash -)
-    # https://en.wikipedia.org/wiki/Box-drawing_character
-    # bar=$(seq --separator="─" 0 "$((volume / 5))" | sed 's/[0-9]//g')
-    # Send the notification
     level=$(echo "int:value:$volume")
     dunstify -i $iconSound -r 2593 -u normal -h $level "Volume [${volume}%]"
-    # dunstify -i $iconSound -r 2593 -u normal "Current volume: ${volume}%"
   fi
 }
 
 case $1 in
   up)
-    # set the volume on (if it was muted)
     amixer -D pulse set Master on > /dev/null
-    # up the volume (+ 5%)
     amixer -D pulse sset Master 5%+ > /dev/null
     send_notification
     ;;
@@ -48,7 +32,6 @@ case $1 in
     send_notification
     ;;
   mute)
-    # toggle mute
     amixer -D pulse set Master 1+ toggle > /dev/null
     send_notification
     ;;
