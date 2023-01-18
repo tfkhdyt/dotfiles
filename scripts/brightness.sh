@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Dependencies:
+# - brightnessctl
+# - dunst
+
 function get_brightness {
   brightnessctl -l | grep 'Current brightness' | head -n 1 | xargs | cut -d' ' -f 4 | sed 's/[^0-9]//g'
 }

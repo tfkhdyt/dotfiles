@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Dependencies:
+# - alsa-utils 
+# - dunst 
+
 function get_volume {
   amixer -D pulse get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1
 }
