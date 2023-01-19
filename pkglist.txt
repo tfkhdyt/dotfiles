@@ -17,8 +17,6 @@ arandr
 arc-gtk-theme
 aria2
 ark
-audacious
-audacity
 auto-cpufreq
 autoconf
 automake
@@ -94,8 +92,6 @@ feh
 ffmpegthumbnailer
 file
 findutils
-firefox
-firefox-i18n-id
 firewalld
 flatpak
 flex
@@ -112,6 +108,7 @@ fsarchiver
 gamemode
 gawk
 gcc
+genact
 gettext
 ghostscript
 gimp
@@ -126,10 +123,6 @@ gparted
 gping
 grep
 groff
-grub
-grub-customizer
-grub-tools
-grub2-theme-endeavouros
 gsfonts
 gst-libav
 gst-plugin-pipewire
@@ -161,6 +154,7 @@ jfsutils
 jp2a
 jpegoptim
 jq
+kernel-install-mkinitcpio
 kio-fuse
 kvantum
 kvantum-theme-catppuccin-git
@@ -228,6 +222,7 @@ network-manager-applet
 networkmanager
 newsboat
 nfs-utils
+nginx
 ngrok
 nilfs-utils
 nnn-nerd
@@ -241,7 +236,6 @@ ntfs-3g
 obs-studio
 octave
 octave-communications
-onlyoffice-bin
 opendoas
 openrazer-meta
 openssl-1.1
@@ -263,6 +257,7 @@ patch
 pavucontrol
 pcmanfm
 perl
+pfetch-git
 php
 php-apache
 php-gd
@@ -329,6 +324,7 @@ sysfsutils
 system-config-printer
 systemd-sysvcompat
 tealdeer
+tenacity-git
 texinfo
 thefuck
 timeshift-bin
