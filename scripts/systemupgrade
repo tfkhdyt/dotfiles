@@ -11,7 +11,7 @@ get_timestamp() {
 
 print_log() {
   TIMESTAMP=$(get_timestamp)
-  echo -e $TIMESTAMP $1
+  printf "$TIMESTAMP $1\n"
 }
 
 # handle_error() {

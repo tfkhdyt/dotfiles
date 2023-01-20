@@ -4,11 +4,11 @@
 # - brightnessctl
 # - dunst
 
-function get_brightness {
+get_brightness() {
   brightnessctl -l | grep 'Current brightness' | head -n 1 | xargs | cut -d' ' -f 4 | sed 's/[^0-9]//g'
 }
 
-function send_notification {
+send_notification() {
   icon="preferences-system-brightness-lock"
   brightness=$(get_brightness)
   level=$(echo "int:value:$brightness")

@@ -4,15 +4,15 @@
 # - alsa-utils 
 # - dunst 
 
-function get_volume {
+get_volume() {
   amixer -D pulse get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1
 }
 
-function is_mute {
+is_mute() {
   amixer -D pulse get Master | grep '%' | grep -oE '[^ ]+$' | grep off > /dev/null
 }
 
-function send_notification {
+send_notification() {
   iconSound="audio-volume-high"
   iconMuted="audio-volume-muted"
   if is_mute ; then

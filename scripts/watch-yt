@@ -34,7 +34,7 @@ QUERY="$1"
 if printf '%s\n' "$QUERY" | grep -Eq '^(https?://)?(www\.youtube\.com|youtu\.be)/.+$'; then
   VIDEO_URL="$QUERY"
 else
-  YOUTUBE_ID=$(yt-dlp ytsearch5:"$QUERY" --print 'channel' --print 'title' --print 'id' | while read line1; do read line2; read line3; echo -e "$line1~$line2~$line3"; done | column -t -s '~' | fzf | awk '{print $NF}')
+  YOUTUBE_ID=$(yt-dlp ytsearch5:"$QUERY" --print 'channel' --print 'title' --print 'id' | while read line1; do read line2; read line3; printf "$line1~$line2~$line3"; done | column -t -s '~' | fzf | awk '{print $NF}')
   VIDEO_URL="https://youtu.be/$YOUTUBE_ID"
 fi
 
