@@ -282,7 +282,7 @@ bindsym Mod4+r mode "resize"
 
 
 ## autostart
-exec --no-startup-id feh --no-xinerama --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
+exec --no-startup-id feh --no-fehbg --bg-fill --randomize --recursive ~/Pictures/Backgrounds/Unsplash/
 exec --no-startup-id picom -b
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
 exec --no-startup-id $HOME/.config/dunst/launch.sh
