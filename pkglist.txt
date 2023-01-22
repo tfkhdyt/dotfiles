@@ -42,6 +42,7 @@ chaotic-keyring
 chaotic-mirrorlist
 cht.sh-git
 composer
+connman
 cpupower
 cryptsetup
 cups
@@ -216,8 +217,6 @@ nano-syntax-highlighting
 ncmpcpp
 neofetch
 neovim
-nerd-fonts-jetbrains-mono
-netctl
 network-manager-applet
 networkmanager
 newsboat
@@ -333,6 +332,7 @@ trash-cli-git
 tree
 ttf-bitstream-vera
 ttf-dejavu
+ttf-jetbrains-mono-nerd
 ttf-liberation
 ttf-ms-fonts
 ttf-opensans
@@ -345,6 +345,7 @@ upower
 upscayl-bin
 usb_modeswitch
 usbutils
+uwufetch
 v4l2loopback-dkms
 vi
 virt-manager
