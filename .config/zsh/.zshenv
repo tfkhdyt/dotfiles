@@ -42,3 +42,4 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 
 export NNN_TRASH=1
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
