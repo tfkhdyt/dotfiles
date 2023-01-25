@@ -17,6 +17,7 @@ alias yss="yay -Ss"
 alias ysi="yay -Si"
 alias yqs="yay -Qs"
 alias yqi="yay -Qi"
+alias yql="yay -Ql"
 
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 
