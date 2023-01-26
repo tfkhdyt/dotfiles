@@ -68,6 +68,11 @@ alias pg="ping -O"
 starship init fish | source
 zoxide init fish | source
 
+abbr -a --position anywhere sc systemctl
+abbr -a scu systemctl --user
+abbr -a --position anywhere jr journalctl
+abbr -a jru journalctl --user
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
