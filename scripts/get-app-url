@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+yay -Qi $1 | rg 'URL' | xargs | cut -d' ' -f3 | xclip -sel clip
