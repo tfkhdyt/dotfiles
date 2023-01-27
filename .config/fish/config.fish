@@ -41,38 +41,33 @@ set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
 alias ls="exa --icons --group-directories-first"
 alias ll="exa -lbh --icons --group-directories-first"
 alias killorphans="yay -Qtdq | yay -Rns -"
-alias kdc=kdeconnect-cli
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
-alias lv=lvim
-
-# yay aliases
-alias yr="yay -Rns"
-alias yi="yay -S"
-alias yss="yay -Ss"
-alias ysi="yay -Si"
-alias yqs="yay -Qs"
-alias yqi="yay -Qi"
-alias yql="yay -Ql"
-
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
-alias pctr="pactree -o"
-alias pctrr="pactree -r -o"
-alias dar="dart run"
-alias lg=lazygit
 alias mnt-windows="sudo mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
 alias umnt-windows="sudo umount /mnt/windows"
-alias timestamp="date +%Y-%m-%dT%H-%M-%S"
-alias http=curlie
 alias cal="cal --monday"
-alias pg="ping -O"
 
-zoxide init fish | source
-
+# yay aliases
+abbr -a yr yay -Rns
+abbr -a yi yay -S
+abbr -a yss yay -Ss
+abbr -a ysi yay -Si
+abbr -a yqs yay -Qs
+abbr -a yqi yay -Qi
+abbr -a yql yay -Ql
+abbr -a pctr pactree -o
+abbr -a pctrr pactree -r -o
+abbr -a dar dart run
+abbr -a timestamp date +%Y-%m-%dT%H-%M-%S
+abbr -a http curlie
+abbr -a pg ping -O
+abbr -a lv lvim
 abbr -a --position anywhere sc systemctl
 abbr -a scu systemctl --user
 abbr -a --position anywhere jr journalctl
 abbr -a jru journalctl --user
+abbr -a lg lazygit
+
+zoxide init fish | source
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
