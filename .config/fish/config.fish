@@ -1,3 +1,5 @@
+# starship init fish | source
+
 set -x XDG_DATA_HOME "$HOME/.local/share"
 set -x XDG_CONFIG_HOME "$HOME/.config"
 set -x XDG_STATE_HOME "$HOME/.local/state"
@@ -65,7 +67,6 @@ alias http=curlie
 alias cal="cal --monday"
 alias pg="ping -O"
 
-starship init fish | source
 zoxide init fish | source
 
 abbr -a --position anywhere sc systemctl
