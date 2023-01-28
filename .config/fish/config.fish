@@ -66,6 +66,7 @@ abbr -a scu systemctl --user
 abbr -a --position anywhere jr journalctl
 abbr -a jru journalctl --user
 abbr -a lg lazygit
+abbr -a ar2 aria2c
 
 zoxide init fish | source
 
