@@ -58,7 +58,7 @@
     progress_bar_min_width = 150
 
     # Set the maximum width for the progress bar
-    progress_bar_max_width = 300
+    progress_bar_max_width = 400
 
 
     # Show how many messages are currently hidden (because of
@@ -80,10 +80,10 @@
     padding = 10
 
     # Horizontal padding.
-    horizontal_padding = 8
+    horizontal_padding = 15
 
     # Padding between text and icon.
-    text_icon_padding = 10
+    text_icon_padding = 15
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
