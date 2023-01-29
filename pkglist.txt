@@ -94,6 +94,8 @@ ffmpegthumbnailer
 file
 findutils
 firewalld
+fish
+fisher
 flatpak
 flex
 focalboard-bin
@@ -144,7 +146,6 @@ i3lock
 i3lock-fancy-git
 i3status
 inetutils
-inkscape
 inxi
 ipw2100-fw
 ipw2200-fw
@@ -278,7 +279,6 @@ ppp
 pptpclient
 procs
 protonup-qt
-protonvpn-cli
 python
 python-capng
 python-packaging
