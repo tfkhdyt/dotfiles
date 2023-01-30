@@ -7,9 +7,16 @@ return {
 			local nls = require("null-ls")
 			return {
 				sources = {
+					-- JS and TS
+					nls.builtins.code_actions.eslint_d,
+					nls.builtins.diagnostics.eslint_d,
+					nls.builtins.formatting.rustywind,
 					nls.builtins.formatting.prettierd,
+
+					-- Lua
 					nls.builtins.formatting.stylua,
-					nls.builtins.diagnostics.flake8,
+
+					-- yaml
 					nls.builtins.diagnostics.yamllint,
 					nls.builtins.formatting.yamlfmt,
 				},
