@@ -10,7 +10,7 @@ set -x PNPM_HOME "/home/tfkhdyt/.local/share/pnpm"
 set -x MY_SCRIPTS "$HOME/.dotfiles/scripts"
 set -x HISTSIZE 10000
 set -x SAVEHIST 10000
-set -x EDITOR lvim
+set -x EDITOR nvim
 set -x COMPOSER_HOME "$XDG_CONFIG_HOME"/composer/vendor/bin
 set -x ANDROID_HOME "$XDG_DATA_HOME"/android
 set -x HISTFILE "$XDG_STATE_HOME"/bash/history
@@ -64,7 +64,7 @@ abbr -a dar dart run
 abbr -a timestamp date +%Y-%m-%dT%H-%M-%S
 abbr -a http curlie
 abbr -a pg ping -O
-abbr -a lv lvim
+abbr -a lv nvim
 
 abbr -a sc sudo systemctl
 abbr -a scu systemctl --user
@@ -73,6 +73,8 @@ abbr -a jru journalctl --user
 
 abbr -a lg lazygit
 abbr -a ar2 aria2c
+
+abbr -a v nvim
 
 zoxide init fish | source
 
