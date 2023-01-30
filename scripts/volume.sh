@@ -27,16 +27,16 @@ send_notification() {
 case $1 in
   up)
     amixer -D pulse set Master on > /dev/null
-    amixer -D pulse sset Master 5%+ > /dev/null
+    pactl set-sink-volume @DEFAULT_SINK@ +5% > /dev/null
     send_notification
     ;;
   down)
     amixer -D pulse set Master on > /dev/null
-    amixer -D pulse sset Master 5%- > /dev/null
+    pactl set-sink-volume @DEFAULT_SINK@ -5% > /dev/null
     send_notification
     ;;
   mute)
-    amixer -D pulse set Master 1+ toggle > /dev/null
+    pactl set-sink-mute @DEFAULT_SINK@ toggle > /dev/null
     send_notification
     ;;
 esac
