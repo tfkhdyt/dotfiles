@@ -56,17 +56,21 @@ abbr -a ysi yay -Si
 abbr -a yqs yay -Qs
 abbr -a yqi yay -Qi
 abbr -a yql yay -Ql
+
 abbr -a pctr pactree -o
 abbr -a pctrr pactree -r -o
+
 abbr -a dar dart run
 abbr -a timestamp date +%Y-%m-%dT%H-%M-%S
 abbr -a http curlie
 abbr -a pg ping -O
 abbr -a lv lvim
-abbr -a --position anywhere sc systemctl
+
+abbr -a sc sudo systemctl
 abbr -a scu systemctl --user
-abbr -a --position anywhere jr journalctl
+abbr -a jr sudo journalctl
 abbr -a jru journalctl --user
+
 abbr -a lg lazygit
 abbr -a ar2 aria2c
 
