@@ -10,35 +10,12 @@ an executable
 -- Additional Plugins
 -- vim.o.termguicolors = true
 lvim.plugins = {
-  -- {
-  --   "folke/trouble.nvim",
-  --   cmd = "TroubleToggle",
-  -- },
-  -- {
-  --   "lewis6991/impatient.nvim",
-  --   config = function()
-  --     require("impatient")
-  --   end
-  -- },
-  -- {
-  --   "windwp/nvim-spectre",
-  --   event = "BufRead",
-  --   config = function()
-  --     require("spectre").setup()
-  --   end,
-  -- },
   {
     "catppuccin/nvim",
     as = "catppuccin",
     config = function()
       require("catppuccin").setup({
         flavour = "mocha",
-        -- dim_inactive = {
-        --   enabled = false,
-        --   shade = "dark",
-        --   percentage = 0.15,
-        -- },
-        -- transparent_background = true,
       })
     end
   },
@@ -74,33 +51,6 @@ lvim.plugins = {
   {
     'imsnif/kdl.vim'
   },
-  -- {
-  --   'xiyaowong/nvim-transparent',
-  --   config = function()
-  --     require("transparent").setup({
-  --       enable = true, -- boolean: enable transparent
-  --       extra_groups = { -- table/string: additional groups that should be cleared
-  --         -- In particular, when you set it to 'all', that means all available groups
-
-  --         -- example of akinsho/nvim-bufferline.lua
-  --         "BufferLineTabClose",
-  --         "BufferlineBufferSelected",
-  --         "BufferLineFill",
-  --         "BufferLineBackground",
-  --         "BufferLineSeparator",
-  --         "BufferLineIndicatorSelected",
-  --       },
-  --       exclude = {}, -- table: groups you don't want to clear
-  --     })
-  --   end
-  -- }
-  -- {
-  --   "ray-x/lsp_signature.nvim",
-  --   -- event = "BufRead",
-  --   config = function()
-  --     require("lsp_signature").setup()
-  --   end,
-  -- },
 }
 
 lvim.builtin.treesitter.rainbow.enable = true
