@@ -55,7 +55,7 @@ set $right semicolon
 floating_modifier Mod4
 
 # start a terminal
-bindsym Mod4+Return exec --no-startup-id alacritty
+bindsym Mod4+Return exec --no-startup-id st
 
 # kill focused window
 bindsym Mod4+Shift+q kill
