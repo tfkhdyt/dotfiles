@@ -37,6 +37,7 @@ set -x FZF_DEFAULT_OPTS " \
 
 set -x NNN_TRASH 1
 set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
+set -x TERMINAL st
 
 # aliases
 
