@@ -308,9 +308,6 @@ bindsym Ctrl+Print exec --no-startup-id maim -u | xclip -selection clipboard -t 
 bindsym Ctrl+$mod+Print exec --no-startup-id maim -u --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim -u --select | xclip -selection clipboard -t image/png
 
-### app runner
-bindsym $mod+x exec --no-startup-id alacritty -e xplr
-
 ### screen brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id /home/tfkhdyt/.dotfiles/scripts/brightness.sh up
 bindsym XF86MonBrightnessDown exec --no-startup-id /home/tfkhdyt/.dotfiles/scripts/brightness.sh down
