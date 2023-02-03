@@ -1,0 +1,20 @@
+#!/bin/bash
+
+ip link show wlan0 | grep -q DOWN
+if [ $? -eq 0 ]; then
+  ICON="󰤮"
+  echo "[$ICON Offline]"
+else
+  STRENGTH=$(cat /proc/net/wireless | awk 'FNR == 3 {printf "%d\n", int($3 * 100 / 70)}')
+  if [ "$STRENGTH" -gt 75 ]; then
+    ICON="󰤨"
+  elif [ "$STRENGTH" -gt 50 ]; then
+    ICON="󰤥"
+  elif [ "$STRENGTH" -gt 25 ]; then
+    ICON="󰤢"
+  elif [ "$STRENGTH" -ge 0 ]; then
+    ICON="󰤟"
+  fi
+  echo "[$ICON $STRENGTH%]"
+fi
+

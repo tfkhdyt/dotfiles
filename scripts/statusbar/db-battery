@@ -1,0 +1,29 @@
+#!/bin/bash
+
+CHARGING_STATE=$(cat /sys/class/power_supply/BAT0/status)
+LEVEL=$(cat /sys/class/power_supply/BAT0/capacity)
+
+if [ "$CHARGING_STATE" = "Charging" ]; then
+  if [ "$LEVEL" -gt 75 ]; then
+    ICON="󱊦"
+  elif [ "$LEVEL" -gt 50 ]; then
+    ICON="󱊥"
+  elif [ "$LEVEL" -gt 25 ]; then
+    ICON="󱊤"
+  elif [ "$LEVEL" -ge 0 ]; then
+    ICON="󰢟"
+  fi
+else
+  if [ "$LEVEL" -gt 75 ]; then
+    ICON="󱊣"
+  elif [ "$LEVEL" -gt 50 ]; then
+    ICON="󱊢"
+  elif [ "$LEVEL" -gt 25 ]; then
+    ICON="󱊡"
+  elif [ "$LEVEL" -ge 0 ]; then
+    ICON="󰂎"
+  fi
+fi
+
+
+echo "[$ICON $LEVEL%]"
