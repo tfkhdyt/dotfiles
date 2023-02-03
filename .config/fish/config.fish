@@ -48,6 +48,7 @@ alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
 alias mnt-windows="sudo mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
 alias umnt-windows="sudo umount /mnt/windows"
 alias cal="cal --monday"
+alias procs="procs --theme dark"
 
 # yay aliases
 abbr -a yr yay -Rns
@@ -63,7 +64,7 @@ abbr -a pctrr pactree -r -o
 
 abbr -a dar dart run
 abbr -a timestamp date +%Y-%m-%dT%H-%M-%S
-abbr -a http curlie
+# abbr -a http curlie
 abbr -a pg ping -O
 abbr -a lv nvim
 
