@@ -1,0 +1,23 @@
+XF86AudioMicMute
+  /home/tfkhdyt/.dotfiles/scripts/mic.sh
+
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+  /home/tfkhdyt/.dotfiles/scripts/volume.sh {up,down,mute}
+
+XF86MonBrightness{Up,Down}
+  /home/tfkhdyt/.dotfiles/scripts/brightness.sh {up,down}
+
+super + bracketright
+  passmenu -fn 'JetBrainsMono Nerd Font-12' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89dceb' -sf '#1e1e2e' -i -p 'Password:'
+
+super + bracketleft
+  passotpmenu -fn 'JetBrainsMono Nerd Font-12' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89dceb' -sf '#1e1e2e' -i -p 'OTP:'
+
+super + backslash
+  /home/tfkhdyt/.dotfiles/scripts/powermenu
+
+super + slash
+  /home/tfkhdyt/.dotfiles/scripts/rustyvibes-dmenu
+
+{_,super + ,shift + }{Print}
+  ~/.config/i3/{full,active-window,selection}-screenshot.sh
