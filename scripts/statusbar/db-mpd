@@ -14,11 +14,11 @@ else
     ICON=""
   fi
 
-  if [ ${#ARTIST} -ge 15 ]; then
+  if [ ${#ARTIST} -gt 15 ]; then
     ARTIST="${ARTIST:0:15}..."
   fi 
 
-  if [ ${#TITLE} -ge 15 ]; then
+  if [ ${#TITLE} -gt 15 ]; then
     TITLE="${TITLE:0:15}..."
   fi 
 
