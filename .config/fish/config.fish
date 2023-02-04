@@ -8,6 +8,7 @@ set -x XDG_STATE_HOME "$HOME/.local/state"
 set -x XDG_CACHE_HOME "$HOME/.cache"
 set -x PNPM_HOME "/home/tfkhdyt/.local/share/pnpm"
 set -x MY_SCRIPTS "$HOME/.dotfiles/scripts"
+set -x STATUSBAR_SCRIPTS "$HOME/.dotfiles/scripts/statusbar"
 set -x HISTSIZE 10000
 set -x SAVEHIST 10000
 set -x EDITOR nvim
@@ -29,7 +30,7 @@ set -x DATE (date -I)
 set -x PRETTIERD_DEFAULT_CONFIG "$HOME/.config/lvim/prettierd/.prettierrc"
 set -x CARGO_BIN "$HOME/.cargo/bin/"
 set -x GOBIN "$XDG_DATA_HOME/go/bin"
-set -x PATH $PATH $MY_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN "$HOME/.local/bin"
+set -x PATH $PATH $MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN "$HOME/.local/bin"
 set -x FZF_DEFAULT_OPTS " \
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
