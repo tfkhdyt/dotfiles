@@ -38,6 +38,7 @@ caffeine-ng
 cantarell-fonts
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-mocha
+cava
 chaotic-keyring
 chaotic-mirrorlist
 cht.sh-git
@@ -236,19 +237,21 @@ ntfs-3g
 obs-studio
 octave
 octave-communications
+openconnect
 opendoas
 openrazer-meta
 openssl-1.1
 openvpn
 optipng
 os-prober
+otf-firamono-nerd
+otf-font-awesome
 ouch
 p7zip
 packettracer
 pacman
 pacman-contrib
 papirus-icon-theme
-paru
 pass
 pass-otp
 passff-host
@@ -279,6 +282,7 @@ ppp
 pptpclient
 procs
 protonup-qt
+protonvpn-cli
 python
 python-capng
 python-packaging
@@ -297,7 +301,6 @@ reiserfsprogs
 ripgrep
 rofi
 rsync
-rust-analyzer
 rustdesk-bin
 rustup
 s-nail
@@ -318,6 +321,7 @@ steam
 stow
 sudo
 swtpm
+sxhkd
 syncthing
 sysfsutils
 system-config-printer
@@ -332,6 +336,7 @@ trash-cli-git
 tree
 ttf-bitstream-vera
 ttf-dejavu
+ttf-font-awesome
 ttf-jetbrains-mono-nerd
 ttf-liberation
 ttf-ms-fonts
