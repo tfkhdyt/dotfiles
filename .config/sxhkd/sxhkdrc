@@ -24,3 +24,6 @@ super + slash
 
 ctrl + {_,super + ,shift + } + Print
   maim -u {_,--window $(xdotool getactivewindow),--select} | xclip -selection clipboard -t image/png
+
+super + apostrophe ; {slash,period}
+  mpc {toggle,next}
