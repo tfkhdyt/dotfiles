@@ -14,5 +14,13 @@ else
     ICON=""
   fi
 
-  echo "[$ICON ${ARTIST:0:20} - ${TITLE:0:20}]"
+  if [ ${#ARTIST} -ge 15 ]; then
+    ARTIST="${ARTIST:0:15}..."
+  fi 
+
+  if [ ${#TITLE} -ge 15 ]; then
+    TITLE="${TITLE:0:15}..."
+  fi 
+
+  echo "[$ICON $ARTIST - $TITLE]"
 fi
