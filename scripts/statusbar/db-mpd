@@ -1,13 +1,18 @@
 #!/bin/bash
 
-ARTIST=$(mpc --format '%artist%' current)
-TITLE=$(mpc --format '%title%' current)
-STATE=$(mpc status '%state%')
-
-if [ "$STATE" = "paused" ]; then
-  ICON=""
+mpc status &> /dev/null 
+if [ $? -ne 0 ]; then
+  echo ""
 else
-  ICON=""
-fi
+  ARTIST=$(mpc --format '%artist%' current)
+  TITLE=$(mpc --format '%title%' current)
+  STATE=$(mpc status '%state%')
 
-echo "[$ICON ${ARTIST:0:20} - ${TITLE:0:20}]"
+  if [ "$STATE" = "paused" ]; then
+    ICON=""
+  else
+    ICON=""
+  fi
+
+  echo "[$ICON ${ARTIST:0:20} - ${TITLE:0:20}]"
+fi
