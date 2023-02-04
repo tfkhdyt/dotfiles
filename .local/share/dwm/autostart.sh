@@ -2,9 +2,9 @@ feh --no-fehbg --bg-fill --randomize --recursive /home/tfkhdyt/Pictures/Backgrou
 
 pidof picom || picom -b &
 
-pidof redshift || redshift -l -6.914744:107.609810 -t 6500:3000 &
+pidof redshift || redshift -l -6.914744:107.609810 -t 6500:3000 &> /dev/null &
 
-pidof dwmblocks || dwmblocks &
+pidof dwmblocks || dwmblocks &> /dev/null &
 
 pkill sxhkd; sxhkd &
 
