@@ -7,9 +7,9 @@ R2=`cat /sys/class/net/wlan0/statistics/rx_bytes`
 T2=`cat /sys/class/net/wlan0/statistics/tx_bytes`
 TBPS=`expr $T2 - $T1`
 RBPS=`expr $R2 - $R1`
-TKBPS=`expr $TBPS / 1024`
-RKBPS=`expr $RBPS / 1024`
+TKBPS=`echo $TBPS | numfmt --to=iec-i`
+RKBPS=`echo $RBPS | numfmt --to=iec-i`
 icon=""
 icon1=""
 
-echo "[$icon1 $TKBPS KiB/s $icon $RKBPS KiB/s]"
+echo "[$icon1 ${TKBPS}B/s $icon ${RKBPS}B/s]"
