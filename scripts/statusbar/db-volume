@@ -1,0 +1,20 @@
+#!/bin/bash
+
+LEVEL=$(amixer -D pulse get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1)
+
+amixer -D pulse get Master | grep '%' | grep -oE '[^ ]+$' | grep off > /dev/null
+if [ $? -eq 0 ]; then
+  ICON="󰝟"
+  echo "[$ICON Muted]"
+else
+  if [ "$LEVEL" -gt 75 ]; then
+    ICON=""
+  elif [ "$LEVEL" -gt 50 ]; then
+    ICON="󰕾"
+  elif [ "$LEVEL" -gt 25 ]; then
+    ICON="󰖀"
+  elif [ "$LEVEL" -ge 0 ]; then
+    ICON="󰕿"
+  fi
+  echo "[$ICON $LEVEL%]"
+fi
