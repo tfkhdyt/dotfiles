@@ -29,14 +29,17 @@ case $1 in
     amixer -D pulse set Master on > /dev/null
     pactl set-sink-volume @DEFAULT_SINK@ +5% > /dev/null
     send_notification
+    kill -35 $(pidof dwmblocks)
     ;;
   down)
     amixer -D pulse set Master on > /dev/null
     pactl set-sink-volume @DEFAULT_SINK@ -5% > /dev/null
     send_notification
+    kill -35 $(pidof dwmblocks)
     ;;
   mute)
     pactl set-sink-mute @DEFAULT_SINK@ toggle > /dev/null
     send_notification
+    kill -35 $(pidof dwmblocks)
     ;;
 esac
