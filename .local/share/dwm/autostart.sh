@@ -8,6 +8,6 @@ pidof dwmblocks || dwmblocks &
 
 pkill sxhkd; sxhkd &
 
-pidof xidlehook || xidlehook --detect-sleep --not-when-fullscreen --not-when-audio --timer 1800 'systemctl suspend' ''
+pidof xidlehook || xidlehook --detect-sleep --not-when-fullscreen --not-when-audio --timer 1800 'systemctl suspend' '' &
 
 pidof xss-lock || xss-lock --transfer-sleep-lock -- slock &
