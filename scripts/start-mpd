@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if ! systemctl --user is-active --quiet mpd.service; then
+  systemctl --user start mpd.service
+fi
