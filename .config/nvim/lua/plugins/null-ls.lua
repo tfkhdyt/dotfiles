@@ -19,6 +19,9 @@ return {
 					-- yaml
 					nls.builtins.diagnostics.yamllint,
 					nls.builtins.formatting.yamlfmt,
+
+					-- C
+					nls.builtins.diagnostics.cpplint,
 				},
 			}
 		end,
