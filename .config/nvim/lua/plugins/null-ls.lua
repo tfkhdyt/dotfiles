@@ -8,10 +8,18 @@ return {
 			return {
 				sources = {
 					-- JS and TS
-					nls.builtins.code_actions.eslint_d,
-					nls.builtins.diagnostics.eslint_d,
-					nls.builtins.formatting.rustywind,
-					nls.builtins.formatting.prettierd,
+					nls.builtins.code_actions.eslint_d.with({
+						extra_filetypes = { "svelte" },
+					}),
+					nls.builtins.diagnostics.eslint_d.with({
+						extra_filetypes = { "svelte" },
+					}),
+					nls.builtins.formatting.rustywind.with({
+						extra_filetypes = { "svelte" },
+					}),
+					nls.builtins.formatting.prettierd.with({
+						extra_filetypes = { "svelte" },
+					}),
 
 					-- Lua
 					nls.builtins.formatting.stylua,
