@@ -41,5 +41,9 @@ yay -Qqe > $HOME/.dotfiles/pkglist.txt
 print_log "Cleaning up trashes..."
 trash-empty 14 
 
+# update tblock
+print_log "Updating tblock..."
+sudo tblock -Uy
+
 # done
 print_log "Update is done, please reboot the system"
