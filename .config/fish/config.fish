@@ -53,6 +53,7 @@ alias umnt-windows="sudo umount /mnt/windows"
 alias cal="cal --monday"
 alias procs="procs --theme dark"
 alias nnn="nnn -c"
+alias make="make -j $(nproc)"
 
 # yay aliases
 abbr -a yr yay -Rns
