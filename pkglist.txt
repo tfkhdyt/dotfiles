@@ -50,14 +50,12 @@ cups
 cups-filters
 cups-pdf
 curlie
-dart
 dbeaver
 device-mapper
 dhclient
 dialog
 diffutils
 discord
-dmenu
 dmidecode
 dmraid
 dnscrypt-proxy
@@ -277,6 +275,7 @@ polybar
 polychromatic
 poppler-glib
 postgresql
+postgresql-old-upgrade
 postman-bin
 ppp
 pptpclient
@@ -326,6 +325,7 @@ syncthing
 sysfsutils
 system-config-printer
 systemd-sysvcompat
+tblock
 tealdeer
 tenacity-git
 texinfo
