@@ -82,6 +82,7 @@ abbr -a lg lazygit
 abbr -a ar2 aria2c
 
 abbr -a v nvim
+abbr -a nts nvim ~/notes/
 
 zoxide init fish | source
 
