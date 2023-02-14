@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>Newsboat - Exported Feeds</title>
+  </head>
+  <body>
+    <outline type="rss" xmlUrl="https://forum.endeavouros.com/c/important-notifications.rss" htmlUrl="https://forum.endeavouros.com/c/important-notifications/125" title="Important notifications - EndeavourOS"/>
+    <outline type="rss" xmlUrl="https://forum.endeavouros.com/c/announcements.rss" htmlUrl="https://forum.endeavouros.com/c/announcements/19" title="Announcements and news - EndeavourOS"/>
+    <outline type="rss" xmlUrl="https://archlinux.org/feeds/news/" htmlUrl="https://archlinux.org/news/" title="Arch Linux: Recent news updates"/>
+    <outline type="rss" xmlUrl="https://forum.endeavouros.com/c/desktop-environments/dwm.rss" htmlUrl="https://forum.endeavouros.com/c/desktop-environments/dwm/74" title="DWM - EndeavourOS"/>
+    <outline type="rss" xmlUrl="https://9to5linux.com/feed/atom" htmlUrl="https://9to5linux.com/" title="9to5Linux"/>
+    <outline type="rss" xmlUrl="https://www.phoronix.com/rss.php" htmlUrl="https://www.phoronix.com/" title="Phoronix"/>
+    <outline type="rss" xmlUrl="https://itsfoss.com/rss/" htmlUrl="https://itsfoss.com/" title="It's FOSS"/>
+    <outline type="rss" xmlUrl="https://www.gamingonlinux.com/article_rss.php" htmlUrl="https://www.gamingonlinux.com/" title="GamingOnLinux Latest Articles"/>
+    <outline type="rss" xmlUrl="https://github.com/tfkhdyt.private.atom?token=ALICLEPKDJUUPRN4TBBD6COB64Q4S" htmlUrl="https://github.com/tfkhdyt" title="Private Feed for tfkhdyt"/>
+    <outline type="rss" xmlUrl="https://www.cnnindonesia.com/rss" htmlUrl="https://www.cnnindonesia.com/" title="CNN Indonesia | Berita Terbaru, Terkini Indonesia, Dunia"/>
+  </body>
+</opml>
