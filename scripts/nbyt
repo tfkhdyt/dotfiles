@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+
+set -euo pipefail
+
+API_KEY=$(cat $HOME/.dotfiles/scripts/.yt-api-key)
+YT_HANDLE=$(echo "$1" | grep -oP '@\K[^/]*' | sed 's/[^a-zA-Z0-9_]//g')
+
+API_OUTPUT=$(xh "https://youtube.googleapis.com/youtube/v3/search?part=id,snippet&q=${YT_HANDLE}&type=channel&key=${API_KEY}" -b)
+
+CHANNEL_ID=$(echo "$API_OUTPUT" | jq .items[0].id.channelId | tr -d '"')
+CHANNEL_NAME=$(echo "$API_OUTPUT" | jq .items[0].snippet.title | tr -d '"')
+
+if [ "$CHANNEL_ID" = "" ]; then
+  echo "Channel not found!"
+  exit 1
+fi
+
+echo "https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID} 'youtube' '$CHANNEL_NAME'" >> $HOME/.dotfiles/.config/newsboat/urls
+
+echo "$CHANNEL_NAME feed has been successfully added to newsboat urls!"

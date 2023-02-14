@@ -6,3 +6,4 @@
 .config/newsboat/cache.db
 .config/newsboat/history.search
 .config/newsboat/queue
+scripts/.yt-api-key
