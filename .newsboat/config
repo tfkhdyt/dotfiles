@@ -1,5 +1,22 @@
 include ~/.newsboat/dark
 
+browser "librewolf %u"
+macro m set browser "mpv %u"; open-in-browser ; set browser "librewolf %u"
+macro n set browser "mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "librewolf %u"
+
+# unbind keys
+unbind-key ENTER
+unbind-key j
+unbind-key k
+unbind-key J
+unbind-key K
+
+# bind keys - vim style
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key h quit
+
 #
 # Newsboat's example config
 #
@@ -82,7 +99,7 @@ include ~/.newsboat/dark
 #
 # Default value: no
 #
-# auto-reload yes
+auto-reload yes
 
 ####  bind-key
 #
@@ -1452,7 +1469,7 @@ confirm-exit yes
 #
 # Default value: no
 #
-refresh-on-startup yes
+# refresh-on-startup yes
 
 ####  reload-only-visible-feeds
 #
