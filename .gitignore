@@ -3,3 +3,6 @@
 .config/nvim/custom
 .config/nvim/spell
 .config/zsh/.zcompdump*
+.config/newsboat/cache.db
+.config/newsboat/history.search
+.config/newsboat/queue
