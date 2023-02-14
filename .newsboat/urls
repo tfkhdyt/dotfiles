@@ -1,10 +1,20 @@
-https://forum.endeavouros.com/c/important-notifications.rss
-https://forum.endeavouros.com/c/announcements.rss
-https://archlinux.org/feeds/news/
-https://forum.endeavouros.com/c/desktop-environments/dwm.rss
-https://9to5linux.com/feed/atom
-https://www.phoronix.com/rss.php
-https://itsfoss.com/rss/
-https://www.gamingonlinux.com/article_rss.php
-https://github.com/tfkhdyt.private.atom?token=ALICLEPKDJUUPRN4TBBD6COB64Q4S
-https://www.cnnindonesia.com/rss
+# linux
+https://forum.endeavouros.com/c/important-notifications.rss "linux"
+https://forum.endeavouros.com/c/announcements.rss "linux"
+https://archlinux.org/feeds/news/ "linux"
+https://forum.endeavouros.com/c/desktop-environments/dwm.rss "linux"
+https://9to5linux.com/feed/atom "linux"
+https://www.phoronix.com/rss.php "linux"
+https://itsfoss.com/rss/ "linux"
+https://www.gamingonlinux.com/article_rss.php "linux" "gaming"
+
+# github
+https://github.com/tfkhdyt.private.atom?token=ALICLEPKDJUUPRN4TBBD6COB64Q4S "github"
+
+# news
+https://www.cnnindonesia.com/rss "news"
+
+# youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXY68I59Xq3dNG4z0L91H2Q "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCylGUf9BvQooEFjgdNudoQg "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYFGHJ4wWRoIxc6pjQ0Cj5g "youtube"
