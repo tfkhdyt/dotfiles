@@ -17,4 +17,14 @@ fi
 
 echo "https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID} 'youtube' '$CHANNEL_NAME'" >> $HOME/.dotfiles/.config/newsboat/urls
 
+# Git Commit
+PWD=$(pwd)
+
+cd $HOME/.dotfiles
+
+git add .config/newsboat/urls
+git commit -m "feat(newsboat urls): add $CHANNEL_NAME"
+
+cd "$PWD"
+
 echo "$CHANNEL_NAME feed has been successfully added to newsboat urls!"
