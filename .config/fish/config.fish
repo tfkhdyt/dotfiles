@@ -85,6 +85,7 @@ abbr -a v nvim
 abbr -a nts nvim ~/notes/
 abbr -a kdc kdeconnect-cli
 abbr -a sudo doas
+abbr -a g git
 
 # Fish git prompt
 set __fish_git_prompt_showdirtystate 'yes'
