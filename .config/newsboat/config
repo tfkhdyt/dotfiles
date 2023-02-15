@@ -18,6 +18,5 @@ bind-key l open
 bind-key h quit
 
 auto-reload yes
-reload-time 120 
-reload-threads 100
+reload-threads 8
 feed-sort-order title
