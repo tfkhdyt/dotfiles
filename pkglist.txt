@@ -49,7 +49,6 @@ cryptsetup
 cups
 cups-filters
 cups-pdf
-curlie
 dbeaver
 device-mapper
 dhclient
@@ -155,6 +154,7 @@ jfsutils
 jp2a
 jpegoptim
 jq
+kdeconnect
 kernel-install-mkinitcpio
 kio-fuse
 kvantum
@@ -305,9 +305,11 @@ rustup
 s-nail
 scrcpy
 screenkey
+sd
 sed
 shotcut
 simplescreenrecorder
+skim
 smartmontools
 sndcpy-bin
 sof-firmware
@@ -356,6 +358,7 @@ vi
 virt-manager
 vpnc
 vulkan-radeon
+w3m
 wd719x-firmware
 welcome
 wget
@@ -375,6 +378,7 @@ xf86-input-libinput
 xf86-video-amdgpu
 xf86-video-ati
 xfsprogs
+xh
 xidlehook
 xorg-server
 xorg-xdpyinfo
@@ -391,6 +395,7 @@ yay
 yt-dlp
 zathura
 zathura-pdf-poppler
+zellij
 zip
 zoom
 zoxide
