@@ -30,8 +30,8 @@ print_log "Updating database and upgrading system..."
 yay 
 
 # updating pkgfile
-print_log "Updating pkgfile..."
-sudo pkgfile -u 
+# print_log "Updating pkgfile..."
+# sudo pkgfile -u 
 
 # backup packages name
 print_log "Backing up packages list..."
@@ -40,10 +40,6 @@ yay -Qqe > $HOME/.dotfiles/pkglist.txt
 # clean trash
 print_log "Cleaning up trashes..."
 trash-empty 14 
-
-# update tblock
-print_log "Updating tblock..."
-sudo tblock -Uy
 
 # done
 print_log "Update is done, please reboot the system"
