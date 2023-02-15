@@ -84,6 +84,7 @@ abbr -a ar2 aria2c
 abbr -a v nvim
 abbr -a nts nvim ~/notes/
 abbr -a kdc kdeconnect-cli
+abbr -a sudo doas
 
 zoxide init fish | source
 
