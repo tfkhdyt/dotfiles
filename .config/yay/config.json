@@ -22,7 +22,7 @@
 	"searchby": "name-desc",
 	"gitflags": "",
 	"removemake": "ask",
-	"sudobin": "sudo",
+	"sudobin": "doas",
 	"sudoflags": "--",
 	"requestsplitn": 150,
 	"completionrefreshtime": 7,
@@ -43,5 +43,5 @@
 	"batchinstall": false,
 	"singlelineresults": false,
 	"separatesources": true,
-	"version": "11.3.1"
+	"version": "11.3.2"
 }
