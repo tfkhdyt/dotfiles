@@ -1,8 +1,8 @@
 include ~/.config/newsboat/dark
 
 browser "librewolf %u"
-macro m set browser "devour mpv %u"; open-in-browser ; set browser "librewolf %u"
-macro n set browser "devour mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "librewolf %u"
+macro m set browser "mpv %u"; open-in-browser ; set browser "librewolf %u"
+macro n set browser "mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "librewolf %u"
 
 # unbind keys
 unbind-key ENTER
