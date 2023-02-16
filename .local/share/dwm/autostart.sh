@@ -1,13 +1,14 @@
 feh --no-fehbg --bg-fill --randomize --recursive /home/tfkhdyt/Pictures/Backgrounds/Unsplash/ &
 
-pidof picom || picom -b &
-
-pidof redshift || redshift -l -6.914744:107.609810 -t 6500:3000 &> /dev/null &
+pkill sxhkd; sxhkd &
 
 pidof dwmblocks || dwmblocks &> /dev/null &
 
-pkill sxhkd; sxhkd &
+pidof xss-lock || xss-lock --transfer-sleep-lock -- slock &
 
 pidof xidlehook || xidlehook --detect-sleep --not-when-fullscreen --not-when-audio --timer 1800 'systemctl suspend' '' &
 
-pidof xss-lock || xss-lock --transfer-sleep-lock -- slock &
+pidof redshift || redshift -l -6.914744:107.609810 -t 6500:3000 &> /dev/null &
+
+pidof picom || picom -b &
+
