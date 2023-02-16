@@ -27,3 +27,6 @@ ctrl + {_,super + ,shift + } + Print
 
 super + apostrophe ; {slash,period}
   start-mpd; mpc {toggle,next} &> /dev/null; kill -36 $(pidof dwmblocks)
+
+super + p
+  j4-dmenu-desktop --dmenu="dmenu -fn 'JetBrainsMono Nerd Font-12' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#89b4fa' -sf '#1e1e2e' -i -b" --term=alacritty &> /dev/null
