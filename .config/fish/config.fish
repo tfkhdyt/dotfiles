@@ -51,7 +51,6 @@ alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
 alias mnt-windows="sudo mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
 alias umnt-windows="sudo umount /mnt/windows"
 alias cal="cal --monday"
-alias procs="procs --theme dark"
 alias make="make -j $(nproc)"
 
 # yay aliases
