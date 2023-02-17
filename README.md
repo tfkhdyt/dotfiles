@@ -28,7 +28,7 @@
   - Vim keybinding
   - Auto reload
   - Reload threads: 8
-  - Feed sort order title
+  - Feed sort order: title
 - mpv
   - Subtitle:
     - Lang:
@@ -38,7 +38,7 @@
     - Border size: 2
     - Font size: 40
   - Save position on quit
-  - Screenshot directory: `$HOME/Pictures/Screenshots/mpv/`
+  - Screenshot directory: `/home/tfkhdyt/Pictures/Screenshots/mpv/`
   - Scripts:
     - Sponsorblock
 - bat
@@ -52,5 +52,45 @@
     - Neorg
     - nvim-colorizer
     - wakatime
+    - Codeium
 - fish
+  - Plugins:
+    - Autopair
+  - Theme: Catppuccin Mocha
+  - Environment Variables
+  - Aliases
+  - Abbreviations
+  - Git Prompt
+- ncmpcpp
+  - Audio visualizer
+- Dunst
+  - Theme: Catppuccin Mocha
+  - Progress bar
+  - Font: JetBrainsMono Nerd Font
+  - Icon: Papirus Dark
+- Picom
+  - Dual kawase blur
+  - Fade
+  - Shadow
+  - Vsync
+- mpd
+  - Pipewire
+  - Auto update
+  - Audio visualizer
+- bottom
+  - Theme: Catppuccin Mocha
+- MangoHud
+  - cpu_temp
+  - gpu_temp
+  - gpu_core_clock
+  - gpu_mem_clock
+  - ram
+  - vram
+  - cpu_mhz
+  - frametime
+  - gamemode
+  - background_alpha=0.5
+  - benchmark_percentiles=97,AVG,1,0.1
+- Zathura
+  - Use system clipboard
 - Work in progress...
