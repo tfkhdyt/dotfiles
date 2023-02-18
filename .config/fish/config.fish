@@ -1,4 +1,5 @@
-# starship init fish | source
+starship init fish | source
+zoxide init fish | source
 
 set -x BROWSER librewolf
 
@@ -114,8 +115,6 @@ set __fish_git_prompt_char_upstream_equal ''
 # 
 #   set_color normal
 # end
-
-zoxide init fish | source
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
