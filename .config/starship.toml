@@ -17,6 +17,7 @@ format = '\[[$symbol($version)]($style)\]'
 
 [c]
 symbol = " "
+format = '\[[$symbol($version(-$name))]($style)\]'
 
 [cmd_duration]
 format = '\[[ $duration]($style)\]'
@@ -102,5 +103,3 @@ format = '\[[as $symbol]\]'
 [time]
 format = '\[[$time]($style)\]'
 
-[username]
-format = '\[[$user]($style)\]'
