@@ -4,6 +4,8 @@ pkill sxhkd; sxhkd &
 
 pidof dwmblocks || dwmblocks &> /dev/null &
 
+pidof xbanish || xbanish -t 5 &
+
 pidof xss-lock || xss-lock --transfer-sleep-lock -- slock &
 
 pidof xidlehook || xidlehook --detect-sleep --not-when-fullscreen --not-when-audio --timer 1800 'systemctl suspend' '' &
