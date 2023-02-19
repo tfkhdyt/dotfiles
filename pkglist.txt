@@ -51,13 +51,13 @@ cups-filters
 cups-pdf
 dbeaver
 device-mapper
+devour
 dhclient
 dialog
 diffutils
 discord
 dmidecode
 dmraid
-dnscrypt-proxy
 dnsmasq
 docker
 docker-compose
@@ -89,6 +89,7 @@ fakeroot
 fd
 feh
 ffmpegthumbnailer
+figlet
 file
 findutils
 firewalld
@@ -157,6 +158,7 @@ jq
 kdeconnect
 kernel-install-mkinitcpio
 kio-fuse
+klavaro
 kvantum
 kvantum-theme-catppuccin-git
 lazygit
@@ -219,6 +221,7 @@ neofetch
 neovim
 network-manager-applet
 networkmanager
+newaita-icons-git
 newsboat
 nfs-utils
 nginx
@@ -242,6 +245,7 @@ openssl-1.1
 openvpn
 optipng
 os-prober
+osv-scanner
 otf-firamono-nerd
 otf-font-awesome
 ouch
