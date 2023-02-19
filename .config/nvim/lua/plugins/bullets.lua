@@ -1,0 +1,3 @@
+return {
+	"dkarter/bullets.vim",
+}
