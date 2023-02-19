@@ -93,4 +93,5 @@
   - benchmark_percentiles=97,AVG,1,0.1
 - Zathura
   - Use system clipboard
+  - Sandbox: none
 - Work in progress...
