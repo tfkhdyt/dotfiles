@@ -3,7 +3,7 @@
 	email = tfkhdyt@proton.me
 	signingkey = 6D0821A9045D6758
 [init]
-	defaultBranch = main
+	defaultBranch = master
 [credential]
 	helper = store
 [color]
