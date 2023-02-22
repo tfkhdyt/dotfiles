@@ -13,5 +13,5 @@ fi
 
 SOUND_PACK_PATH="$XDG_DATA_HOME/rustyvibes/soundpacks/$SOUND_PACK"
 
-rustyvibes -v 75 $SOUND_PACK_PATH & disown
+rustyvibes -v 50 $SOUND_PACK_PATH & disown
 notify-send -i checkmark "Rustyvibes has been activated" "Using $SOUND_PACK soundpack"
