@@ -15,4 +15,5 @@ return {
 			return vim.fn["codeium#Clear"]()
 		end, { expr = true })
 	end,
+	enabled = false,
 }
