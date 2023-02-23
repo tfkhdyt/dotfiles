@@ -32,7 +32,7 @@ return {
 					nls.builtins.diagnostics.cpplint,
 
 					-- Go
-					nls.builtins.diagnostics.golangci_lint,
+					-- nls.builtins.diagnostics.golangci_lint,
 					nls.builtins.formatting.gofumpt,
 					nls.builtins.formatting.goimports,
 				},
