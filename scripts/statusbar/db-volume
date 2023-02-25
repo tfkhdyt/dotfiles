@@ -1,5 +1,11 @@
 #!/bin/bash
 
+case $BLOCK_BUTTON in
+  1) pavucontrol &> /dev/null ;;
+  4) volume.sh up ;;
+  5) volume.sh down ;;
+esac
+
 LEVEL=$(amixer -D pulse get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1)
 
 amixer -D pulse get Master | grep '%' | grep -oE '[^ ]+$' | grep off > /dev/null
@@ -18,3 +24,4 @@ else
   fi
   echo "[$ICON $LEVEL%]"
 fi
+

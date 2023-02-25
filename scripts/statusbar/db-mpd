@@ -1,5 +1,10 @@
 #!/bin/bash
 
+case $BLOCK_BUTTON in
+	1) mpc toggle &> /dev/null ;;
+	3) mpc next &> /dev/null ;;
+esac
+
 mpc status &> /dev/null 
 if [ $? -ne 0 ]; then
   echo ""
@@ -24,3 +29,4 @@ else
 
   echo "[$ICON $ARTIST - $TITLE]"
 fi
+
