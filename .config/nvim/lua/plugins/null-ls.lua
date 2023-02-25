@@ -29,7 +29,7 @@ return {
 					nls.builtins.formatting.yamlfmt,
 
 					-- C
-					nls.builtins.diagnostics.cpplint,
+					-- nls.builtins.diagnostics.cpplint,
 
 					-- Go
 					-- nls.builtins.diagnostics.golangci_lint,
