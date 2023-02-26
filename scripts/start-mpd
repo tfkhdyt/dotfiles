@@ -2,5 +2,4 @@
 
 if ! systemctl --user is-active --quiet mpd.service; then
   systemctl --user start mpd.service
-  systemctl --user start mpd-notification
 fi
