@@ -22,8 +22,10 @@ autoconf
 automake
 b43-fwcutter
 base
+base-devel
 bash-completion
 bat
+bc
 bind
 binutils
 bison
