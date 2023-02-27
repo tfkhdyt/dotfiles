@@ -41,7 +41,7 @@ set -x NNN_TRASH 1
 set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
 set -x TERMINAL st
 set -x BAT_THEME "Catppuccin-mocha"
-set -x LESS "-I"
+set -x LESS "-I -R"
 
 # aliases
 
