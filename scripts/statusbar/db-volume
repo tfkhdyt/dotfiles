@@ -7,22 +7,19 @@ case $BLOCK_BUTTON in
   5) volume.sh down ;;
 esac
 
-LEVEL=$(amixer -D pulse get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1)
+# LEVEL=$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{printf "%.0f", $2*100}')
+VOL=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
+[ "$VOL" != "${VOL%\[MUTED\]}" ] && echo "[󰝟 Muted]" && exit
+VOL=$(echo "$VOL" | awk '{printf "%.0f", $2*100}')
 
-amixer -D pulse get Master | grep '%' | grep -oE '[^ ]+$' | grep off > /dev/null
-if [ $? -eq 0 ]; then
-  ICON="󰝟"
-  echo "[$ICON Muted]"
-else
-  if [ "$LEVEL" -gt 75 ]; then
-    ICON=""
-  elif [ "$LEVEL" -gt 50 ]; then
-    ICON="󰕾"
-  elif [ "$LEVEL" -gt 25 ]; then
-    ICON="󰖀"
-  elif [ "$LEVEL" -ge 0 ]; then
-    ICON="󰕿"
-  fi
-  echo "[$ICON $LEVEL%]"
+if [ "$VOL" -gt 75 ]; then
+  ICON=""
+elif [ "$VOL" -gt 50 ]; then
+  ICON="󰕾"
+elif [ "$VOL" -gt 25 ]; then
+  ICON="󰖀"
+elif [ "$VOL" -gt 0 ]; then
+  ICON="󰕿"
 fi
+echo "[$ICON $VOL%]"
 
