@@ -9,11 +9,12 @@ send_notification() {
 }
 
 MUTE=$(wpctl get-volume @DEFAULT_AUDIO_SOURCE@)
+
+toggle_mic_state
+
 if [ "$MUTE" != "${MUTE%\[MUTED\]}" ]; then
-  toggle_mic_state
   send_notification "Mic status [Active]"
 else
-  toggle_mic_state
   send_notification "Mic status [Muted]"
 fi
 
