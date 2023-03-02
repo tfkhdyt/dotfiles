@@ -10,4 +10,4 @@ pidof redshift || redshift -l -6.914744:107.609810 -t 6500:3000 &> /dev/null &
 
 pidof picom || picom -b &
 
-sleep 2 ; pidof dwmblocks || dwmblocks &> /dev/null &
+sleep 1 ; pidof dwmblocks || dwmblocks &> /dev/null &
