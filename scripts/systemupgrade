@@ -11,7 +11,7 @@ get_timestamp() {
 
 print_log() {
   TIMESTAMP=$(get_timestamp)
-  printf "$TIMESTAMP $1\n"
+  printf "$TIMESTAMP %s\n" "$1"
 }
 
 # handle_error() {
@@ -27,7 +27,7 @@ sudo timeshift --delete --snapshot "${OLDEST_BACKUP}"
 
 # system upgrade
 print_log "Updating database and upgrading system..." 
-yay 
+yay
 
 # updating pkgfile
 # print_log "Updating pkgfile..."
@@ -35,7 +35,7 @@ yay
 
 # backup packages name
 print_log "Backing up packages list..."
-yay -Qqe > $HOME/.dotfiles/pkglist.txt 
+yay -Qqe > "$HOME/.dotfiles/pkglist.txt"
 
 # clean trash
 print_log "Cleaning up trashes..."
