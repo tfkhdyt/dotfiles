@@ -20,7 +20,10 @@ return {
 					nls.builtins.formatting.rustywind.with({
 						extra_filetypes = { "svelte" },
 					}),
-					nls.builtins.formatting.prettierd.with({
+					-- nls.builtins.formatting.prettierd.with({
+					-- 	extra_filetypes = { "svelte" },
+					-- }),
+					nls.builtins.formatting.prettier.with({
 						extra_filetypes = { "svelte" },
 					}),
 
