@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-API_KEY=$(cat $HOME/.dotfiles/scripts/.yt-api-key)
+API_KEY=$(cat "$HOME/.dotfiles/scripts/.yt-api-key")
 YT_HANDLE=$(echo "$1" | grep -oP '@\K[^/]*' | sed 's/[^a-zA-Z0-9_]//g')
 
 API_OUTPUT=$(xh "https://youtube.googleapis.com/youtube/v3/search?part=id,snippet&q=${YT_HANDLE}&type=channel&key=${API_KEY}" -b)
@@ -15,12 +15,12 @@ if [ "$CHANNEL_ID" = "" ]; then
   exit 1
 fi
 
-echo "https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID} 'youtube' '$CHANNEL_NAME'" >> $HOME/.dotfiles/.config/newsboat/urls
+echo "https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID} \"youtube\" \"${CHANNEL_NAME}\"" >> "$HOME/.dotfiles/.config/newsboat/urls"
 
 # Git Commit
 PWD=$(pwd)
 
-cd $HOME/.dotfiles
+cd "$HOME/.dotfiles"
 
 git add .config/newsboat/urls
 git commit -m "feat(newsboat urls): add $CHANNEL_NAME"
