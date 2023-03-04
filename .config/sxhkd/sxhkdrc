@@ -8,10 +8,10 @@ XF86MonBrightness{Up,Down}
   /home/tfkhdyt/.dotfiles/scripts/brightness.sh {up,down}
 
 super + bracketright
-  passmenu -fn 'JetBrainsMono Nerd Font-12' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#084ab7' -sf '#cdd6f4' -i -p 'Password:'
+  passmenu -fn 'JetBrainsMono Nerd Font-12' -i -p 'Password:'
 
 super + bracketleft
-  passotpmenu -fn 'JetBrainsMono Nerd Font-12' -nb '#1e1e2e' -nf '#cdd6f4' -sb '#084ab7' -sf '#cdd6f4' -i -p 'OTP:'
+  passotpmenu -fn 'JetBrainsMono Nerd Font-12' -i -p 'OTP:'
 
 super + backslash
   /home/tfkhdyt/.dotfiles/scripts/powermenu
