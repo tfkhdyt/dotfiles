@@ -19,5 +19,5 @@ bind-key h quit
 
 auto-reload yes
 reload-threads 8
-feed-sort-order title
+feed-sort-order lastupdated
 text-width 100
