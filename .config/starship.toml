@@ -65,6 +65,9 @@ symbol = " "
 [julia]
 symbol = " "
 
+[lua]
+format = '\[[$symbol($version)]($style)\]'
+
 [memory_usage]
 format = '\[$symbol[$ram( | $swap)]($style)\]'
 symbol = " "
@@ -102,4 +105,3 @@ format = '\[[as $symbol]\]'
 
 [time]
 format = '\[[$time]($style)\]'
-
