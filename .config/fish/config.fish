@@ -40,6 +40,9 @@ set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
 set -x TERMINAL st
 set -x BAT_THEME "Catppuccin-mocha"
 set -x LESS "-I -R"
+set -x NNN_TERMINAL $TERMINAL
+set -x NNN_FIFO /tmp/nnn.fifo
+set -x NNN_PLUG "p:preview-tui"
 
 # aliases
 
