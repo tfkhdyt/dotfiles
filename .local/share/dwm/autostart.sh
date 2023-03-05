@@ -1,3 +1,5 @@
+mpv /home/tfkhdyt/audio/meow-meow-nigga.mp3 &
+
 feh --no-fehbg --bg-fill --randomize --recursive /home/tfkhdyt/Pictures/Backgrounds/Unsplash/ &
 
 pkill sxhkd; sxhkd &
