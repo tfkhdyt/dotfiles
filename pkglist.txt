@@ -17,7 +17,7 @@ arandr
 arc-gtk-theme
 aria2
 ark
-atuin-git
+atuin
 auto-cpufreq
 autoconf
 automake
@@ -33,6 +33,8 @@ binutils
 bison
 bluez
 bluez-utils
+bore
+bottles
 bottom
 brave-bin
 bridge-utils
@@ -244,8 +246,6 @@ nss-mdns
 nsxiv
 ntfs-3g
 obs-studio
-octave
-octave-communications
 openconnect
 opendoas
 openrazer-meta
@@ -262,6 +262,7 @@ packettracer
 pacman
 pacman-contrib
 papirus-icon-theme
+paru
 pass
 pass-otp
 passff-host
