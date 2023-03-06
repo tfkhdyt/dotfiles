@@ -3,7 +3,7 @@ local nls = require("null-ls")
 return {
 	{
 		"jose-elias-alvarez/null-ls.nvim",
-		event = "BufReadPre",
+		event = { "BufReadPre", "BufNewFile" },
 		dependencies = { "mason.nvim" },
 		opts = function()
 			return {
