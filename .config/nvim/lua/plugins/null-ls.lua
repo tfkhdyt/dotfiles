@@ -1,10 +1,11 @@
+local nls = require("null-ls")
+
 return {
 	{
 		"jose-elias-alvarez/null-ls.nvim",
 		event = "BufReadPre",
 		dependencies = { "mason.nvim" },
 		opts = function()
-			local nls = require("null-ls")
 			return {
 				sources = {
 					-- JS and TS
@@ -14,9 +15,9 @@ return {
 					nls.builtins.diagnostics.eslint_d.with({
 						extra_filetypes = { "svelte" },
 					}),
-					nls.builtins.formatting.eslint_d.with({
-						extra_filetypes = { "svelte" },
-					}),
+					-- nls.builtins.formatting.eslint_d.with({
+					-- 	extra_filetypes = { "svelte" },
+					-- }),
 					nls.builtins.formatting.rustywind.with({
 						extra_filetypes = { "svelte" },
 					}),
