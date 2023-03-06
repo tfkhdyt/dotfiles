@@ -102,7 +102,7 @@ if status is-interactive
   # Commands to run in interactive sessions can go here
   starship init fish | source
   zoxide init fish | source
-  atuin init fish --disable-up-arrow | source
+  # atuin init fish --disable-up-arrow | source
 
   # Fish git prompt
   set __fish_git_prompt_showdirtystate 'yes'
