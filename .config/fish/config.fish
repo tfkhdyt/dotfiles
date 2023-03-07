@@ -50,8 +50,8 @@ alias ls="exa --icons --group-directories-first"
 alias ll="exa -lbh --icons --group-directories-first"
 alias killorphans="yay -Qtdq | yay -Rns -"
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
-alias mnt-windows="sudo mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
-alias umnt-windows="sudo umount /mnt/windows"
+alias mnt-windows="doas mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
+alias umnt-windows="doas umount /mnt/windows"
 alias cal="cal --monday"
 alias make="make -j $(nproc)"
 alias procs="procs --theme dark"
@@ -84,9 +84,9 @@ abbr -a timestamp date +%Y-%m-%dT%H-%M-%S
 abbr -a pg ping -O
 abbr -a lv nvim
 
-abbr -a sc sudo systemctl
+abbr -a sc doas systemctl
 abbr -a scu systemctl --user
-abbr -a jr sudo journalctl
+abbr -a jr doas journalctl
 abbr -a jru journalctl --user
 
 abbr -a lg lazygit
