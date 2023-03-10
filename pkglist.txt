@@ -17,7 +17,7 @@ arandr
 arc-gtk-theme
 aria2
 ark
-atuin
+asciinema
 auto-cpufreq
 autoconf
 automake
@@ -42,12 +42,14 @@ brightnessctl
 btrfs-progs
 caffeine-ng
 cantarell-fonts
+cargo-tauri
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-mocha
 cava
 chaotic-keyring
 chaotic-mirrorlist
 cht.sh-git
+clipnotify
 composer
 connman
 cpupower
@@ -185,6 +187,7 @@ librewolf-bin
 libtool
 libtpms
 libva-mesa-driver
+libvips
 libvirt
 linux
 linux-firmware
@@ -192,6 +195,7 @@ linux-firmware-qlogic
 linux-headers
 linux-lts
 linux-lts-headers
+localsend-bin
 logrotate
 lsb-release
 lvm2
@@ -220,7 +224,6 @@ mongodb-bin
 mongodb-compass
 mpc
 mpd
-mpd-notification
 mpv
 mpv-mpris
 mtools
@@ -246,6 +249,7 @@ nss-mdns
 nsxiv
 ntfs-3g
 obs-studio
+obsidian
 openconnect
 opendoas
 openrazer-meta
@@ -262,6 +266,7 @@ packettracer
 pacman
 pacman-contrib
 papirus-icon-theme
+parcellite
 paru
 pass
 pass-otp
@@ -326,7 +331,6 @@ sd
 sed
 shotcut
 simplescreenrecorder
-skim
 smartmontools
 sndcpy-bin
 sof-firmware
@@ -340,7 +344,6 @@ stow
 sudo
 swtpm
 sxhkd
-syncthing
 sysfsutils
 system-config-printer
 systemd-sysvcompat
@@ -364,6 +367,7 @@ ttf-opensans
 tumbler
 typescript-language-server
 udiskie
+ueberzug
 unrar
 unzip
 upd72020x-fw
@@ -391,7 +395,6 @@ wpa_supplicant
 wrk
 xautolock
 xclip
-xdg-ninja
 xdg-user-dirs
 xdg-utils
 xdotool
@@ -415,11 +418,10 @@ yad
 yaml-language-server
 yay
 yt-dlp
+ytfzf
 zathura
 zathura-pdf-poppler
-zellij
 zip
 zoom
 zoxide
 zramd
-zsh-you-should-use
