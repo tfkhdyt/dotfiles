@@ -42,14 +42,12 @@ brightnessctl
 btrfs-progs
 caffeine-ng
 cantarell-fonts
-cargo-tauri
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-mocha
 cava
 chaotic-keyring
 chaotic-mirrorlist
 cht.sh-git
-clipnotify
 composer
 connman
 cpupower
@@ -169,6 +167,7 @@ kdeconnect
 kernel-install-mkinitcpio
 kio-fuse
 klavaro
+knot-resolver
 kvantum
 kvantum-theme-catppuccin-git
 lazygit
@@ -262,7 +261,6 @@ otf-firamono-nerd
 otf-font-awesome
 ouch
 p7zip
-packettracer
 pacman
 pacman-contrib
 papirus-icon-theme
@@ -384,6 +382,7 @@ vscode-css-languageserver
 vscode-html-languageserver
 vulkan-radeon
 w3m
+watchexec
 wd719x-firmware
 welcome
 wget
