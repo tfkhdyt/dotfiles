@@ -9,12 +9,12 @@ return {
 			return {
 				sources = {
 					-- JS and TS
-					nls.builtins.code_actions.eslint_d.with({
-						extra_filetypes = { "svelte" },
-					}),
-					nls.builtins.diagnostics.eslint_d.with({
-						extra_filetypes = { "svelte" },
-					}),
+					-- nls.builtins.code_actions.eslint.with({
+					-- 	extra_filetypes = { "svelte" },
+					-- }),
+					-- nls.builtins.diagnostics.eslint.with({
+					-- 	extra_filetypes = { "svelte" },
+					-- }),
 					-- nls.builtins.formatting.eslint_d.with({
 					-- 	extra_filetypes = { "svelte" },
 					-- }),
