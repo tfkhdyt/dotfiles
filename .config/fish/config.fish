@@ -29,7 +29,7 @@ set -x DATE (date -I)
 set -x PRETTIERD_DEFAULT_CONFIG "$HOME/.config/lvim/prettierd/.prettierrc"
 set -x CARGO_BIN "$HOME/.cargo/bin/"
 set -x GOBIN "$XDG_DATA_HOME/go/bin"
-set -x PATH $PATH $MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN "$HOME/.local/bin"
+set -x PATH $PATH $MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN "$HOME/.local/bin" "$HOME/.local/share/nvim/mason/bin" 
 set -x FZF_DEFAULT_OPTS " \
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
