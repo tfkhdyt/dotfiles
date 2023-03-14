@@ -6,12 +6,6 @@ vim.opt.breakindent = true
 vim.opt.showbreak = "  "
 vim.opt.linebreak = true
 
--- LSP
-require("lspconfig").bashls.setup({})
-require("lspconfig").rust_analyzer.setup({})
-require("lspconfig").taplo.setup({})
-require("lspconfig").yamlls.setup({})
-
 -- local capabilities = vim.lsp.protocol.make_client_capabilities()
 -- capabilities.offsetEncoding = "utf-8"
 -- require("lspconfig").clangd.setup({
