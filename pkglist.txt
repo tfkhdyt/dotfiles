@@ -25,7 +25,6 @@ b43-fwcutter
 base
 base-devel
 bash-completion
-bash-language-server
 bat
 bc
 bind
@@ -47,7 +46,6 @@ catppuccin-gtk-theme-mocha
 cava
 chaotic-keyring
 chaotic-mirrorlist
-cht.sh-git
 composer
 connman
 cpupower
@@ -127,8 +125,6 @@ global
 glow
 gnome-keyring
 go
-gofumpt
-gopls
 gparted
 gping
 grep
@@ -139,8 +135,10 @@ gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-ugly
 gutenprint
+guvcview
 gvfs
 gzip
+halp-bin
 hdparm
 heroic-games-launcher-bin
 hplip
@@ -167,10 +165,10 @@ kdeconnect
 kernel-install-mkinitcpio
 kio-fuse
 klavaro
-knot-resolver
 kvantum
 kvantum-theme-catppuccin-git
 lazygit
+lefthook
 less
 lib32-libva-mesa-driver
 lib32-mesa-vdpau
@@ -237,7 +235,6 @@ newaita-icons-git
 newsboat
 nfs-utils
 nginx
-ngrok
 nilfs-utils
 nnn-nerd
 noisetorch
@@ -297,7 +294,6 @@ postgresql-old-upgrade
 postman-bin
 ppp
 pptpclient
-prettierd
 procs
 protonup-qt
 protonvpn-cli
@@ -319,7 +315,6 @@ reiserfsprogs
 ripgrep
 rofi
 rsync
-rust-analyzer
 rustdesk-bin
 rustup
 s-nail
@@ -345,8 +340,6 @@ sxhkd
 sysfsutils
 system-config-printer
 systemd-sysvcompat
-taplo-cli
-tblock
 tealdeer
 tenacity-git
 texinfo
@@ -363,7 +356,6 @@ ttf-liberation
 ttf-ms-fonts
 ttf-opensans
 tumbler
-typescript-language-server
 udiskie
 ueberzug
 unrar
@@ -378,8 +370,6 @@ v4l2loopback-dkms
 vi
 virt-manager
 vpnc
-vscode-css-languageserver
-vscode-html-languageserver
 vulkan-radeon
 w3m
 watchexec
@@ -414,7 +404,6 @@ xsane
 xss-lock
 xterm
 yad
-yaml-language-server
 yay
 yt-dlp
 ytfzf
