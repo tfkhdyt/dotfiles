@@ -41,8 +41,8 @@ return {
 					-- Go
 					-- nls.builtins.diagnostics.golangci_lint,
 					nls.builtins.formatting.gofumpt,
-					-- nls.builtins.formatting.goimports,
-					nls.builtins.formatting.goimports_reviser,
+					nls.builtins.formatting.goimports,
+					-- nls.builtins.formatting.goimports_reviser,
 					nls.builtins.formatting.golines,
 				},
 			}
