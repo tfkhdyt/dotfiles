@@ -20,11 +20,11 @@ else
   fi
 
   if [ ${#ARTIST} -gt 15 ]; then
-    ARTIST="${ARTIST:0:15}..."
+    ARTIST="${ARTIST:0:15}…"
   fi 
 
   if [ ${#TITLE} -gt 15 ]; then
-    TITLE="${TITLE:0:15}..."
+    TITLE="${TITLE:0:15}…"
   fi 
 
   echo "[$ICON $ARTIST - $TITLE]"
