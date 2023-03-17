@@ -100,7 +100,6 @@ findutils
 firewalld
 fish
 fisher
-flatpak
 flex
 focalboard-bin
 foomatic-db
@@ -343,7 +342,6 @@ systemd-sysvcompat
 tealdeer
 tenacity-git
 texinfo
-thefuck
 timeshift-bin
 tokei
 trash-cli
