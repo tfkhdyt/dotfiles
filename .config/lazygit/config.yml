@@ -22,6 +22,7 @@ git:
   overrideGpg: true
 customCommands:
   - key: 'c'
+    description: 'create new commit using cocogitto'
     prompts:
       - type: 'menu'
         title: 'What kind of commit is it?'
