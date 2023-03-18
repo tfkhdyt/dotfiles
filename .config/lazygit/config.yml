@@ -26,41 +26,41 @@ customCommands:
       - type: 'menu'
         title: 'What kind of commit is it?'
         options:
-          - name: 'feature'
-            description: 'A new feature'
+          - name: 'feat'
+            description: 'a new feature'
             value: 'feat'
           - name: 'fix'
-            description: 'A bug fix'
+            description: 'a bug fix'
             value: 'fix'
           - name: 'refactor'
-            description: 'A code change that neither fixes a bug nor adds a feature'
+            description: 'a code change that neither fixes a bug nor adds a feature'
             value: 'refactor'
           - name: 'build'
             description:
-              'Changes that affect the build system or external dependencies
+              'changes that affect the build system or external dependencies
               (example scopes: gulp, broccoli, npm)'
             value: 'build'
-          - name: 'continuous integration'
+          - name: 'ci'
             description:
-              'Changes to our CI configuration files and scripts (example
+              'changes to our CI configuration files and scripts (example
               scopes: Travis, Circle, BrowserStack, SauceLabs)'
             value: 'ci'
-          - name: 'documentation'
-            description: 'Documentation only changes'
+          - name: 'docs'
+            description: 'documentation only changes'
             value: 'docs'
-          - name: 'performance'
-            description: 'A code change that improves performance'
+          - name: 'perf'
+            description: 'a code change that improves performance'
             value: 'perf'
           - name: 'style'
             description:
-              'Changes that do not affect the meaning of the code (white-space,
+              'changes that do not affect the meaning of the code (white-space,
               formatting, missing semi-colons, etc)'
             value: 'style'
           - name: 'test'
-            description: 'Adding missing tests or correcting existing tests'
+            description: 'adding missing tests or correcting existing tests'
             value: 'test'
           - name: 'chore'
-            description: "Other changes that don't modify src or test files"
+            description: "other changes that don't modify src or test files"
             value: 'chore'
       - type: 'input'
         title: 'What is the scope?'
@@ -70,7 +70,7 @@ customCommands:
         initialValue: ''
     command:
       cog commit {{index .PromptResponses 0}} {{index .PromptResponses 2 |
-      quote}} {{index .PromptResponses 1}}
+      quote}} {{index .PromptResponses 1 | quote}}
     # cog commit {{index .PromptResponses 0}} "{{index .PromptResponses 2 |
     # quote}}" {{index .PromptResponses 1}}
     context: 'files'
