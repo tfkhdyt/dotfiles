@@ -74,3 +74,11 @@ customCommands:
       quote}} {{index .PromptResponses 1 | quote}}
     context: 'files'
     loadingText: 'creating commit...'
+  - key: 'b'
+    description: 'automatically bump version and generate changelog'
+    command: 'cog bump --auto'
+    context: 'tags'
+    prompts:
+      - type: 'confirm'
+        title: 'Confirm:'
+        body: 'Are you sure you want to automatically bump version and generate changelog?'
