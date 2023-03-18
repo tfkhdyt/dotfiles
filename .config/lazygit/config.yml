@@ -71,8 +71,5 @@ customCommands:
     command:
       cog commit {{index .PromptResponses 0}} {{index .PromptResponses 2 |
       quote}} {{index .PromptResponses 1 | quote}}
-    # cog commit {{index .PromptResponses 0}} "{{index .PromptResponses 2 |
-    # quote}}" {{index .PromptResponses 1}}
     context: 'files'
     loadingText: 'creating commit...'
-    showOutput: true
