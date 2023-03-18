@@ -1,0 +1,678 @@
+# Changelog
+All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
+
+- - -
+## 0.1.0 - 2023-03-18
+#### Bug Fixes
+- **(0.8)** :bug: update session data dir in neovim nightly - (817aeea) - tomasky
+- **(CI)** CI bug fixed | docs: Added charity contribution link (#532) (#533) - (4a349a3) - vladislav doster
+- **(CI)** CI bug fixed | docs: Added charity contribution link (#532) - (7d5a15f) - Ashin Antony
+- **(alacritty)** set x padding to 0 - (1f74c83) - tfkhdyt
+- **(alacritty)** reduce font size to 7 - (31d8e68) - tfkhdyt
+- **(alacritty)** reduce opacity to 0.9 - (4f23e22) - tfkhdyt
+- **(alacritty)** increase opacity to 0.95 - (ebc4726) - tfkhdyt
+- **(alacritty)** fix weird bottom gap - (fdcc7b5) - tfkhdyt
+- **(alacritty)** disable blinking cursor - (794b1a3) - tfkhdyt
+- **(alacritty)** set opacity to 0.95 - (9482bbd) - tfkhdyt
+- **(alacritty)** change theme to mocha - (39131f8) - tfkhdyt
+- **(alacritty)** set opacity to 0.9 - (13d1b63) - tfkhdyt
+- **(alacritty)** set opacity: 0.95 - (fd5bd71) - tfkhdyt
+- **(alacritty)** change font and color scheme - (4cd63b1) - tfkhdyt
+- **(aliases)** comment out neovide alias - (8504418) - tfkhdyt
+- **(aliases)** change time delimiter to dash (-) in timestamp alias - (05e9625) - tfkhdyt
+- **(aliases)** show icons on ll, and set dart run alias - (f913f04) - tfkhdyt
+- **(aliases)** comment out checkupdates - (29a973f) - tfkhdyt
+- **(aliases)** fix numberofupdates alias - (04048fa) - tfkhdyt
+- **(aliases)** change systemupgrade alias and add kdeconnect-cli - (26ecfb5) - tfkhdyt
+- **(autostart)** add output redirect to redshift and dwmblocks - (371736d) - tfkhdyt
+- **(cmp)** change the confirmation behaviour to `Insert` - (a8fd371) - Arman.H
+- **(cog-commit)** remove "showOutput" property from cog commit custom command - (e48ebec) - tfkhdyt
+- **(commitizen)** change adapter - (52629c8) - tfkhdyt
+- **(dunst)** change vertical alignment to top - (2f846ff) - tfkhdyt
+- **(dunst)** reduce max icon size to 64 - (1f4808f) - tfkhdyt
+- **(dunst)** change accent color to red - (9f9ccef) - tfkhdyt
+- **(dunst)** adjust offset - (9f95b3e) - tfkhdyt
+- **(dunst)** adjust offset - (3c3bf65) - tfkhdyt
+- **(dunst)** adjust offset - (879dfbb) - tfkhdyt
+- **(dunst)** adjust offset - (537d721) - tfkhdyt
+- **(dunst)** adjust offset - (12ea271) - tfkhdyt
+- **(dunst)** set offset to 34x63, and change frame color and highlight color - (da1b319) - tfkhdyt
+- **(dunst)** adjust offset - (c2acff8) - tfkhdyt
+- **(dunst)** adjust offset - (34c1b5d) - tfkhdyt
+- **(dunst)** set progress bar max width to 400, horizontal and text icon padding to 15 - (0a57bb9) - tfkhdyt
+- **(dunst)** reduce offset - (0de7586) - tfkhdyt
+- **(dunst)** fix icon path - (2042248) - tfkhdyt
+- **(dunst)** change icon theme to papirus dark and adwaita - (d2c903e) - tfkhdyt
+- **(dunst)** set frame width to 2 - (d0016ef) - tfkhdyt
+- **(dunst)** set frame width to 3 - (2157c8e) - tfkhdyt
+- **(dunst)** set offset to 31x65 - (4e0a340) - tfkhdyt
+- **(dunst)** set offset to 21x55 - (3a124c7) - tfkhdyt
+- **(dunst)** set offset to 16x50 - (428c55f) - tfkhdyt
+- **(dunst)** set offset to 14x48 - (de08d84) - tfkhdyt
+- **(dunst)** set offset to 16x50 - (7aadc76) - tfkhdyt
+- **(dunst)** set offset, notif limit, and transparency - (a1e45f5) - tfkhdyt
+- **(dunst)** set y offset to 54 - (65f1b14) - tfkhdyt
+- **(dunst)** set notification limit to 5 - (5a153d4) - tfkhdyt
+- **(dunst)** set max width to 350 and transparency to 10 - (b69ec51) - tfkhdyt
+- **(dunst)** set max width to 300 - (3176663) - tfkhdyt
+- **(dunst)** several adjustment - (3b5b7b3) - tfkhdyt
+- **(feh)** add --no-fehbg flag - (6ad601b) - tfkhdyt
+- **(fish)** change some sudo command to doas - (5ba0f8f) - tfkhdyt
+- **(fish)** disable atuin - (853facc) - tfkhdyt
+- **(fish)** disable up arrow for atuin - (e1bd78e) - tfkhdyt
+- **(fish)** add -R flag to LESS env variable - (1f43aef) - tfkhdyt
+- **(fish)** re-enable starship - (ac2cd6f) - tfkhdyt
+- **(fish)** disable starship - (e4dd889) - tfkhdyt
+- **(fish)** remove procs alias - (7718fad) - tfkhdyt
+- **(fish)** change git status char - (27b8011) - tfkhdyt
+- **(fish)** set default editor to nvim - (5d82192) - tfkhdyt
+- **(fish)** add sudo to sc and jr abbr - (4b47347) - tfkhdyt
+- **(fish)** unset BROWSER environment variable - (93eaaae) - tfkhdyt
+- **(fish)** change several alias into abbr - (6baeba6) - tfkhdyt
+- **(git)** set default branch to master - (a212053) - tfkhdyt
+- **(git)** change user.email to @proton.me - (69d4205) - tfkhdyt
+- **(i3)** remove bindsym for xplr - (4aff328) - tfkhdyt
+- **(i3)** change alacritty binding to st - (2161f30) - tfkhdyt
+- **(i3)** disable nm-applet - (ec35554) - tfkhdyt
+- **(i3)** set gaps outer to 0 - (82a34b0) - tfkhdyt
+- **(i3)** fix wrong term flag position - (2c05253) - tfkhdyt
+- **(i3)** set dmenu position to bottom - (6d341ab) - tfkhdyt
+- **(i3)** switch to j4-dmenu-desktop - (accc3d1) - tfkhdyt
+- **(i3)** move dmenu to top - (0643412) - tfkhdyt
+- **(i3)** switch to dmenu_run - (decbe8b) - tfkhdyt
+- **(i3)** change indicator color to peach - (c68341b) - tfkhdyt
+- **(i3)** comment autotiling-rs out - (745f72e) - tfkhdyt
+- **(i3)** disable caffeine - (93f0d5d) - tfkhdyt
+- **(i3)** reduce gaps inner to 8 and outer to 0 - (166d754) - tfkhdyt
+- **(i3)** change some exec_always to exec, fix autotiling autostart, and change border color - (de59d28) - tfkhdyt
+- **(i3)** change border to 2px - (cad5da6) - tfkhdyt
+- **(i3)** set locker to xidlehook, again - (7eeb41e) - tfkhdyt
+- **(i3)** change border color - (9bb4519) - tfkhdyt
+- **(i3)** remove startup sound - (3ecfaaf) - tfkhdyt
+- **(i3)** fix xidlehook script not running - (fa1af4b) - tfkhdyt
+- **(i3)** change feh to exec_always - (fac6005) - tfkhdyt
+- **(i3)** set volume button step to 5 - (bbcac40) - tfkhdyt
+- **(i3)** font, gaps, and border adjustment - (32a3790) - tfkhdyt
+- **(imwheel)** change selector to brave browser - (56c9c3b) - tfkhdyt
+- **(imwheelrc)** change config to only work for Chromium and VSCodium - (bde9f66) - tfkhdyt
+- **(imwheelrc)** setup imwheel for chromium only - (eebb155) - tfkhdyt
+- **(install)** add css and html to default_lsp_langs - (3abb3ed) - jack
+- **(lsp)** lsp on_attach was not called at normal mode - (f51e91a) - tomasky
+- **(luasnip)** switch to using global variables - (ce2a5d8) - Manas Mengle
+- **(luasnip)** make sure friendly-snippets are loaded too - (34628a1) - Manas Mengle
+- **(lvim)** remove markdown preview plugin - (2bd4690) - tfkhdyt
+- **(lvim)** disable C-d and C-u custom keybind - (da977c9) - tfkhdyt
+- **(lvim)** disable tailwind css lsp - (270e26d) - tfkhdyt
+- **(lvim)** disable eslint lsp - (6cc0003) - tfkhdyt
+- **(lvim)** switch back to float terminal - (02bbf9e) - tfkhdyt
+- **(lvim)** disable prettier - (ae86868) - tfkhdyt
+- **(lvim)** comment out neovide settings - (fbedc76) - tfkhdyt
+- **(lvim)** move nvimtree to the right - (9d65bbc) - tfkhdyt
+- **(lvim)** add more langs support for eslint_d - (3098341) - tfkhdyt
+- **(lvim)** setup prettierd default config - (1a2a768) - tfkhdyt
+- **(lvim)** switch to prettierd and eslint_d - (8057dbb) - tfkhdyt
+- **(lvim)** disable all linters - (44aae42) - tfkhdyt
+- **(lvim)** re-enable extra-args for prettier - (96fc069) - tfkhdyt
+- **(mic.sh)** move toggle_mic_state out of control flow - (bc86c5c) - tfkhdyt
+- **(mpd)** change -ge to -gt - (e898430) - tfkhdyt
+- **(mpd)** disable pid file - (24b20e0) - tfkhdyt
+- **(mpd)** only put mpd.conf to dotfiles - (18be7f0) - tfkhdyt
+- **(mpv)** set screenshot directory back to /home/tfkhdyt - (b9995ef) - tfkhdyt
+- **(mpv)** use $HOME for screenshot directory - (c079e73) - tfkhdyt
+- **(mpv)** set font to "Liberation Sans" and sub border size to 2 - (0647996) - tfkhdyt
+- **(mpv)** remove ytdl-raw-options - (dead1ac) - tfkhdyt
+- **(mpv)** add ytdl raw option - (d4b54e7) - tfkhdyt
+- **(mpv)** remove ext option in ytdl-format - (c09bb76) - tfkhdyt
+- **(neofetch)** adjust entries - (b3f6e84) - tfkhdyt
+- **(newsboat)** comment out youtube urls - (a891b48) - tfkhdyt
+- **(newsboat)** change feed sort order to lastupdated - (79b58af) - tfkhdyt
+- **(newsboat)** change single quote to double quote - (e418a77) - tfkhdyt
+- **(newsboat)** remove devour on mpv macro - (7bd0bb5) - tfkhdyt
+- **(newsboat)** fix wrong include path of theme - (d1e59d3) - tfkhdyt
+- **(newsboat)** remove cnn - (5d8e5df) - tfkhdyt
+- **(newsboat)** remove i3wm rss - (a19cf78) - tfkhdyt
+- **(nnn)** remove -c flag from alias and function - (9b355ea) - tfkhdyt
+- **(null-ls)** comment out eslint - (f32c15d) - tfkhdyt
+- **(null-ls)** re-enable eslint formatting - (4462fc9) - tfkhdyt
+- **(null-ls)** switch back to prettierd - (642db41) - tfkhdyt
+- **(null-ls)** replace prettierd with prettier - (ea6c9f2) - tfkhdyt
+- **(null-ls)** add svelte as extra_filetypes for eslint_d, rustywind, and prettierd - (6f55126) - tfkhdyt
+- **(null-ls)** stop null-ls prompt for multiple formaters - (ef6ecab) - Daniel Boll
+- **(nvim)** remove lsp setup - (7d68f10) - tfkhdyt
+- **(nvim)** remove gopls, tsserver, cssls, and html lsp setup - (5ef5cb6) - tfkhdyt
+- **(nvim)** add "BufNewFile" event to null ls override - (b8e67f8) - tfkhdyt
+- **(nvim)** disable clangd - (c851f05) - tfkhdyt
+- **(nvim)** add break indent - (21f3626) - tfkhdyt
+- **(nvim)** fix nvim config - (97adb94) - tfkhdyt
+- **(nvim)** change theme to catpuccin - (74f49bd) - tfkhdyt
+- **(nvim)** change theme to gruvbox - (3e05ada) - tfkhdyt
+- **(openrazer)** set poll rate to 1000 - (98c9bc0) - tfkhdyt
+- **(openrazer)** reduce poll rate to 500 - (7fbbad8) - tfkhdyt
+- **(openrazer)** set poll rate - (edc7152) - tfkhdyt
+- **(options)** don't set `did_load_filetypes` in neovim nightly - (a522ceb) - ahhshm
+- **(paru)** disable CombineUpgrade - (e22f7c2) - tfkhdyt
+- **(picom)** disable blur - (5e21781) - tfkhdyt
+- **(picom)** add activate-linux to rounded corners and blur exclude - (7b3827b) - tfkhdyt
+- **(picom)** add screenkey to rounded corner and blur exclude - (f3b82ce) - tfkhdyt
+- **(picom)** disable dwm on rounded exclude - (687baa9) - tfkhdyt
+- **(picom)** reduce shadow radius to 6 - (9914792) - tfkhdyt
+- **(picom)** use override_redirect on rounded corner - (a2e242e) - tfkhdyt
+- **(picom)** prevent systray from becoming rounded - (5f0d0bc) - tfkhdyt
+- **(picom)** disable blur effect - (59817fa) - tfkhdyt
+- **(picom)** disable blur background on dnd wintypes - (b595f39) - tfkhdyt
+- **(picom)** disable blur for some wintypes - (b31899e) - tfkhdyt
+- **(picom)** add slop to blur-background-exclude - (10e8446) - tfkhdyt
+- **(picom)** use default blur strength value - (fab8298) - tfkhdyt
+- **(picom)** disable blur background on splash - (c2c0743) - tfkhdyt
+- **(picom)** set fade in and out step to 0.05 each - (946e43b) - tfkhdyt
+- **(picom)** revert fade in and out step to default - (5aade40) - tfkhdyt
+- **(picom)** reduce blur strength to 1 - (7233ba4) - tfkhdyt
+- **(picom)** set frame opacity to default - (ac77560) - tfkhdyt
+- **(plugin)** indentline using config instead of setup - (ec7b15f) - Marwan Mustafa
+- **(polybar)** set battery module label-full to percentage - (34322b2) - tfkhdyt
+- **(polybar)** move mpd module to center - (d2a8c08) - tfkhdyt
+- **(polybar)** set bar to the top again - (9ca6281) - tfkhdyt
+- **(polybar)** remove cpu and memory modules - (fa719ef) - tfkhdyt
+- **(polybar)** disable update package counter module - (4033cd1) - tfkhdyt
+- **(polybar)** reduce label-maxlen to 30 - (b6685c3) - tfkhdyt
+- **(polybar)** remove brain emoji on label warn - (7558783) - tfkhdyt
+- **(polybar)** adjust length of title and mpd module - (892c433) - tfkhdyt
+- **(polybar)** reduce height to 23pt - (c3451ca) - tfkhdyt
+- **(polybar)** change font order and icon play - (d959b53) - tfkhdyt
+- **(polybar)** change network module emoji to nerd icon - (11b639d) - tfkhdyt
+- **(polybar)** change mpd icon to nerd font icon - (e60bad7) - tfkhdyt
+- **(polybar)** set base transparency to dd - (982eb9b) - tfkhdyt
+- **(polybar)** add more transparency to base color - (cb67693) - tfkhdyt
+- **(polybar)** fix memory format and bar color - (300ba3d) - tfkhdyt
+- **(polybar)** change memory and cpu icon - (f658239) - tfkhdyt
+- **(polybar)** change base color, line size, font size, and xworkspaces label active underline - (a19a8c1) - tfkhdyt
+- **(polybar)** change modules color - (da31f1e) - tfkhdyt
+- **(polybar)** add ellipsis limit to 50 - (0a3e5b9) - tfkhdyt
+- **(polybar)** remove player-mpris module - (40a22db) - tfkhdyt
+- **(polybar)** recustomize - (cb1a04f) - tfkhdyt
+- **(polybar)** separate up and downspeed on network module - (d14e3f8) - tfkhdyt
+- **(polybar)** adjust font size, bar height, etc - (079c5d3) - tfkhdyt
+- **(polybar)** fix player-mpris-simple empty artist - (b15de4c) - tfkhdyt
+- **(polybar)** fix mpv bug - (5d74659) - tfkhdyt
+- **(polybar)** change font type and bar height - (2b25d6c) - tfkhdyt
+- **(polybar)** fix update counter module - (6ae2d29) - tfkhdyt
+- **(polybar)** many changes - (bb7454e) - tfkhdyt
+- **(polybar)** change underline color - (04dbd12) - tfkhdyt
+- **(polybar)** fix discharging label not showed - (7597d84) - tfkhdyt
+- **(polybar/launch.sh)** change redirecting method - (03db146) - tfkhdyt
+- **(readme)** change preview image - (209172d) - tfkhdyt
+- **(rustyvibes)** reduce volume to 50 - (8a9f7eb) - tfkhdyt
+- **(rustyvibes)** reduce volume to 75 - (623b21d) - tfkhdyt
+- **(scripts)** change font size and color - (b8cdf50) - tfkhdyt
+- **(starship)** change C symbol to bracketed - (9550c88) - tfkhdyt
+- **(starship)** change character - (9c2ad4c) - tfkhdyt
+- **(starship)** change prompt char - (dd09e9a) - tfkhdyt
+- **(starship)** fix dart format - (0bd95c9) - tfkhdyt
+- **(sxhkd)** remove clipmenu - (0da8dfd) - tfkhdyt
+- **(sxhkd)** change dmenu-based script color - (7663c11) - tfkhdyt
+- **(sxhkd)** change passmenu color - (34bd317) - tfkhdyt
+- **(systemd)** remove xinputwatcher and appimagelauncher - (0a5cf41) - tfkhdyt
+- **(systemupgrade)** change yay to paru - (cab50f3) - tfkhdyt
+- **(systemupgrade)** comment out pkgfile update and remove tblock update - (4e07831) - tfkhdyt
+- **(systemupgrade)** always confirm trash-empty - (2ce8e2a) - tfkhdyt
+- **(systemupgrade)** add error handling - (7dd3d39) - tfkhdyt
+- **(volume.sh)** move dwmblocks signaling and send_notification out of control flow - (6e4b9cb) - tfkhdyt
+- **(watch-yt)** remove avc1 codec - (98e090b) - tfkhdyt
+- **(watch-yt)** format output with column - (7679193) - tfkhdyt
+- **(xidlehook)** add --detect-sleep flag - (56c1a01) - tfkhdyt
+- **(xplr)** disable full screen help - (ab8a0f9) - tfkhdyt
+- **(xplr)** comment out zsh setting - (8c7670a) - tfkhdyt
+- **(xplr)** change file and directory icon when in rename mode - (8814353) - tfkhdyt
+- **(xplr)** change icon and fix open in gui bug - (49d4730) - tfkhdyt
+- **(yay)** set sudobin to doas - (e417d82) - tfkhdyt
+- **(yt-dlp)** increase title limit to 60 chars - (8edba39) - tfkhdyt
+- **(yt-dlp)** comment out sponsorblock and set custom file name - (0da9f32) - tfkhdyt
+- **(yt-dlp)** disable embed thumbnail - (35097d5) - tfkhdyt
+- **(zsh)** set HISTSIZE and SAVEHIST to 10k - (622a756) - tfkhdyt
+- **(zsh)** change alias and default editor from nvim to lvim - (496de4a) - tfkhdyt
+- **(zshenv)** set BROWSER to empty - (f1ade32) - tfkhdyt
+- **(zshenv)** set BROWSER to brave - (f5f898a) - tfkhdyt
+- **(zshenv)** switch default browser to librewolf - (a0ba7ea) - tfkhdyt
+- **(zshenv)** switch default browser to firefox - (5fe072d) - tfkhdyt
+- **(zshenv)** add PNPM_HOME to PATH - (b12ee29) - tfkhdyt
+- **(zshenv)** remove "some" duplicate PATH - (08bb2f0) - tfkhdyt
+- **(zshenv)** remove comment on DATE var - (14f3070) - tfkhdyt
+- **(zshenv)** comment out DATE and TIMESTAMP - (7d6df0c) - tfkhdyt
+- **(zshrc)** change ZSH_HIGHLIGHT_STYLES[single-hyphen-option] color - (bfeb0d5) - tfkhdyt
+- rename xresources to .Xresources - (0237fd7) - tfkhdyt
+- migrate from doas to sudo - (6adfcff) - tfkhdyt
+- impatient loading order - (6cf0cf6) - nullchilly
+- impatient loading order - (aee1c8b) - nullchilly
+- meson.nvim override typo - (be5fe4e) - Ryan Caezar Itang
+- only access mapping_info.opts field if possible - (7b683ea) - Leon Heidelbach
+- let override function works,fix #1287 #1278 - (6ff356a) - tomasky
+- providers are not disabled - (aef0a98) - McAuley Penney
+- typo on readme [asethetic] -> [aesthetic] - (8b0a281) - Dikson Santos
+- always  display `LSP ~` - (c0d75ed) - tomaswyz
+- show all lsp of mulit-lsps workspace - (d66c000) - DragonBillow
+- fixed lspconfig issues and cleaned up - (f8b5571) - Leon Heidelbach
+- moved lsp mappings to lspconfig to only be set on lsp attach - (5ba309a) - Leon Heidelbach
+- override options before register keys - (0b0d6b6) - Mactavish
+- update hide scrollbar logic to work with cmp - (d09abcf) - Freddie Haddad
+- which-key group names can now be properly set with M.groups & refactoring - (5716bbc) - Leon Heidelbach
+- handle bug when which-key is not installed - (ec62a5c) - Leon Heidelbach
+- remove disabled maps from which-key again - (3fc888c) - Leon Heidelbach
+- handled bug when no mappings table was set in chadrc - (0e8c735) - Leon Heidelbach
+- disabled key maps are now completely removed from which-key - (1bc1d9c) - Leon Heidelbach
+- default mappings can now be properly disabled, independent of load order - (96cd08e) - Leon Heidelbach
+- replace vertsplit highlights wtih winseparator (#969) - (3c282a5) - siduck
+- set LSP mappings only for buffers that have a configured language server - (a8466cc) - Arman.H
+- update neovim version badge - (1f3a478) - ahhshm
+- move option "nvim_tree_indent_markers" to setup - (bc05e4b) - c-my
+- insert mode nav shortcut - (3d78ef3) - guoliang
+- let `hl_override` be compatible with custom themes - (47e4f03) - tuberry
+- use better name for mapping - (16a0c97) - max397574
+- Disabling shortline from chadrc - (9a45bb3) - Akianonymus
+- use of left/right arrow keys in insert mode - (cb977a5) - Ay355
+- new function to check for cmp completitions - (40554c8) - max397574
+- fix issue #455. - (b2cd5e3) - Ashin Antony
+- #501 | delay when use d in visual mode - (2356ba0) - Akianonymus
+- Packer blank window on PackerSync - (585266d) - Akianonymus
+- Fixes telescope issue where requiring telescope module - (3d7f015) - Ashin Antony
+- `default_config` var `plugin` -> `plugins` instead - (94b01be) - Galen Rowell
+- ignore unwanted files custom dir - (98ec153) - Sravanth
+- Replace Website Link in README.md - (d6e08ba) - marvelman3284
+- merge_tables bug caught - (a5ae889) - Galen Rowell
+- chadrc - (b515097) - Kyle
+- Fixing the luasnip error while tabbing - (b63e150) - ashincoder
+- don't hide dot files by default - (09f6c4c) - Kévin Dunglas
+- fixed error of statusline. - (b57cb6c) - ashincoder
+- formatted code with luafmt - (5531edf) - Pocco81
+#### Documentation
+- **(features)** add ncmpcpp, dunst, picom, mpd, bottom, mangohud - (62cc66a) - tfkhdyt
+- **(readme)** change preview image - (9fe3eb8) - tfkhdyt
+- **(watch-yt)** add example usage and license - (849b58f) - tfkhdyt
+- **(zathura)** add "Sandbox: none" - (df80de9) - tfkhdyt
+- rework readme (WIP) - (2c88116) - tfkhdyt
+- fix broken links in README.md - (5b24c94) - Kévin Dunglas
+- fix some old links - (edcf93e) - Jorde Vorstenbosch
+- move the README & CONTRIBUTING to the '.github.' folder, - (54d5c13) - Galen Rowell
+- fix grammer in README - (31d6056) - Ay355
+#### Features
+- **(PATH)** add mason bin - (74bd218) - tfkhdyt
+- **(abbr)** add nts - (a313883) - tfkhdyt
+- **(alacritty)** reduce opacity to 0.85 - (c65e918) - tfkhdyt
+- **(alacritty)** reduce opacity to 0.8 - (3a3f5b7) - tfkhdyt
+- **(alacritty)** reduce opacity to .9 - (0b45276) - tfkhdyt
+- **(alacritty)** set TERM env to "xterm-256color" - (30d90b2) - tfkhdyt
+- **(alacritty)** set cursor to blinking - (68bdfb0) - tfkhdyt
+- **(alias)** add alias for "make" - (16fa582) - tfkhdyt
+- **(alias)** add nnn alias for nnn -c - (587dbea) - tfkhdyt
+- **(alias)** add alias for procs - (fd28f2a) - tfkhdyt
+- **(aliases)** add yql alias - (ebdf5a3) - tfkhdyt
+- **(aliases)** add open function - (79d98bf) - tfkhdyt
+- **(aliases)** add alias for pg (ping -O) - (404000b) - tfkhdyt
+- **(aliases)** add cal alias to "cal --monday" - (9972eff) - tfkhdyt
+- **(aliases)** add http alias - (413606a) - tfkhdyt
+- **(aliases)** add neovide alias - (1f8300b) - tfkhdyt
+- **(aliases)** add timestamp alias - (f6442f7) - tfkhdyt
+- **(aliases)** add -o to pactree aliases - (5eb5fc2) - tfkhdyt
+- **(aliases)** add windows mount - (b4bad33) - tfkhdyt
+- **(aliases)** set lazygit - (e45883f) - tfkhdyt
+- **(aliases)** add pactree aliases - (52e046f) - tfkhdyt
+- **(aliases)** add nv as alias to nvim - (0ad6f63) - tfkhdyt
+- **(aliases)** add yt2mp3 - (aa1ecee) - tfkhdyt
+- **(aria2)** add more config for more optimal download speed - (ea0ca59) - tfkhdyt
+- **(bat)** apply catppuccin mocha theme - (c9751da) - tfkhdyt
+- **(bottom)** add catppuccin color scheme and adjust some options - (5d56f15) - tfkhdyt
+- **(config)** add cava - (bdb0272) - tfkhdyt
+- **(config)** add sxhkd - (e8a6536) - tfkhdyt
+- **(config)** add nvim config - (2fa1f6e) - tfkhdyt
+- **(config)** add fish - (5a797cb) - tfkhdyt
+- **(config)** add lazygit - (7263eda) - tfkhdyt
+- **(config)** add newsboat - (39c3b48) - tfkhdyt
+- **(config)** add zathura config - (91698d4) - tfkhdyt
+- **(config)** add zellij config - (469ea07) - tfkhdyt
+- **(config)** add mpd and ncmpcpp - (55280d0) - tfkhdyt
+- **(config)** add tmux - (3ed29d1) - tfkhdyt
+- **(config)** add yay - (c574a98) - tfkhdyt
+- **(config)** add lvim - (195a74f) - tfkhdyt
+- **(config)** add xplr - (bf7eb2a) - tfkhdyt
+- **(config)** add neofetch - (6a30ccc) - tfkhdyt
+- **(config)** add rofi - (5706dd8) - tfkhdyt
+- **(config)** add polybar - (02121e3) - tfkhdyt
+- **(config)** add picom - (33065b1) - tfkhdyt
+- **(config)** add i3 - (979d229) - tfkhdyt
+- **(config)** add dunst - (f3db808) - tfkhdyt
+- **(config)** configs for telescope extensions - (4fa0b4a) - vlaw
+- **(db-mpd)** increase string limit to 25 - (19f9be9) - tfkhdyt
+- **(db-mpd)** add ellipsis for string length that more than 15 - (ed3e57a) - tfkhdyt
+- **(db-volume)** add mute event - (f2fab82) - tfkhdyt
+- **(dunst)** set progress_bar_corner_radius to 4 - (d3fe88d) - tfkhdyt
+- **(dunst)** move origin to top-center - (44f9711) - tfkhdyt
+- **(dunst)** set frame width to 3 and corner radius to 14 - (d17bb89) - tfkhdyt
+- **(dunst)** change highlight color - (42d699b) - tfkhdyt
+- **(env)** set librewolf as default browser - (061852e) - tfkhdyt
+- **(env)** add LESS="-I" - (9c50abc) - tfkhdyt
+- **(env)** add DATE - (d6382ac) - tfkhdyt
+- **(firedragon)** migrate to firefox - (e20e6a2) - tfkhdyt
+- **(fish)** add lefthook completions - (40d5003) - tfkhdyt
+- **(fish)** add paru aliases - (d6a370a) - tfkhdyt
+- **(fish)** add atuin - (5054527) - tfkhdyt
+- **(fish)** add procs alias - (2d6a6cd) - tfkhdyt
+- **(fish)** reenable starship and move zoxide init to top of the config - (729e367) - tfkhdyt
+- **(fish)** add git abbr - (f0643a6) - tfkhdyt
+- **(fish)** remove hydro, switch to native prompt and set git prompt and status - (515d937) - tfkhdyt
+- **(fish)** add abbr for sudo - (0aee5e5) - tfkhdyt
+- **(fish)** add kdeconnect abbr - (0a787ad) - tfkhdyt
+- **(fish)** set st as default terminal - (2e7ac48) - tfkhdyt
+- **(fish)** add abbr for aria2c - (f7e5b55) - tfkhdyt
+- **(fish)** change prompt to hydro - (fff7e02) - tfkhdyt
+- **(fish)** add abbr for systemd - (11b9ec7) - tfkhdyt
+- **(fontconfig)** append Noto Color Emoji to JetBrainsMono Nerd Font - (fa686f0) - tfkhdyt
+- **(gesture)** add libinput gestures - (cd50b00) - tfkhdyt
+- **(git)** add user.signingkey and commit.gpgsign - (1447b17) - tfkhdyt
+- **(gnupg)** set max cache ttl to 30 days - (6ac5c7b) - tfkhdyt
+- **(i3)** add passotpmenu config - (c3789db) - tfkhdyt
+- **(i3)** add passmenu keybind - (d5a07aa) - tfkhdyt
+- **(i3)** switch to i3-dmenu-desktop - (cd50dc0) - tfkhdyt
+- **(i3)** increase border to 3 - (007d488) - tfkhdyt
+- **(i3)** increase gaps outer to 8 - (bcb4ea3) - tfkhdyt
+- **(i3)** move container and switch workspace at the same time - (45a43d9) - tfkhdyt
+- **(i3)** switch to autotiling-rs - (23ca458) - tfkhdyt
+- **(i3)** switch to autotiling rust - (bb3eafc) - tfkhdyt
+- **(i3)** add udiskie autostart - (e6e6d6a) - tfkhdyt
+- **(i3)** switch to xautolock - (096ca23) - tfkhdyt
+- **(i3)** enable autotiling script - (4b05a48) - tfkhdyt
+- **(i3)** add libinput-gesture, adjust border size, disable smart gaps - (760e5ac) - tfkhdyt
+- **(i3)** setup redshift and change gaps size - (0aede9c) - tfkhdyt
+- **(i3)** add startup sound, auth agent, set border to 2px, change border color, set floating window - (9818f44) - tfkhdyt
+- **(i3)** many changes - (ccd5936) - tfkhdyt
+- **(lazygit)** add cog bump custom command - (7a3889a) - tfkhdyt
+- **(lazygit)** add custom command description - (4ac1429) - tfkhdyt
+- **(lazygit)** add "cog commit" custom command - (71d725e) - tfkhdyt
+- **(libinput-gestures)** add swipe down to back and forth gesture - (77ca494) - tfkhdyt
+- **(librewolf)** add userChrome - (b680146) - tfkhdyt
+- **(local)** add dwm autostart - (bea5fa7) - tfkhdyt
+- **(luasnip)** added snippet_paths option for luasnip - (5a3fcd7) - Manas Mengle
+- **(lvim)** reenable ctrl+d and u with zz - (3f5032c) - tfkhdyt
+- **(lvim)** enable svelte for emmet - (963a7d0) - tfkhdyt
+- **(lvim)** add markdown preview plugin - (f7d1be6) - tfkhdyt
+- **(lvim)** set background to transparent - (568265e) - tfkhdyt
+- **(lvim)** enable termguicolors, and enable nvim colorizer for conf file - (8329c34) - tfkhdyt
+- **(lvim)** add taplo lsp - (dbb387e) - tfkhdyt
+- **(lvim)** add kdl plugin - (91da818) - tfkhdyt
+- **(lvim)** add leap plugin - (9d3ff16) - tfkhdyt
+- **(lvim)** add tailwindcss lsp - (5dac730) - tfkhdyt
+- **(lvim)** add "pasls" lsp - (feca983) - tfkhdyt
+- **(lvim)** add some new plugins - (049f05f) - tfkhdyt
+- **(lvim)** remap ctrl + u, and ctrl + d - (8f5500f) - tfkhdyt
+- **(lvim)** add bullet.vim plugin and setup rust lsp - (2547098) - tfkhdyt
+- **(lvim)** add impatient plugin and move plugins declaration to the top of the file - (1dc4ea9) - tfkhdyt
+- **(lvim)** set default terminal to horizontal - (ce1088b) - tfkhdyt
+- **(lvim)** re-enable prettier - (c1838c0) - tfkhdyt
+- **(lvim)** add neovide config - (7a2c413) - tfkhdyt
+- **(lvim)** setup php lsp and formatter - (f7c2860) - tfkhdyt
+- **(lvim)** add lsp settings - (21d600b) - tfkhdyt
+- **(lvim)** add yaml linter and formatter - (9612860) - tfkhdyt
+- **(lvim)** add tsserver, tsc, and code action - (2abb686) - tfkhdyt
+- **(lvim)** setup markdownlint - (24bf5b9) - tfkhdyt
+- **(lvim)** setup lsp in correct way - (63ccedc) - tfkhdyt
+- **(lvim)** setup lsp and formatter for markdown - (d74e948) - tfkhdyt
+- **(lvim)** setup formatter - (f2ab2b1) - tfkhdyt
+- **(lvim)** add wrap indent - (fd2999d) - tfkhdyt
+- **(lvim)** install catppuccin color scheme - (e9882c2) - tfkhdyt
+- **(lvim)** add spectre plugin - (ee339d0) - tfkhdyt
+- **(mpd)** set restore_paused to yes - (8c00aac) - tfkhdyt
+- **(mpv)** exclude avc1 vcodec - (947d04a) - tfkhdyt
+- **(mpv)** add fallback lang for subtitle - (20b0112) - tfkhdyt
+- **(mpv)** limit ytdl format to 1080p - (1405dde) - tfkhdyt
+- **(nbyt)** add git commit feature - (86c8aa5) - tfkhdyt
+- **(neorg)** set default workspace to notes - (4c151f3) - tfkhdyt
+- **(newsboat)** add linux today - (ce6eda3) - tfkhdyt
+- **(newsboat)** add devour to mpv macros - (bd6b821) - tfkhdyt
+- **(newsboat)** add freeCodeCamp - (8673578) - tfkhdyt
+- **(newsboat)** add vim binding and macro for mpv - (dab9e12) - tfkhdyt
+- **(newsboat)** add cnn - (c4d7ee5) - tfkhdyt
+- **(newsboat)** add github atom - (a928a6e) - tfkhdyt
+- **(newsboat)** add arch linux news - (47aba81) - tfkhdyt
+- **(nnn)** setup previewer plugins - (96cc9db) - tfkhdyt
+- **(null-ls)** add golines and goimports_reviser - (ec5a92f) - tfkhdyt
+- **(nvim)** add lazy config override - (1f50f7b) - tfkhdyt
+- **(nvim)** add notify config - (571d76b) - tfkhdyt
+- **(nvim)** move neo tree window to the right - (3c127d4) - tfkhdyt
+- **(nvim)** add lsp override to increase format timeout - (8d8fbc6) - tfkhdyt
+- **(nvim)** setup all lsp manually - (f7e7220) - tfkhdyt
+- **(nvim)** install neorg plugin - (a02adb3) - tfkhdyt
+- **(nvim)** add transparent plugin, but disabled - (59bcdf7) - tfkhdyt
+- **(nvim)** add colorizer plugin - (04ad2a6) - tfkhdyt
+- **(nvim-tree)** enable adaptize size - (1fdf01c) - Höhl, Lukas
+- **(nvim/lsp)** enable clangd - (787a7c7) - tfkhdyt
+- **(nvim/null-ls)** setup eslint and rustywind - (075ffdd) - tfkhdyt
+- **(nvim/plugins)** setup some formatter and linters - (8fc6a90) - tfkhdyt
+- **(nvim/plugins)** add wakatime plugin - (123ca0f) - tfkhdyt
+- **(nvimtree)** enable filesystem watchers - (e52ba32) - Höhl, Lukas
+- **(nvimtree)** exclude terminal from window picker - (07b4d19) - Daniel Cardona Rojas
+- **(openrazer)** change poll rate to 1000 - (27be83a) - tfkhdyt
+- **(paru)** enable SudoLoop, UpgradeMenu, and NewsOnUpgrade - (0777b61) - tfkhdyt
+- **(path)** add statusbar script - (a5dd4aa) - tfkhdyt
+- **(picom)** enable dual kawase blur - (1134061) - tfkhdyt
+- **(picom)** add dwmsystray to rounded corners exclude - (4ed6772) - tfkhdyt
+- **(picom)** increase corner radius to 15, and set dwm class to rounded corners exclude - (e9d5f7c) - tfkhdyt
+- **(picom)** enable blur - (a9f1997) - tfkhdyt
+- **(picom)** disable fading and enable blur - (72ef478) - tfkhdyt
+- **(picom)** add blur effect - (ef21eed) - tfkhdyt
+- **(picom)** disable gtk4 shadow by setting "override_redirect" to true - (46210fa) - tfkhdyt
+- **(picom)** add activate-linux to shadow-exclude - (33fd900) - tfkhdyt
+- **(pkglist)** update pkglist - (32fbcde) - tfkhdyt
+- **(pkglist)** update pkglist - (f1094c0) - tfkhdyt
+- **(pkglist)** update - (9fcb4df) - tfkhdyt
+- **(polybar)** add icon to battery label-full - (f6a82d8) - tfkhdyt
+- **(polybar)** set label disconnected - (df96ec6) - tfkhdyt
+- **(polybar)** switch to font awesome - (e4dc142) - tfkhdyt
+- **(polybar)** move bar to the bottom - (00b6300) - tfkhdyt
+- **(polybar)** enable wlan module and add padding - (17fec4d) - tfkhdyt
+- **(polybar)** create custom script for used memory percentage - (14d7814) - tfkhdyt
+- **(polybar)** change cjk font to noto - (23c36b8) - tfkhdyt
+- **(polybar)** add mpd module - (ece1227) - tfkhdyt
+- **(polybar)** change icon to emoji - (d213503) - tfkhdyt
+- **(polybar)** add square brackets to modules - (fbb4eb7) - tfkhdyt
+- **(polybar)** switch to mocha color scheme - (73e0bfc) - tfkhdyt
+- **(polybar)** add jp, kr, and cn font fallback - (c571a08) - tfkhdyt
+- **(polybar)** add mpris module - (f96d089) - tfkhdyt
+- **(polybar)** add update counter module - (67c3563) - tfkhdyt
+- **(polybar)** make base color semi transparent, remove weather module, change colors - (8adc504) - tfkhdyt
+- **(polybar)** add label empty to xwindow, add underline to several modules - (1a9e189) - tfkhdyt
+- **(polybar)** add underline and change icon to nerd font - (973b685) - tfkhdyt
+- **(rss.opml)** add youtube urls - (e05f0ca) - tfkhdyt
+- **(rustyvibes-dmenu)** add kill option - (02202bd) - tfkhdyt
+- **(scripts)** add newsboat-youtube (nbyt) - (babef45) - tfkhdyt
+- **(scripts)** add start-mpd script - (71abf9c) - tfkhdyt
+- **(scripts)** add get-app-url script - (4a0f237) - tfkhdyt
+- **(scripts)** add mic mute script - (aa520fc) - tfkhdyt
+- **(scripts)** add icon on notifs - (f26d1ff) - tfkhdyt
+- **(scripts)** add brightness script - (c79c524) - tfkhdyt
+- **(scripts)** add volume script with notification - (513e92d) - tfkhdyt
+- **(scripts)** add emoji picker script - (dcc6416) - tfkhdyt
+- **(scripts)** add rustyvibes-dmenu script - (0ecc1a1) - tfkhdyt
+- **(scripts)** add powermenu script - (fa44a48) - tfkhdyt
+- **(scripts)** add watch-yt - (faa796f) - tfkhdyt
+- **(scripts)** add "cht" script - (8815271) - tfkhdyt
+- **(scripts)** add songinfo scripts - (0590b6a) - tfkhdyt
+- **(scripts)** add "rand", random number generator - (ec5cae7) - tfkhdyt
+- **(scripts/statusbar)** add network module - (f6097cd) - tfkhdyt
+- **(scripts/volume)** send signal after changing volume - (dee8b4b) - tfkhdyt
+- **(starship)** add lua bracketed symbol - (f4e6f06) - tfkhdyt
+- **(starship)** set add_newline to false - (fbcde56) - tfkhdyt
+- **(starship)** add bun format - (a3a604a) - tfkhdyt
+- **(starship)** setup php and python prompt - (b3b8b77) - tfkhdyt
+- **(start-mpd)** start mpd-notification after mpd.service - (92862f7) - tfkhdyt
+- **(statusbar)** add click handler - (6c89758) - tfkhdyt
+- **(statusbar)** add mpd module - (046a5db) - tfkhdyt
+- **(statusbar)** add volume module - (a92ef9d) - tfkhdyt
+- **(statusbar)** add battery, date, and wlan modules - (f011580) - tfkhdyt
+- **(sxhkd)** add clipmenu - (09b0cc3) - tfkhdyt
+- **(sxhkd)** add j4-dmenu-desktop - (32e26ad) - tfkhdyt
+- **(sxhkd)** add signal to mpc - (23cf934) - tfkhdyt
+- **(sxhkd)** add keybind for mpc - (349cff5) - tfkhdyt
+- **(systemd)** disable mpd service, and enable mpd socket - (6ea4d5c) - tfkhdyt
+- **(systemupgrade)** add update tblock - (f42e73d) - tfkhdyt
+- **(systemupgrade)** delete oldest backup - (13dafcf) - tfkhdyt
+- **(tmux)** set repeat time config to 250 - (2ecf2ab) - tfkhdyt
+- **(tmux)** set clipboard on mouse to system - (bf671c8) - tfkhdyt
+- **(tmux)** add keybind for clipboard - (0f855dd) - tfkhdyt
+- **(tmux)** enable window tabs - (6747113) - tfkhdyt
+- **(tmux)** add tmux-yank plugin, and fix wrong terminal color - (3c7e153) - tfkhdyt
+- **(tmux)** install package manager and catppuccin theme - (e7f952f) - tfkhdyt
+- **(tmux)** add mouse support - (7a738c8) - tfkhdyt
+- **(watch-yt)** add feature to watch from url - (9a6e250) - tfkhdyt
+- **(xplr)** add xpm and nuke - (82525d5) - tfkhdyt
+- **(xplr)** add ouch and map plugins - (459ea0a) - tfkhdyt
+- **(zathura)** set sandbox to none - (2234a07) - tfkhdyt
+- **(zellij)** uncomment copy_command xclip - (73f965a) - tfkhdyt
+- **(zsh)** add cargo bin to path - (7226418) - tfkhdyt
+- **(zsh)** add docker and docker-compose plugins - (36dfe5d) - tfkhdyt
+- **(zsh)** add yt2mp3 - (7342869) - tfkhdyt
+- **(zshenv)** add DOCKER_CONFIG - (34fdea4) - tfkhdyt
+- **(zshenv)** add NNN_TRASH - (a567ef8) - tfkhdyt
+- **(zshenv)** set fzf theme - (fc26cc7) - tfkhdyt
+- **(zshenv)** set QT_QPA_PLATFORMTHEME=qt5ct - (0d12ec2) - tfkhdyt
+- **(zshrc)** enable quit to cd for nnn - (b82624f) - tfkhdyt
+- **(zshrc)** change syntax highlighting theme to catppuccin - (dbea5cf) - tfkhdyt
+- add startup time of lazyvim and lunarvim - (3a91225) - tfkhdyt
+- add nirc - (405ee3b) - tfkhdyt
+- add mocha xresources - (0801653) - tfkhdyt
+- add gnupg config - (1868cb6) - tfkhdyt
+- change systemupgrade from alias to script - (8c8b241) - tfkhdyt
+- add libinput gesture - (7190333) - tfkhdyt
+- add pkglist - (507f5b0) - tfkhdyt
+- add firedragon - (4dab0f1) - tfkhdyt
+- add donate badges - (3b698ad) - Taufik Hidayat
+- add warning message when using PackerSync on snapshot branches - (7bb3afb) - Leon Heidelbach
+- export lazy_load function for user custom plugins - (349ee96) - vlaw
+- (BETA release) NvChadSnapshots are here. Look at the pinned issue for more information! - (92082d6) - Leon Heidelbach
+- fixed & added mappings & users can now add their custom "mode_opt" - (c7a4d4e) - Leon Heidelbach
+- add theme toggle btn | update theme plugin path - (b9a1038) - siduck
+- add more autocommands - (1d945d1) - Arman.H
+- support themes other than defaults - (ec50171) - tuberry
+- Run :TSUpdate on TS Install / Update - (0cf5d77) - Jay Patel
+- robots.txt icon - (5aa370e) - Sravanth C
+- Make short statusline toggleable from chadrc - (317eedd) - Akianonymus
+- update conf for gitsigns | format stuff - (e408a11) - siduck76
+- add overrides for more plugins | disable some by default - (9e8fb9d) - siduck76
+- improve mappings, move `custom/init.lua & chadrc.lua` -> `custom/example_init.lua & example_chadrc.lua` - (ee58604) - Galen Rowell
+- allow packaged plugin config overrides within chadrc - (80c8bf4) - Galen Rowell
+- Hook based overrides - (eced5f2) - Morten Olsen
+- Add custom scripts and hook based setup - (bfc10e6) - Morten Olsen
+- Move treesitter branch to compat-0.5 - (3d6d429) - Ashin Antony
+- Added gh action formatter - (828217b) - ashincoder
+- Added lsp radial progress - (80b632e) - ashincoder
+- Load lspkind on insert event. - (7d8f6b8) - ashincoder
+- Added cmd for ChadReload - (c02b1a0) - ashincoder
+- Add copy_del and copy_cut options to config - (1b2ec94) - Akianonymus
+- Support for custom user mappings | Improve map function - (49216a9) - Akianonymus
+- Added border for lsp hover doc - (2f61dbf) - ashincoder
+- Added option for italic_comments - (a49f62d) - ashincoder
+- Do not depend on user config | Fix merging of configs - (7753e03) - Akianonymus
+- added default conf and deep extension capabilities (#269) - (0d35b9d) - Pocco81
+- secure calls + disabled all builtin plugins - (355178a) - Pocco81
+- suppressed error messages from lang servers and added better glyph for publish diagnostics - (1e2d299) - Pocco81
+#### Miscellaneous Chores
+- **(fontconfig)** comment out unused font config - (eeef2db) - tfkhdyt
+- **(gitignore)** add my-rss.opml - (2a0e312) - tfkhdyt
+- **(gitignore)** add zcompdump - (90f91ec) - tfkhdyt
+- **(lvim)** comment out nvim ufo plugin config - (86d0a8d) - tfkhdyt
+- **(newsboat)** remove arch stable repos - (d1e9947) - tfkhdyt
+- **(nvim)** remove nvim - (d08958e) - tfkhdyt
+- **(openrazer)** idk - (09857d2) - tfkhdyt
+- **(picom)** idk - (07d2483) - tfkhdyt
+- **(pkglist)** remove flatpak and thefuck - (0357699) - tfkhdyt
+- **(pkglist)** update pkglist - (649c68e) - tfkhdyt
+- **(pkglist)** update pkglist - (1e701a9) - tfkhdyt
+- **(pkglist)** update pkglist - (b34c184) - tfkhdyt
+- **(pkglist)** update pkglist - (a0f05f5) - tfkhdyt
+- **(pkglist)** update pkglist - (e3a2b9a) - tfkhdyt
+- **(pkglist)** update pkglist - (d58774d) - tfkhdyt
+- **(polychromatic)** idk - (dfc4a9e) - tfkhdyt
+- **(protonvpn)** change version to 3.14 - (773f006) - tfkhdyt
+- **(rss)** update backup opml file - (20c65e6) - tfkhdyt
+- **(systemd)** remove playerctld - (a3a6ba8) - tfkhdyt
+- **(systemd)** disable mpd socket - (25b0510) - tfkhdyt
+- **(systemd)** enable mpd - (338cbe7) - tfkhdyt
+- **(volume)** remove comments - (0e55fc3) - tfkhdyt
+- update pkglist - (f3a1bca) - tfkhdyt
+- update pkglist - (398a8ae) - tfkhdyt
+- update pkglist - (9fd3a01) - tfkhdyt
+- update pkglist - (7c4e650) - tfkhdyt
+- update pkglist - (a5a2a0f) - tfkhdyt
+- remove unneeded things - (4360e91) - tfkhdyt
+- update pkglist - (f4e8e92) - tfkhdyt
+- update pkglist - (4d75a2e) - tfkhdyt
+- update pkglist - (f20bf0c) - tfkhdyt
+- add exported rss opml file - (6f496d0) - tfkhdyt
+- remove lazyvim and lunarvim startup time - (ed41b4c) - tfkhdyt
+- update pkglist - (fce4e18) - tfkhdyt
+- update pkglist - (3dfaa29) - tfkhdyt
+- update pkglist - (260db1d) - tfkhdyt
+- update pkglist - (845210a) - tfkhdyt
+- update pkglist - (b581418) - tfkhdyt
+- update pkglist - (cba0720) - tfkhdyt
+- update pkglist - (b2829e4) - tfkhdyt
+- formatting - (8cb2855) - nullchilly
+- stylua format - (33c304f) - nullchilly
+- update issue template - (4a2d344) - tomasky
+- Add some beautiful icons - (6e063cb) - Anonymous1231-dev
+- disable omnifunc - (83a044e) - ahhshm
+- add spell directory to gitignore - (6f65cff) - Matt Bailey
+- fix typos - (9d013a3) - Dundar Göc
+- Remove unsupported featurs from README.md - (e0ac314) - ashincoder
+- Removed superLinter - (6fb97be) - ashincoder
+- format files - (d810cc3) - Akianonymus
+- format source code - (bcb4b15) - github-actions[bot]
+- format source code - (7cab429) - github-actions[bot]
+- Clean init.lua - (8726de1) - Ashin Antony
+- Dev pr template (#495) - (dc80ae5) - Jeevan Shah
+- format source code - (962c2bf) - github-actions[bot]
+- add contributing.md - (5bb7cd3) - marvelman3284
+- format source code - (3d0a0e5) - github-actions[bot]
+- format source code - (1658bf9) - github-actions[bot]
+- format source code - (1b2473b) - github-actions[bot]
+- format source code - (299ce1c) - github-actions[bot]
+- format source code - (98b5316) - github-actions[bot]
+- format source code - (a125c38) - github-actions[bot]
+- update path_display (#285) - (1d78add) - Tuan Nguyen
+- stylua formatting update (#261) - (86903ab) - Galen Rowell
+#### Performance Improvements
+- **(db-volume)** migrate to wpctl - (f6b9c5b) - tfkhdyt
+- **(lvim)** remove impatient plugin - (c44b0b2) - tfkhdyt
+- **(mic.sh)** migrate to wpctl - (2d7b83e) - tfkhdyt
+- **(volume.sh)** migrate to wpctl - (f032c7c) - tfkhdyt
+- **(zshrc)** remove unneeded stuff - (35eef97) - tfkhdyt
+#### Refactoring
+- **(cog-commit)** change commit kind description to lowercase - (874aa83) - tfkhdyt
+- **(gnupg)** move gnupg directory to .local/share - (3122bf4) - tfkhdyt
+- **(newsboat)** move config folder to .config - (7832e76) - tfkhdyt
+- **(nvim)** move colorscheme settings to catppuccin file - (597e031) - tfkhdyt
+- **(rustyvibes-dmenu)** move soundpacks to XDG_DATA_HOME - (c9e088d) - tfkhdyt
+- **(scripts)** remove bashisms from all of my scripts - (8ad8675) - tfkhdyt
+- **(scripts)** refactor systemupgrade script - (8dd9377) - tfkhdyt
+- **(watch-yt)** optimize method to extract video id - (6c6b646) - tfkhdyt
+- remove python2 provider - (9ccc95e) - McAuley Penney
+- add utils to the global scope - (5a1240b) - Arman.H
+- rewrite auto-commands in lua - (5ed71fe) - Arman.H
+- remove unnecessarry keymap option - (174873b) - Arman.H
+- remove unnecessary mapping - (b21defd) - Arman.H
+- clean & re-organise default_config + chadrc - (9961cc0) - Galen Rowell
+- clean & small reorgnaisation of default_config - (a5a5a82) - Galen Rowell
+- Cleaning chadrc, moved to custom & moved default_config to core - (ca1ad15) - Galen Rowell
+- warning, bloat & previous things - (562a3b2) - Kyle
+#### Revert
+- **(lvim)** back to opaque background - (1a52aa6) - tfkhdyt
+- **(picom)** re-enabling fade and disable blur - (5b9c44f) - tfkhdyt
+- **(systemupgrade)** remove auto confirm on trash-empty - (d681034) - tfkhdyt
+- **(yay)** revert back to sudo as sudobin - (40fc9f4) - tfkhdyt
+- Support section but with better wording - (72812ac) - Kyle
+#### Style
+- **(alacritty)** remove whitespace - (e2a5e8f) - tfkhdyt
+- **(lvim)** remove unneeded comments - (f3f0e9a) - tfkhdyt
+- **(systemupgrade)** apply lsp suggestions - (3aa2adc) - tfkhdyt
+- **(watch-yt)** remove unneeded comments - (ce8db6b) - tfkhdyt
+
+- - -
+
+Changelog generated by [cocogitto](https://github.com/cocogitto/cocogitto).
