@@ -46,6 +46,7 @@ catppuccin-gtk-theme-mocha
 cava
 chaotic-keyring
 chaotic-mirrorlist
+cocogitto
 composer
 connman
 cpupower
@@ -245,6 +246,7 @@ nsxiv
 ntfs-3g
 obs-studio
 obsidian
+oha
 openconnect
 opendoas
 openrazer-meta
