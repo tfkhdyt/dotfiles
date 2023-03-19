@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.1.1 - 2023-03-19
+#### Bug Fixes
+- **(lazygit)** comment out cog commit custom command - (e6c810d) - tfkhdyt
+- **(lazygit)** reorder commit kind - (ad8927b) - tfkhdyt
+- **(null-ls)** comment out goimports_reviser - (90f6046) - tfkhdyt
+#### Miscellaneous Chores
+- update pkglist - (46541b5) - tfkhdyt
+
+- - -
+
 ## 0.1.0 - 2023-03-18
 #### Bug Fixes
 - **(0.8)** :bug: update session data dir in neovim nightly - (817aeea) - tomasky
