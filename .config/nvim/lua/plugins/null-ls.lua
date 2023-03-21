@@ -44,6 +44,9 @@ return {
 					nls.builtins.formatting.goimports,
 					-- nls.builtins.formatting.goimports_reviser,
 					-- nls.builtins.formatting.golines,
+
+					-- PHP
+					nls.builtins.formatting.pint,
 				},
 			}
 		end,
