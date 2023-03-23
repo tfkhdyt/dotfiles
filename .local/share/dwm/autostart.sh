@@ -1,4 +1,4 @@
-mpv /home/tfkhdyt/audio/meow-meow-nigga.mp3 &
+xset r rate 300 50 &
 
 feh --no-fehbg --bg-fill --randomize --recursive /home/tfkhdyt/Pictures/Backgrounds/Unsplash/ &
 
