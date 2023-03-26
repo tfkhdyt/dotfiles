@@ -17,6 +17,7 @@ arandr
 arc-gtk-theme
 aria2
 ark
+artem-bin
 asciinema
 atuin
 auto-cpufreq
@@ -287,6 +288,7 @@ pipewire-pulse
 pkgconf
 pkgfile
 playerctl
+pm2
 pnpm-bin
 polkit-gnome
 polybar
@@ -303,7 +305,6 @@ protonvpn-cli
 python
 python-capng
 python-packaging
-python-pygments
 python-pyqt5
 python-reportlab
 qemu-base
