@@ -104,7 +104,6 @@ firewalld
 fish
 fisher
 flex
-focalboard-bin
 foomatic-db
 foomatic-db-engine
 foomatic-db-gutenprint-ppds
@@ -207,8 +206,6 @@ man-db
 man-pages
 mangohud
 mariadb
-mcpelauncher-linux-git
-mcpelauncher-ui-git
 mdadm
 mediainfo
 meld
