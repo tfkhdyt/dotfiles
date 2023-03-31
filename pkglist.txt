@@ -236,7 +236,7 @@ nfs-utils
 nginx
 nilfs-utils
 nnn-nerd
-nodejs-lts-hydrogen
+nodejs
 noisetorch
 noto-fonts
 noto-fonts-cjk
