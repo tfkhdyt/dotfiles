@@ -318,7 +318,6 @@ ripgrep
 rofi
 rsync
 rustdesk-bin
-rustup
 s-nail
 scrcpy-git
 screenkey
@@ -376,6 +375,7 @@ watchexec
 wd719x-firmware
 welcome
 wget
+whatsie-git
 which
 whois
 wireless-regdb
