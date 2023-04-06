@@ -19,7 +19,6 @@ aria2
 ark
 artem-bin
 asciinema
-atuin
 auto-cpufreq
 autoconf
 automake
@@ -114,6 +113,7 @@ fpc
 freebasic
 fsarchiver
 gamemode
+gamescope
 gawk
 gcc
 genact
@@ -375,7 +375,6 @@ watchexec
 wd719x-firmware
 welcome
 wget
-whatsie-git
 which
 whois
 wireless-regdb
@@ -404,7 +403,6 @@ xsane
 xss-lock
 xterm
 yad
-yay
 yt-dlp
 ytfzf
 zathura
