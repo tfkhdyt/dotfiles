@@ -31,6 +31,6 @@ case $1 in
     ;;
 esac
 
-kill -35 "$(pidof dwmblocks)"
+kill -35 $(pidof dwmblocks)
 send_notification
 
