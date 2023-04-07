@@ -98,29 +98,34 @@ tooltip {
 }
 
 #mpd {
-  color: #89b4fa;
+  color: #f38ba8;
   border-radius: 10px;
   margin-left: 5px;
 }
 
 #network {
   color: #fab387;
-  border-radius: 10px 0px 0px 10px;
-  padding-right: 5px;
+  border-radius: 10px;
+  margin-right: 5px;
 }
 
 #pulseaudio {
   color: #89b4fa;
+  border-radius: 10px;
+  margin-right: 5px;
 }
 
 #battery {
   color: #a6e3a1;
   margin-right: 5px;
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px;
 }
 
 #backlight {
   color: #cba6f7;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding: 0;
 }
 #custom-power {
   color: #a6adc8;
