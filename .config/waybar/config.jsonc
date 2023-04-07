@@ -44,11 +44,11 @@
     "spacing": 10
   },
   "backlight": {
-    "device": "intel_backlight",
+    "device": "amd_backlight",
     "format": "{icon} {percent}%",
     "format-icons": ["", "", ""],
-    "on-scroll-up": "brightnessctl set 1%+",
-    "on-scroll-down": "brightnessctl set 1%-",
+    "on-scroll-up": "brightnessctl set 1%+ &> /dev/null",
+    "on-scroll-down": "brightnessctl set 1%- &> /dev/null",
     "min-length": 6
   },
   "battery": {
