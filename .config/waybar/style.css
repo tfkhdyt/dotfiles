@@ -60,6 +60,7 @@ tooltip {
 #network,
 #workspaces,
 #tray,
+#mpd,
 #backlight {
   background: #1e1e2e;
   padding: 0px 10px;
@@ -96,10 +97,16 @@ tooltip {
   border-radius: 10px;
 }
 
+#mpd {
+  color: #89b4fa;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
 #network {
   color: #fab387;
   border-radius: 10px 0px 0px 10px;
-  padding-right: 12px;
+  padding-right: 5px;
 }
 
 #pulseaudio {

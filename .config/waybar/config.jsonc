@@ -4,7 +4,7 @@
   "height": 33,
 
   "modules-left": ["wlr/workspaces"],
-  "modules-center": ["clock"],
+  "modules-center": ["clock", "mpd"],
   "modules-right": ["tray", "network", "backlight", "pulseaudio", "battery"],
 
   "wlr/workspaces": {
@@ -64,7 +64,7 @@
     "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
   },
   "clock": {
-    "format": "{: %I:%M %p   %d/%m}",
+    "format": "{: %H:%M    %d/%m}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network": {
@@ -77,7 +77,7 @@
   "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": " Muted",
-    "scroll-step": 1,
+    "scroll-step": 5,
     "on-click": "pavucontrol",
     "format-icons": {
       "headphone": "",
@@ -92,5 +92,16 @@
   "custom/power": {
     "format": "⏻",
     "on-click": "wlogout"
+  },
+  "mpd": {
+    "format": "{stateIcon} {artist} - {title}",
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    "artist-len": 25,
+    "title-len": 25,
+    "on-click": "mpc toggle &> /dev/null",
+    "on-click-right": "mpc next &> /dev/null"
   }
 }
