@@ -1,23 +1,12 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 0,
-  "modules-left": ["clock", "wlr/workspaces"],
-  "modules-center": ["hyprland/window"],
-  "modules-right": [
-    "tray",
-    // "custom/caffeine",
-    "custom/updates",
-    // "custom/language",
-    "network",
-    "backlight",
-    "pulseaudio",
-    "battery"
-  ],
+  "height": 33,
 
-  "hyprland/window": {
-    "format": "{}"
-  },
+  "modules-left": ["wlr/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["tray", "network", "backlight", "pulseaudio", "battery"],
+
   "wlr/workspaces": {
     "disable-scroll": true,
     "all-outputs": true,
@@ -35,23 +24,20 @@
       "9": [],
       "10": []
     }
-  },
-  "custom/caffeine": {
-    "exec": "~/.config/waybar/scripts/caffeine.sh",
-    "return-type": "json",
-    "interval": 3,
-    "format-icons": ["﯈", ""],
-    "format": "{icon}"
-  },
-  "custom/updates": {
-    "exec": "(checkupdates ; paru -Qua) | wc -l",
-    "interval": 7200,
-    "format": " {}"
-  },
-  "custom/language": {
-    "exec": "cat /tmp/kb_layout",
-    "interval": 3,
-    "format": " {}"
+    /*"format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "default": "",
+      "active": ""
+    }*/
   },
   "tray": {
     "icon-size": 13,
@@ -78,7 +64,7 @@
     "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
   },
   "clock": {
-    "format": "{: %R   %d/%m}",
+    "format": "{: %I:%M %p   %d/%m}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network": {
@@ -86,14 +72,13 @@
     "format-ethernet": " {essid}",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "睊 Disconnected",
-    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
-    "on-click": "wofi-wifi-menu"
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-muted": "ﱝ Muted",
-    "on-click": "/home/tfkhdyt/scripts/volume.sh mute",
-    "scroll-step": 5,
+    "format-muted": " Muted",
+    "scroll-step": 1,
+    "on-click": "pavucontrol",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
@@ -103,5 +88,9 @@
       "car": "",
       "default": ["", "", "墳", ""]
     }
+  },
+  "custom/power": {
+    "format": "⏻",
+    "on-click": "wlogout"
   }
 }
