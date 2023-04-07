@@ -34,7 +34,7 @@
     # origin = top-center
 
     # Offset from the origin
-    offset = 36x63
+    offset = 36x40
     # offset = 0x75
 
     # Scale factor. It is auto-detected if value is 0.
@@ -312,7 +312,7 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#24273A"  
+    background = "#1e1e2e"  
     foreground = "#CAD3F5"
     highlight = "#f38ba8"
     timeout = 5
@@ -320,7 +320,7 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#24273A"
+    background = "#1e1e2e"
     foreground = "#CAD3F5"
     highlight = "#f38ba8"
     timeout = 5
@@ -328,7 +328,7 @@
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#24273A"
+    background = "#1e1e2e"
     foreground = "#CAD3F5"
     frame_color = "#F5A97F"
     highlight = "#F5A97F"
