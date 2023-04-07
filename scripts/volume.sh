@@ -20,17 +20,17 @@ send_notification() {
 case $1 in
   up)
     amixer -D pulse set Master on > /dev/null
-    wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ > /dev/null
+    wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ &> /dev/null
     ;;
   down)
     amixer -D pulse set Master on > /dev/null
-    wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- > /dev/null
+    wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- &> /dev/null
     ;;
   mute)
-    wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle > /dev/null
+    wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle &> /dev/null
     ;;
 esac
 
-kill -35 $(pidof dwmblocks)
+# kill -35 $(pidof dwmblocks)
 send_notification
 

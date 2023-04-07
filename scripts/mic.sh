@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 toggle_mic_state() {
-  wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
+  wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle &> /dev/null
 }
 
 send_notification() {
