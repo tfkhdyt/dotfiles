@@ -5,7 +5,14 @@
 
   "modules-left": ["wlr/workspaces"],
   "modules-center": ["clock", "mpd"],
-  "modules-right": ["tray", "network", "backlight", "pulseaudio", "battery"],
+  "modules-right": [
+    "tray",
+    "network",
+    "backlight",
+    "pulseaudio",
+    "battery",
+    "custom/power"
+  ],
 
   "wlr/workspaces": {
     "disable-scroll": true,
@@ -91,7 +98,7 @@
   },
   "custom/power": {
     "format": "⏻",
-    "on-click": "wlogout"
+    "on-click": "wlogout &> /dev/null"
   },
   "mpd": {
     "format": "{stateIcon} {artist} - {title}",
