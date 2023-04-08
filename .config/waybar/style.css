@@ -125,12 +125,12 @@ tooltip {
   color: #cba6f7;
   border-radius: 10px;
   margin-right: 5px;
-  padding: 0;
+  padding: 0 5px;
 }
 #custom-power {
   color: #a6adc8;
   background: #1e1e2e;
   border-radius: 10px;
-  padding-right: 13px;
+  padding-right: 14px;
   margin-right: 5px;
 }
