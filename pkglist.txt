@@ -28,6 +28,7 @@ base-devel
 bash-completion
 bat
 bc
+bemenu
 bind
 binutils
 bison
@@ -42,6 +43,7 @@ brightnessctl
 btrfs-progs
 caffeine-ng
 cantarell-fonts
+catppuccin-cursors-mocha
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-mocha
 cava
@@ -129,6 +131,8 @@ go
 gparted
 gping
 grep
+grim
+grimblast-git
 groff
 gsfonts
 gst-libav
@@ -146,11 +150,15 @@ hplip
 htop
 httrack
 hwinfo
+hybrid-bar
 hyperfine
+hyprland
+hyprpaper
 i3-wm
 i3lock
 i3lock-fancy-git
 i3status
+imv
 inetutils
 inxi
 ipw2100-fw
@@ -166,6 +174,7 @@ kdeconnect
 kernel-install-mkinitcpio
 kio-fuse
 klavaro
+kooha
 kvantum
 kvantum-theme-catppuccin-git
 lazygit
@@ -244,6 +253,7 @@ noto-fonts-emoji
 nss-mdns
 nsxiv
 ntfs-3g
+nwg-look
 obs-studio
 obsidian
 oha
@@ -287,7 +297,7 @@ pkgfile
 playerctl
 pm2
 pnpm-bin
-polkit-gnome
+polkit-kde-agent
 polybar
 polychromatic
 poppler-glib
@@ -307,6 +317,7 @@ python-reportlab
 qemu-base
 qogir-gtk-theme
 qt5ct
+qt6-wayland
 qt6ct
 rabbitmq
 redis
@@ -325,6 +336,7 @@ sd
 sed
 shotcut
 simplescreenrecorder
+slurp
 smartmontools
 sof-firmware
 solid
@@ -335,6 +347,8 @@ starship
 steam
 stow
 sudo
+swayidle
+swaylock
 swtpm
 sxhkd
 sysfsutils
@@ -344,6 +358,7 @@ tealdeer
 tenacity-git
 texinfo
 timeshift-bin
+tofi
 tokei
 trash-cli
 tree
@@ -372,17 +387,23 @@ vpnc
 vulkan-radeon
 w3m
 watchexec
+waybar-hyprland-git
 wd719x-firmware
 welcome
 wget
 which
 whois
 wireless-regdb
+wl-clipboard
+wlogout
 wmctrl
+wofi
 wpa_supplicant
 wrk
 xautolock
 xclip
+xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland-git
 xdg-user-dirs
 xdg-utils
 xdotool
@@ -403,6 +424,7 @@ xsane
 xss-lock
 xterm
 yad
+yay
 yt-dlp
 ytfzf
 zathura
