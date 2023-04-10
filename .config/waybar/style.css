@@ -61,6 +61,7 @@ tooltip {
 #workspaces,
 #tray,
 #mpd,
+#custom-pacman,
 #backlight {
   background: #1e1e2e;
   padding: 0px 15px;
@@ -101,6 +102,12 @@ tooltip {
 #mpd {
   color: #f38ba8;
   border-radius: 15px;
+}
+
+#custom-pacman {
+  color: #f5e0dc;
+  border-radius: 15px;
+  margin-right: 5px;
 }
 
 #network {

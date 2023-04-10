@@ -7,6 +7,7 @@
   "modules-center": ["mpd"],
   "modules-right": [
     "tray",
+    "custom/pacman",
     "network",
     "backlight",
     "wireplumber",
@@ -122,5 +123,13 @@
     "title-len": 25,
     "on-click": "mpc toggle &> /dev/null",
     "on-click-right": "mpc next &> /dev/null"
+  },
+  "custom/pacman": {
+    "format": "󰇚 {}",
+    "interval": 3600, // every hour
+    "exec": "(checkupdates ; yay -Qum) | wc -l", // # of updates
+    "exec-if": "exit 0", // always run; consider advanced run conditions
+    // "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
+    "signal": 8
   }
 }
