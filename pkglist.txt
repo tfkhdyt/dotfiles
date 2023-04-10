@@ -3,6 +3,8 @@ adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 advcpmv
+adwaita-qt5
+adwaita-qt6
 aic94xx-firmware
 alacritty
 alsa-firmware
@@ -28,7 +30,6 @@ base-devel
 bash-completion
 bat
 bc
-bemenu
 bind
 binutils
 bison
@@ -154,10 +155,6 @@ hybrid-bar
 hyperfine
 hyprland
 hyprpaper
-i3-wm
-i3lock
-i3lock-fancy-git
-i3status
 imv
 inetutils
 inxi
@@ -174,9 +171,9 @@ kdeconnect
 kernel-install-mkinitcpio
 kio-fuse
 klavaro
-kooha
 kvantum
 kvantum-theme-catppuccin-git
+kvantum-theme-materia
 lazygit
 lefthook
 less
@@ -196,6 +193,7 @@ libtpms
 libva-mesa-driver
 libvips
 libvirt
+lightly-qt
 linux
 linux-firmware
 linux-firmware-qlogic
@@ -298,7 +296,6 @@ playerctl
 pm2
 pnpm-bin
 polkit-kde-agent
-polybar
 polychromatic
 poppler-glib
 postgresql
@@ -326,7 +323,7 @@ reflector
 reflector-simple
 reiserfsprogs
 ripgrep
-rofi
+rofi-lbonn-wayland-git
 rsync
 rustdesk-bin
 s-nail
@@ -358,7 +355,6 @@ tealdeer
 tenacity-git
 texinfo
 timeshift-bin
-tofi
 tokei
 trash-cli
 tree
