@@ -3,8 +3,8 @@
   "position": "top",
   "height": 33,
 
-  "modules-left": ["wlr/workspaces"],
-  "modules-center": ["clock", "mpd"],
+  "modules-left": ["clock", "wlr/workspaces"],
+  "modules-center": ["mpd"],
   "modules-right": [
     "tray",
     "network",
