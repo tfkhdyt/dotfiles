@@ -24,9 +24,10 @@ set -x NODE_REPL_HISTORY "$XDG_DATA_HOME"/node_repl_history
 set -x PSQL_HISTORY "$XDG_DATA_HOME/psql_history"
 set -x RUSTUP_HOME "$XDG_DATA_HOME"/rustup
 set -x WINEPREFIX "$XDG_DATA_HOME"/wine
-set -x QT_QPA_PLATFORMTHEME qt5ct
+set -x QT_QPA_PLATFORMTHEME qt6ct
+# set -x QT_STYLE_OVERRIDE kvantum
 set -x DATE (date -I)
-set -x PRETTIERD_DEFAULT_CONFIG "$HOME/.config/lvim/prettierd/.prettierrc"
+# set -x PRETTIERD_DEFAULT_CONFIG "$HOME/.config/lvim/prettierd/.prettierrc"
 set -x CARGO_BIN "$HOME/.cargo/bin/"
 set -x GOBIN "$XDG_DATA_HOME/go/bin"
 set -x PATH $PATH $MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN "$HOME/.local/bin" "$HOME/.local/share/nvim/mason/bin" 
