@@ -14,7 +14,7 @@ window#waybar {
 
 tooltip {
   background: #1e1e2e;
-  border-radius: 10px;
+  border-radius: 15px;
   border-width: 2px;
   border-style: solid;
   border-color: #11111b;
@@ -33,13 +33,13 @@ tooltip {
 #workspaces button.focused {
   color: #a6adc8;
   background: #eba0ac;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 #workspaces button.urgent {
   color: #11111b;
   background: #a6e3a1;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 #workspaces button:hover {
@@ -63,18 +63,18 @@ tooltip {
 #mpd,
 #backlight {
   background: #1e1e2e;
-  padding: 0px 10px;
+  padding: 0px 15px;
   margin: 3px 0px;
 }
 
 #tray {
-  border-radius: 10px;
+  border-radius: 15px;
   margin-right: 4px;
 }
 
 #workspaces {
   background: #1e1e2e;
-  border-radius: 10px;
+  border-radius: 15px;
   padding-right: 0px;
   padding-left: 5px;
   margin-left: 5px;
@@ -94,44 +94,42 @@ tooltip {
 
 #clock {
   color: #f9e2af;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-left: 5px;
 }
 
 #mpd {
   color: #f38ba8;
-  border-radius: 10px;
-  margin-left: 5px;
+  border-radius: 15px;
 }
 
 #network {
   color: #fab387;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-right: 5px;
 }
 
 #wireplumber {
   color: #89b4fa;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-right: 5px;
 }
 
 #battery {
   color: #a6e3a1;
   margin-right: 5px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 #backlight {
   color: #cba6f7;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-right: 5px;
-  padding: 0 5px;
 }
 #custom-power {
   color: #a6adc8;
   background: #1e1e2e;
-  border-radius: 10px;
-  padding-right: 14px;
+  border-radius: 15px;
+  padding-right: 19px;
   margin-right: 5px;
 }
