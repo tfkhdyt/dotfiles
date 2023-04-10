@@ -1,7 +1,7 @@
 * {
   border: none;
   border-radius: 0;
-  font-family: 'JetBrainsMono Nerd Font';
+  font-family: "JetBrainsMono Nerd Font";
   font-weight: bold;
   font-size: 16px;
   min-height: 0;
@@ -56,7 +56,7 @@ tooltip {
 #custom-power,
 #clock,
 #battery,
-#pulseaudio,
+#wireplumber,
 #network,
 #workspaces,
 #tray,
@@ -109,7 +109,7 @@ tooltip {
   margin-right: 5px;
 }
 
-#pulseaudio {
+#wireplumber {
   color: #89b4fa;
   border-radius: 10px;
   margin-right: 5px;
