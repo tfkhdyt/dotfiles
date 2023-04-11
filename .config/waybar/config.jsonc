@@ -10,7 +10,7 @@
     "custom/pacman",
     "network",
     "backlight",
-    "wireplumber",
+    "pulseaudio",
     "battery",
     "custom/power"
   ],
@@ -94,11 +94,14 @@
     "format-disconnected": "睊 Disconnected",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}"
   },
-  "wireplumber": {
+  "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": " Muted",
     "scroll-step": 5,
-    "on-click": "pavucontrol",
+    "on-scroll-up": "volume.sh up",
+    "on-scroll-down": "volume.sh down",
+    "on-click": "volume.sh mute",
+    "on-click-right": "pavucontrol",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
