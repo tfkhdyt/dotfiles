@@ -1,5 +1,5 @@
 set -x BROWSER librewolf
-set -x TERMINAL st
+set -x TERMINAL alacritty
 
 set -x XDG_DATA_HOME "$HOME/.local/share"
 set -x XDG_CONFIG_HOME "$HOME/.config"
@@ -68,21 +68,19 @@ abbr -a yqi yay -Qi
 abbr -a yql yay -Ql
 
 # paru aliases
-abbr -a pr paru -Rns
-abbr -a pi paru -S
-abbr -a pss paru -Ss
-abbr -a psi paru -Si
-abbr -a pqs paru -Qs
-abbr -a pqi paru -Qi
-abbr -a pql paru -Ql
-
+# abbr -a pr paru -Rns
+# abbr -a pi paru -S
+# abbr -a pss paru -Ss
+# abbr -a psi paru -Si
+# abbr -a pqs paru -Qs
+# abbr -a pqi paru -Qi
+# abbr -a pql paru -Ql
 
 abbr -a pctr pactree -o
 abbr -a pctrr pactree -r -o
 
 abbr -a dar dart run
 abbr -a timestamp date +%Y-%m-%dT%H-%M-%S
-# abbr -a http curlie
 abbr -a pg ping -O
 abbr -a lv nvim
 
