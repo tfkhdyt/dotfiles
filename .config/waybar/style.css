@@ -45,9 +45,9 @@ tooltip {
 #workspaces button:hover {
   background: #11111b;
   color: #cdd6f4;
-  border-radius: 0;
+  border-radius: 15px;
   border: 0;
-  outline: 0;
+  outline: none;
 }
 
 #custom-language,
