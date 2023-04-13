@@ -191,7 +191,6 @@ librewolf-bin
 libtool
 libtpms
 libva-mesa-driver
-libvips
 libvirt
 lightly-qt
 linux
@@ -386,6 +385,7 @@ watchexec
 waybar-hyprland-git
 wd719x-firmware
 welcome
+wf-recorder
 wget
 which
 whois
@@ -399,7 +399,7 @@ wrk
 xautolock
 xclip
 xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-hyprland
 xdg-user-dirs
 xdg-utils
 xdotool
