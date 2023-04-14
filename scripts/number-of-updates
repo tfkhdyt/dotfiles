@@ -1,0 +1,3 @@
+#!/bin/env bash
+
+comm -12 <((checkupdates ; yay -Qua) | awk -F' ' '{print $1, $2}' | sort) <(yay -Qe | sort) | wc -l
