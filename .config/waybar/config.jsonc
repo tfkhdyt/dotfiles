@@ -130,7 +130,7 @@
   "custom/pacman": {
     "format": "󰇚 {}",
     "interval": 7200, // every 6 hours
-    "exec": "(checkupdates ; yay -Qum) | wc -l", // # of updates
+    "exec": "(checkupdates ; yay -Qua) | wc -l", // # of updates
     "exec-if": "exit 0", // always run; consider advanced run conditions
     // "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
     "signal": 8
