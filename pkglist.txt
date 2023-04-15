@@ -131,6 +131,7 @@ gnome-keyring
 go
 gparted
 gping
+grapejuice
 grep
 grim
 grimblast-git
@@ -326,7 +327,7 @@ rofi-lbonn-wayland-git
 rsync
 rustdesk-bin
 s-nail
-scrcpy-git
+scrcpy
 screenkey
 sd
 sed
