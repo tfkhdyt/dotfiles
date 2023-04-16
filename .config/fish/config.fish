@@ -38,17 +38,14 @@ set -x FZF_DEFAULT_OPTS " \
 
 set -x NNN_TRASH 1
 set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
-set -x TERMINAL st
 set -x BAT_THEME "Catppuccin-mocha"
 set -x LESS "-I -R"
 set -x NNN_TERMINAL $TERMINAL
 set -x NNN_FIFO /tmp/nnn.fifo
 set -x NNN_PLUG "p:preview-tui"
 set -x _ZO_MAXAGE 5000
-set -x OBSIDIAN_USE_WAYLAND 1
 
 # aliases
-
 alias ls="exa --icons --group-directories-first"
 alias ll="exa -lbh --icons --group-directories-first"
 alias killorphans="yay -Qtdq | yay -Rns -"
@@ -57,7 +54,7 @@ alias mnt-windows="doas mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
 alias umnt-windows="doas umount /mnt/windows"
 alias cal="cal --monday"
 alias make="make -j $(nproc)"
-alias procs="procs --theme dark"
+# alias procs="procs --theme dark"
 
 # yay aliases
 abbr -a yr yay -Rns
