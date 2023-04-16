@@ -95,6 +95,7 @@ abbr -a nts nvim ~/notes/
 abbr -a kdc kdeconnect-cli
 abbr -a sudo doas
 abbr -a g git
+abbr -a tt taskwarrior-tui
 
 if status is-interactive
   # Commands to run in interactive sessions can go here
