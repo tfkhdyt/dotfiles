@@ -9,3 +9,5 @@ cmd zi ${{
 	result="$(zoxide query -i)"
 	lf -remote "send $id cd $result"
 }}
+
+cmd trash %trash-put $fx
