@@ -20,7 +20,7 @@ env:
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  TERM: xterm-256color
+  TERM: alacritty
 window:
   # Window dimensions (changes require restart)
   #
@@ -44,7 +44,7 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 5
+    x: 10
     y: 5
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: true
