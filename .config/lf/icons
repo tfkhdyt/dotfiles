@@ -308,10 +308,10 @@ Vagrantfile             
 *.mpg   
 *.mpeg  
 *.m2v   
-*.mkv   
-*.webm  
+*.mkv   
+*.webm  
 *.ogm   
-*.mp4   
+*.mp4   
 *.m4v   
 *.mp4v  
 *.vob   
