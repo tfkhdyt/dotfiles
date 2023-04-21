@@ -1,4 +1,5 @@
 set icons
+set ifs "\n"
 
 cmd z %{{
 	result="$(zoxide query --exclude $PWD $@)"
