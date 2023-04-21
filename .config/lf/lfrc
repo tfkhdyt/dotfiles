@@ -3,7 +3,7 @@ set ifs "\n"
 
 cmd z %{{
 	result="$(zoxide query --exclude $PWD $@)"
-	lf -remote "send $id cd $result"
+	lf -remote "send $id cd \"$result\""
 }}
 
 cmd zi ${{
