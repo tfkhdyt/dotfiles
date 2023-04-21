@@ -12,3 +12,27 @@ cmd zi ${{
 }}
 
 cmd trash %trash-put $fx
+
+cmd compress %ouch compress $fx "$@"
+
+cmd decompress %ouch decompress $fx
+
+cmd unrar %unrar x $fx
+
+cmd create_file %{{
+    IFS=" "
+    touch "$*"
+    lf -remote "send $id select \"$*\""
+}}
+
+cmd create_dir %{{
+    IFS=" "
+    mkdir -p -- "$*"
+    lf -remote "send $id select \"$*\""
+}}
+
+map oc push :compress<space>
+map od decompress
+map or unrar
+map af push :create_file<space>
+map ad push :create_dir<space>
