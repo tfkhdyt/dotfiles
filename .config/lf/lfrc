@@ -1,4 +1,5 @@
 set icons
+set autoquit
 set ifs "\n"
 
 cmd z %{{
