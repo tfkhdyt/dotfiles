@@ -105,6 +105,7 @@ file
 findutils
 firewalld
 fish
+fish-done
 fisher
 flex
 foomatic-db
@@ -166,6 +167,7 @@ ipw2100-fw
 ipw2200-fw
 iwd
 j4-dmenu-desktop
+jamesdsp
 jdk-openjdk
 jfsutils
 jp2a
