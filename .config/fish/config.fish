@@ -96,6 +96,7 @@ abbr -a kdc kdeconnect-cli
 abbr -a sudo doas
 abbr -a g git
 abbr -a tt taskwarrior-tui
+abbr -a lf lfcd
 
 if status is-interactive
   # Commands to run in interactive sessions can go here
