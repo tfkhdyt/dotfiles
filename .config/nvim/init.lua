@@ -27,3 +27,5 @@ vim.opt.linebreak = true
 -- })
 --
 -- rt.inlay_hints.enable()
+
+vim.filetype.add({ extension = { typ = "typst" } })
