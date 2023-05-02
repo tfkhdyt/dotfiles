@@ -1,6 +1,7 @@
 set icons
 set autoquit
 set ifs "\n"
+set period 3
 
 cmd z %{{
 	result="$(zoxide query --exclude $PWD $@)"
