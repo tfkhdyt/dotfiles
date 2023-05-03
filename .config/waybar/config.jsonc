@@ -8,6 +8,7 @@
   "modules-right": [
     "tray",
     "custom/pacman",
+    "idle_inhibitor",
     "network",
     "backlight",
     "pulseaudio",
@@ -134,5 +135,12 @@
     "exec-if": "exit 0", // always run; consider advanced run conditions
     // "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
     "signal": 8
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "󰅶",
+      "deactivated": "󰾪"
+    }
   }
 }

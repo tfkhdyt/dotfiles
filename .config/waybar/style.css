@@ -62,6 +62,7 @@ tooltip {
 #tray,
 #mpd,
 #custom-pacman,
+#idle_inhibitor,
 #backlight {
   background: #1e1e2e;
   padding: 0px 15px;
@@ -112,6 +113,12 @@ tooltip {
 
 #network {
   color: #fab387;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+#idle_inhibitor {
+  color: #94e2d5;
   border-radius: 15px;
   margin-right: 5px;
 }
