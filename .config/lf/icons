@@ -40,11 +40,11 @@ fi             # FILE
 *.sass          
 *.scss          
 *.htm           
-*.html          
+*.html          
 *.slim          
 *.haml          
 *.ejs           
-*.css           
+*.css           
 *.less          
 *.md            
 *.mdx           
@@ -354,4 +354,4 @@ Vagrantfile             
 *.xspf  
 
 # other formats
-*.pdf   
+*.pdf   
