@@ -55,7 +55,7 @@
   "backlight": {
     "device": "amd_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": ["", "", ""],
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
     "on-scroll-up": "brightnessctl set 1%+ &> /dev/null",
     "on-scroll-down": "brightnessctl set 1%- &> /dev/null",
     "min-length": 6
@@ -70,7 +70,7 @@
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
-    "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
   },
   "clock": {
     "format": "{: %H:%M   %a/%d/%m}",
@@ -89,10 +89,10 @@
     }
   },
   "network": {
-    "format-wifi": "直 {essid}",
+    "format-wifi": "󰖩 {essid}",
     "format-ethernet": " {essid}",
     "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "睊 Disconnected",
+    "format-disconnected": "󰖪  Disconnected",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}"
   },
   "pulseaudio": {
