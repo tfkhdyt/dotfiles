@@ -15,12 +15,10 @@ android-file-transfer
 android-tools
 apache
 appmenu-gtk-module
-arandr
 arc-gtk-theme
 aria2
 ark
 artem-bin
-asciinema
 atuin
 auto-cpufreq
 autoconf
@@ -123,7 +121,6 @@ freebasic
 fsarchiver
 gamemode
 gamescope
-gammastep
 gawk
 gcc
 genact
@@ -139,6 +136,8 @@ gnutls
 go
 gparted
 gping
+greetd
+greetd-tuigreet
 grep
 grim
 grimblast-git
@@ -264,7 +263,7 @@ nss-mdns
 nsxiv
 ntfs-3g
 nwg-look
-obs-studio
+obs-studio-tytan652
 obsidian
 oha
 openconnect
@@ -329,13 +328,14 @@ qt6-wayland
 qt6ct
 rabbitmq
 redis
-redshift
 reflector
 reflector-simple
 reiserfsprogs
 ripgrep
 rofi-lbonn-wayland-git
 rsync
+rust
+rust-src
 rustdesk-bin
 s-nail
 scrcpy
@@ -380,7 +380,6 @@ ttf-ms-fonts
 ttf-opensans
 typst
 udiskie
-ueberzug
 unrar
 unzip
 upd72020x-fw
