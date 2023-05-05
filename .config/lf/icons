@@ -360,3 +360,6 @@ Vagrantfile             
 *.doc   󰈙
 *.pptx  󰐨
 *.ppt   󰐨
+*.srt   󰨗
+*.ass   󰨗
+*.txt   
