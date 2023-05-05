@@ -9,42 +9,42 @@
 
 window#waybar {
   background: transparent;
-  color: #cdd6f4;
+  color: #ebdbb2;
 }
 
 tooltip {
-  background: #1e1e2e;
+  background: #282828;
   border-radius: 15px;
   border-width: 2px;
   border-style: solid;
-  border-color: #11111b;
+  border-color: #1d2021;
 }
 
 #workspaces button {
   padding: 5px;
-  color: #313244;
+  color: #3c3836;
   margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: #a6adc8;
+  color: #ebdbb2;
 }
 
 #workspaces button.focused {
-  color: #a6adc8;
-  background: #eba0ac;
+  color: #ebdbb2;
+  background: #928374;
   border-radius: 15px;
 }
 
 #workspaces button.urgent {
-  color: #11111b;
-  background: #a6e3a1;
+  color: #1d2021;
+  background: #7c6f64;
   border-radius: 15px;
 }
 
 #workspaces button:hover {
-  background: #11111b;
-  color: #cdd6f4;
+  background: #1d2021;
+  color: #ebdbb2;
   border-radius: 15px;
   border: 0;
   outline: none;
@@ -64,7 +64,7 @@ tooltip {
 #custom-pacman,
 #idle_inhibitor,
 #backlight {
-  background: #1e1e2e;
+  background: #282828;
   padding: 0px 15px;
   margin: 3px 0px;
 }
@@ -75,7 +75,7 @@ tooltip {
 }
 
 #workspaces {
-  background: #1e1e2e;
+  background: #282828;
   border-radius: 15px;
   padding-right: 0px;
   padding-left: 5px;
@@ -95,56 +95,56 @@ tooltip {
 }
 
 #clock {
-  color: #f9e2af;
+  color: #fabd2f;
   border-radius: 15px;
   margin-left: 5px;
 }
 
 #mpd {
-  color: #f38ba8;
+  color: #fb4934;
   border-radius: 15px;
 }
 
 #custom-pacman {
-  color: #f5e0dc;
+  color: #d79921;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 #network {
-  color: #fab387;
+  color: #fe8019;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 #idle_inhibitor {
-  color: #94e2d5;
+  color: #d5c4a1;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 #pulseaudio {
-  color: #89b4fa;
+  color: #83a598;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 #battery {
-  color: #a6e3a1;
+  color: #b8bb26;
   margin-right: 15px;
   border-radius: 15px;
 }
 
 #backlight {
-  color: #cba6f7;
+  color: #d3869b;
   border-radius: 15px;
   margin-right: 15px;
   padding: 0 0.75rem;
 }
 
 #custom-power {
-  color: #a6adc8;
-  background: #1e1e2e;
+  color: #ebdbb2;
+  background: #282828;
   border-radius: 15px;
   padding-right: 19px;
   margin-right: 15px;
