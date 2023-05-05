@@ -3,6 +3,8 @@ set autoquit
 set ifs "\n"
 set period 3
 set drawbox
+set number
+set relativenumber
 
 cmd z %{{
 	result="$(zoxide query --exclude $PWD $@)"
