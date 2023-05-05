@@ -358,3 +358,5 @@ Vagrantfile             
 *.odt   󰈙
 *.docx  󰈙
 *.doc   󰈙
+*.pptx  󰐨
+*.ppt   󰐨
