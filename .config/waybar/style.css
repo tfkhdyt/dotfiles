@@ -95,7 +95,7 @@ tooltip {
 }
 
 #clock {
-  color: #fabd2f;
+  color: #fb4934;
   border-radius: 15px;
   /* margin-left: 5px; */
 }
@@ -106,44 +106,44 @@ tooltip {
 }
 
 #custom-pacman {
-  color: #d79921;
+  color: #689d6a;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 #network {
-  color: #fe8019;
+  color: #b16286;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 #idle_inhibitor {
-  color: #d5c4a1;
+  color: #d65d03;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 #pulseaudio {
-  color: #83a598;
+  color: #98771a;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 #battery {
-  color: #b8bb26;
+  color: #d79921;
   margin-right: 15px;
   border-radius: 15px;
 }
 
 #backlight {
-  color: #d3869b;
+  color: #458588;
   border-radius: 15px;
   margin-right: 15px;
   padding: 0 0.75rem;
 }
 
 #custom-power {
-  color: #ebdbb2;
+  color: #cc241d;
   background: #282828;
   border-radius: 15px;
   padding-right: 19px;
