@@ -3,8 +3,8 @@
   "position": "top",
   "height": 33,
 
-  "modules-left": ["clock", "wlr/workspaces"],
-  "modules-center": ["mpd"],
+  "modules-left": ["wlr/workspaces"],
+  "modules-center": ["clock"],
   "modules-right": [
     "tray",
     "custom/pacman",

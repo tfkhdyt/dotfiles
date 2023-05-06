@@ -97,7 +97,7 @@ tooltip {
 #clock {
   color: #fabd2f;
   border-radius: 15px;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 #mpd {
