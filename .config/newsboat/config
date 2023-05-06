@@ -1,4 +1,4 @@
-include ~/.config/newsboat/dark
+include ~/.config/newsboat/gruvbox
 
 browser "librewolf %u"
 macro m set browser "mpv %u"; open-in-browser ; set browser "librewolf %u"
