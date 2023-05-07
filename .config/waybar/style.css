@@ -5,10 +5,11 @@
   font-weight: bold;
   font-size: 16px;
   min-height: 0;
+  margin: 0px;
 }
 
 window#waybar {
-  background: transparent;
+  background: #282828;
   color: #ebdbb2;
 }
 
@@ -22,18 +23,20 @@ tooltip {
 
 #workspaces button {
   padding: 5px;
-  color: #3c3836;
+  color: #ebdbb2;
   margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: #ebdbb2;
+  color: #3c3836;
+  font-weight: bold;
 }
 
 #workspaces button.focused {
-  color: #ebdbb2;
+  color: #504945;
   background: #928374;
   border-radius: 15px;
+  font-weight: bold;
 }
 
 #workspaces button.urgent {
@@ -43,9 +46,7 @@ tooltip {
 }
 
 #workspaces button:hover {
-  background: #1d2021;
-  color: #ebdbb2;
-  border-radius: 15px;
+  color: #504945;
   border: 0;
   outline: none;
 }
@@ -66,7 +67,7 @@ tooltip {
 #backlight {
   background: #282828;
   padding: 0px 15px;
-  margin: 3px 0px;
+  margin: 0;
 }
 
 #tray {
@@ -75,12 +76,15 @@ tooltip {
 }
 
 #workspaces {
-  background: #282828;
-  border-radius: 15px;
+  background: #a89984;
+  color: #3c3836;
   padding-right: 0px;
   padding-left: 5px;
-  margin-left: 15px;
 }
+
+/* #workspaces::after { */
+/*   content: ""; */
+/* } */
 
 #custom-caffeine {
   color: #89dceb;
@@ -95,8 +99,8 @@ tooltip {
 }
 
 #clock {
-  color: #fb4934;
-  border-radius: 15px;
+  background: #bdae93;
+  color: #504945;
   /* margin-left: 5px; */
 }
 
@@ -106,46 +110,120 @@ tooltip {
 }
 
 #custom-pacman {
-  color: #689d6a;
-  border-radius: 15px;
-  margin-right: 15px;
+  background: #3c3836;
+  color: #a89984;
 }
 
 #network {
-  color: #b16286;
-  border-radius: 15px;
-  margin-right: 15px;
+  background: #504945;
+  color: #bdae93;
 }
 
 #idle_inhibitor {
-  color: #d65d03;
-  border-radius: 15px;
-  margin-right: 15px;
+  background: #a89984;
+  color: #3c3836;
 }
 
 #pulseaudio {
-  color: #98771a;
-  border-radius: 15px;
-  margin-right: 15px;
+  background: #7c6f64;
+  color: #ebdbb2;
 }
 
 #battery {
-  color: #d79921;
-  margin-right: 15px;
-  border-radius: 15px;
+  background: #928374;
+  color: #fbf1c7;
 }
 
 #backlight {
-  color: #458588;
-  border-radius: 15px;
-  margin-right: 15px;
-  padding: 0 0.75rem;
+  background: #665c54;
+  color: #d5c4a1;
 }
 
 #custom-power {
-  color: #cc241d;
-  background: #282828;
-  border-radius: 15px;
+  background: #bdae93;
+  color: #504945;
   padding-right: 19px;
-  margin-right: 15px;
+}
+
+#custom-right-arrow-dark,
+#custom-left-arrow-dark,
+#custom-right-arrow-fg3,
+#custom-left-arrow-fg3,
+#custom-right-arrow-fg4,
+#custom-left-arrow-fg4,
+#custom-right-arrow-gray,
+#custom-left-arrow-gray,
+#custom-right-arrow-bg4,
+#custom-left-arrow-bg4,
+#custom-left-arrow-bg3,
+#custom-right-arrow-bg3,
+#custom-left-arrow-bg2,
+#custom-right-arrow-bg2,
+#custom-left-arrow-bg1,
+#custom-right-arrow-bg1 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+#custom-right-arrow-fg3,
+#custom-left-arrow-fg3 {
+  color: #bdae93;
+}
+
+#custom-right-arrow-fg3,
+#custom-left-arrow-fg3 {
+  background: #a89984;
+}
+
+#custom-right-arrow-fg4,
+#custom-left-arrow-fg4 {
+  color: #a89984;
+}
+
+#custom-left-arrow-fg4 {
+  background: #928374;
+}
+
+#custom-right-arrow-gray,
+#custom-left-arrow-gray {
+  color: #928374;
+}
+
+#custom-left-arrow-gray {
+  background: #7c6f64;
+}
+
+#custom-right-arrow-bg4,
+#custom-left-arrow-bg4 {
+  color: #7c6f64;
+}
+
+#custom-left-arrow-bg4 {
+  background: #665c54;
+}
+
+#custom-right-arrow-bg3,
+#custom-left-arrow-bg3 {
+  color: #665c54;
+}
+
+#custom-left-arrow-bg3 {
+  background: #504945;
+}
+
+#custom-right-arrow-bg2,
+#custom-left-arrow-bg2 {
+  color: #504945;
+}
+
+#custom-left-arrow-bg2 {
+  background: #3c3836;
+}
+
+#custom-right-arrow-bg1,
+#custom-left-arrow-bg1 {
+  color: #3c3836;
 }

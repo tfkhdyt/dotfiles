@@ -3,16 +3,28 @@
   "position": "top",
   "height": 33,
 
-  "modules-left": ["wlr/workspaces"],
-  "modules-center": ["clock"],
+  "modules-left": [
+    "clock",
+    "custom/right-arrow-fg3",
+    "wlr/workspaces",
+    "custom/right-arrow-fg4"
+  ],
+  "modules-center": [],
   "modules-right": [
     "tray",
+    "custom/left-arrow-bg1",
     "custom/pacman",
+    "custom/left-arrow-bg2",
     "network",
+    "custom/left-arrow-bg3",
     "backlight",
+    "custom/left-arrow-bg4",
     "pulseaudio",
+    "custom/left-arrow-gray",
     "battery",
+    "custom/left-arrow-fg4",
     "idle_inhibitor",
+    "custom/left-arrow-fg3",
     "custom/power"
   ],
 
@@ -142,5 +154,41 @@
       "activated": "󰅶",
       "deactivated": "󰾪"
     }
+  },
+  "custom/right-arrow-fg3": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-fg3": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-fg4": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-fg4": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-gray": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-bg4": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-bg3": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-bg2": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-bg1": {
+    "format": "",
+    "tooltip": false
   }
 }
