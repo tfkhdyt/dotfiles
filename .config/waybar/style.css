@@ -32,17 +32,16 @@ tooltip {
   font-weight: bold;
 }
 
-#workspaces button.focused {
-  color: #504945;
-  background: #928374;
-  border-radius: 15px;
-  font-weight: bold;
-}
+/* #workspaces button.focused { */
+/*   color: #504945; */
+/*   background: #928374; */
+/*   border-radius: 15px; */
+/*   font-weight: bold; */
+/* } */
 
 #workspaces button.urgent {
-  color: #1d2021;
-  background: #7c6f64;
-  border-radius: 15px;
+  color: #282828;
+  background: #ebdbb2;
 }
 
 #workspaces button:hover {
