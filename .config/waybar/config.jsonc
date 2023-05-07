@@ -4,28 +4,30 @@
   "height": 34,
 
   "modules-left": [
-    "clock",
+    "custom/distro",
     "custom/right-arrow-fg3",
+    "custom/power",
+    "custom/right-arrow-fg4",
+    "idle_inhibitor",
+    "custom/right-arrow-gray",
+    "clock",
+    "custom/right-arrow-bg4",
     "wlr/workspaces",
-    "custom/right-arrow-fg4"
+    "custom/right-arrow-bg3"
   ],
   "modules-center": [],
   "modules-right": [
     "tray",
-    "custom/left-arrow-bg1",
-    "custom/pacman",
-    "custom/left-arrow-bg2",
-    "network",
     "custom/left-arrow-bg3",
-    "backlight",
+    "custom/pacman",
     "custom/left-arrow-bg4",
-    "pulseaudio",
+    "network",
     "custom/left-arrow-gray",
-    "battery",
+    "backlight",
     "custom/left-arrow-fg4",
-    "idle_inhibitor",
+    "pulseaudio",
     "custom/left-arrow-fg3",
-    "custom/power"
+    "battery"
   ],
 
   "wlr/workspaces": {
@@ -175,12 +177,24 @@
     "format": "",
     "tooltip": false
   },
+  "custom/right-arrow-gray": {
+    "format": "",
+    "tooltip": false
+  },
   "custom/left-arrow-bg4": {
     "format": "",
     "tooltip": false
   },
+  "custom/right-arrow-bg4": {
+    "format": "",
+    "tooltip": false
+  },
   "custom/left-arrow-bg3": {
     "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-bg3": {
+    "format": "",
     "tooltip": false
   },
   "custom/left-arrow-bg2": {
@@ -189,6 +203,10 @@
   },
   "custom/left-arrow-bg1": {
     "format": "",
+    "tooltip": false
+  },
+  "custom/distro": {
+    "format": "  ",
     "tooltip": false
   }
 }

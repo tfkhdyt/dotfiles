@@ -23,12 +23,12 @@ tooltip {
 
 #workspaces button {
   padding: 5px;
-  color: #ebdbb2;
+  color: #282828;
   margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: #3c3836;
+  color: #d5c4a1;
   font-weight: bold;
 }
 
@@ -64,6 +64,7 @@ tooltip {
 #mpd,
 #custom-pacman,
 #idle_inhibitor,
+#custom-distro,
 #backlight {
   background: #282828;
   padding: 0px 15px;
@@ -76,8 +77,8 @@ tooltip {
 }
 
 #workspaces {
-  background: #a89984;
-  color: #3c3836;
+  background: #665c54;
+  color: #d5c4a1;
   padding-right: 0px;
   padding-left: 5px;
 }
@@ -99,9 +100,8 @@ tooltip {
 }
 
 #clock {
-  background: #bdae93;
-  color: #504945;
-  /* margin-left: 5px; */
+  background: #7c6f64;
+  color: #ebdbb2;
 }
 
 #mpd {
@@ -110,39 +110,44 @@ tooltip {
 }
 
 #custom-pacman {
-  background: #3c3836;
-  color: #a89984;
-}
-
-#network {
-  background: #504945;
-  color: #bdae93;
-}
-
-#idle_inhibitor {
-  background: #a89984;
-  color: #3c3836;
-}
-
-#pulseaudio {
-  background: #7c6f64;
-  color: #ebdbb2;
-}
-
-#battery {
-  background: #928374;
-  color: #fbf1c7;
-}
-
-#backlight {
   background: #665c54;
   color: #d5c4a1;
 }
 
-#custom-power {
+#network {
+  background: #7c6f64;
+  color: #ebdbb2;
+}
+
+#idle_inhibitor {
+  background: #928374;
+  color: #fbf1c7;
+}
+
+#pulseaudio {
+  background: #a89984;
+  color: #3c3836;
+}
+
+#battery {
   background: #bdae93;
   color: #504945;
+}
+
+#backlight {
+  background: #928374;
+  color: #fbf1c7;
+}
+
+#custom-power {
+  background: #a89984;
+  color: #3c3836;
   padding-right: 19px;
+}
+
+#custom-distro {
+  background: #bdae93;
+  color: #504945;
 }
 
 #custom-right-arrow-dark,
@@ -171,47 +176,31 @@ tooltip {
 #custom-right-arrow-fg3,
 #custom-left-arrow-fg3 {
   color: #bdae93;
-}
-
-#custom-right-arrow-fg3,
-#custom-left-arrow-fg3 {
   background: #a89984;
 }
 
 #custom-right-arrow-fg4,
 #custom-left-arrow-fg4 {
   color: #a89984;
-}
-
-#custom-left-arrow-fg4 {
   background: #928374;
 }
 
 #custom-right-arrow-gray,
 #custom-left-arrow-gray {
   color: #928374;
-}
-
-#custom-left-arrow-gray {
   background: #7c6f64;
 }
 
 #custom-right-arrow-bg4,
 #custom-left-arrow-bg4 {
   color: #7c6f64;
-}
-
-#custom-left-arrow-bg4 {
   background: #665c54;
 }
 
 #custom-right-arrow-bg3,
 #custom-left-arrow-bg3 {
   color: #665c54;
-}
-
-#custom-left-arrow-bg3 {
-  background: #504945;
+  background: #282828;
 }
 
 #custom-right-arrow-bg2,
