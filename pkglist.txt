@@ -20,7 +20,7 @@ aria2
 ark
 artem-bin
 atuin
-auto-cpufreq
+auto-cpufreq-git
 autoconf
 automake
 b43-fwcutter
@@ -128,6 +128,7 @@ gettext
 ghostscript
 gimp-git
 git
+git-cliff
 gksu
 global
 glow
@@ -142,6 +143,7 @@ grep
 grim
 grimblast-git
 groff
+gruvbox-material-gtk-theme-git
 gsfonts
 gst-libav
 gst-plugin-pipewire
@@ -241,6 +243,7 @@ mpd
 mpv
 mpv-mpris
 mtools
+musikcube
 nano
 nano-syntax-highlighting
 ncmpcpp
