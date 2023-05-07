@@ -38,7 +38,7 @@ set -x FZF_DEFAULT_OPTS " \
 
 set -x NNN_TRASH 1
 set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
-set -x BAT_THEME "Catppuccin-mocha"
+set -x BAT_THEME "gruvbox-dark"
 set -x LESS "-I -R"
 set -x NNN_TERMINAL $TERMINAL
 set -x NNN_FIFO /tmp/nnn.fifo
