@@ -9,7 +9,7 @@
 }
 
 window#waybar {
-  background: #3c3836;
+  background: #282828;
   color: #ebdbb2;
 }
 
@@ -211,7 +211,7 @@ tooltip {
 #custom-right-arrow-bg2,
 #custom-left-arrow-bg2 {
   color: #504945;
-  background: #3c3836;
+  background: #282828;
 }
 
 #custom-right-arrow-bg1,
