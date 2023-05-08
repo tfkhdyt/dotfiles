@@ -13,10 +13,13 @@
     "clock",
     "custom/right-arrow-bg4",
     "wlr/workspaces",
-    "custom/right-arrow-bg3"
+    "custom/right-arrow-bg3",
+    "hyprland/window",
+    "custom/right-arrow-bg2"
   ],
   "modules-center": [],
   "modules-right": [
+    "custom/left-arrow-bg2",
     "tray",
     "custom/left-arrow-bg3",
     "custom/pacman",
@@ -201,6 +204,10 @@
     "format": "",
     "tooltip": false
   },
+  "custom/right-arrow-bg2": {
+    "format": "",
+    "tooltip": false
+  },
   "custom/left-arrow-bg1": {
     "format": "",
     "tooltip": false
@@ -208,5 +215,9 @@
   "custom/distro": {
     "format": "  ",
     "tooltip": false
+  },
+  "hyprland/window": {
+    "format": "{}"
+    // "separate-outputs": true
   }
 }

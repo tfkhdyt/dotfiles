@@ -64,6 +64,7 @@ tooltip {
 #custom-pacman,
 #idle_inhibitor,
 #custom-distro,
+#window,
 #backlight {
   background: #282828;
   padding: 0px 15px;
@@ -71,8 +72,8 @@ tooltip {
 }
 
 #tray {
-  border-radius: 15px;
-  margin-right: 4px;
+  background: #504945;
+  color: #bdae93;
 }
 
 #workspaces {
@@ -149,6 +150,11 @@ tooltip {
   color: #504945;
 }
 
+#window {
+  background: #504945;
+  color: #bdae93;
+}
+
 #custom-right-arrow-dark,
 #custom-left-arrow-dark,
 #custom-right-arrow-fg3,
@@ -199,16 +205,13 @@ tooltip {
 #custom-right-arrow-bg3,
 #custom-left-arrow-bg3 {
   color: #665c54;
-  background: #282828;
+  background: #504945;
 }
 
 #custom-right-arrow-bg2,
 #custom-left-arrow-bg2 {
   color: #504945;
-}
-
-#custom-left-arrow-bg2 {
-  background: #3c3836;
+  background: #282828;
 }
 
 #custom-right-arrow-bg1,
