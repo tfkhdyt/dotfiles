@@ -44,6 +44,7 @@ set -x NNN_TERMINAL $TERMINAL
 set -x NNN_FIFO /tmp/nnn.fifo
 set -x NNN_PLUG "p:preview-tui"
 set -x _ZO_MAXAGE 5000
+set -x LS_COLORS $(vivid generate gruvbox-dark)
 
 # aliases
 alias ls="exa --icons --group-directories-first"
