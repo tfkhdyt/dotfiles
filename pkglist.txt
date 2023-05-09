@@ -42,7 +42,6 @@ breeze
 bridge-utils
 brightnessctl
 btrfs-progs
-caffeine-ng
 cantarell-fonts
 catppuccin-cursors-mocha
 catppuccin-gtk-theme-macchiato
@@ -51,6 +50,7 @@ cava
 chaotic-keyring
 chaotic-mirrorlist
 cloudflare-warp-bin
+cmatrix
 cocogitto
 composer
 connman
@@ -92,7 +92,6 @@ eos-quickstart
 eos-rankmirrors
 eos-update-notifier
 eslint_d
-evillimiter
 exa
 exfatprogs
 expac
@@ -241,7 +240,6 @@ mongodb-compass
 mpc
 mpd
 mpv
-mpv-mpris
 mtools
 musikcube
 nano
@@ -269,7 +267,6 @@ nwg-look
 obs-studio-tytan652
 obsidian
 oha
-openconnect
 opendoas
 openrazer-meta
 openssl-1.1
@@ -298,6 +295,7 @@ pfetch-git
 php
 php-apache
 php-gd
+php-xsl
 picard
 picom
 pipes.sh
