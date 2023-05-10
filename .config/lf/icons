@@ -308,10 +308,10 @@ Vagrantfile             
 *.mpg   
 *.mpeg  
 *.m2v   
-*.mkv   
-*.webm  
+*.mkv   󰕧
+*.webm  󰕧
 *.ogm   
-*.mp4   
+*.mp4   󰕧
 *.m4v   
 *.mp4v  
 *.vob   
@@ -336,22 +336,22 @@ Vagrantfile             
 *.ogx   
 
 # audio formats (extensions from dircolors defaults)
-*.aac   
-*.au    
-*.flac  
-*.m4a   
-*.mid   
-*.midi  
-*.mka   
-*.mp3   
-*.mpc   
-*.ogg   
-*.ra    
-*.wav   
-*.oga   
-*.opus  
-*.spx   
-*.xspf  
+*.aac   
+*.au    
+*.flac  
+*.m4a   
+*.mid   
+*.midi  
+*.mka   
+*.mp3   
+*.mpc   
+*.ogg   
+*.ra    
+*.wav   
+*.oga   
+*.opus  
+*.spx   
+*.xspf  
 
 # other formats
 *.pdf   
