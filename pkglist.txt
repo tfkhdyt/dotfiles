@@ -20,7 +20,7 @@ aria2
 ark
 artem-bin
 atuin
-auto-cpufreq-git
+auto-cpufreq
 autoconf
 automake
 b43-fwcutter
@@ -130,7 +130,6 @@ git
 git-cliff
 gksu
 global
-glow
 gnome-keyring
 gnutls
 go
@@ -254,7 +253,6 @@ newsboat
 nfs-utils
 nginx
 nilfs-utils
-nnn-nerd
 nodejs
 noisetorch
 noto-fonts
@@ -343,7 +341,6 @@ scrcpy
 screenkey
 sd
 sed
-shotcut
 simplescreenrecorder
 slurp
 smartmontools
@@ -392,6 +389,7 @@ uwufetch
 v4l2loopback-dkms
 vi
 virt-manager
+vivid
 vpnc
 vulkan-radeon
 w3m
