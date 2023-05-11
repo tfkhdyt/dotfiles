@@ -139,3 +139,9 @@ See the above repository for updates as well as full license text. */
 /* .tabbrowser-tab[fadein]:not([style^='max-width']) { */
 /*   max-width: 100vw !important; */
 /* } */
+
+/* hide back and forward buttons */
+#back-button,
+#forward-button {
+  display: none !important;
+}
