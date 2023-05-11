@@ -32,9 +32,9 @@ set -x CARGO_BIN "$HOME/.cargo/bin/"
 set -x GOBIN "$XDG_DATA_HOME/go/bin"
 set -x PATH $PATH $MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN "$HOME/.local/bin" "$HOME/.local/share/nvim/mason/bin" 
 set -x FZF_DEFAULT_OPTS " \
---color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
---color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
---color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
+--color=bg+:#3c3836,bg:#282828,spinner:#ebdbb2,hl:#cc241d \
+--color=fg:#458588,header:#fb4934,info:#98971a,pointer:#ebdbb2 \
+--color=marker:#ebdbb2,fg+:#d5c4a1,prompt:#83a598,hl+:#cc241d"
 
 set -x NNN_TRASH 1
 set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
