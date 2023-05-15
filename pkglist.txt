@@ -19,6 +19,7 @@ arc-gtk-theme
 aria2
 ark
 artem-bin
+atool
 atuin
 auto-cpufreq
 autoconf
@@ -47,15 +48,16 @@ catppuccin-cursors-mocha
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-mocha
 cava
+chafa
 chaotic-keyring
 chaotic-mirrorlist
 cloudflare-warp-bin
 cmatrix
 cocogitto
 composer
-connman
 cpupower
 cryptsetup
+ctpv-git
 cups
 cups-filters
 cups-pdf
@@ -108,6 +110,7 @@ fish
 fish-done
 fisher
 flex
+flyctl-bin
 foomatic-db
 foomatic-db-engine
 foomatic-db-gutenprint-ppds
@@ -130,6 +133,7 @@ git
 git-cliff
 gksu
 global
+glow
 gnome-keyring
 gnutls
 go
@@ -185,7 +189,7 @@ kvantum-theme-materia
 lazygit
 lefthook
 less
-lf
+lf-sixel-git
 lib32-gnutls
 lib32-libpulse
 lib32-libva-mesa-driver
@@ -216,7 +220,6 @@ logrotate
 lsb-release
 lvm2
 lxappearance
-ly
 m4
 maim
 make
@@ -259,7 +262,6 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
-nsxiv
 ntfs-3g
 nwg-look
 obs-studio-tytan652
@@ -268,7 +270,6 @@ oha
 opendoas
 openrazer-meta
 openssl-1.1
-openvpn
 optipng
 os-prober
 otf-firamono-nerd
@@ -278,7 +279,6 @@ p7zip
 pacman
 pacman-contrib
 papirus-icon-theme
-parallel
 parcellite
 paru
 pass
@@ -353,6 +353,7 @@ starship
 steam
 stow
 sudo
+sway-audio-idle-inhibit-git
 swayidle
 swaylock-effects-git
 swtpm
@@ -435,7 +436,6 @@ xterm
 yad
 yay
 yt-dlp
-ytfzf
 zathura
 zathura-pdf-poppler
 zip
