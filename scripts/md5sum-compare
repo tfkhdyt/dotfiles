@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Function to compare checksums
+compare_checksum() {
+  file_path="$1"
+  expected_md5="$2"
+
+  # Calculate the MD5 checksum of the file
+  actual_md5=$(md5sum "$file_path" | awk '{print $1}')
+
+  # Compare the calculated checksum with the expected checksum
+  if [ "$actual_md5" != "$expected_md5" ]; then
+    echo "Checksum mismatch: $file_path"
+    exit 1
+  fi
+}
+
+# Check if the required number of arguments is provided
+if [ "$#" -ne 2 ]; then
+  echo "Usage: $0 <file_path> <expected_md5>"
+  exit 1
+fi
+
+# Assign the command-line arguments to variables
+file_path="$1"
+expected_md5="$2"
+
+# Call the compare_checksum function with the provided arguments
+compare_checksum "$file_path" "$expected_md5"
+
+echo "Checksum matched: $file_path"
+exit 0
