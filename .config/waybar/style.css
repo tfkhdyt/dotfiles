@@ -72,8 +72,8 @@ tooltip {
 }
 
 #tray {
-  background: #504945;
-  color: #bdae93;
+  background-color: #3c3836;
+  color: #a89984;
 }
 
 #workspaces {
@@ -105,8 +105,8 @@ tooltip {
 }
 
 #mpd {
-  color: #fb4934;
-  border-radius: 15px;
+  background: #504945;
+  color: #bdae93;
 }
 
 #custom-pacman {
@@ -208,8 +208,12 @@ tooltip {
   background: #504945;
 }
 
-#custom-right-arrow-bg2,
 #custom-left-arrow-bg2 {
+  color: #504945;
+  background: #3c3836;
+}
+
+#custom-right-arrow-bg2 {
   color: #504945;
   background: #282828;
 }
@@ -217,4 +221,5 @@ tooltip {
 #custom-right-arrow-bg1,
 #custom-left-arrow-bg1 {
   color: #3c3836;
+  background: #282828;
 }

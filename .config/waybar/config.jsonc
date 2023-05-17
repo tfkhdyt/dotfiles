@@ -19,8 +19,10 @@
   ],
   "modules-center": [],
   "modules-right": [
-    "custom/left-arrow-bg2",
+    "custom/left-arrow-bg1",
     "tray",
+    "custom/left-arrow-bg2",
+    "mpd",
     "custom/left-arrow-bg3",
     "custom/pacman",
     "custom/left-arrow-bg4",
