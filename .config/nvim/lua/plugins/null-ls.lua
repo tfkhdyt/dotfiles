@@ -21,12 +21,12 @@ return {
 					nls.builtins.formatting.rustywind.with({
 						extra_filetypes = { "svelte" },
 					}),
-					nls.builtins.formatting.prettierd.with({
-						extra_filetypes = { "svelte" },
-					}),
-					-- nls.builtins.formatting.prettier.with({
+					-- nls.builtins.formatting.prettierd.with({
 					-- 	extra_filetypes = { "svelte" },
 					-- }),
+					nls.builtins.formatting.prettier.with({
+						filetypes = { "html", "css", "svelte" },
+					}),
 
 					-- Lua
 					nls.builtins.formatting.stylua,
@@ -52,6 +52,9 @@ return {
 					-- python
 					nls.builtins.diagnostics.flake8,
 					nls.builtins.formatting.black,
+
+					-- dprint
+					nls.builtins.formatting.dprint,
 				},
 			}
 		end,
