@@ -29,3 +29,4 @@ vim.opt.linebreak = true
 -- rt.inlay_hints.enable()
 
 vim.filetype.add({ extension = { typ = "typst" } })
+vim.g.jsdoc_lehre_path = "/home/tfkhdyt/.local/share/pnpm/lehre"
