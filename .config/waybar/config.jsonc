@@ -2,7 +2,6 @@
   "layer": "top",
   "position": "top",
   "height": 34,
-
   "modules-left": [
     "custom/distro",
     "custom/right-arrow-fg3",
@@ -34,7 +33,6 @@
     "custom/left-arrow-fg3",
     "battery"
   ],
-
   "wlr/workspaces": {
     "disable-scroll": true,
     "all-outputs": true,
@@ -74,7 +72,11 @@
   "backlight": {
     "device": "amd_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "format-icons": [
+      "󰃞",
+      "󰃟",
+      "󰃠"
+    ],
     "on-scroll-up": "brightnessctl set 1%+ &> /dev/null",
     "on-scroll-down": "brightnessctl set 1%- &> /dev/null",
     "min-length": 6
@@ -89,7 +91,19 @@
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
-    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ]
   },
   "clock": {
     "format": "{: %a,%e %b  %H:%M}",
@@ -130,7 +144,12 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["󰕿", "󰖀", "󰕾", ""]
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾",
+        ""
+      ]
     }
   },
   "custom/power": {
@@ -143,10 +162,11 @@
       "paused": "",
       "playing": ""
     },
-    "artist-len": 25,
-    "title-len": 25,
+    "artist-len": 20,
+    "title-len": 20,
     "on-click": "mpc toggle &> /dev/null",
-    "on-click-right": "mpc next &> /dev/null"
+    "on-click-right": "mpc next &> /dev/null",
+    "on-click-middle": "footclient ncmpcpp"
   },
   "custom/pacman": {
     "format": "󰇚 {}",
@@ -154,7 +174,8 @@
     "exec": "$HOME/scripts/number-of-updates", // # of updates
     "exec-if": "exit 0", // always run; consider advanced run conditions
     // "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
-    "signal": 8
+    "signal": 8,
+    "on-click": "footclient 'checkupdates & yay -Qua & wait'"
   },
   "idle_inhibitor": {
     "format": "{icon}",
