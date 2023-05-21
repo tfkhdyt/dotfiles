@@ -119,7 +119,7 @@ foomatic-db-nonfree-ppds
 foomatic-db-ppds
 foot
 fpc
-freebasic
+freshfetch-git
 fsarchiver
 gamemode
 gamescope
@@ -221,6 +221,7 @@ lsb-release
 lvm2
 lxappearance
 m4
+macchina-bin
 maim
 make
 man-db
@@ -244,6 +245,7 @@ mpd
 mpv
 mtools
 musikcube
+namcap
 nano
 nano-syntax-highlighting
 ncmpcpp
@@ -313,6 +315,7 @@ postgresql-old-upgrade
 postman-bin
 ppp
 pptpclient
+prayermate-id
 procs
 protonup-qt
 python
