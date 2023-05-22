@@ -127,7 +127,8 @@
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "󰖪  Disconnected",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
-    "on-click": "footclient nmtui"
+    "on-click": "footclient nmtui",
+    "on-click-right": "footclient ping -O 8.8.8.8"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
