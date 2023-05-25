@@ -45,7 +45,6 @@ brightnessctl
 btrfs-progs
 cantarell-fonts
 catppuccin-cursors-mocha
-catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-mocha
 cava
 chafa
@@ -55,7 +54,6 @@ cloudflare-warp-bin
 cmatrix
 cocogitto
 composer
-cpupower
 cryptsetup
 ctpv-git
 cups
@@ -72,6 +70,7 @@ discord
 dmidecode
 dmraid
 dnsmasq
+dnsproxy-bin
 docker
 docker-compose
 dosfstools
@@ -119,7 +118,6 @@ foomatic-db-nonfree-ppds
 foomatic-db-ppds
 foot
 fpc
-freshfetch-git
 fsarchiver
 gamemode
 gamescope
@@ -267,7 +265,6 @@ nss-mdns
 ntfs-3g
 nwg-look
 obs-studio-tytan652
-obsidian
 oha
 opendoas
 openrazer-meta
@@ -444,4 +441,4 @@ zathura-pdf-poppler
 zip
 zoom
 zoxide
-zramswap
+zramd
