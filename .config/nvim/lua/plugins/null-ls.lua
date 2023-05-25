@@ -43,7 +43,7 @@ return {
 					nls.builtins.formatting.gofumpt,
 					nls.builtins.formatting.goimports,
 					-- nls.builtins.formatting.goimports_reviser,
-					-- nls.builtins.formatting.golines,
+					nls.builtins.formatting.golines,
 					-- nls.builtins.diagnostics.revive,
 
 					-- PHP
