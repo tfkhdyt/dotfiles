@@ -10,3 +10,5 @@
 	ui = auto
 [commit]
 	gpgsign = true
+[http]
+	postBuffer = 157286400
