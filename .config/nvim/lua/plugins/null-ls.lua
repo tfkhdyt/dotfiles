@@ -54,7 +54,9 @@ return {
 					nls.builtins.formatting.black,
 
 					-- dprint
-					nls.builtins.formatting.dprint,
+					nls.builtins.formatting.dprint.with({
+						filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "markdown" },
+					}),
 				},
 			}
 		end,
