@@ -20,7 +20,7 @@ aria2
 ark
 artem-bin
 atool
-atuin
+audacity
 auto-cpufreq
 autoconf
 automake
@@ -44,6 +44,7 @@ bridge-utils
 brightnessctl
 btrfs-progs
 cantarell-fonts
+cargo-watch
 catppuccin-cursors-mocha
 catppuccin-gtk-theme-mocha
 cava
@@ -70,7 +71,6 @@ discord
 dmidecode
 dmraid
 dnsmasq
-dnsproxy-bin
 docker
 docker-compose
 dosfstools
@@ -181,6 +181,7 @@ kdenlive
 kernel-install-mkinitcpio
 kio-fuse
 klavaro
+knot-resolver
 kvantum
 kvantum-theme-catppuccin-git
 kvantum-theme-materia
@@ -226,6 +227,8 @@ man-db
 man-pages
 mangohud
 mariadb
+mbedtls
+mbedtls2
 mdadm
 mediainfo
 meld
@@ -314,6 +317,7 @@ ppp
 pptpclient
 prayermate-id
 procs
+protontricks-git
 protonup-qt
 python
 python-capng
@@ -321,7 +325,6 @@ python-packaging
 python-pyqt5
 python-reportlab
 qemu-base
-qogir-gtk-theme
 qt5ct
 qt6-wayland
 qt6ct
@@ -363,7 +366,6 @@ system-config-printer
 systemd-sysvcompat
 taskwarrior-tui
 tealdeer
-tenacity-git
 texinfo
 time
 timeshift-bin
