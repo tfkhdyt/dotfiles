@@ -34,7 +34,7 @@ return {
               function() return require("nvim-navic").get_location() end,
               cond = function() return package.loaded["nvim-navic"] and require("nvim-navic").is_available() end,
             },
-						{ git_blame.get_current_blame_text, cond = git_blame.is_blame_text_available },
+						-- { git_blame.get_current_blame_text, cond = git_blame.is_blame_text_available },
 					},
 					lualine_x = {
           -- stylua: ignore
