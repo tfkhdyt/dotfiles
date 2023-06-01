@@ -5,8 +5,6 @@ return {
 		opts = function()
 			local icons = require("lazyvim.config").icons
 			local Util = require("lazyvim.util")
-			vim.g.gitblame_display_virtual_text = 0 -- Disable virtual text
-			local git_blame = require("gitblame")
 
 			return {
 				options = {
