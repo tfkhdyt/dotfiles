@@ -35,7 +35,6 @@ binutils
 bison
 bluez
 bluez-utils
-bore
 bottles
 bottom
 brave-bin
@@ -52,6 +51,7 @@ chafa
 chaotic-keyring
 chaotic-mirrorlist
 cloudflare-warp-bin
+cloudflared
 cmatrix
 cocogitto
 composer
@@ -70,6 +70,7 @@ diffutils
 discord
 dmidecode
 dmraid
+dnscrypt-proxy
 dnsmasq
 docker
 docker-compose
@@ -181,7 +182,6 @@ kdenlive
 kernel-install-mkinitcpio
 kio-fuse
 klavaro
-knot-resolver
 kvantum
 kvantum-theme-catppuccin-git
 kvantum-theme-materia
