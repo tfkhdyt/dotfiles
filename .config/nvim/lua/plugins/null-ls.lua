@@ -48,6 +48,7 @@ return {
 
 					-- PHP
 					nls.builtins.formatting.phpcsfixer,
+					nls.builtins.diagnostics.phpstan,
 
 					-- python
 					nls.builtins.diagnostics.flake8,
