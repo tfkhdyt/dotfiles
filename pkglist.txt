@@ -63,7 +63,6 @@ cups-pdf
 dbeaver
 debtap
 device-mapper
-devour
 dhclient
 dialog
 diffutils
@@ -167,8 +166,6 @@ hyprpaper
 imv
 inetutils
 inxi
-ipw2100-fw
-ipw2200-fw
 iwd
 j4-dmenu-desktop
 jamesdsp
@@ -179,7 +176,7 @@ jpegoptim
 jq
 kdeconnect
 kdenlive
-kernel-install-mkinitcpio
+kernel-install-for-dracut
 kio-fuse
 klavaro
 kvantum
@@ -234,7 +231,6 @@ mediainfo
 meld
 mesa-utils
 mesa-vdpau
-mkinitcpio
 mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mlocate
@@ -274,7 +270,6 @@ openrazer-meta
 openssl-1.1
 optipng
 os-prober
-otf-firamono-nerd
 otf-font-awesome
 ouch
 p7zip
@@ -329,6 +324,7 @@ qt5ct
 qt6-wayland
 qt6ct
 rabbitmq
+rebuild-detector
 redis
 reflector
 reflector-simple
@@ -393,6 +389,7 @@ v4l2loopback-dkms
 vi
 virt-manager
 vivid
+vlc-luajit
 vpnc
 vulkan-radeon
 w3m
