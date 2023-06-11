@@ -60,7 +60,6 @@ ctpv-git
 cups
 cups-filters
 cups-pdf
-dbeaver
 debtap
 device-mapper
 dhclient
@@ -154,6 +153,7 @@ guvcview
 gvfs
 gzip
 halp-bin
+haveged
 hdparm
 heroic-games-launcher-bin
 hplip
@@ -242,6 +242,7 @@ mpd
 mpv
 mtools
 musikcube
+mysql-workbench
 namcap
 nano
 nano-syntax-highlighting
@@ -301,7 +302,7 @@ pkgconf
 pkgfile
 playerctl
 pm2
-pnpm-bin
+pnpm
 polkit-kde-agent
 polychromatic
 poppler-glib
@@ -375,7 +376,6 @@ ttf-jetbrains-mono-nerd
 ttf-liberation
 ttf-ms-fonts
 ttf-opensans
-typst
 udiskie
 unrar
 unzip
