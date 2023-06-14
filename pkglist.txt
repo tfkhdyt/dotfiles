@@ -153,6 +153,7 @@ guvcview
 gvfs
 gzip
 halp-bin
+handbrake
 haveged
 hdparm
 heroic-games-launcher-bin
@@ -331,7 +332,7 @@ reflector
 reflector-simple
 reiserfsprogs
 ripgrep
-rofi-lbonn-wayland-git
+rofi-lbonn-wayland
 rsync
 rust
 rust-src
