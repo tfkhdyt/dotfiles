@@ -124,3 +124,7 @@ if status is-interactive
   set __fish_git_prompt_char_upstream_behind '↓'
   set __fish_git_prompt_char_upstream_equal ''
 end
+
+# tabtab source for packages
+# uninstall by removing these lines
+[ -f ~/.config/tabtab/fish/__tabtab.fish ]; and . ~/.config/tabtab/fish/__tabtab.fish; or true
