@@ -47,8 +47,9 @@ return {
 					-- nls.builtins.diagnostics.revive,
 
 					-- PHP
-					nls.builtins.formatting.phpcsfixer,
-					-- nls.builtins.diagnostics.phpcs,
+					-- nls.builtins.formatting.phpcsfixer,
+					nls.builtins.diagnostics.phpcs,
+					nls.builtins.formatting.phpcbf,
 
 					-- python
 					nls.builtins.diagnostics.flake8,
