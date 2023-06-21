@@ -54,6 +54,7 @@ tooltip {
 #custom-updates,
 #custom-caffeine,
 #custom-power,
+#custom-pomo,
 #clock,
 #battery,
 #pulseaudio,
@@ -72,6 +73,11 @@ tooltip {
 }
 
 #tray {
+  background-color: #3c3836;
+  color: #a89984;
+}
+
+#custom-pomo {
   background-color: #3c3836;
   color: #a89984;
 }
@@ -208,14 +214,10 @@ tooltip {
   background: #504945;
 }
 
+#custom-right-arrow-bg2,
 #custom-left-arrow-bg2 {
   color: #504945;
   background: #3c3836;
-}
-
-#custom-right-arrow-bg2 {
-  color: #504945;
-  background: #282828;
 }
 
 #custom-right-arrow-bg1,

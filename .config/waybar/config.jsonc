@@ -14,7 +14,9 @@
     "wlr/workspaces",
     "custom/right-arrow-bg3",
     "hyprland/window",
-    "custom/right-arrow-bg2"
+    "custom/right-arrow-bg2",
+    "custom/pomo",
+    "custom/right-arrow-bg1"
   ],
   "modules-center": [],
   "modules-right": [
@@ -178,6 +180,12 @@
     "signal": 8,
     "on-click": "footclient 'checkupdates & yay -Qua & wait'"
   },
+  "custom/pomo": {
+    "format": "{}",
+    "interval": 1,
+    "exec": "pomo status",
+    "exec-if": "pgrep pomo"
+  },
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
@@ -235,6 +243,10 @@
   },
   "custom/left-arrow-bg1": {
     "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-bg1": {
+    "format": "",
     "tooltip": false
   },
   "custom/distro": {
