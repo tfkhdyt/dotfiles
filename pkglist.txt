@@ -80,6 +80,7 @@ dust
 e2fsprogs
 efibootmgr
 efitools
+emote
 endeavouros-keyring
 endeavouros-mirrorlist
 endeavouros-theming
@@ -91,7 +92,6 @@ eos-packagelist
 eos-quickstart
 eos-rankmirrors
 eos-update-notifier
-eslint_d
 exa
 exfatprogs
 expac
@@ -107,6 +107,7 @@ firewalld
 fish
 fish-done
 fisher
+flemozi-bin
 flex
 flyctl-bin
 foomatic-db
@@ -120,6 +121,7 @@ fpc
 fsarchiver
 gamemode
 gamescope
+gammastep
 gawk
 gcc
 genact
@@ -169,7 +171,6 @@ inetutils
 inxi
 iwd
 j4-dmenu-desktop
-jamesdsp
 jdk-openjdk
 jfsutils
 jp2a
@@ -255,7 +256,6 @@ networkmanager
 newaita-icons-git
 newsboat
 nfs-utils
-nginx
 nilfs-utils
 nodejs
 noisetorch
@@ -314,7 +314,6 @@ ppp
 pptpclient
 prayermate-id
 procs
-protontricks-git
 protonup-qt
 python
 python-capng
@@ -332,7 +331,7 @@ reflector
 reflector-simple
 reiserfsprogs
 ripgrep
-rofi-lbonn-wayland
+rofi-lbonn-wayland-git
 rsync
 rust
 rust-src
@@ -356,7 +355,7 @@ stow
 sudo
 sway-audio-idle-inhibit-git
 swayidle
-swaylock-effects-git
+swaylock
 swtpm
 sxhkd
 sysfsutils
