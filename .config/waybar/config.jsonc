@@ -165,8 +165,8 @@
       "paused": "",
       "playing": ""
     },
-    "artist-len": 20,
-    "title-len": 20,
+    "artist-len": 25,
+    "title-len": 25,
     "on-click": "mpc toggle &> /dev/null",
     "on-click-right": "mpc next &> /dev/null",
     "on-click-middle": "footclient ncmpcpp"
@@ -251,7 +251,8 @@
   },
   "custom/distro": {
     "format": "  ",
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
   },
   "hyprland/window": {
     "format": "{}"
