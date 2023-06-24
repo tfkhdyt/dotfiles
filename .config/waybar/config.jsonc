@@ -178,7 +178,8 @@
     "exec-if": "exit 0", // always run; consider advanced run conditions
     // "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
     "signal": 8,
-    "on-click": "footclient 'checkupdates & yay -Qua & wait'"
+    "on-click": "pkill -SIGRTMIN+8 waybar",
+    "on-click-right": "footclient 'checkupdates & yay -Qua & wait'"
   },
   "custom/pomo": {
     "format": "{}",
