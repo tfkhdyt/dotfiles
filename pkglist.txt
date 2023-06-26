@@ -1,3 +1,4 @@
+aardvark-dns
 activate-linux-git
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
@@ -42,6 +43,7 @@ breeze
 bridge-utils
 brightnessctl
 btrfs-progs
+caddy
 cantarell-fonts
 cargo-watch
 catppuccin-cursors-mocha
@@ -70,8 +72,6 @@ dmidecode
 dmraid
 dnscrypt-proxy
 dnsmasq
-docker
-docker-compose
 dosfstools
 downgrade
 duf
@@ -80,7 +80,6 @@ dust
 e2fsprogs
 efibootmgr
 efitools
-emote
 endeavouros-keyring
 endeavouros-mirrorlist
 endeavouros-theming
@@ -107,7 +106,6 @@ firewalld
 fish
 fish-done
 fisher
-flemozi-bin
 flex
 flyctl-bin
 foomatic-db
@@ -304,8 +302,11 @@ pkgfile
 playerctl
 pm2
 pnpm
+podman
+podman-compose
 polkit-kde-agent
 polychromatic
+pomo
 poppler-glib
 postgresql
 postgresql-old-upgrade
