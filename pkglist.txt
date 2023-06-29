@@ -437,7 +437,7 @@ yad
 yay
 yt-dlp
 zathura
-zathura-pdf-poppler
+zathura-pdf-mupdf
 zip
 zoom
 zoxide
