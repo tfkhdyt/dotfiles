@@ -270,6 +270,7 @@ openrazer-meta
 openssl-1.1
 optipng
 os-prober
+otf-comicshanns-nerd
 otf-font-awesome
 ouch
 p7zip
