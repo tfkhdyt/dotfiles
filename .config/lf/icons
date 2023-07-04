@@ -363,3 +363,9 @@ Vagrantfile             
 *.srt   󰨗
 *.ass   󰨗
 *.txt   
+
+# font
+*.ttf   
+*.otf   
+*.woff  
+*.woff2 
