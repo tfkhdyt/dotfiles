@@ -102,9 +102,6 @@ abbr -a p pnpm
 
 if status is-interactive
   # Commands to run in interactive sessions can go here
-  starship init fish | source
-  zoxide init fish | source
-  # atuin init fish --disable-up-arrow | source
 
   # Fish git prompt
   set __fish_git_prompt_showdirtystate 'yes'
@@ -123,8 +120,12 @@ if status is-interactive
   set __fish_git_prompt_char_upstream_ahead '↑'
   set __fish_git_prompt_char_upstream_behind '↓'
   set __fish_git_prompt_char_upstream_equal ''
+  # atuin init fish --disable-up-arrow | source
 end
 
 # tabtab source for packages
 # uninstall by removing these lines
 [ -f ~/.config/tabtab/fish/__tabtab.fish ]; and . ~/.config/tabtab/fish/__tabtab.fish; or true
+
+zoxide init fish | source
+starship init fish | source
