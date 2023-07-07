@@ -6,6 +6,7 @@ vim.opt.breakindent = true
 vim.opt.showbreak = "  "
 vim.opt.linebreak = true
 vim.opt.colorcolumn = "90"
+vim.opt.fillchars:append("eob: ")
 
 -- local capabilities = vim.lsp.protocol.make_client_capabilities()
 -- capabilities.offsetEncoding = "utf-8"
