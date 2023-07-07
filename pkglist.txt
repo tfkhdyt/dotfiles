@@ -437,6 +437,7 @@ xterm
 yad
 yay
 yt-dlp
+ytfzf
 zathura
 zathura-pdf-mupdf
 zip
