@@ -9,7 +9,7 @@
     grey: #504945;
 
     width: 600;
-    font: "ComicShannsMono Nerd Font Propo 14";
+    font: "FiraCode Nerd Font Propo 14";
 }
 
 element-text, element-icon , mode-switcher {
@@ -39,7 +39,7 @@ inputbar {
 prompt {
     background-color: @blue;
     padding: 6px;
-    text-color: @bg-col;
+    text-color: @fg-col;
     border-radius: 3px;
     margin: 20px 0px 0px 20px;
 }
