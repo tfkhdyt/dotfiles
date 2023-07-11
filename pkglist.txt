@@ -125,7 +125,7 @@ gcc
 genact
 gettext
 ghostscript
-gimp-git
+gimp
 git
 git-cliff
 gksu
@@ -373,6 +373,7 @@ trash-cli
 tree
 ttf-bitstream-vera
 ttf-dejavu
+ttf-firacode-nerd
 ttf-font-awesome
 ttf-jetbrains-mono-nerd
 ttf-liberation
