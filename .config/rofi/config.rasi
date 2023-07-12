@@ -1,5 +1,5 @@
 configuration{
-    modi: "run,drun,window";
+    modi: "run,drun";
     icon-theme: "Newaita-dark";
     show-icons: true;
     terminal: "alacritty";
