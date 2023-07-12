@@ -6,6 +6,9 @@ add_newline = false
 # success_symbol = '[](bold green)'
 # error_symbol = '[✗](bold red)'
 
+right_format = """$time"""
+format = """$all"""
+
 [aws]
 symbol = "  "
 
@@ -104,4 +107,8 @@ symbol = " "
 format = '\[[as $symbol]\]'
 
 [time]
+disabled = false
 format = '\[[$time]($style)\]'
+time_format = '%T'
+utc_time_offset = '+7'
+time_range = '09:00:00-17:00:00'
