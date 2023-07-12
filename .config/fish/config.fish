@@ -128,4 +128,10 @@ end
 [ -f ~/.config/tabtab/fish/__tabtab.fish ]; and . ~/.config/tabtab/fish/__tabtab.fish; or true
 
 zoxide init fish | source
+
+function starship_transient_rprompt_func
+  starship module time
+end
 starship init fish | source
+
+enable_transience
