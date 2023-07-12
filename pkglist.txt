@@ -134,6 +134,7 @@ glow
 gnome-keyring
 gnutls
 go
+gource
 gparted
 gping
 greetd
@@ -333,7 +334,7 @@ reflector
 reflector-simple
 reiserfsprogs
 ripgrep
-rofi-lbonn-wayland-git
+rofi-lbonn-wayland
 rsync
 rust
 rust-src
@@ -407,6 +408,7 @@ which
 whois
 wireless-regdb
 wl-clipboard
+wl-screenrec-git
 wlogout
 wmctrl
 wofi
