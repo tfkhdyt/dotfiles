@@ -15,6 +15,9 @@ https://debugpointnews.com/feed/ "linux"
 # github
 https://github.com/tfkhdyt.private.atom?token=ALICLEPKDJUUPRN4TBBD6COB64Q4S "github"
 
+# Arch Linux Kernel RSS
+https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/tags?format=atom
+
 # youtube
 # https://www.youtube.com/feeds/videos.xml?channel_id=UCXY68I59Xq3dNG4z0L91H2Q "youtube" "asmr"
 # https://www.youtube.com/feeds/videos.xml?channel_id=UCylGUf9BvQooEFjgdNudoQg "youtube" "linux"
