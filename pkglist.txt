@@ -21,7 +21,6 @@ aria2
 ark
 artem-bin
 atool
-audacity
 auto-cpufreq
 autoconf
 automake
@@ -181,7 +180,6 @@ kernel-install-for-dracut
 kio-fuse
 klavaro
 kvantum
-kvantum-theme-catppuccin-git
 kvantum-theme-materia
 lazygit
 lefthook
@@ -206,10 +204,8 @@ libtpms
 libva-mesa-driver
 libvirt
 lightly-qt
-linux
 linux-firmware
 linux-firmware-qlogic
-linux-headers
 linux-lts
 linux-lts-headers
 localsend-bin
@@ -288,7 +284,6 @@ patch
 pavucontrol
 pcmanfm
 perl
-pfetch-git
 php
 php-apache
 php-gd
@@ -366,6 +361,7 @@ system-config-printer
 systemd-sysvcompat
 taskwarrior-tui
 tealdeer
+tenacity-git
 texinfo
 time
 timeshift-bin
