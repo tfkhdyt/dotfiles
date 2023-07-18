@@ -7,7 +7,7 @@ set number
 set relativenumber
 set previewer ctpv
 set cleaner ctpvclear
-set cursorpreviewfmt "\033[7m
+set cursorpreviewfmt "\033[7m"
 &ctpv -s $id
 &ctpvquit $id
 
