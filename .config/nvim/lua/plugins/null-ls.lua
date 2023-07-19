@@ -44,6 +44,8 @@ return {
 					-- nls.builtins.formatting.goimports,
 					nls.builtins.formatting.goimports_reviser,
 					nls.builtins.formatting.golines,
+					nls.builtins.code_actions.gomodifytags,
+					nls.builtins.code_actions.impl,
 					-- nls.builtins.diagnostics.revive,
 
 					-- PHP
@@ -59,6 +61,9 @@ return {
 					nls.builtins.formatting.dprint.with({
 						filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "markdown" },
 					}),
+
+					-- docker
+					nls.builtins.diagnostics.hadolint,
 				},
 			}
 		end,
