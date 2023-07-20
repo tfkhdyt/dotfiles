@@ -251,7 +251,7 @@
     "tooltip": false
   },
   "custom/distro": {
-    "format": "  ",
+    "format": " ",
     "tooltip": false,
     "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
   },
