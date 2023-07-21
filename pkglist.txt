@@ -307,7 +307,6 @@ pomo
 poppler-glib
 postgresql
 postgresql-old-upgrade
-postman-bin
 ppp
 pptpclient
 prayermate-id
