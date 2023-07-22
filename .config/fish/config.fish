@@ -81,7 +81,7 @@ abbr -a pctrr pactree -r -o
 
 abbr -a dar dart run
 abbr -a timestamp date +%Y-%m-%dT%H-%M-%S
-abbr -a pg ping -O
+abbr -a pg ping -A
 abbr -a lv nvim
 
 abbr -a sc doas systemctl
