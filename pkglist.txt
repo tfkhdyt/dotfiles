@@ -159,13 +159,13 @@ hdparm
 heroic-games-launcher-bin
 hplip
 htop
-httrack
 hwinfo
 hyperfine
 hyprland
 hyprpaper
 imv
 inetutils
+insomnia-bin
 inxi
 iwd
 j4-dmenu-desktop
