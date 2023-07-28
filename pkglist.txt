@@ -126,7 +126,6 @@ gettext
 ghostscript
 gimp
 git
-git-cliff
 gksu
 global
 glow
@@ -259,6 +258,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
 ntfs-3g
+ntp
 nwg-look
 obs-studio-tytan652
 oha
