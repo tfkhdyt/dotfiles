@@ -1,8 +1,7 @@
 return {
-	{
-		"windwp/nvim-ts-autotag",
-		config = function()
-			require("nvim-ts-autotag").setup()
-		end,
-	},
+	"windwp/nvim-ts-autotag",
+	event = "VeryLazy",
+	config = function()
+		require("nvim-ts-autotag").setup()
+	end,
 }
