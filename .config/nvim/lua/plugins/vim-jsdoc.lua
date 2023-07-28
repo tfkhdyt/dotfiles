@@ -1,3 +1,4 @@
 return {
-	{ "heavenshell/vim-jsdoc" },
+	"heavenshell/vim-jsdoc",
+	ft = "js",
 }
