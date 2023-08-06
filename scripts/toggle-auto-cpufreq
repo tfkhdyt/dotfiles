@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+SERVICE_NAME="auto-cpufreq"
+
+if systemctl is-active --quiet $SERVICE_NAME; then
+    echo "Stopping $SERVICE_NAME..."
+    systemctl stop $SERVICE_NAME
+else
+    echo "Starting $SERVICE_NAME..."
+    systemctl start $SERVICE_NAME
+fi
