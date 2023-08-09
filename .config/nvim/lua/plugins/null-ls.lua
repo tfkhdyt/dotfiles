@@ -21,9 +21,10 @@ return {
 					nls.builtins.formatting.rustywind.with({
 						extra_filetypes = { "svelte" },
 					}),
-					nls.builtins.formatting.prettierd.with({
-						filetypes = { "html", "css", "svelte" },
-					}),
+					nls.builtins.formatting.prettierd,
+					-- nls.builtins.formatting.prettierd.with({
+					-- 	filetypes = { "html", "css", "svelte" },
+					-- }),
 					-- nls.builtins.formatting.prettier.with({
 					-- 	filetypes = { "html", "css", "svelte" },
 					-- }),
@@ -58,9 +59,9 @@ return {
 					nls.builtins.formatting.black,
 
 					-- dprint
-					nls.builtins.formatting.dprint.with({
-						filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "markdown" },
-					}),
+					-- nls.builtins.formatting.dprint.with({
+					-- 	filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "markdown" },
+					-- }),
 
 					-- docker
 					nls.builtins.diagnostics.hadolint,
