@@ -21,7 +21,7 @@ return {
 					nls.builtins.formatting.rustywind.with({
 						extra_filetypes = { "svelte" },
 					}),
-					nls.builtins.formatting.prettierd,
+					-- nls.builtins.formatting.prettierd,
 					-- nls.builtins.formatting.prettierd.with({
 					-- 	filetypes = { "html", "css", "svelte" },
 					-- }),
