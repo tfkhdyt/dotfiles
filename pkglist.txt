@@ -73,6 +73,7 @@ dnscrypt-proxy
 dnsmasq
 dosfstools
 downgrade
+dragon-drop-git
 duf
 dunst
 dust
@@ -397,7 +398,6 @@ waybar-hyprland-git
 wd719x-firmware
 welcome
 wev
-wf-recorder
 wget
 which
 whois
