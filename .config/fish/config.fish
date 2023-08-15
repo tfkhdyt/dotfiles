@@ -1,50 +1,50 @@
-set -x BROWSER librewolf
-set -x TERMINAL footclient
-
-set -x XDG_DATA_HOME "$HOME/.local/share"
-set -x XDG_CONFIG_HOME "$HOME/.config"
-set -x XDG_STATE_HOME "$HOME/.local/state"
-set -x XDG_CACHE_HOME "$HOME/.cache"
-set -x PNPM_HOME "/home/tfkhdyt/.local/share/pnpm"
-set -x MY_SCRIPTS "$HOME/.dotfiles/scripts"
-set -x STATUSBAR_SCRIPTS "$HOME/.dotfiles/scripts/statusbar"
-set -x HISTSIZE 10000
-set -x SAVEHIST 10000
-set -x EDITOR nvim
-set -x COMPOSER_HOME "$XDG_CONFIG_HOME"/composer/vendor/bin
-set -x ANDROID_HOME "$XDG_DATA_HOME"/android
-set -x HISTFILE "$XDG_STATE_HOME"/bash/history
-set -x GNUPGHOME "$XDG_DATA_HOME"/gnupg
-set -x GOPATH "$XDG_DATA_HOME"/go
-set -x GTK2_RC_FILES "$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
-set -x KDEHOME "$XDG_CONFIG_HOME"/kde 
-set -x LESSHISTFILE "$XDG_CACHE_HOME"/less/history
-set -x MYSQL_HISTFILE "$XDG_DATA_HOME"/mysql_history
-set -x NODE_REPL_HISTORY "$XDG_DATA_HOME"/node_repl_history
-set -x PSQL_HISTORY "$XDG_DATA_HOME/psql_history"
-set -x RUSTUP_HOME "$XDG_DATA_HOME"/rustup
-set -x WINEPREFIX "$XDG_DATA_HOME"/wine
-set -x QT_QPA_PLATFORMTHEME qt6ct
-# set -x QT_STYLE_OVERRIDE kvantum
-set -x DATE (date -I)
-# set -x PRETTIERD_DEFAULT_CONFIG "$HOME/.config/lvim/prettierd/.prettierrc"
-set -x CARGO_BIN "$HOME/.cargo/bin/"
-set -x GOBIN "$XDG_DATA_HOME/go/bin"
-set -x PATH $PATH $MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN "$HOME/.local/bin" "$HOME/.local/share/nvim/mason/bin" 
-set -x FZF_DEFAULT_OPTS " \
---color=bg+:#3c3836,bg:#282828,spinner:#ebdbb2,hl:#cc241d \
---color=fg:#458588,header:#fb4934,info:#98971a,pointer:#ebdbb2 \
---color=marker:#ebdbb2,fg+:#d5c4a1,prompt:#83a598,hl+:#cc241d"
-
-set -x NNN_TRASH 1
-set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
-set -x BAT_THEME "gruvbox-dark"
-set -x LESS "-I -R"
-set -x NNN_TERMINAL $TERMINAL
-set -x NNN_FIFO /tmp/nnn.fifo
-set -x NNN_PLUG "p:preview-tui"
-set -x _ZO_MAXAGE 5000
-set -x LS_COLORS $(vivid generate gruvbox-dark)
+# set -x BROWSER librewolf
+# set -x TERMINAL footclient
+#
+# set -x XDG_DATA_HOME "$HOME/.local/share"
+# set -x XDG_CONFIG_HOME "$HOME/.config"
+# set -x XDG_STATE_HOME "$HOME/.local/state"
+# set -x XDG_CACHE_HOME "$HOME/.cache"
+# set -x PNPM_HOME "/home/tfkhdyt/.local/share/pnpm"
+# set -x MY_SCRIPTS "$HOME/.dotfiles/scripts"
+# set -x STATUSBAR_SCRIPTS "$HOME/.dotfiles/scripts/statusbar"
+# set -x HISTSIZE 10000
+# set -x SAVEHIST 10000
+# set -x EDITOR nvim
+# set -x COMPOSER_HOME "$XDG_CONFIG_HOME"/composer/vendor/bin
+# set -x ANDROID_HOME "$XDG_DATA_HOME"/android
+# set -x HISTFILE "$XDG_STATE_HOME"/bash/history
+# set -x GNUPGHOME "$XDG_DATA_HOME"/gnupg
+# set -x GOPATH "$XDG_DATA_HOME"/go
+# set -x GTK2_RC_FILES "$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+# set -x KDEHOME "$XDG_CONFIG_HOME"/kde 
+# set -x LESSHISTFILE "$XDG_CACHE_HOME"/less/history
+# set -x MYSQL_HISTFILE "$XDG_DATA_HOME"/mysql_history
+# set -x NODE_REPL_HISTORY "$XDG_DATA_HOME"/node_repl_history
+# set -x PSQL_HISTORY "$XDG_DATA_HOME/psql_history"
+# set -x RUSTUP_HOME "$XDG_DATA_HOME"/rustup
+# set -x WINEPREFIX "$XDG_DATA_HOME"/wine
+# set -x QT_QPA_PLATFORMTHEME qt6ct
+# # set -x QT_STYLE_OVERRIDE kvantum
+# set -x DATE (date -I)
+# # set -x PRETTIERD_DEFAULT_CONFIG "$HOME/.config/lvim/prettierd/.prettierrc"
+# set -x CARGO_BIN "$HOME/.cargo/bin/"
+# set -x GOBIN "$XDG_DATA_HOME/go/bin"
+# set -x PATH $PATH $MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN "$HOME/.local/bin" "$HOME/.local/share/nvim/mason/bin" 
+# set -x FZF_DEFAULT_OPTS " \
+# --color=bg+:#3c3836,bg:#282828,spinner:#ebdbb2,hl:#cc241d \
+# --color=fg:#458588,header:#fb4934,info:#98971a,pointer:#ebdbb2 \
+# --color=marker:#ebdbb2,fg+:#d5c4a1,prompt:#83a598,hl+:#cc241d"
+#
+# set -x NNN_TRASH 1
+# set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
+# set -x BAT_THEME "gruvbox-dark"
+# set -x LESS "-I -R"
+# set -x NNN_TERMINAL $TERMINAL
+# set -x NNN_FIFO /tmp/nnn.fifo
+# set -x NNN_PLUG "p:preview-tui"
+# set -x _ZO_MAXAGE 5000
+# set -x LS_COLORS $(vivid generate gruvbox-dark)
 
 # aliases
 alias ls="exa --icons --group-directories-first"
