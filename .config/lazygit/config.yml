@@ -18,6 +18,7 @@ gui:
       - "#89b4fa" # Blue
     unstagedChangesColor:
       - red # Red
+  nerdFontsVersion: "3"
 git:
   overrideGpg: true
 customCommands:
