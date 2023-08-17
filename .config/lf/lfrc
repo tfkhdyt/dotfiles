@@ -1,13 +1,16 @@
 set icons
 set autoquit
 set ifs "\n"
-set period 3
+set period 1
 set drawbox
 set number
 set relativenumber
 set previewer ctpv
 set cleaner ctpvclear
 set cursorpreviewfmt "\033[7m"
+set info size
+set dircounts
+
 &ctpv -s $id
 &ctpvquit $id
 
@@ -46,3 +49,4 @@ map od decompress
 map or unrar
 map af push :create_file<space>
 map ad push :create_dir<space>
+map p : paste; clear
