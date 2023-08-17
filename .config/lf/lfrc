@@ -44,6 +44,23 @@ cmd create_dir %{{
     lf -remote "send $id select \"$*\""
 }}
 
+cmd on-select &{{
+    lf -remote "send $id set statfmt \"$(exa -ld --color=always "$f")\""
+}}
+
+cmd paste-overwrite %{{
+    mode=$(head -1 ~/.local/share/lf/files)
+    list=$(sed 1d ~/.local/share/lf/files)
+    if [ $mode = 'copy' ]; then
+        cp -r $list .
+    elif [ $mode = 'move' ]; then
+        mv $list .
+    fi
+    lf -remote 'send load'
+    lf -remote 'send clear'
+}}
+
+map P paste-overwrite; clear
 map oc push :compress<space>
 map od decompress
 map or unrar
