@@ -78,6 +78,7 @@ duf
 dunst
 dust
 e2fsprogs
+earlyoom
 efibootmgr
 efitools
 endeavouros-keyring
@@ -127,12 +128,15 @@ gettext
 ghostscript
 gimp
 git
+git-delta
 gksu
 global
 glow
 gnome-keyring
 gnutls
 go
+goose
+gosec-bin
 gource
 gparted
 gping
@@ -276,7 +280,6 @@ pacman
 pacman-contrib
 papirus-icon-theme
 parcellite
-paru
 pass
 pass-otp
 passff-host
@@ -346,6 +349,7 @@ sof-firmware
 solid
 speedtest-cli
 splix
+sqlc
 sshfs
 starship
 steam
