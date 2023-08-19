@@ -57,6 +57,7 @@ alias cal="cal --monday"
 alias make="make -j $(nproc)"
 alias darkhouse="CHROME_PATH=/usr/bin/brave unlighthouse --config-file $XDG_CONFIG_HOME/unlighthouse/config.ts"
 # alias procs="procs --theme dark"
+alias git-push='git push -u origin HEAD'
 
 # yay aliases
 abbr -a yr yay -Rns
