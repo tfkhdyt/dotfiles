@@ -88,6 +88,6 @@ customCommands:
         body: "Are you sure you want to automatically bump version and generate changelog?"
   - key: "P"
     context: global
-    command: fish -c git-push
+    command: git push -u origin HEAD
     description: Push
     stream: true
