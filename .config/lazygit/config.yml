@@ -90,4 +90,4 @@ customCommands:
     context: global
     command: fish -c git-push
     description: Push
-    showOutput: true
+    stream: true
