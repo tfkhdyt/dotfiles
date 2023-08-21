@@ -66,10 +66,26 @@ tooltip {
 #idle_inhibitor,
 #custom-distro,
 #window,
+#temperature,
+#cpu,
+#memory,
 #backlight {
   background: #282828;
   padding: 2px 15px;
   margin: 0;
+}
+
+#cpu,
+#temperature {
+  padding-right: 5px;
+}
+
+#custom-distro,
+#cpu,
+#memory,
+#temperature {
+  background: #bdae93;
+  color: #504945;
 }
 
 #tray {
@@ -151,10 +167,6 @@ tooltip {
   padding-right: 19px;
 }
 
-#custom-distro {
-  background: #bdae93;
-  color: #504945;
-}
 
 #window {
   background: #504945;

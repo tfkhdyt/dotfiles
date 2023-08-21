@@ -3,7 +3,9 @@
   "position": "top",
   "height": 34,
   "modules-left": [
-    "custom/distro",
+    "temperature",
+    "cpu",
+    "memory",
     "custom/right-arrow-fg3",
     "custom/power",
     "custom/right-arrow-fg4",
@@ -74,7 +76,11 @@
   "backlight": {
     "device": "amd_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "format-icons": [
+      "󰃞",
+      "󰃟",
+      "󰃠"
+    ],
     "on-scroll-up": "brightnessctl set 1%+ &> /dev/null",
     "on-scroll-down": "brightnessctl set 1%- &> /dev/null",
     "min-length": 6
@@ -89,7 +95,19 @@
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
-    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ]
   },
   "clock": {
     "format": "{: %a,%e %b  %H:%M}",
@@ -131,7 +149,12 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["󰕿", "󰖀", "󰕾", ""]
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾",
+        ""
+      ]
     }
   },
   "custom/power": {
@@ -237,5 +260,23 @@
   "hyprland/window": {
     "format": "{}"
     // "separate-outputs": true
+  },
+  "temperature": {
+    // "thermal-zone": 2,
+    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    "critical-threshold": 80,
+    "format-critical": " {temperatureC}°C",
+    "format": " {temperatureC}°C",
+    "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
+  },
+  "cpu": {
+    "interval": 10,
+    "format": " {usage}%",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "max-length": 10
   }
 }
