@@ -19,9 +19,7 @@ appmenu-gtk-module
 arc-gtk-theme
 aria2
 ark
-artem-bin
 atool
-auto-cpufreq
 autoconf
 automake
 b43-fwcutter
@@ -56,11 +54,13 @@ cloudflared
 cmatrix
 cocogitto
 composer
+cpupower
 cryptsetup
 ctpv-git
 cups
 cups-filters
 cups-pdf
+dbmate
 debtap
 device-mapper
 dhclient
@@ -69,7 +69,6 @@ diffutils
 discord
 dmidecode
 dmraid
-dnscrypt-proxy
 dnsmasq
 dosfstools
 downgrade
@@ -84,7 +83,6 @@ efitools
 endeavouros-keyring
 endeavouros-mirrorlist
 endeavouros-theming
-entr
 eos-apps-info
 eos-hooks
 eos-log-tool
@@ -135,7 +133,6 @@ glow
 gnome-keyring
 gnutls
 go
-goose
 gosec-bin
 gource
 gparted
@@ -208,8 +205,10 @@ libtpms
 libva-mesa-driver
 libvirt
 lightly-qt
+linux
 linux-firmware
 linux-firmware-qlogic
+linux-headers
 linux-lts
 linux-lts-headers
 localsend-bin
@@ -444,5 +443,6 @@ zathura
 zathura-pdf-mupdf
 zip
 zoom
+zoom-citrix-plugin
 zoxide
 zramd
