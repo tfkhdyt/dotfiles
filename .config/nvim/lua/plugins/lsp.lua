@@ -6,6 +6,9 @@ return {
 			diagnostics = {
 				update_in_insert = false,
 			},
+			inlay_hints = {
+				enabled = true,
+			},
 			servers = {
 				gopls = {
 					keys = {
