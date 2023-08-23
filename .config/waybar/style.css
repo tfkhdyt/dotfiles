@@ -10,7 +10,7 @@
 }
 
 window#waybar {
-  background: #282828;
+  background: transparent;
   color: #ebdbb2;
 }
 
@@ -73,12 +73,18 @@ tooltip {
 #backlight {
   background: #282828;
   padding: 2px 15px;
-  margin: 0;
+  margin-top: 10px;
 }
 
 #cpu,
 #temperature {
   padding-right: 5px;
+}
+
+#temperature {
+  margin-left: 15px;
+  border-radius: 24px 0 0 24px;
+  padding-left: 20px;
 }
 
 #custom-distro,
@@ -155,6 +161,9 @@ tooltip {
 #battery {
   background: #bdae93;
   color: #504945;
+  margin-right: 15px;
+  border-radius: 0 24px 24px 0;
+  padding-right: 20px;
 }
 
 #backlight {
@@ -192,9 +201,9 @@ tooltip {
 #custom-right-arrow-bg1 {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 0px;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 #custom-right-arrow-fg3,
@@ -236,5 +245,5 @@ tooltip {
 #custom-right-arrow-bg1,
 #custom-left-arrow-bg1 {
   color: #3c3836;
-  background: #282828;
+  background: transparent;
 }
