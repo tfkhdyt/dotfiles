@@ -203,7 +203,7 @@
     "tooltip": false
   },
   "custom/left-arrow-fg3": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/right-arrow-fg4": {
@@ -211,11 +211,11 @@
     "tooltip": false
   },
   "custom/left-arrow-fg4": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/left-arrow-gray": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/right-arrow-gray": {
@@ -223,7 +223,7 @@
     "tooltip": false
   },
   "custom/left-arrow-bg4": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/right-arrow-bg4": {
@@ -231,7 +231,7 @@
     "tooltip": false
   },
   "custom/left-arrow-bg3": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/right-arrow-bg3": {
@@ -239,7 +239,7 @@
     "tooltip": false
   },
   "custom/left-arrow-bg2": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/right-arrow-bg2": {

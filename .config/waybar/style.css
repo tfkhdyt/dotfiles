@@ -24,12 +24,12 @@ tooltip {
 
 #workspaces button {
   padding: 5px;
-  color: #282828;
+  color: #d5c4a1;
   margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: #d5c4a1;
+  color: #282828;
   font-weight: bold;
 }
 
@@ -91,8 +91,8 @@ tooltip {
 #cpu,
 #memory,
 #temperature {
-  background: #bdae93;
-  color: #504945;
+  background-color: #3c3836;
+  color: #a89984;
 }
 
 #tray {
@@ -101,13 +101,13 @@ tooltip {
 }
 
 #custom-pomo {
-  background-color: #3c3836;
-  color: #a89984;
+  background: #bdae93;
+  color: #504945;
 }
 
 #workspaces {
-  background: #665c54;
-  color: #d5c4a1;
+  background: #928374;
+  color: #fbf1c7;
   padding-right: 0px;
   padding-left: 5px;
 }
@@ -134,13 +134,13 @@ tooltip {
 }
 
 #mpd {
-  background: #504945;
-  color: #bdae93;
+  background: #a89984;
+  color: #3c3836;
 }
 
 #custom-pacman {
-  background: #665c54;
-  color: #d5c4a1;
+  background: #928374;
+  color: #282828;
 }
 
 #network {
@@ -149,38 +149,38 @@ tooltip {
 }
 
 #idle_inhibitor {
-  background: #928374;
-  color: #fbf1c7;
+  background: #665c54;
+  color: #d5c4a1;
 }
 
 #pulseaudio {
-  background: #a89984;
-  color: #3c3836;
+  background: #504945;
+  color: #bdae93;
 }
 
 #battery {
-  background: #bdae93;
-  color: #504945;
+  background-color: #3c3836;
+  color: #a89984;
   margin-right: 15px;
   border-radius: 0 24px 24px 0;
   padding-right: 20px;
 }
 
 #backlight {
-  background: #928374;
-  color: #fbf1c7;
+  background: #665c54;
+  color: #d5c4a1;
 }
 
 #custom-power {
-  background: #a89984;
-  color: #3c3836;
+  background: #504945;
+  color: #bdae93;
   padding-right: 19px;
 }
 
 
 #window {
-  background: #504945;
-  color: #bdae93;
+  background: #a89984;
+  color: #3c3836;
 }
 
 #custom-right-arrow-dark,
@@ -208,42 +208,42 @@ tooltip {
 
 #custom-right-arrow-fg3,
 #custom-left-arrow-fg3 {
-  color: #bdae93;
-  background: #a89984;
+  color: #3c3836;
+  background: #504945;
 }
 
 #custom-right-arrow-fg4,
 #custom-left-arrow-fg4 {
-  color: #a89984;
-  background: #928374;
+  color: #504945;
+  background: #665c54;
 }
 
 #custom-right-arrow-gray,
 #custom-left-arrow-gray {
-  color: #928374;
+  color: #665c54;
   background: #7c6f64;
 }
 
 #custom-right-arrow-bg4,
 #custom-left-arrow-bg4 {
   color: #7c6f64;
-  background: #665c54;
+  background: #928374;
 }
 
 #custom-right-arrow-bg3,
 #custom-left-arrow-bg3 {
-  color: #665c54;
-  background: #504945;
+  color: #928374;
+  background: #a89984;
 }
 
 #custom-right-arrow-bg2,
 #custom-left-arrow-bg2 {
-  color: #504945;
-  background: #3c3836;
+  color: #a89984;
+  background: #bdae93;
 }
 
 #custom-right-arrow-bg1,
 #custom-left-arrow-bg1 {
-  color: #3c3836;
+  color: #bdae93;
   background: transparent;
 }
