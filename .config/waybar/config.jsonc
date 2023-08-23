@@ -162,16 +162,18 @@
     "on-click": "wlogout &> /dev/null"
   },
   "mpd": {
-    "format": "{stateIcon} {artist} - {title}",
+    "format": "{stateIcon} {title}",
     "state-icons": {
       "paused": "",
       "playing": ""
     },
-    "artist-len": 25,
-    "title-len": 25,
+    // "artist-len": 15,
+    // "title-len": 15,
+    "max-length": 25,
     "on-click": "mpc toggle &> /dev/null",
     "on-click-right": "mpc next &> /dev/null",
-    "on-click-middle": "footclient ncmpcpp"
+    "on-click-middle": "footclient ncmpcpp",
+    "tooltip-format": "{stateIcon} {artist} - {title}"
   },
   "custom/pacman": {
     "format": "󰇚 {}",
