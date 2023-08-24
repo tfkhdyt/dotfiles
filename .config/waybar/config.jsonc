@@ -169,7 +169,7 @@
     },
     // "artist-len": 15,
     // "title-len": 15,
-    "max-length": 25,
+    "max-length": 20,
     "on-click": "mpc toggle &> /dev/null",
     "on-click-right": "mpc next &> /dev/null",
     "on-click-middle": "footclient ncmpcpp",
