@@ -176,7 +176,7 @@
     "tooltip-format": "{stateIcon} {artist} - {title}"
   },
   "custom/pacman": {
-    "format": "󰇚 {}",
+    "format": "󰚰 {}",
     "interval": 7200, // every 6 hours
     "exec": "$HOME/scripts/number-of-updates", // # of updates
     "exec-if": "exit 0", // always run; consider advanced run conditions
