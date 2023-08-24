@@ -87,7 +87,7 @@ tooltip {
 #memory,
 #temperature {
   background-color: #3c3836;
-  color: #a89984;
+  color: #d5c4a1;
 }
 
 #custom-right-arrow-fg3,
@@ -98,7 +98,7 @@ tooltip {
 
 #idle_inhibitor {
   background: #504945;
-  color: #bdae93;
+  color: #d5c4a1;
 }
 
 #custom-right-arrow-fg4,
@@ -134,7 +134,7 @@ tooltip {
 
 #custom-pomo {
   background: #928374;
-  color: #fbf1c7;
+  color: #ebdbb2;
 }
 
 #custom-right-arrow-bg3,
@@ -147,7 +147,7 @@ tooltip {
 
 #battery {
   background-color: #3c3836;
-  color: #a89984;
+  color: #d5c4a1;
   margin-right: 15px;
   border-radius: 0 24px 24px 0;
   padding-right: 25px;
@@ -156,7 +156,7 @@ tooltip {
 #pulseaudio,
 #backlight{
   background: #504945;
-  color: #bdae93;
+  color: #d5c4a1;
 }
 
 #network {
@@ -172,7 +172,7 @@ tooltip {
 #mpd,
 #tray{
   background: #928374;
-  color: #fbf1c7;
+  color: #ebdbb2;
 }
 
 /* ============================== */
@@ -184,8 +184,8 @@ tooltip {
 /* } */
 
 #clock {
-  background: #928374;
-  color: #fbf1c7;
+  background-color: #3c3836;
+  color: #d5c4a1;
   border-radius: 24px;
   padding-right: 20px;
   padding-left: 20px;
