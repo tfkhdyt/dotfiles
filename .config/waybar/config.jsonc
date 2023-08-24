@@ -7,32 +7,32 @@
     "cpu",
     "memory",
     "custom/right-arrow-fg3",
-    "custom/power",
-    "custom/right-arrow-fg4",
     "idle_inhibitor",
-    "custom/right-arrow-gray",
-    "clock",
-    "custom/right-arrow-bg4",
+    "custom/right-arrow-fg4",
     "wlr/workspaces",
-    "custom/right-arrow-bg3",
+    "custom/right-arrow-gray",
     "hyprland/window",
-    "custom/right-arrow-bg2",
+    "custom/right-arrow-bg4",
     "custom/pomo",
-    "custom/right-arrow-bg1"
+    "custom/right-arrow-bg3"
+    // "custom/right-arrow-bg2"
+    // "custom/right-arrow-bg1"
   ],
-  "modules-center": [],
+  "modules-center": [
+    "clock"
+  ],
   "modules-right": [
-    "custom/left-arrow-bg1",
-    "tray",
-    "custom/left-arrow-bg2",
-    "mpd",
+    // "custom/left-arrow-bg2",
+    // "custom/left-arrow-bg1",
     "custom/left-arrow-bg3",
-    "custom/pacman",
+    "mpd",
+    "tray",
     "custom/left-arrow-bg4",
-    "network",
+    "custom/pacman",
     "custom/left-arrow-gray",
-    "backlight",
+    "network",
     "custom/left-arrow-fg4",
+    "backlight",
     "pulseaudio",
     "custom/left-arrow-fg3",
     "battery"
@@ -110,7 +110,7 @@
     ]
   },
   "clock": {
-    "format": "{: %a,%e %b  %H:%M}",
+    "format": "{: %a,%e %b %H:%M}",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "calendar": {
       "mode": "month",
@@ -178,7 +178,8 @@
   "custom/pacman": {
     "format": "󰇚 {}",
     "interval": 7200, // every 6 hours
-    "exec": "$HOME/scripts/number-of-updates", // # of updates
+    // "exec": "$HOME/scripts/number-of-updates", // # of updates
+    "exec": "echo 'up'",
     "exec-if": "exit 0", // always run; consider advanced run conditions
     // "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
     "signal": 8,
@@ -231,11 +232,11 @@
     "tooltip": false
   },
   "custom/left-arrow-bg3": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/right-arrow-bg3": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/left-arrow-bg2": {
@@ -260,7 +261,7 @@
     "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
   },
   "hyprland/window": {
-    "format": "{}"
+    "format": "{initialTitle}"
     // "separate-outputs": true
   },
   "temperature": {
