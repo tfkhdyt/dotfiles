@@ -5,14 +5,11 @@ set period 1
 set drawbox
 set number
 set relativenumber
-set previewer ctpv
-set cleaner ctpvclear
 set cursorpreviewfmt "\033[7m"
 set info size
 set dircounts
-
-&ctpv -s $id
-&ctpvquit $id
+set previewer ~/scripts/preview
+set cleaner ~/scripts/cleaner
 
 cmd z %{{
 	result="$(zoxide query --exclude $PWD $@)"
@@ -44,9 +41,9 @@ cmd create_dir %{{
     lf -remote "send $id select \"$*\""
 }}
 
-cmd on-select &{{
-    lf -remote "send $id set statfmt \"$(exa -ld --color=always "$f")\""
-}}
+# cmd on-select &{{
+#     lf -remote "send $id set statfmt \"$(exa -ld --color=always "$f")\""
+# }}
 
 cmd paste-overwrite %{{
     mode=$(head -1 ~/.local/share/lf/files)
