@@ -131,8 +131,8 @@
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "󰖪  Disconnected",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
-    "on-click": "footclient nmtui",
-    "on-click-right": "footclient ping -O 8.8.8.8"
+    "on-click": "alacritty -e nmtui",
+    "on-click-right": "alacritty -e ping -O 8.8.8.8"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
@@ -172,7 +172,7 @@
     "max-length": 20,
     "on-click": "mpc toggle &> /dev/null",
     "on-click-right": "mpc next &> /dev/null",
-    "on-click-middle": "footclient ncmpcpp",
+    "on-click-middle": "alacritty -e ncmpcpp",
     "tooltip-format": "{stateIcon} {artist} - {title}"
   },
   "custom/pacman": {
@@ -183,7 +183,7 @@
     // "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
     "signal": 8,
     "on-click": "pkill -SIGRTMIN+8 waybar",
-    "on-click-right": "footclient 'checkupdates & yay -Qua & wait'"
+    "on-click-right": "alacritty -e 'checkupdates & yay -Qua & wait'"
   },
   "custom/pomo": {
     "format": "{}",
