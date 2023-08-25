@@ -45,9 +45,9 @@ window:
   # by DPI and the specified value is always added at both opposing sides.
   padding:
     x: 10
-    y: 5
+    y: 10
   # Spread additional padding evenly around the terminal content.
-  dynamic_padding: true
+  dynamic_padding: false
   # Window decorations
   #
   # Values for `decorations`:
@@ -114,7 +114,7 @@ font:
   bold_italic:
     family: FiraCode Nerd Font
     style: Bold Italic
-  size: 12.8
+  size: 12.0
 #font:
 # Normal (roman) font face
 #normal:
