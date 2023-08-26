@@ -78,7 +78,7 @@ tooltip {
 #temperature {
   margin-left: 15px;
   border-radius: 24px 0 0 24px;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 /* module left */
@@ -118,7 +118,6 @@ tooltip {
 #custom-left-arrow-gray {
   color: #665c54;
   background: #7c6f64;
-
 }
 
 #window {
@@ -126,7 +125,11 @@ tooltip {
   color: #ebdbb2;
 }
 
-#custom-right-arrow-bg4,
+#custom-right-arrow-bg4 {
+  color: #7c6f64;
+  background: transparent;
+}
+
 #custom-left-arrow-bg4 {
   color: #7c6f64;
   background: #928374;
@@ -150,11 +153,11 @@ tooltip {
   color: #d5c4a1;
   margin-right: 15px;
   border-radius: 0 24px 24px 0;
-  padding-right: 25px;
+  padding-right: 30px;
 }
 
 #pulseaudio,
-#backlight{
+#backlight {
   background: #504945;
   color: #d5c4a1;
 }
@@ -170,27 +173,22 @@ tooltip {
 }
 
 #mpd,
-#tray{
+#tray {
   background: #928374;
   color: #ebdbb2;
 }
 
 /* ============================== */
 
-
-
 /* #workspaces::after { */
 /*   content: ""; */
 /* } */
 
-#clock {
+#clock,
+#custom-pomo {
   background-color: #3c3836;
   color: #d5c4a1;
-  border-radius: 24px;
-  padding-right: 20px;
-  padding-left: 20px;
 }
-
 
 #custom-right-arrow-dark,
 #custom-left-arrow-dark,
@@ -217,8 +215,8 @@ tooltip {
 
 #custom-right-arrow-bg2,
 #custom-left-arrow-bg2 {
-  color: #a89984;
-  background: #bdae93;
+  background-color: transparent;
+  color: #3c3836;
 }
 
 #custom-right-arrow-bg1,
