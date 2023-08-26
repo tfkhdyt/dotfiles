@@ -12,14 +12,16 @@
     "wlr/workspaces",
     "custom/right-arrow-gray",
     "hyprland/window",
-    "custom/right-arrow-bg4",
-    "custom/pomo",
-    "custom/right-arrow-bg3"
+    "custom/right-arrow-bg4"
+    // "custom/right-arrow-bg3"
     // "custom/right-arrow-bg2"
     // "custom/right-arrow-bg1"
   ],
   "modules-center": [
-    "clock"
+    "custom/left-arrow-bg2",
+    "clock",
+    "custom/pomo",
+    "custom/right-arrow-bg2"
   ],
   "modules-right": [
     // "custom/left-arrow-bg2",
@@ -76,11 +78,7 @@
   "backlight": {
     "device": "amd_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": [
-      "󰃞",
-      "󰃟",
-      "󰃠"
-    ],
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
     "on-scroll-up": "brightnessctl set 1%+ &> /dev/null",
     "on-scroll-down": "brightnessctl set 1%- &> /dev/null",
     "min-length": 6
@@ -95,19 +93,7 @@
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
-    "format-icons": [
-      "󰂎",
-      "󰁺",
-      "󰁻",
-      "󰁼",
-      "󰁽",
-      "󰁾",
-      "󰁿",
-      "󰂀",
-      "󰂁",
-      "󰂂",
-      "󰁹"
-    ]
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
   },
   "clock": {
     "format": "{: %a,%e %b %H:%M}",
@@ -149,12 +135,7 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": [
-        "󰕿",
-        "󰖀",
-        "󰕾",
-        ""
-      ]
+      "default": ["󰕿", "󰖀", "󰕾", ""]
     }
   },
   "custom/power": {
@@ -186,7 +167,7 @@
     "on-click-right": "alacritty -e 'checkupdates & yay -Qua & wait'"
   },
   "custom/pomo": {
-    "format": "{}",
+    "format": " {}",
     "interval": 1,
     "exec": "pomo status",
     "exec-if": "pgrep pomo"
@@ -227,7 +208,7 @@
     "tooltip": false
   },
   "custom/right-arrow-bg4": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/left-arrow-bg3": {
@@ -239,11 +220,11 @@
     "tooltip": false
   },
   "custom/left-arrow-bg2": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/right-arrow-bg2": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
   "custom/left-arrow-bg1": {
