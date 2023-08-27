@@ -128,5 +128,4 @@ export LESS="-I -R"
 export NNN_TERMINAL=$TERMINAL
 export NNN_FIFO=/tmp/nnn.fifo
 export NNN_PLUG="p:preview-tui"
-export _ZO_MAXAGE=5000
 export LS_COLORS=$(vivid generate gruvbox-dark)
