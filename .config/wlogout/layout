@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock -f -l --font 'FiraCode Nerd Font Propo' -c 000000",
+    "action" : "swaylock -f -l --font 'JetBrainsMono NFP' -c 000000",
     "text" : "Lock",
     "keybind" : "l"
 }
