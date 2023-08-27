@@ -22,10 +22,10 @@ return {
 						extra_filetypes = { "svelte" },
 					}),
 					-- nls.builtins.formatting.prettierd,
-					nls.builtins.formatting.prettierd,
-					nls.builtins.formatting.prettier.with({
-						filetypes = { "html", "css", "svelte", "markdown" },
-					}),
+					-- nls.builtins.formatting.prettierd,
+					-- nls.builtins.formatting.prettier.with({
+					-- 	filetypes = { "html", "css", "svelte", "markdown" },
+					-- }),
 
 					-- Lua
 					nls.builtins.formatting.stylua,
