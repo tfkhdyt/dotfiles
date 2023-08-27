@@ -43,7 +43,6 @@ btrfs-progs
 caddy
 cantarell-fonts
 cargo-watch
-catppuccin-cursors-mocha
 catppuccin-gtk-theme-mocha
 cava
 chafa
@@ -66,7 +65,6 @@ device-mapper
 dhclient
 dialog
 diffutils
-discord
 dmidecode
 dmraid
 dnsmasq
@@ -86,7 +84,6 @@ endeavouros-theming
 eos-apps-info
 eos-hooks
 eos-log-tool
-eos-packagelist
 eos-quickstart
 eos-rankmirrors
 eos-update-notifier
@@ -113,8 +110,6 @@ foomatic-db-gutenprint-ppds
 foomatic-db-nonfree
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
-foot
-fpc
 fsarchiver
 gamemode
 gamescope
@@ -185,7 +180,7 @@ kvantum-theme-materia
 lazygit
 lefthook
 less
-lf-sixel-git
+lf
 lib32-gnutls
 lib32-libpulse
 lib32-libva-mesa-driver
@@ -241,7 +236,6 @@ mpc
 mpd
 mpv
 mtools
-musikcube
 mysql-workbench
 namcap
 nano
@@ -380,6 +374,7 @@ ttf-liberation
 ttf-ms-fonts
 ttf-opensans
 udiskie
+ueberzugpp
 unrar
 unzip
 upd72020x-fw
@@ -399,7 +394,6 @@ w3m
 watchexec
 waybar-hyprland-git
 wd719x-firmware
-welcome
 wev
 wget
 which
