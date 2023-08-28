@@ -50,6 +50,7 @@ tooltip {
 #custom-caffeine,
 #custom-power,
 #custom-pomo,
+#custom-audio_idle_inhibitor,
 #clock,
 #battery,
 #pulseaudio,
@@ -96,7 +97,8 @@ tooltip {
   background: #504945;
 }
 
-#idle_inhibitor {
+#idle_inhibitor,
+#custom-audio_idle_inhibitor{
   background: #504945;
   color: #d5c4a1;
 }

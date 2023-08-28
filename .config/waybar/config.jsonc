@@ -174,7 +174,7 @@
     "max-length": 25,
     "on-click": "mpc toggle &> /dev/null",
     "on-click-right": "mpc next &> /dev/null",
-    "on-click-middle": "alacritty -e ncmpcpp",
+    "on-click-middle": "systemctl --user stop mpd",
     "tooltip-format": "{stateIcon} {artist} - {title}"
   },
   "custom/pacman": {
@@ -262,7 +262,7 @@
     "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
   },
   "hyprland/window": {
-    "format": "{initialTitle}"
+    "format": "{initialClass}"
     // "separate-outputs": true
   },
   "temperature": {
@@ -282,5 +282,17 @@
     "interval": 30,
     "format": " {}%",
     "max-length": 10
+  },
+  "custom/audio_idle_inhibitor": {
+    "format": "{icon}",
+    "exec": "sway-audio-idle-inhibit --dry-print-both-waybar",
+    "exec-if": "which sway-audio-idle-inhibit",
+    "return-type": "json",
+    "format-icons": {
+      "output": "",
+      "input": "",
+      "output-input": "  ",
+      "none": ""
+    }
   }
 }
