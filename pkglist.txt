@@ -55,7 +55,6 @@ cocogitto
 composer
 cpupower
 cryptsetup
-ctpv-git
 cups
 cups-filters
 cups-pdf
