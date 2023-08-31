@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+if [ "$#" -ne 3 ]; then
+  echo "Illegal number of parameters"
+  exit 1
+fi
+
+ISSUER=$1
+ACCOUNT=$2
+SECRET=$3
+
+echo "otpauth://totp/${ISSUER}:${ACCOUNT}?secret=${SECRET}&issuer=${ISSUER}"
