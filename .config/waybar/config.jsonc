@@ -35,7 +35,7 @@
     "network",
     "custom/left-arrow-fg4",
     "backlight",
-    "wireplumber",
+    "custom/pipewire",
     "custom/left-arrow-fg3",
     "battery"
   ],
@@ -304,5 +304,12 @@
       "",
       ""
     ]
+  },
+  "custom/pipewire": {
+    "tooltip": false,
+    "max-length": 12,
+    "exec": "$HOME/.config/waybar/scripts/pipewire.sh",
+    "on-click": "pavucontrol",
+    "on-click-right": "qpwgraph"
   }
 }

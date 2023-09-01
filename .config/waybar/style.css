@@ -54,6 +54,7 @@ tooltip {
 #battery,
 #pulseaudio,
 #wireplumber,
+#custom-pipewire,
 #network,
 #workspaces,
 #tray,
@@ -160,6 +161,7 @@ tooltip {
 
 #pulseaudio,
 #wireplumber,
+#custom-pipewire,
 #backlight {
   background: #504945;
   color: #d5c4a1;
