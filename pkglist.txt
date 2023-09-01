@@ -127,8 +127,10 @@ glow
 gnome-keyring
 gnutls
 go
+go-mod-outdated
 gosec-bin
 gource
+goverlay-bin
 gparted
 gping
 greetd
@@ -249,7 +251,8 @@ newsboat
 nfs-utils
 nilfs-utils
 nodejs
-noisetorch
+noise-suppression-for-voice
+noisetorch-git
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -314,6 +317,7 @@ python-packaging
 python-pyqt5
 python-reportlab
 qemu-base
+qpwgraph
 qt5ct
 qt6-wayland
 qt6ct
@@ -436,6 +440,5 @@ zathura
 zathura-pdf-mupdf
 zip
 zoom
-zoom-citrix-plugin
 zoxide
 zramd
