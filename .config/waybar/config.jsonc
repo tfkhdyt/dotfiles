@@ -35,7 +35,7 @@
     "network",
     "custom/left-arrow-fg4",
     "backlight",
-    "pulseaudio",
+    "wireplumber",
     "custom/left-arrow-fg3",
     "battery"
   ],
@@ -294,5 +294,15 @@
       "output-input": "  ",
       "none": ""
     }
+  },
+  "wireplumber": {
+    "format": "{icon} {volume}%",
+    "format-muted": " Muted",
+    "on-click": "$HOME/scripts/volume.sh mute",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
   }
 }

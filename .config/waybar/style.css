@@ -53,6 +53,7 @@ tooltip {
 #clock,
 #battery,
 #pulseaudio,
+#wireplumber,
 #network,
 #workspaces,
 #tray,
@@ -158,6 +159,7 @@ tooltip {
 }
 
 #pulseaudio,
+#wireplumber,
 #backlight {
   background: #504945;
   color: #d5c4a1;
