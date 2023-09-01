@@ -1,12 +1,29 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
-if [ "$#" -ne 3 ]; then
+while getopts ":c" opt; do
+  case $opt in
+    c)
+      CLIP=true
+      shift
+      ;;
+    *)
+      ;;
+  esac
+done
+
+if [[ $# -ne 3 ]]; then
   echo "Illegal number of parameters"
   exit 1
 fi
+
 
 ISSUER=$1
 ACCOUNT=$2
 SECRET=$3
 
-echo "otpauth://totp/${ISSUER}:${ACCOUNT}?secret=${SECRET}&issuer=${ISSUER}"
+if [[ $CLIP = true ]]; then 
+  echo "otpauth://totp/${ISSUER}:${ACCOUNT}?secret=${SECRET}&issuer=${ISSUER}" | wl-copy
+  echo "OTPAUTH URI has been copied into clipboard"
+else
+  echo "otpauth://totp/${ISSUER}:${ACCOUNT}?secret=${SECRET}&issuer=${ISSUER}"
+fi
