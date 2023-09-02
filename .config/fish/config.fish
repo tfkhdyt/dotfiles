@@ -61,7 +61,7 @@ alias git-push='git push -u origin HEAD'
 alias pass-sync='pass git pull && pass git push'
 
 # yay aliases
-abbr -a yr yay -Rns
+abbr -a yr yay -Rs
 abbr -a yi yay -S
 abbr -a yss yay -Ss
 abbr -a ysi yay -Si
