@@ -129,3 +129,4 @@ export NNN_TERMINAL=$TERMINAL
 export NNN_FIFO=/tmp/nnn.fifo
 export NNN_PLUG="p:preview-tui"
 export LS_COLORS=$(vivid generate gruvbox-dark)
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
