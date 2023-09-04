@@ -96,7 +96,7 @@ abbr -a ar2 aria2c
 abbr -a v nvim
 abbr -a nts nvim ~/notes/
 abbr -a kdc kdeconnect-cli
-abbr -a sudo doas
+abbr -a sudo sudo-rs
 abbr -a g git
 abbr -a tt taskwarrior-tui
 abbr -a p pnpm

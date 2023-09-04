@@ -21,9 +21,9 @@ print_log() {
 
 # backup
 print_log "Backing up system with Timeshift..."
-sudo timeshift --create 
-OLDEST_BACKUP=$(sudo timeshift --list | rg '0    >  ' | xargs | cut -d ' ' -f 3)
-sudo timeshift --delete --snapshot "${OLDEST_BACKUP}"
+sudo-rs timeshift --create 
+OLDEST_BACKUP=$(sudo-rs timeshift --list | rg '0    >  ' | xargs | cut -d ' ' -f 3)
+sudo-rs timeshift --delete --snapshot "${OLDEST_BACKUP}"
 
 # backup packages name
 print_log "Backing up packages list..."
@@ -39,7 +39,7 @@ yay
 
 # updating pkgfile
 # print_log "Updating pkgfile..."
-# sudo pkgfile -u 
+# sudo-rs pkgfile -u 
 
 # done
 print_log "Update is done, please reboot the system"
