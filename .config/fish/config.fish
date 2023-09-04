@@ -51,8 +51,8 @@ alias ls="exa --icons --group-directories-first"
 alias ll="exa -lbh --icons --group-directories-first"
 alias killorphans="yay -Qtdq | yay -Rns -"
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
-alias mnt-windows="doas mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
-alias umnt-windows="doas umount /mnt/windows"
+alias mnt-windows="sudo-rs mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
+alias umnt-windows="sudo-rs umount /mnt/windows"
 alias cal="cal --monday"
 alias make="make -j $(nproc)"
 alias darkhouse="CHROME_PATH=/usr/bin/brave unlighthouse --config-file $XDG_CONFIG_HOME/unlighthouse/config.ts"
@@ -85,9 +85,9 @@ abbr -a dar dart run
 abbr -a timestamp date +%Y-%m-%dT%H-%M-%S
 abbr -a lv nvim
 
-abbr -a sc doas systemctl
+abbr -a sc sudo-rs systemctl
 abbr -a scu systemctl --user
-abbr -a jr doas journalctl
+abbr -a jr sudo-rs journalctl
 abbr -a jru journalctl --user
 
 abbr -a lg lazygit
