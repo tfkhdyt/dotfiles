@@ -20,6 +20,7 @@ arc-gtk-theme
 aria2
 ark
 atool
+auto-epp
 autoconf
 automake
 b43-fwcutter
@@ -94,7 +95,6 @@ fakeroot
 fd
 feh
 ffmpegthumbnailer
-figlet
 file
 findutils
 firewalld
@@ -110,6 +110,7 @@ foomatic-db-nonfree
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
 fsarchiver
+fuzzel
 gamemode
 gamescope
 gammastep
@@ -168,7 +169,6 @@ iwd
 j4-dmenu-desktop
 jdk-openjdk
 jfsutils
-jp2a
 jpegoptim
 jq
 kdeconnect
@@ -176,6 +176,7 @@ kdenlive
 kernel-install-for-dracut
 kio-fuse
 klavaro
+kondo
 kvantum
 kvantum-theme-materia
 lazygit
@@ -252,7 +253,6 @@ nfs-utils
 nilfs-utils
 nodejs
 noise-suppression-for-voice
-noisetorch-git
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -268,7 +268,6 @@ openssl-1.1
 optipng
 os-prober
 otf-comicshanns-nerd
-otf-font-awesome
 ouch
 p7zip
 pacman
@@ -351,6 +350,7 @@ starship
 steam
 stow
 sudo
+sudo-rs
 sway-audio-idle-inhibit-git
 swayidle
 swaylock
@@ -371,7 +371,6 @@ tree
 ttf-bitstream-vera
 ttf-dejavu
 ttf-firacode-nerd
-ttf-font-awesome
 ttf-jetbrains-mono-nerd
 ttf-liberation
 ttf-ms-fonts
