@@ -36,7 +36,7 @@ tooltip {
 
 #workspaces button.urgent {
   color: @base;
-  background: #a89984;
+  background: @highlightHigh;
   border-radius: 8px;
 }
 
