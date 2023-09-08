@@ -6,37 +6,35 @@
     "temperature",
     "cpu",
     "memory",
-    "custom/right-arrow-fg3",
+    "custom/slash",
     "idle_inhibitor",
-    "custom/right-arrow-fg4",
+    "custom/slash",
     "hyprland/workspaces",
-    "custom/right-arrow-gray",
-    "hyprland/window",
-    "custom/right-arrow-bg4"
+    "custom/slash",
+    "hyprland/window"
     // "custom/right-arrow-bg3"
     // "custom/right-arrow-bg2"
     // "custom/right-arrow-bg1"
   ],
   "modules-center": [
-    "custom/left-arrow-bg2",
-    "clock",
-    "custom/pomo",
-    "custom/right-arrow-bg2"
+    // "custom/left-arrow-bg2",
+    "clock"
+    // "custom/pomo",
+    // "custom/right-arrow-bg2"
   ],
   "modules-right": [
     // "custom/left-arrow-bg2",
-    // "custom/left-arrow-bg1",
-    "custom/left-arrow-bg3",
+    "custom/left-arrow-bg1",
     "tray",
     "mpd",
-    "custom/left-arrow-bg4",
+    "custom/backslash",
     "custom/pacman",
-    "custom/left-arrow-gray",
+    "custom/backslash",
     "network",
-    "custom/left-arrow-fg4",
+    "custom/backslash",
     "backlight",
     "custom/pipewire",
-    "custom/left-arrow-fg3",
+    "custom/backslash",
     "battery"
   ],
   "wlr/workspaces": {
@@ -311,5 +309,13 @@
     "exec": "$HOME/.config/waybar/scripts/pipewire.sh",
     "on-click": "pavucontrol",
     "on-click-right": "qpwgraph"
+  },
+  "custom/slash": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/backslash": {
+    "format": "",
+    "tooltip": false
   }
 }

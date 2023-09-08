@@ -1,3 +1,5 @@
+@import './rose-pine.css';
+
 * {
   border: none;
   border-radius: 0;
@@ -10,30 +12,30 @@
 
 window#waybar {
   background: transparent;
-  color: #ebdbb2;
+  color: @text;
 }
 
 tooltip {
-  background: #282828;
+  background: @base;
   border-radius: 15px;
   border-width: 2px;
   border-style: solid;
-  border-color: #1d2021;
+  border-color: @highlightMed;
 }
 
 #workspaces button {
   padding: 0 5px;
-  color: #282828;
+  color: @muted;
   margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: #d5c4a1;
+  color: @text;
   font-weight: bold;
 }
 
 #workspaces button.urgent {
-  color: #282828;
+  color: @base;
   background: #a89984;
   border-radius: 8px;
 }
@@ -67,7 +69,7 @@ tooltip {
 #cpu,
 #memory,
 #backlight {
-  background: #282828;
+  background: @base;
   padding: 0 10px;
   margin-top: 10px;
 }
@@ -88,8 +90,7 @@ tooltip {
 #cpu,
 #memory,
 #temperature {
-  background-color: #3c3836;
-  color: #d5c4a1;
+  color: @love;
 }
 
 #custom-right-arrow-fg3,
@@ -100,8 +101,7 @@ tooltip {
 
 #idle_inhibitor,
 #custom-audio_idle_inhibitor{
-  background: #504945;
-  color: #d5c4a1;
+  color: @gold;
 }
 
 #custom-right-arrow-fg4,
@@ -111,8 +111,7 @@ tooltip {
 }
 
 #workspaces {
-  color: #d5c4a1;
-  background: #665c54;
+  color: @muted;
   padding-right: 0px;
   padding-left: 5px;
 }
@@ -124,8 +123,9 @@ tooltip {
 }
 
 #window {
-  background: #7c6f64;
-  color: #ebdbb2;
+  color: @rose;
+  border-radius: 0 24px 24px 0;
+  padding-right: 25px;
 }
 
 #custom-right-arrow-bg4 {
@@ -140,7 +140,7 @@ tooltip {
 
 #custom-pomo {
   background: #928374;
-  color: #ebdbb2;
+  color: @text;
 }
 
 #custom-right-arrow-bg3,
@@ -152,8 +152,7 @@ tooltip {
 /* module right */
 
 #battery {
-  background-color: #3c3836;
-  color: #d5c4a1;
+  color: @love;
   margin-right: 15px;
   border-radius: 0 24px 24px 0;
   padding-right: 25px;
@@ -163,24 +162,20 @@ tooltip {
 #wireplumber,
 #custom-pipewire,
 #backlight {
-  background: #504945;
-  color: #d5c4a1;
+  color: @gold;
 }
 
 #network {
-  background: #665c54;
-  color: #d5c4a1;
+  color: @rose;
 }
 
 #custom-pacman {
-  color: #ebdbb2;
-  background: #7c6f64;
+  color: @foam;
 }
 
 #mpd,
 #tray {
-  background: #928374;
-  color: #ebdbb2;
+  color: @iris;
 }
 
 /* ============================== */
@@ -191,8 +186,9 @@ tooltip {
 
 #clock,
 #custom-pomo {
-  background-color: #3c3836;
-  color: #d5c4a1;
+  color: @foam;
+  border-radius: 24px;
+  padding: 0 25px;
 }
 
 #custom-right-arrow-dark,
@@ -226,6 +222,17 @@ tooltip {
 
 #custom-right-arrow-bg1,
 #custom-left-arrow-bg1 {
-  color: #bdae93;
+  color: @base;
   background: transparent;
+}
+
+#custom-slash,
+#custom-backslash{
+  background-color: @base;
+  color: @highlightHigh;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 28px;
 }

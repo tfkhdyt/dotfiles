@@ -1,3 +1,4 @@
+fish_config theme choose "Rosé Pine"
 # set -x BROWSER librewolf
 # set -x TERMINAL footclient
 #
