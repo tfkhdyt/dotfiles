@@ -132,3 +132,5 @@ export NNN_FIFO=/tmp/nnn.fifo
 export NNN_PLUG="p:preview-tui"
 export LS_COLORS=$(vivid generate catppuccin-mocha)
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
+export PRETTIERD_DEFAULT_CONFIG="$XDG_CONFIG_HOME/prettierd/.prettierrc"
+export PRETTIERD_LOCAL_PRETTIER_ONLY=true
