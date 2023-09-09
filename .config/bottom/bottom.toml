@@ -74,37 +74,37 @@
 # will depend on terminal support.
 
 [colors]
-table_header_color = "#f5e0dc"
-all_cpu_color = "#f5e0dc"
-avg_cpu_color = "#eba0ac"
+table_header_color = "#e0def4"
+all_cpu_color = "#e0def4"
+avg_cpu_color = "#ebbcba"
 cpu_core_colors = [
-  "#f38ba8",
-  "#fab387",
+  "#eb6f92",
+  "#f6c177",
   "#f9e2af",
   "#a6e3a1",
   "#74c7ec",
-  "#cba6f7",
+  "#c4a7e7",
 ]
 ram_color = "#a6e3a1"
-swap_color = "#fab387"
+swap_color = "#f6c177"
 rx_color = "#a6e3a1"
-tx_color = "#f38ba8"
+tx_color = "#eb6f92"
 widget_title_color = "#f2cdcd"
 border_color = "#585b70"
 highlighted_border_color = "#f5c2e7"
-text_color = "#cdd6f4"
-graph_color = "#a6adc8"
+text_color = "#e0def4"
+graph_color = "#908caa"
 cursor_color = "#f5c2e7"
 selected_text_color = "#11111b"
-selected_bg_color = "#cba6f7"
+selected_bg_color = "#c4a7e7"
 high_battery_color = "#a6e3a1"
 medium_battery_color = "#f9e2af"
-low_battery_color = "#f38ba8"
+low_battery_color = "#eb6f92"
 gpu_core_colors = [
   "#74c7ec",
-  "#cba6f7",
-  "#f38ba8",
-  "#fab387",
+  "#c4a7e7",
+  "#eb6f92",
+  "#f6c177",
   "#f9e2af",
   "#a6e3a1",
 ]
