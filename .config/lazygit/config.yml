@@ -2,22 +2,22 @@ gui:
   theme:
     lightTheme: false
     activeBorderColor:
-      - "#a6e3a1" # Green
+      - "#f6c177" # Green
       - bold
     inactiveBorderColor:
-      - "#cdd6f4" # Text
+      - "#e0def4" # Text
     optionsTextColor:
-      - "#89b4fa" # Blue
+      - "#c4a7e7" # Blue
     selectedLineBgColor:
-      - "#313244" # Surface0
+      - "#1f1d2e" # Surface0
     selectedRangeBgColor:
-      - "#313244" # Surface0
+      - "#1f1d2e" # Surface0
     cherryPickedCommitBgColor:
-      - "#94e2d5" # Teal
+      - "#9ccfd8" # Teal
     cherryPickedCommitFgColor:
-      - "#89b4fa" # Blue
+      - "#c4a7e7" # Blue
     unstagedChangesColor:
-      - red # Red
+      - "#eb6f92" # Red
   nerdFontsVersion: "3"
 git:
   overrideGpg: true
