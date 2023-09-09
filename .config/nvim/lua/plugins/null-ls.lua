@@ -22,7 +22,7 @@ return {
 						extra_filetypes = { "svelte" },
 					}),
 					-- nls.builtins.formatting.prettierd,
-					-- nls.builtins.formatting.prettierd,
+					nls.builtins.formatting.prettierd,
 					-- nls.builtins.formatting.prettier.with({
 					-- 	filetypes = { "html", "css", "svelte", "markdown" },
 					-- }),
@@ -57,9 +57,9 @@ return {
 					nls.builtins.formatting.black,
 
 					-- dprint
-					nls.builtins.formatting.dprint.with({
-						filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
-					}),
+					-- nls.builtins.formatting.dprint.with({
+					-- 	filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
+					-- }),
 
 					-- docker
 					nls.builtins.diagnostics.hadolint,
