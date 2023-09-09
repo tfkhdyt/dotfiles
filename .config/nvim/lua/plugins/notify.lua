@@ -22,6 +22,7 @@ return {
 			top_down = false,
 			fps = 60,
 			timeout = 3000,
+			background_colour = "#191724",
 		},
 		init = function()
 			-- when noice is not enabled, install notify on VeryLazy
