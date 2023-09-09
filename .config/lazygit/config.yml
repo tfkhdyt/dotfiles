@@ -9,9 +9,9 @@ gui:
     optionsTextColor:
       - "#c4a7e7" # Blue
     selectedLineBgColor:
-      - "#1f1d2e" # Surface0
+      - "#403d52" # Surface0
     selectedRangeBgColor:
-      - "#1f1d2e" # Surface0
+      - "#403d52" # Surface0
     cherryPickedCommitBgColor:
       - "#9ccfd8" # Teal
     cherryPickedCommitFgColor:
