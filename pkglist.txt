@@ -20,7 +20,7 @@ arc-gtk-theme
 aria2
 ark
 atool
-auto-epp
+auto-epp-go
 autoconf
 automake
 b43-fwcutter
@@ -41,9 +41,10 @@ breeze
 bridge-utils
 brightnessctl
 btrfs-progs
+bunjs-bin
 caddy
 cantarell-fonts
-cargo-watch
+capitaine-cursors
 catppuccin-gtk-theme-mocha
 cava
 chafa
@@ -178,6 +179,7 @@ kio-fuse
 klavaro
 kondo
 kvantum
+kvantum-theme-catppuccin-git
 kvantum-theme-materia
 lazygit
 lefthook
@@ -328,6 +330,7 @@ reflector-simple
 reiserfsprogs
 ripgrep
 rofi-lbonn-wayland
+rose-pine-gtk-theme
 rsync
 rust
 rust-src
@@ -441,3 +444,4 @@ zip
 zoom
 zoxide
 zramd
+zsh
