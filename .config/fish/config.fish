@@ -48,8 +48,8 @@ fish_config theme choose "Rosé Pine"
 # set -x LS_COLORS $(vivid generate gruvbox-dark)
 
 # aliases
-alias ls="exa --icons --group-directories-first"
-alias ll="exa -lbh --icons --group-directories-first"
+alias ls="eza --icons --group-directories-first"
+alias ll="eza -lbh --icons --group-directories-first"
 alias killorphans="yay -Qtdq | yay -Rns -"
 alias yt2mp3="yt-dlp -f 'ba' -x --audio-format mp3"
 alias mnt-windows="sudo-rs mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows"
