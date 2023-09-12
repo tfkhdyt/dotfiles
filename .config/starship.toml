@@ -6,7 +6,6 @@ add_newline = true
 # success_symbol = '[](bold green)'
 # error_symbol = '[✗](bold red)'
 
-right_format = """$time"""
 format = """$all"""
 
 [aws]
@@ -107,8 +106,16 @@ symbol = " "
 format = '\[[as $symbol]\]'
 
 [time]
-disabled = false
+disabled = true
 format = '\[[$time]($style)\]'
 time_format = '%T'
 utc_time_offset = '+7'
 time_range = '04:43:00-21:00:00'
+
+[gradle]
+disabled = true
+format = '\[[$symbol($version)]($style)\]'
+
+[kotlin]
+disabled = true
+format = '\[[$symbol($version)]($style)\]'
