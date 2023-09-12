@@ -101,6 +101,7 @@ abbr -a sudo sudo-rs
 abbr -a g git
 abbr -a tt taskwarrior-tui
 abbr -a p pnpm
+abbr -a pc podman-compose
 
 if status is-interactive
   # Commands to run in interactive sessions can go here
