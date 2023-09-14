@@ -2,14 +2,12 @@ set icons
 set autoquit
 set ifs "\n"
 set period 1
-set drawbox
-set number
-set relativenumber
 set cursorpreviewfmt "\033[7m"
 set info size
 set dircounts
 set previewer ~/scripts/preview
 set cleaner ~/scripts/cleaner
+set ratios '1:4:3'
 
 cmd z %{{
 	result="$(zoxide query --exclude $PWD $@)"
