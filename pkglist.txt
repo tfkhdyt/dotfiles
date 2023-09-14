@@ -88,9 +88,9 @@ eos-log-tool
 eos-quickstart
 eos-rankmirrors
 eos-update-notifier
-exa
 exfatprogs
 expac
+eza
 f2fs-tools
 fakeroot
 fd
@@ -100,7 +100,6 @@ file
 findutils
 firewalld
 fish
-fish-done
 fisher
 flex
 flyctl-bin
@@ -135,6 +134,7 @@ gource
 goverlay-bin
 gparted
 gping
+gradle
 greetd
 greetd-tuigreet
 grep
@@ -165,6 +165,7 @@ hyprpaper
 imv
 inetutils
 insomnia-bin
+intellij-idea-community-edition
 inxi
 iwd
 j4-dmenu-desktop
@@ -262,6 +263,7 @@ nss-mdns
 ntfs-3g
 ntp
 nwg-look
+obs-backgroundremoval
 obs-studio-tytan652
 oha
 opendoas
@@ -444,4 +446,3 @@ zip
 zoom
 zoxide
 zramd
-zsh
