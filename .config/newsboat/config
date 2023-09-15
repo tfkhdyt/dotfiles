@@ -1,4 +1,4 @@
-include ~/.config/newsboat/gruvbox
+include /usr/share/doc/newsboat/contrib/colorschemes/solarized-dark
 
 browser "librewolf %u"
 macro m set browser "mpv %u"; open-in-browser ; set browser "librewolf %u"
@@ -21,3 +21,4 @@ auto-reload yes
 reload-threads 8
 feed-sort-order lastupdated
 text-width 80
+
