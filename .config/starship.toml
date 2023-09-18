@@ -15,6 +15,7 @@ symbol = "  "
 symbol = " "
 
 [bun]
+disabled = true
 format = '\[[$symbol($version)]($style)\]'
 
 [c]
@@ -81,6 +82,7 @@ symbol = " "
 symbol = " "
 
 [nodejs]
+disabled = true
 format = '\[[$symbol($version)]($style)\]'
 symbol = " "
 
