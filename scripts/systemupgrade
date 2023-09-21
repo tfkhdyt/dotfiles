@@ -31,7 +31,7 @@ yay -Qqe > "$HOME/.dotfiles/pkglist.txt"
 
 # clean trash
 print_log "Cleaning up trashes..."
-trash-empty 14 
+trash-empty 7
 
 # system upgrade
 print_log "Updating database and upgrading system..." 
