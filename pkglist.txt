@@ -13,6 +13,7 @@ alsa-plugins
 alsa-utils
 amd-ucode
 android-file-transfer
+android-studio
 android-tools
 apache
 appmenu-gtk-module
@@ -166,7 +167,6 @@ hyprpaper
 imv
 inetutils
 insomnia-bin
-intellij-idea-community-edition
 inxi
 iwd
 j4-dmenu-desktop
@@ -441,7 +441,6 @@ xss-lock
 xterm
 yad
 yay
-yazi-bin
 yt-dlp
 zathura
 zathura-pdf-mupdf
