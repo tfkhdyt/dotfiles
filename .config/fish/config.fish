@@ -1,4 +1,5 @@
 fish_config theme choose "Rosé Pine"
+set -x LS_COLORS (vivid generate catppuccin-mocha)
 # set -x BROWSER librewolf
 # set -x TERMINAL footclient
 #
