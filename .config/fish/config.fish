@@ -61,6 +61,7 @@ alias darkhouse="CHROME_PATH=/usr/bin/brave unlighthouse --config-file $XDG_CONF
 # alias procs="procs --theme dark"
 alias git-push='git push -u origin HEAD'
 alias pass-sync='pass git pull && pass git push'
+alias duf='duf --hide special'
 
 # yay aliases
 abbr -a yr yay -Rs
