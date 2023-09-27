@@ -67,6 +67,7 @@ device-mapper
 dhclient
 dialog
 diffutils
+distrobox
 dmidecode
 dmraid
 dnsmasq
@@ -248,7 +249,7 @@ nano
 nano-syntax-highlighting
 ncmpcpp
 neofetch
-neovim
+neovim-nightly-bin
 network-manager-applet
 networkmanager
 newaita-icons-git
@@ -300,6 +301,9 @@ pipewire-pulse
 pkgconf
 pkgfile
 playerctl
+plymouth
+plymouth-theme-arch-logo
+plymouth-theme-deus-ex-git
 pm2
 pnpm
 podman
@@ -371,6 +375,7 @@ tenacity-git
 texinfo
 time
 timeshift-bin
+tofi
 tokei
 trash-cli
 tree
@@ -419,7 +424,7 @@ wrk
 xautolock
 xclip
 xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-hyprland
 xdg-user-dirs
 xdg-utils
 xdotool
