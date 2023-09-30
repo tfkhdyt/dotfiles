@@ -54,7 +54,7 @@ chaotic-mirrorlist
 cloudflare-warp-bin
 cloudflared
 cmatrix
-cocogitto
+code
 composer
 cpupower
 cryptsetup
@@ -347,7 +347,6 @@ scrcpy
 screenkey
 sd
 sed
-simplescreenrecorder
 slurp
 smartmontools
 sof-firmware
@@ -387,6 +386,7 @@ ttf-liberation
 ttf-ms-fonts
 ttf-opensans
 ttf-plus-jakarta-sans
+turso-cli
 udiskie
 ueberzugpp
 unarchiver
