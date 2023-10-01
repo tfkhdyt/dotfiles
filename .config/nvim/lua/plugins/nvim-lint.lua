@@ -1,9 +1,11 @@
 return {
-  "mfussenegger/nvim-lint",
-  config = function()
-    require("lint").linters_by_ft = {
-      python = { "flake8" },
-      go = { "golangcilint" },
-    }
-  end,
+	"mfussenegger/nvim-lint",
+	event = "BufReadPost",
+	opts = {
+		events = { "BufWritePost", "BufReadPost", "InsertLeave" },
+		linters_by_ft = {
+			python = { "flake8" },
+			go = { "golangcilint" },
+		},
+	},
 }
