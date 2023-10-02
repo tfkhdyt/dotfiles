@@ -3,7 +3,7 @@
 * {
   border: none;
   border-radius: 0;
-  font-family: "JetBrainsMono NFP";
+  font-family: 'JetBrainsMono NFP';
   font-weight: 600;
   font-size: 15px;
   min-height: 0;
@@ -17,7 +17,7 @@ window#waybar {
 
 tooltip {
   background: @base;
-  border-radius: 15px;
+  border-radius: 0;
   border-width: 2px;
   border-style: solid;
   border-color: @highlightMed;
@@ -100,7 +100,7 @@ tooltip {
 }
 
 #idle_inhibitor,
-#custom-audio_idle_inhibitor{
+#custom-audio_idle_inhibitor {
   color: @gold;
 }
 
@@ -227,7 +227,7 @@ tooltip {
 }
 
 #custom-slash,
-#custom-backslash{
+#custom-backslash {
   background-color: @base;
   color: @highlightHigh;
   padding: 0;

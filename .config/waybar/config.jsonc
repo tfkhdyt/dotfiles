@@ -74,11 +74,7 @@
   "backlight": {
     "device": "amd_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": [
-      "󰃞",
-      "󰃟",
-      "󰃠"
-    ],
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
     "on-scroll-up": "brightnessctl set 1%+ &> /dev/null",
     "on-scroll-down": "brightnessctl set 1%- &> /dev/null",
     "min-length": 6
@@ -93,19 +89,7 @@
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
-    "format-icons": [
-      "󰂎",
-      "󰁺",
-      "󰁻",
-      "󰁼",
-      "󰁽",
-      "󰁾",
-      "󰁿",
-      "󰂀",
-      "󰂁",
-      "󰂂",
-      "󰁹"
-    ]
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
   },
   "clock": {
     "format": "{:%a, %e %b %H:%M}",
@@ -115,11 +99,11 @@
       "on-scroll": 1,
       "on-click-right": "mode",
       "format": {
-        "months": "<span color='#fbf1c7'><b>{}</b></span>",
-        "days": "<span color='#a89974'><b>{}</b></span>",
-        "weeks": "<span color='#d5c4a1'><b>W{}</b></span>",
-        "weekdays": "<span color='#98971a'><b>{}</b></span>",
-        "today": "<span color='#458588'><b><u>{}</u></b></span>"
+        "months": "<span color='#e0def4'><b>{}</b></span>",
+        "days": "<span color='#ebbcba'><b>{}</b></span>",
+        "weeks": "<span color='#c4a7e7'><b>W{}</b></span>",
+        "weekdays": "<span color='#9ccfd8'><b>{}</b></span>",
+        "today": "<span color='#f6c177'><b><u>{}</u></b></span>"
       }
     }
   },
@@ -147,12 +131,7 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": [
-        "󰕿",
-        "󰖀",
-        "󰕾",
-        ""
-      ]
+      "default": ["󰕿", "󰖀", "󰕾", ""]
     }
   },
   "custom/power": {
@@ -295,11 +274,7 @@
     "format": "{icon} {volume}%",
     "format-muted": " Muted",
     "on-click": "$HOME/scripts/volume.sh mute",
-    "format-icons": [
-      "",
-      "",
-      ""
-    ]
+    "format-icons": ["", "", ""]
   },
   "custom/pipewire": {
     "tooltip": false,
