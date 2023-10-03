@@ -237,7 +237,7 @@
     "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
   },
   "hyprland/window": {
-    "format": "{initialClass}"
+    "format": "{class}"
     // "separate-outputs": true
   },
   "temperature": {
