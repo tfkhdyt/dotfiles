@@ -106,26 +106,26 @@ abbr -a p pnpm
 abbr -a pc podman-compose
 
 if status is-interactive
-  # Commands to run in interactive sessions can go here
+    # Commands to run in interactive sessions can go here
 
-  # Fish git prompt
-  set __fish_git_prompt_showdirtystate 'yes'
-  set __fish_git_prompt_showstashstate 'yes'
-  set __fish_git_prompt_showuntrackedfiles 'yes'
-  set __fish_git_prompt_showupstream 'yes'
-  set __fish_git_prompt_color_branch yellow
-  set __fish_git_prompt_color_upstream_ahead green
-  set __fish_git_prompt_color_upstream_behind red
+    # Fish git prompt
+    set __fish_git_prompt_showdirtystate yes
+    set __fish_git_prompt_showstashstate yes
+    set __fish_git_prompt_showuntrackedfiles yes
+    set __fish_git_prompt_showupstream yes
+    set __fish_git_prompt_color_branch yellow
+    set __fish_git_prompt_color_upstream_ahead green
+    set __fish_git_prompt_color_upstream_behind red
 
-  # Status Chars
-  set __fish_git_prompt_char_dirtystate '✚'
-  set __fish_git_prompt_char_stagedstate '●'
-  set __fish_git_prompt_char_untrackedfiles '☡'
-  set __fish_git_prompt_char_stashstate '⚑'
-  set __fish_git_prompt_char_upstream_ahead '↑'
-  set __fish_git_prompt_char_upstream_behind '↓'
-  set __fish_git_prompt_char_upstream_equal ''
-  # atuin init fish --disable-up-arrow | source
+    # Status Chars
+    set __fish_git_prompt_char_dirtystate '✚'
+    set __fish_git_prompt_char_stagedstate '●'
+    set __fish_git_prompt_char_untrackedfiles '☡'
+    set __fish_git_prompt_char_stashstate '⚑'
+    set __fish_git_prompt_char_upstream_ahead '↑'
+    set __fish_git_prompt_char_upstream_behind '↓'
+    set __fish_git_prompt_char_upstream_equal ''
+    # atuin init fish --disable-up-arrow | source
 end
 
 # tabtab source for packages
@@ -137,6 +137,6 @@ zoxide init fish | source
 # function starship_transient_rprompt_func
 #   starship module time
 # end
-starship init fish | source
+# starship init fish | source
 
 # enable_transience
