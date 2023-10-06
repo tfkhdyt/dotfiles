@@ -41,6 +41,8 @@ brave-bin
 breeze
 bridge-utils
 brightnessctl
+browserpass
+browserpass-chromium
 btrfs-progs
 bunjs-bin
 caddy
@@ -70,6 +72,7 @@ diffutils
 distrobox
 dmidecode
 dmraid
+dnscrypt-proxy
 dnsmasq
 dosfstools
 downgrade
@@ -87,7 +90,6 @@ endeavouros-theming
 eos-apps-info
 eos-hooks
 eos-log-tool
-eos-quickstart
 eos-rankmirrors
 eos-update-notifier
 exfatprogs
@@ -96,7 +98,6 @@ eza
 f2fs-tools
 fakeroot
 fd
-feh
 ffmpegthumbnailer
 ffsend-bin
 file
@@ -178,7 +179,6 @@ jq
 kdeconnect
 kdenlive
 kernel-install-for-dracut
-kio-fuse
 klavaro
 kondo
 kvantum
@@ -339,10 +339,10 @@ ripgrep
 rofi-lbonn-wayland
 rose-pine-gtk-theme
 rsync
-rust
-rust-src
 rustdesk-bin
+rustup
 s-nail
+saga-gis
 scrcpy
 screenkey
 sd
@@ -350,7 +350,7 @@ sed
 slurp
 smartmontools
 sof-firmware
-solid
+solid5
 speedtest-cli
 splix
 sqlc
@@ -415,7 +415,7 @@ which
 whois
 wireless-regdb
 wl-clipboard
-wl-screenrec-git
+wl-screenrec
 wlogout
 wmctrl
 wofi
