@@ -4,6 +4,7 @@ adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 advcpmv
+adw-gtk3
 adwaita-qt5-git
 adwaita-qt6-git
 aic94xx-firmware
@@ -21,7 +22,7 @@ arc-gtk-theme
 aria2
 ark
 atool
-auto-epp-go
+auto-epp-rs
 autoconf
 automake
 b43-fwcutter
