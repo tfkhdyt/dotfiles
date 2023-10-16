@@ -22,9 +22,9 @@ return {
       go = { "gofumpt", "goimports_reviser", "golines" },
       python = { "black" },
     },
-    format_after_save = {
-      lsp_fallback = true,
-    },
+    -- format_after_save = {
+    --   lsp_fallback = true,
+    -- },
     formatters = {
       goimports_reviser = {
         command = "goimports-reviser",
