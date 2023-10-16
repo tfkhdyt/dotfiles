@@ -21,9 +21,9 @@ gui:
   nerdFontsVersion: "3"
 git:
   overrideGpg: true
-  paging:
-    colorArg: always
-    pager: delta --dark --paging=never
+  # paging:
+  #   colorArg: always
+  #   pager: delta --dark --paging=never
 customCommands:
   # - key: 'c'
   #   description: 'create new commit using cocogitto'
