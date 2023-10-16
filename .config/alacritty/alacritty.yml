@@ -9,7 +9,8 @@
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
 import:
-  - "~/.config/alacritty/rose-pine.yml"
+  # - "~/.config/alacritty/rose-pine.yml"
+  - "~/.config/alacritty/catppuccin/catppuccin-mocha.yml"
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
@@ -469,8 +470,8 @@ font:
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-shell:
-  program: /usr/bin/fish
+# shell:
+#   program: /usr/bin/fish
 #  args:
 #    - --login
 
@@ -782,7 +783,7 @@ shell:
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
 key_bindings:
-  - {key: N, mods: Control|Shift, action: CreateNewWindow,}
+  - { key: N, mods: Control|Shift, action: CreateNewWindow }
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
