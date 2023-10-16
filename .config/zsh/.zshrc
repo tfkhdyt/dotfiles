@@ -1,3 +1,5 @@
+# zmodload zsh/zprof
+
 autoload -Uz compinit promptinit
 compinit
 promptinit
@@ -71,8 +73,9 @@ lfcd () {
     cd "$(command lf -print-last-dir "$@")"
 }
 
+bindkey \^K kill-line
+
 eval "$(zoxide init zsh)"
-eval "$(atuin init zsh)"
 
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
