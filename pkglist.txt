@@ -17,14 +17,19 @@ android-file-transfer
 android-studio
 android-tools
 apache
+appflowy-bin
 appmenu-gtk-module
 arc-gtk-theme
 aria2
 ark
+asciinema
+asciinema-agg
 atool
+atuin
 auto-epp-rs
 autoconf
 automake
+axu-bin
 b43-fwcutter
 base
 base-devel
@@ -124,7 +129,6 @@ gettext
 ghostscript
 gimp
 git
-git-delta
 gksu
 global
 glow
@@ -449,3 +453,8 @@ zip
 zoom
 zoxide
 zramd
+zsh
+zsh-autosuggestions
+zsh-fast-syntax-highlighting
+zsh-pure-prompt
+zsh-syntax-highlighting
