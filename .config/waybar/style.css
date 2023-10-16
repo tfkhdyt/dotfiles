@@ -12,31 +12,31 @@
 
 window#waybar {
   background: transparent;
-  color: @text;
+  color: #34bfd0;
 }
 
 tooltip {
-  background: @base;
+  background: #1a212e;
   border-radius: 0;
   border-width: 2px;
   border-style: solid;
-  border-color: @highlightMed;
+  border-color: #283347;
 }
 
 #workspaces button {
   padding: 0 5px;
-  color: @muted;
+  color: #2a324a;
   margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: @text;
+  color: #93a4c3;
   font-weight: bold;
 }
 
 #workspaces button.urgent {
-  color: @base;
-  background: @highlightHigh;
+  color: #1a212e;
+  background: #141b24;
   border-radius: 8px;
 }
 
@@ -69,7 +69,7 @@ tooltip {
 #cpu,
 #memory,
 #backlight {
-  background: @base;
+  background: #1a212e;
   padding: 0 10px;
   margin-top: 10px;
 }
@@ -90,7 +90,7 @@ tooltip {
 #cpu,
 #memory,
 #temperature {
-  color: @love;
+  color: #f65866;
 }
 
 #custom-right-arrow-fg3,
@@ -101,7 +101,7 @@ tooltip {
 
 #idle_inhibitor,
 #custom-audio_idle_inhibitor {
-  color: @gold;
+  color: #efbd5d;
 }
 
 #custom-right-arrow-fg4,
@@ -111,7 +111,7 @@ tooltip {
 }
 
 #workspaces {
-  color: @muted;
+  color: #2a324a;
   padding-right: 0px;
   padding-left: 5px;
 }
@@ -123,7 +123,7 @@ tooltip {
 }
 
 #window {
-  color: @rose;
+  color: #34bfd0;
   border-radius: 0 24px 24px 0;
   padding-right: 25px;
 }
@@ -140,7 +140,7 @@ tooltip {
 
 #custom-pomo {
   background: #928374;
-  color: @text;
+  color: #93a4c3;
 }
 
 #custom-right-arrow-bg3,
@@ -152,7 +152,7 @@ tooltip {
 /* module right */
 
 #battery {
-  color: @love;
+  color: #f65866;
   margin-right: 15px;
   border-radius: 0 24px 24px 0;
   padding-right: 25px;
@@ -162,20 +162,20 @@ tooltip {
 #wireplumber,
 #custom-pipewire,
 #backlight {
-  color: @gold;
+  color: #efbd5d;
 }
 
 #network {
-  color: @rose;
+  color: #34bfd0;
 }
 
 #custom-pacman {
-  color: @foam;
+  color: #93a4c3;
 }
 
 #mpd,
 #tray {
-  color: @iris;
+  color: #41a7fc;
 }
 
 /* ============================== */
@@ -186,7 +186,7 @@ tooltip {
 
 #clock,
 #custom-pomo {
-  color: @foam;
+  color: #93a4c3;
   border-radius: 24px;
   padding: 0 25px;
 }
@@ -222,14 +222,14 @@ tooltip {
 
 #custom-right-arrow-bg1,
 #custom-left-arrow-bg1 {
-  color: @base;
+  color: #1a212e;
   background: transparent;
 }
 
 #custom-slash,
 #custom-backslash {
-  background-color: @base;
-  color: @highlightHigh;
+  background-color: #1a212e;
+  color: #6c7d9c;
   padding: 0;
   margin: 0;
   margin-top: 10px;
