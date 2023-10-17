@@ -1,13 +1,15 @@
 # zmodload zsh/zprof
+source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
-autoload -Uz compinit promptinit
-compinit
+autoload -Uz promptinit
 promptinit
 prompt pure
 
-zstyle ':completion:*' menu select
-zstyle ':completion::complete:*' gain-privileges 1
+# zstyle ':completion:*' menu select
+# zstyle ':completion::complete:*' gain-privileges 1
 zstyle ':completion:*' rehash true
+
+bindkey '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
 
 # create a zkbd compatible hash;
 # to add other keys to this hash, see: man 5 terminfo
@@ -18,10 +20,10 @@ key[End]="${terminfo[kend]}"
 key[Insert]="${terminfo[kich1]}"
 key[Backspace]="${terminfo[kbs]}"
 key[Delete]="${terminfo[kdch1]}"
-key[Up]="${terminfo[kcuu1]}"
-key[Down]="${terminfo[kcud1]}"
-key[Left]="${terminfo[kcub1]}"
-key[Right]="${terminfo[kcuf1]}"
+# key[Up]="${terminfo[kcuu1]}"
+# key[Down]="${terminfo[kcud1]}"
+# key[Left]="${terminfo[kcub1]}"
+# key[Right]="${terminfo[kcuf1]}"
 key[PageUp]="${terminfo[kpp]}"
 key[PageDown]="${terminfo[knp]}"
 key[Shift-Tab]="${terminfo[kcbt]}"
