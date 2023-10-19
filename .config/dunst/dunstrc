@@ -94,7 +94,7 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#31748f"
+    frame_color = "#41a7fc"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -312,23 +312,23 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#191724"  
+    background = "#21283b"  
     foreground = "#e0def4"
-    highlight = "#458588"
+    highlight = "#41a7fc"
     timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#191724"
+    background = "#21283b"
     foreground = "#e0def4"
-    highlight = "#31748f"
+    highlight = "#41a7fc"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#191724"
+    background = "#21283b"
     foreground = "#e0def4"
     frame_color = "#eb6f92"
     highlight = "#eb6f92"
