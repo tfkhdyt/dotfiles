@@ -1,19 +1,21 @@
-color background         default   default
-color listnormal         default   default
-color listnormal_unread  yellow    default
-color listfocus          black     yellow bold
-color listfocus_unread   black     yellow bold
-color info               default   black
-color article            default   default
+include /usr/share/doc/newsboat/contrib/colorschemes/nord
+
+# color background         default   default
+# color listnormal         default   default
+# color listnormal_unread  yellow    default
+# color listfocus          black     yellow bold
+# color listfocus_unread   black     yellow bold
+# color info               default   black
+# color article            default   default
 
 # highlights
-highlight article "^(Title):.*$" blue default
-highlight article "https?://[^ ]+" red default
-highlight article "\\[image\\ [0-9]+\\]" green default
+# highlight article "^(Title):.*$" blue default
+# highlight article "https?://[^ ]+" red default
+# highlight article "\\[image\\ [0-9]+\\]" green default
 
-browser "brave %u"
-macro m set browser "mpv %u"; open-in-browser ; set browser "brave %u"
-macro n set browser "mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "brave %u"
+browser "thorium-browser %u"
+macro m set browser "mpv %u"; open-in-browser ; set browser "thorium-browser %u"
+macro n set browser "mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "thorium-browser %u"
 
 # unbind keys
 unbind-key ENTER
