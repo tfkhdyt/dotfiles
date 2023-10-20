@@ -1,4 +1,4 @@
-export BROWSER=brave
+export BROWSER=thorium-browser
 export TERMINAL=alacritty
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -35,7 +35,7 @@ export FZF_DEFAULT_OPTS="
 	--color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa"
 export NNN_TRASH=1
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
-export BAT_THEME="one-dark"
+export BAT_THEME="TwoDark"
 export LESS="-I -R"
 export NNN_TERMINAL=$TERMINAL
 export NNN_FIFO=/tmp/nnn.fifo
