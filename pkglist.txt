@@ -17,7 +17,6 @@ android-file-transfer
 android-studio
 android-tools
 apache
-appflowy-bin
 appmenu-gtk-module
 arc-gtk-theme
 aria2
@@ -25,7 +24,6 @@ ark
 asciinema
 asciinema-agg
 atool
-atuin
 auto-epp-rs
 autoconf
 automake
@@ -43,7 +41,6 @@ bluez
 bluez-utils
 bottles
 bottom
-brave-bin
 breeze
 bridge-utils
 brightnessctl
@@ -198,7 +195,6 @@ lib32-vulkan-icd-loader
 lib32-vulkan-radeon
 libdvdcss
 libgsf
-libinput-gestures
 libopenraw
 libpulse
 libreoffice-fresh
@@ -268,6 +264,7 @@ ntp
 nwg-look
 obs-backgroundremoval
 obs-studio-tytan652
+octave
 oha
 opendoas
 openssl-1.1
@@ -370,8 +367,9 @@ system-config-printer
 systemd-sysvcompat
 taskwarrior-tui
 tealdeer
-tenacity-git
+tenacity
 texinfo
+thorium-browser-bin
 time
 timeshift-bin
 tofi
@@ -454,6 +452,7 @@ zoom
 zoxide
 zramd
 zsh
+zsh-autocomplete-git
 zsh-autosuggestions
 zsh-fast-syntax-highlighting
 zsh-pure-prompt
