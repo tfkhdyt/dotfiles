@@ -144,7 +144,6 @@ grep
 grim
 grimblast-git
 groff
-gruvbox-material-gtk-theme-git
 gsfonts
 gst-libav
 gst-plugin-pipewire
@@ -300,7 +299,6 @@ pkgfile
 playerctl
 plymouth
 plymouth-theme-arch-logo
-plymouth-theme-deus-ex-git
 pm2
 pnpm
 podman
@@ -452,7 +450,6 @@ zoom
 zoxide
 zramd
 zsh
-zsh-autocomplete-git
 zsh-autosuggestions
 zsh-fast-syntax-highlighting
 zsh-pure-prompt
