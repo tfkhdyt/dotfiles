@@ -13,9 +13,9 @@ include /usr/share/doc/newsboat/contrib/colorschemes/nord
 # highlight article "https?://[^ ]+" red default
 # highlight article "\\[image\\ [0-9]+\\]" green default
 
-browser "thorium-browser %u"
-macro m set browser "mpv %u"; open-in-browser ; set browser "thorium-browser %u"
-macro n set browser "mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "thorium-browser %u"
+browser "thorium-browser-sse3 %u"
+macro m set browser "mpv %u"; open-in-browser ; set browser "thorium-browser-sse3 %u"
+macro n set browser "mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "thorium-browser-sse3 %u"
 
 # unbind keys
 unbind-key ENTER
