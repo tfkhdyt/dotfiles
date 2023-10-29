@@ -65,7 +65,7 @@ alias mnt-windows="sudo-rs mount -t ntfs3 -o noatime /dev/nvme0n1p3 /mnt/windows
 alias umnt-windows="sudo-rs umount /mnt/windows"
 alias cal="cal --monday"
 alias make="make -j $(nproc)"
-alias darkhouse="CHROME_PATH=/usr/bin/thorium-browser unlighthouse --config-file $XDG_CONFIG_HOME/unlighthouse/config.ts"
+alias darkhouse="CHROME_PATH=/usr/bin/thorium-browser-sse3 unlighthouse --config-file $XDG_CONFIG_HOME/unlighthouse/config.ts"
 # alias procs="procs --theme dark"
 alias git-push='git push -u origin HEAD'
 alias pass-sync='pass git pull && pass git push'
