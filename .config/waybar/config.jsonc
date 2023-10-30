@@ -24,7 +24,7 @@
   ],
   "modules-right": [
     // "custom/left-arrow-bg2",
-    "custom/left-arrow-bg1",
+    // "custom/left-arrow-bg1",
     "tray",
     "mpd",
     "custom/backslash",
