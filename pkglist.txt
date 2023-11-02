@@ -14,7 +14,6 @@ alsa-plugins
 alsa-utils
 amd-ucode
 android-file-transfer
-android-studio
 android-tools
 apache
 appmenu-gtk-module
@@ -23,6 +22,7 @@ aria2
 ark
 asciinema
 asciinema-agg
+asciiquarium
 atool
 auto-epp-rs
 autoconf
@@ -66,11 +66,11 @@ cryptsetup
 cups
 cups-filters
 cups-pdf
+dbeaver
 dbmate
 debtap
 device-mapper
 dhclient
-dialog
 diffutils
 distrobox
 dmidecode
@@ -127,6 +127,7 @@ ghostscript
 gimp
 git
 gksu
+glava
 global
 glow
 gnome-keyring
@@ -137,7 +138,6 @@ gosec-bin
 gource
 gparted
 gping
-gradle
 greetd
 greetd-tuigreet
 grep
@@ -198,7 +198,6 @@ libopenraw
 libpulse
 libreoffice-fresh
 libreoffice-fresh-id
-librewolf-bin
 libtool
 libtpms
 libva-mesa-driver
@@ -228,6 +227,7 @@ mbedtls2
 mdadm
 mediainfo
 meld
+mercury-browser-bin
 mesa-utils
 mesa-vdpau
 mkinitcpio-busybox
@@ -367,7 +367,7 @@ taskwarrior-tui
 tealdeer
 tenacity
 texinfo
-thorium-browser-bin
+thorium-browser-sse3-bin
 time
 timeshift-bin
 tofi
