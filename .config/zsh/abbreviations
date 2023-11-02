@@ -19,3 +19,4 @@ abbr g=git
 abbr tt=taskwarrior-tui
 abbr p=pnpm
 abbr pc=podman-compose
+abbr sud=sudo-rs
