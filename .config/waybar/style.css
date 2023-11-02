@@ -35,13 +35,13 @@ tooltip {
 }
 
 #workspaces button.urgent {
-  color: #1a212e;
+  color: #93a4c3;
   background: #141b24;
   /* border-radius: 8px; */
 }
 
 #workspaces button:hover {
-  color: #504945;
+  color: #93a4c3;
   border: 0;
   outline: none;
 }
