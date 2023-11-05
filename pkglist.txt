@@ -34,6 +34,7 @@ base-devel
 bash-completion
 bat
 bc
+bibata-cursor-theme
 bind
 binutils
 bison
@@ -41,6 +42,7 @@ bluez
 bluez-utils
 bottles
 bottom
+brave-bin
 breeze
 bridge-utils
 brightnessctl
@@ -57,6 +59,7 @@ cava
 chafa
 chaotic-keyring
 chaotic-mirrorlist
+chromium-widevine
 cloudflare-warp-bin
 cloudflared
 cmatrix
@@ -90,7 +93,6 @@ efitools
 endeavouros-keyring
 endeavouros-mirrorlist
 endeavouros-theming
-eos-apps-info
 eos-hooks
 eos-log-tool
 eos-rankmirrors
@@ -127,7 +129,6 @@ ghostscript
 gimp
 git
 gksu
-glava
 global
 glow
 gnome-keyring
@@ -164,6 +165,7 @@ hwinfo
 hyperfine
 hyprland
 hyprpaper
+hyprpicker-git
 imv
 inetutils
 insomnia-bin
@@ -198,6 +200,7 @@ libopenraw
 libpulse
 libreoffice-fresh
 libreoffice-fresh-id
+librewolf-bin
 libtool
 libtpms
 libva-mesa-driver
@@ -227,7 +230,6 @@ mbedtls2
 mdadm
 mediainfo
 meld
-mercury-browser-bin
 mesa-utils
 mesa-vdpau
 mkinitcpio-busybox
@@ -239,6 +241,7 @@ mongodb-compass
 mpc
 mpd
 mpv
+mpv-thumbfast-git
 mtools
 mysql-workbench
 namcap
@@ -367,7 +370,6 @@ taskwarrior-tui
 tealdeer
 tenacity
 texinfo
-thorium-browser-sse3-bin
 time
 timeshift-bin
 tofi
@@ -386,6 +388,7 @@ turso-cli
 udiskie
 ueberzugpp
 unarchiver
+ungoogled-chromium-bin
 unrar
 unzip
 upd72020x-fw
@@ -404,7 +407,7 @@ vscodium-bin
 vulkan-radeon
 w3m
 watchexec
-waybar-hyprland-git
+waybar-hyprland
 wd719x-firmware
 wev
 wget
