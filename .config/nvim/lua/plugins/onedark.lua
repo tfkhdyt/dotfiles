@@ -2,7 +2,7 @@ return {
   {
     'navarasu/onedark.nvim',
     opts = {
-      style = "darker"
+      style = "warmer"
     }
   },
   {
