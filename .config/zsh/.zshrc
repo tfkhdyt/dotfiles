@@ -1,14 +1,16 @@
 # zmodload zsh/zprof
 # source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
-autoload -Uz promptinit compinit
+autoload -Uz promptinit compinit up-line-or-beginning-search down-line-or-beginning-search
 promptinit
 compinit
 prompt pure
 
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+
 zstyle ':completion:*' menu select
 zstyle ':completion::complete:*' gain-privileges 1
-zstyle ':completion:*' rehash true
 
 # bindkey '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
 
@@ -47,6 +49,9 @@ key[Control-Right]="${terminfo[kRIT5]}"
 [[ -n "${key[Control-Left]}"  ]] && bindkey -- "${key[Control-Left]}"  backward-word
 [[ -n "${key[Control-Right]}" ]] && bindkey -- "${key[Control-Right]}" forward-word
 
+[[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
+[[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
+
 # Finally, make sure the terminal is in application mode, when zle is
 # active. Only then are the values from $terminfo valid.
 if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
@@ -77,6 +82,7 @@ lfcd () {
 }
 
 bindkey \^K kill-line
+bindkey '^[d' kill-word
 
 eval "$(zoxide init zsh)"
 
