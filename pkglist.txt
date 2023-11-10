@@ -38,6 +38,7 @@ bibata-cursor-theme
 bind
 binutils
 bison
+bleachbit
 bluez
 bluez-utils
 bottles
@@ -49,7 +50,7 @@ brightnessctl
 browserpass
 browserpass-chromium
 btrfs-progs
-bunjs-bin
+bun-bin
 caddy
 cantarell-fonts
 capitaine-cursors
@@ -69,7 +70,6 @@ cryptsetup
 cups
 cups-filters
 cups-pdf
-dbeaver
 dbmate
 debtap
 device-mapper
@@ -87,7 +87,6 @@ duf
 dunst
 dust
 e2fsprogs
-earlyoom
 efibootmgr
 efitools
 endeavouros-keyring
@@ -249,11 +248,12 @@ nano
 nano-syntax-highlighting
 ncmpcpp
 neofetch
-neovim-nightly-bin
+neovim
 network-manager-applet
 networkmanager
 newsboat
 nfs-utils
+nginx
 nilfs-utils
 nodejs
 noise-suppression-for-voice
@@ -371,7 +371,7 @@ tealdeer
 tenacity
 texinfo
 time
-timeshift-bin
+timeshift
 tofi
 tokei
 trash-cli
