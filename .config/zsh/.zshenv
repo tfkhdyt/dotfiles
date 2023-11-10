@@ -45,5 +45,5 @@ export PRETTIERD_DEFAULT_CONFIG="$XDG_CONFIG_HOME/prettierd/.prettierrc"
 export LS_COLORS=$(vivid generate one-dark)
 
 typeset -U path PATH
-path=($MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN ~/.local/bin/ ~/.local/share/nvim/mason/bin/ ~/.detaspace/bin/ $path)
+path=($MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN ~/.local/bin ~/.local/share/nvim/mason/bin ~/.detaspace/bin ~/.cache/.bun/bin $path)
 export PATH
