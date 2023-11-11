@@ -29,9 +29,28 @@ tooltip {
   margin-right: 5px;
 }
 
+#tags button {
+  color: #93a4c3;
+  box-shadow: inset 0 -3px transparent;
+  /* Avoid rounded borders under each workspace name */
+  border: none;
+}
+
 #workspaces button.active {
   color: #93a4c3;
   font-weight: bold;
+}
+
+#tags button.occupied {
+    box-shadow: inset 0 -3px #979eab;
+}
+
+#tags button.focused {
+    box-shadow: inset 0 -3px #41a7fc;
+}
+
+#tags button.urgent {
+    background-color: #F28FAD;
 }
 
 #workspaces button.urgent {
@@ -41,7 +60,7 @@ tooltip {
 }
 
 #workspaces button:hover {
-  color: #93a4c3;
+  color: #56b6c2;
   border: 0;
   outline: none;
 }
@@ -79,7 +98,7 @@ tooltip {
   padding-right: 5px;
 }
 
-#temperature {
+#temperature, #idle_inhibitor {
   /* margin-left: 15px; */
   /* border-radius: 24px 0 0 24px; */
   padding-left: 25px;
@@ -155,7 +174,6 @@ tooltip {
   color: #f65866;
   /* margin-right: 15px; */
   /* border-radius: 0 24px 24px 0; */
-  padding-right: 25px;
 }
 
 #pulseaudio,
@@ -188,7 +206,7 @@ tooltip {
 #custom-pomo {
   color: #93a4c3;
   /* border-radius: 24px; */
-  padding: 0 25px;
+  padding-right: 25px;
 }
 
 #custom-right-arrow-dark,

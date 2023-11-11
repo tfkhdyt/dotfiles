@@ -3,25 +3,24 @@
   "position": "top",
   "height": 34,
   "modules-left": [
-    "temperature",
-    "cpu",
-    "memory",
-    "custom/slash",
+    // "temperature",
+    // "cpu",
+    // "memory",
+    // "custom/slash",
     "idle_inhibitor",
     "custom/slash",
-    "hyprland/workspaces",
+    "river/tags",
     "custom/slash",
-    "hyprland/window"
+    "river/window"
     // "custom/right-arrow-bg3"
     // "custom/right-arrow-bg2"
     // "custom/right-arrow-bg1"
   ],
-  "modules-center": [
-    // "custom/left-arrow-bg2",
-    "clock"
-    // "custom/pomo",
-    // "custom/right-arrow-bg2"
-  ],
+  // "modules-center": [
+  // "custom/left-arrow-bg2",
+  // "custom/pomo",
+  // "custom/right-arrow-bg2"
+  // ],
   "modules-right": [
     // "custom/left-arrow-bg2",
     // "custom/left-arrow-bg1",
@@ -33,7 +32,9 @@
     "backlight",
     "custom/pipewire",
     "custom/backslash",
-    "battery"
+    "battery",
+    "custom/backslash",
+    "clock"
   ],
   "wlr/workspaces": {
     "disable-scroll": true,
