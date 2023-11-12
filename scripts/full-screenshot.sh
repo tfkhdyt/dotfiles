@@ -5,7 +5,7 @@ file="Screenshot_$(date +'%Y%m%d_%H%M%S').png"
 mode=${1:-save}
 
 if [[ $mode == "save" ]]; then
-  grim -o "${path}${file}" &
+  grim "${path}${file}" &
 else
   grim - | wl-copy &
 fi

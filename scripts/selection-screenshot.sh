@@ -6,7 +6,7 @@ mode=${1:-save}
 
 
 if [[ $mode == "save" ]]; then
-  grim -g "$(slurp)" -o "${path}${file}"
+  grim -g "$(slurp)" "${path}${file}"
 else
   grim -g "$(slurp)" - | wl-copy
 fi
