@@ -174,7 +174,7 @@ done
 riverctl background-color 0x000000
 riverctl border-color-focused 0x5C84B8
 riverctl border-color-unfocused 0x252737
-riverctl border-width 3
+riverctl border-width 2
 
 # Set keyboard repeat rate
 riverctl set-repeat 63 375
@@ -186,11 +186,14 @@ riverctl float-filter-add title "popup title with spaces"
 # Set app-ids and titles of views which should use client side decorations
 riverctl csd-filter-add app-id "gedit"
 
+# Focus follows cursor
 riverctl focus-follows-cursor normal
 
+# Mouse
 riverctl input pointer-5426-152-Razer_Razer_DeathAdder_Essential accel-profile flat
 riverctl input pointer-5426-152-Razer_Razer_DeathAdder_Essential pointer-accel -0.2
 
+# Touchpad
 riverctl input pointer-1267-12728-MSFT0001:00_04F3:31B8_Touchpad events enabled
 riverctl input pointer-1267-12728-MSFT0001:00_04F3:31B8_Touchpad pointer-accel +0.45
 riverctl input pointer-1267-12728-MSFT0001:00_04F3:31B8_Touchpad accel-profile flat
