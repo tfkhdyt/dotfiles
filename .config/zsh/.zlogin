@@ -1,3 +1,3 @@
-if [ "$(tty)" = "/dev/tty1" ];then
-  exec river
+if [ "$(tty)" = "/dev/tty1" ]; then
+  sway
 fi
