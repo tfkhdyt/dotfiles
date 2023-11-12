@@ -5,7 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 exec foot --server &
 exec sway-audio-idle-inhibit &
-exec swayidle -w timeout 300 'swaylock -f -l --font "JetBrainsMono NFP" -c 000000' timeout 600 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on' before-sleep 'swaylock -f -l --font "JetBrainsMono NFP" -c 000000' &
+exec swayidle -w timeout 300 'swaylock -f -l --font "JetBrainsMono NFP" -c 000000' timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' before-sleep 'swaylock -f -l --font "JetBrainsMono NFP" -c 000000' &
 exec /usr/lib/polkit-kde-authentication-agent-1 &
 exec gammastep -l -6.914744:107.609810 -t 6500:3000 -m wayland &
 exec gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic' &
