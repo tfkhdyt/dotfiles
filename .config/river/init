@@ -187,7 +187,6 @@ riverctl float-filter-add title "popup title with spaces"
 riverctl csd-filter-add app-id "gedit"
 
 riverctl focus-follows-cursor normal
-riverctl set-cursor-warp on-focus-change
 
 riverctl input pointer-5426-152-Razer_Razer_DeathAdder_Essential accel-profile flat
 riverctl input pointer-5426-152-Razer_Razer_DeathAdder_Essential pointer-accel -0.2
@@ -203,4 +202,4 @@ riverctl input pointer-1267-12728-MSFT0001:00_04F3:31B8_Touchpad tap enabled
 # Set the default layout generator to be rivertile and start it.
 # River will send the process group of the init executable SIGTERM on exit.
 riverctl default-layout rivertile
-rivertile -view-padding 5 -outer-padding 15 &
+rivertile -view-padding 5 -outer-padding 15 -main-ratio 0.55 &
