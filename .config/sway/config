@@ -250,6 +250,7 @@ bindsym $mod+r mode "resize"
 default_border pixel 2
 gaps inner 15
 gaps outer 5
+focus_follows_mouse always
 
 set $base00 #282c34
 set $base01 #353b45
@@ -294,5 +295,10 @@ bindsym Control+Shift+Print exec selection-screenshot.sh copy
 
 bindsym $mod+slash      exec start-mpd
 bindsym $mod+apostrophe exec screen-record.sh
+
+bindsym $mod+Tab workspace back_and_forth
+bindsym $mod+bracketleft workspace prev
+bindsym $mod+bracketright workspace next
+bindsym Mod1+Tab focus prev
 
 include /etc/sway/config.d/*
