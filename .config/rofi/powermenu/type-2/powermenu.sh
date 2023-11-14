@@ -12,20 +12,20 @@
 
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/type-2"
-theme='style-1'
+theme='style-8'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
 host=`hostname`
 
 # Options
-shutdown=''
-reboot=''
-lock=''
-suspend=''
-logout=''
-yes=''
-no=''
+shutdown='󰐥'
+reboot='󰑐'
+lock=''
+suspend=''
+logout='󰍃'
+yes=''
+no=''
 
 # Rofi CMD
 rofi_cmd() {
@@ -77,6 +77,8 @@ run_cmd() {
 				bspc quit
 			elif [[ "$DESKTOP_SESSION" == 'i3' ]]; then
 				i3-msg exit
+			elif [[ "$XDG_CURRENT_DESKTOP" == 'sway' ]]; then
+				swaymsg exit
 			elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
 				qdbus org.kde.ksmserver /KSMServer logout 0 0 0
 			fi
@@ -98,6 +100,8 @@ case ${chosen} in
     $lock)
 		if [[ -x '/usr/bin/betterlockscreen' ]]; then
 			betterlockscreen -l
+		elif [[ -x '/usr/bin/swaylock' ]]; then
+			swaylock -f -l --font "JetBrainsMono NFP" -c 000000
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		fi

@@ -294,6 +294,7 @@ bindsym Control+$mod+Print  exec active-window-screenshot.sh copy
 bindsym Control+Shift+Print exec selection-screenshot.sh copy
 
 bindsym $mod+slash      exec start-mpd
+bindsym $mod+backslash  exec powermenu.sh
 bindsym $mod+apostrophe exec screen-record.sh
 
 bindsym $mod+Tab workspace back_and_forth
