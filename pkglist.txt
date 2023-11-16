@@ -27,6 +27,7 @@ atool
 auto-epp-rs
 autoconf
 automake
+autotiling-rs
 axu-bin
 b43-fwcutter
 base
@@ -67,6 +68,7 @@ cmatrix
 composer
 cpupower
 cryptsetup
+ctpv-git
 cups
 cups-filters
 cups-pdf
@@ -116,6 +118,7 @@ foomatic-db-gutenprint-ppds
 foomatic-db-nonfree
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
+foot
 fsarchiver
 gamemode
 gamescope
@@ -142,7 +145,6 @@ greetd
 greetd-tuigreet
 grep
 grim
-grimblast-git
 groff
 gsfonts
 gst-libav
@@ -170,7 +172,6 @@ inetutils
 insomnia-bin
 inxi
 iwd
-j4-dmenu-desktop
 jdk-openjdk
 jfsutils
 jpegoptim
@@ -237,6 +238,7 @@ mlocate
 modemmanager
 mongodb-bin
 mongodb-compass
+moosync-bin
 mpc
 mpd
 mpv
@@ -264,8 +266,7 @@ nss-mdns
 ntfs-3g
 ntp
 nwg-look
-obs-backgroundremoval
-obs-studio-tytan652
+obs-studio
 octave
 oha
 opendoas
@@ -273,6 +274,7 @@ openssl-1.1
 optipng
 os-prober
 otf-comicshanns-nerd
+otf-monaspace
 ouch
 p7zip
 pacman
@@ -292,7 +294,6 @@ php-apache
 php-gd
 php-xsl
 picard
-picom
 pipes.sh
 pipewire-alsa
 pipewire-jack
@@ -358,21 +359,21 @@ steam
 stow
 sudo
 sudo-rs
+sway
 sway-audio-idle-inhibit-git
+swaybg
 swayidle
 swaylock
 swtpm
-sxhkd
 sysfsutils
 system-config-printer
 systemd-sysvcompat
 taskwarrior-tui
 tealdeer
-tenacity
+tenacity-git
 texinfo
 time
 timeshift
-tofi
 tokei
 trash-cli
 tree
@@ -407,8 +408,9 @@ vscodium-bin
 vulkan-radeon
 w3m
 watchexec
-waybar-hyprland
+waybar
 wd719x-firmware
+wdisplays
 wev
 wget
 which
@@ -420,10 +422,9 @@ wlogout
 wmctrl
 wpa_supplicant
 wrk
-xautolock
 xclip
 xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland
+xdg-desktop-portal-wlr
 xdg-user-dirs
 xdg-utils
 xdotool
@@ -432,7 +433,6 @@ xf86-video-amdgpu
 xf86-video-ati
 xfsprogs
 xh
-xidlehook
 xorg-server
 xorg-xdpyinfo
 xorg-xev
@@ -441,7 +441,6 @@ xorg-xinput
 xorg-xkill
 xorg-xrandr
 xsane
-xss-lock
 xterm
 yad
 yay
