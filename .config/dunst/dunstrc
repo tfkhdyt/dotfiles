@@ -91,10 +91,10 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 3
+    frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#5C84B8"
+    frame_color = "#61afef"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -249,7 +249,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 11
+    corner_radius = 0
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -314,7 +314,7 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#21283be5"  
     foreground = "#e0def4"
-    highlight = "#5C84B8"
+    highlight = "#61afef"
     timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
@@ -322,7 +322,7 @@
 [urgency_normal]
     background = "#21283be5"  
     foreground = "#e0def4"
-    highlight = "#5C84B8"
+    highlight = "#61afef"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
