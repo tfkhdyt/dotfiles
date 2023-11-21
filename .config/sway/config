@@ -3,7 +3,8 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
-output * bg /home/tfkhdyt/Pictures/Backgrounds/spiderman-2_upscayl_4x_realesrgan-x4plus-anime_1080p.png fill
+# output * bg /home/tfkhdyt/Pictures/Backgrounds/spiderman-2_upscayl_4x_realesrgan-x4plus-anime_1080p.png fill
+output * bg /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png fill
 exec gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic' &
 exec waybar &
 exec dbus-update-activation-environment --systemd --all &
