@@ -27,7 +27,6 @@ atool
 auto-epp-rs
 autoconf
 automake
-autotiling-rs
 axu-bin
 b43-fwcutter
 base
@@ -125,6 +124,7 @@ gamescope
 gammastep
 gawk
 gcc
+gdb
 genact
 gettext
 ghostscript
@@ -178,6 +178,7 @@ jpegoptim
 jq
 kdeconnect
 kdenlive
+keepassxc
 kernel-install-for-dracut
 klavaro
 kondo
@@ -273,7 +274,6 @@ opendoas
 openssl-1.1
 optipng
 os-prober
-otf-comicshanns-nerd
 otf-monaspace
 ouch
 p7zip
@@ -365,6 +365,7 @@ swaybg
 swayidle
 swaylock
 swtpm
+syncthing
 sysfsutils
 system-config-printer
 systemd-sysvcompat
@@ -386,10 +387,10 @@ ttf-ms-fonts
 ttf-opensans
 ttf-plus-jakarta-sans
 turso-cli
+typioca-git
 udiskie
 ueberzugpp
 unarchiver
-ungoogled-chromium-bin
 unrar
 unzip
 upd72020x-fw
@@ -419,6 +420,7 @@ wireless-regdb
 wl-clipboard
 wl-screenrec
 wlogout
+wlprop
 wmctrl
 wpa_supplicant
 wrk
@@ -450,6 +452,7 @@ zathura-pdf-mupdf
 zip
 zoom
 zoxide
+zps
 zramd
 zsh
 zsh-autosuggestions
