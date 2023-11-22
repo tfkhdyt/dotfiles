@@ -12,7 +12,7 @@
 
 window#waybar {
   /* background: rgba(26, 33, 46, 0.5); */
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.5);
   color: #34bfd0;
 }
 
@@ -27,20 +27,19 @@ tooltip {
 #workspaces button {
   padding: 0 5px;
   margin-right: 5px;
-  color: #3c3836;
+  color: #93a4c3;
   box-shadow: inset 0 -3px transparent;
   /* Avoid rounded borders under each workspace name */
   border: none;
 }
 
 #workspaces button.focused {
-  color: #93a4c3;
   font-weight: bold;
   box-shadow: inset 0 -3px #41a7fc;
 }
 
 #workspaces button.urgent {
-    background-color: #283347;
+    background-color: #f65866;
 }
 
 #workspaces button:hover {
