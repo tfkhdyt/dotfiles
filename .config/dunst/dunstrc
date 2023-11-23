@@ -24,17 +24,17 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 350
+    width = (0, 600)
 
     # The maximum height of a single notification, excluding the frame.
-    height = 300
+    height = 100
 
     # Position the notification in the top right corner
-    origin = top-right
+    origin = top-center
     # origin = top-center
 
     # Offset from the origin
-    offset = 32x32
+    offset = 0x0
     # offset = 0x75
 
     # Scale factor. It is auto-detected if value is 0.
@@ -62,7 +62,7 @@
     # Set the maximum width for the progress bar
     progress_bar_max_width = 400
 
-    progress_bar_corner_radius = 4
+    progress_bar_corner_radius = 0
 
 
     # Show how many messages are currently hidden (because of
@@ -94,7 +94,7 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#61afef"
+    frame_color = "#353b45"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -330,8 +330,8 @@
 [urgency_critical]
     background = "#21283be5"  
     foreground = "#e0def4"
-    frame_color = "#de1b23"
-    highlight = "#de1b23"
+    frame_color = "#f65866"
+    highlight = "#f65866"
     timeout = 60
     # Icon for notifications with critical urgency, uncomment to enable
     #default_icon = /path/to/icon
