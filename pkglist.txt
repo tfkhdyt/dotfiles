@@ -71,6 +71,7 @@ ctpv-git
 cups
 cups-filters
 cups-pdf
+dbeaver
 dbmate
 debtap
 device-mapper
@@ -101,6 +102,7 @@ expac
 eza
 f2fs-tools
 fakeroot
+fastfetch
 fd
 ffmpegthumbnailer
 ffsend-bin
@@ -157,7 +159,6 @@ gvfs
 gzip
 halp-bin
 handbrake
-haveged
 hdparm
 heroic-games-launcher-bin
 hplip
