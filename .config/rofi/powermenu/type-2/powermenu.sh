@@ -15,8 +15,8 @@ dir="$HOME/.config/rofi/powermenu/type-2"
 theme='style-8'
 
 # CMDs
-uptime="`uptime -p | sed -e 's/up //g'`"
-host=`hostname`
+uptime="$(uptime -p | sed -e 's/up //g')"
+host=$(hostname)
 
 # Options
 shutdown='󰐥'
@@ -63,9 +63,9 @@ run_cmd() {
 	selected="$(confirm_exit)"
 	if [[ "$selected" == "$yes" ]]; then
 		if [[ $1 == '--shutdown' ]]; then
-			systemctl poweroff
+			poweroff
 		elif [[ $1 == '--reboot' ]]; then
-			systemctl reboot
+			reboot
 		elif [[ $1 == '--suspend' ]]; then
 			mpc -q pause
 			amixer set Master mute
@@ -91,25 +91,25 @@ run_cmd() {
 # Actions
 chosen="$(run_rofi)"
 case ${chosen} in
-    $shutdown)
-		run_cmd --shutdown
-        ;;
-    $reboot)
-		run_cmd --reboot
-        ;;
-    $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/swaylock' ]]; then
-			swaylock -f -l --font "JetBrainsMono NFP" -c 000000
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
-        ;;
-    $suspend)
-		run_cmd --suspend
-        ;;
-    $logout)
-		run_cmd --logout
-        ;;
+$shutdown)
+	run_cmd --shutdown
+	;;
+$reboot)
+	run_cmd --reboot
+	;;
+$lock)
+	if [[ -x '/usr/bin/betterlockscreen' ]]; then
+		betterlockscreen -l
+	elif [[ -x '/usr/bin/swaylock' ]]; then
+		swaylock -f -l --font "JetBrainsMono NFP" -c 000000
+	elif [[ -x '/usr/bin/i3lock' ]]; then
+		i3lock
+	fi
+	;;
+$suspend)
+	run_cmd --suspend
+	;;
+$logout)
+	run_cmd --logout
+	;;
 esac
