@@ -48,7 +48,6 @@ breeze
 bridge-utils
 brightnessctl
 browserpass
-browserpass-chromium
 btrfs-progs
 bun-bin
 caddy
@@ -60,7 +59,6 @@ cava
 chafa
 chaotic-keyring
 chaotic-mirrorlist
-chromium-widevine
 cloudflare-warp-bin
 cloudflared
 cmatrix
@@ -165,8 +163,6 @@ hplip
 htop
 hwinfo
 hyperfine
-hyprland
-hyprpaper
 hyprpicker-git
 imv
 inetutils
@@ -302,8 +298,6 @@ pipewire-pulse
 pkgconf
 pkgfile
 playerctl
-plymouth
-plymouth-theme-arch-logo
 pm2
 pnpm
 podman
@@ -346,6 +340,7 @@ saga-gis
 scrcpy
 screenkey
 sd
+seahorse
 sed
 slurp
 smartmontools
