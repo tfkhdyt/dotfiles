@@ -15,11 +15,11 @@ return {
 				fish = { "fish_indent" },
 				sh = { "shfmt" },
 				yaml = { "yamlfmt" },
-				javascript = { "prettierd" },
-				typescript = { "prettierd" },
-				javascriptreact = { "prettierd" },
-				typescriptreact = { "prettierd" },
-				go = { "gofumpt", "goimports_reviser", "golines" },
+				javascript = { "biome" },
+				typescript = { "biome" },
+				javascriptreact = { "biome" },
+				typescriptreact = { "biome" },
+				go = { "gofumpt", "goimports-reviser", "golines" },
 				python = { "black" },
 			},
 			-- The options you set here will be merged with the builtin formatters.
@@ -27,11 +27,11 @@ return {
 			---@type table<string, conform.FormatterConfigOverride|fun(bufnr: integer): nil|conform.FormatterConfigOverride>
 			formatters = {
 				injected = { options = { ignore_errors = true } },
-				goimports_reviser = {
-					command = "goimports-reviser",
-					args = { "-rm-unused", "-format", "-use-cache", "$FILENAME" },
-					stdin = false,
-				},
+				-- goimports_reviser = {
+				-- 	command = "goimports-reviser",
+				-- 	args = { "-rm-unused", "-format", "-use-cache", "$FILENAME" },
+				-- 	stdin = false,
+				-- },
 				-- # Example of using dprint only when a dprint.json file is present
 				-- dprint = {
 				--   condition = function(ctx)
