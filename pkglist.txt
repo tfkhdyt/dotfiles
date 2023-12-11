@@ -95,6 +95,7 @@ endeavouros-theming
 eos-hooks
 eos-log-tool
 eos-rankmirrors
+espanso-wayland
 exfatprogs
 expac
 eza
@@ -230,6 +231,7 @@ mediainfo
 meld
 mesa-utils
 mesa-vdpau
+mission-center
 mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mlocate
@@ -263,6 +265,7 @@ noto-fonts-emoji
 nss-mdns
 ntfs-3g
 ntp
+nwg-displays
 nwg-look
 obs-studio
 octave
