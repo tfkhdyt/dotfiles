@@ -1,14 +1,14 @@
 return {
-  {
-    'navarasu/onedark.nvim',
-    opts = {
-      style = "warmer"
-    }
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "onedark",
-    },
-  },
+	-- {
+	--   'navarasu/onedark.nvim',
+	--   opts = {
+	--     style = "warmer"
+	--   }
+	-- },
+	-- {
+	--   "LazyVim/LazyVim",
+	--   opts = {
+	--     colorscheme = "onedark",
+	--   },
+	-- },
 }
