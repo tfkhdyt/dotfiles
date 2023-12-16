@@ -231,7 +231,6 @@ mediainfo
 meld
 mesa-utils
 mesa-vdpau
-mission-center
 mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mlocate
@@ -326,7 +325,6 @@ qpwgraph
 qt5ct
 qt6-wayland
 qt6ct
-rabbitmq
 rebuild-detector
 redis
 reflector
@@ -410,7 +408,6 @@ w3m
 watchexec
 waybar
 wd719x-firmware
-wdisplays
 wev
 wget
 which
@@ -434,7 +431,6 @@ xf86-video-amdgpu
 xf86-video-ati
 xfsprogs
 xh
-xorg-server
 xorg-xdpyinfo
 xorg-xev
 xorg-xinit
