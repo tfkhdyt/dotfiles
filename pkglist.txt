@@ -167,7 +167,6 @@ hyperfine
 hyprpicker-git
 imv
 inetutils
-insomnia-bin
 inxi
 iwd
 jdk-openjdk
@@ -218,7 +217,6 @@ lvm2
 lxappearance
 m4
 macchina-bin
-maim
 make
 man-db
 man-pages
@@ -310,6 +308,7 @@ pomo
 poppler-glib
 postgresql
 postgresql-old-upgrade
+postman-bin
 ppp
 pptpclient
 prayermate-id
