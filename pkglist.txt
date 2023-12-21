@@ -171,6 +171,7 @@ inxi
 iwd
 jdk-openjdk
 jfsutils
+jose
 jpegoptim
 jq
 kdeconnect
@@ -280,7 +281,6 @@ papirus-icon-theme
 parcellite
 pass
 pass-otp
-passff-host
 passff-host-librewolf-git
 patch
 pavucontrol
@@ -452,4 +452,3 @@ zsh
 zsh-autosuggestions
 zsh-fast-syntax-highlighting
 zsh-pure-prompt
-zsh-syntax-highlighting
