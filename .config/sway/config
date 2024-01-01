@@ -306,4 +306,8 @@ bindsym $mod+bracketleft workspace prev
 bindsym $mod+bracketright workspace next
 bindsym Mod1+Tab focus prev
 
+bindsym $mod+Shift+greater move container to output right
+bindsym $mod+Shift+less move container to output left
+
 include /etc/sway/config.d/*
+include ~/.config/sway/outputs
