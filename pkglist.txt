@@ -50,7 +50,6 @@ brightnessctl
 browserpass
 btrfs-progs
 bun-bin
-caddy
 cantarell-fonts
 capitaine-cursors
 cargo-watch
@@ -103,6 +102,7 @@ f2fs-tools
 fakeroot
 fastfetch
 fd
+ffmpeg
 ffmpegthumbnailer
 ffsend-bin
 file
@@ -171,7 +171,6 @@ inxi
 iwd
 jdk-openjdk
 jfsutils
-jose
 jpegoptim
 jq
 kdeconnect
@@ -236,7 +235,6 @@ mlocate
 modemmanager
 mongodb-bin
 mongodb-compass
-moosync-bin
 mpc
 mpd
 mpv
@@ -350,7 +348,6 @@ speedtest-cli
 splix
 sqlc
 sshfs
-starship
 steam
 stow
 sudo
@@ -399,7 +396,6 @@ v4l2loopback-dkms
 vi
 virt-manager
 vivid
-vlc-luajit
 vpnc
 vscodium-bin
 vulkan-radeon
@@ -447,7 +443,7 @@ zip
 zoom
 zoxide
 zps
-zramd
+zram-generator
 zsh
 zsh-autosuggestions
 zsh-fast-syntax-highlighting
