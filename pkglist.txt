@@ -94,7 +94,6 @@ endeavouros-theming
 eos-hooks
 eos-log-tool
 eos-rankmirrors
-espanso-wayland
 exfatprogs
 expac
 eza
@@ -138,6 +137,7 @@ gnome-keyring
 gnutls
 go
 go-mod-outdated
+go-task
 gosec-bin
 gource
 gparted
@@ -266,6 +266,7 @@ nwg-look
 obs-studio
 octave
 oha
+okular
 opendoas
 openssl-1.1
 optipng
@@ -366,6 +367,7 @@ taskwarrior-tui
 tealdeer
 tenacity-git
 texinfo
+thunar
 time
 timeshift
 tokei
@@ -438,7 +440,7 @@ yad
 yay
 yt-dlp
 zathura
-zathura-pdf-mupdf
+zathura-pdf-poppler
 zip
 zoom
 zoxide
