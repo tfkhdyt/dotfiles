@@ -299,6 +299,7 @@ pkgfile
 playerctl
 pm2
 pnpm
+podlet
 podman
 podman-compose
 polkit-kde-agent
