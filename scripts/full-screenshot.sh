@@ -5,9 +5,10 @@ file="Screenshot_$(date +'%Y%m%d_%H%M%S').png"
 mode=${1:-save}
 
 if [[ $mode == "save" ]]; then
-  grimshot --notify save output "${path}${file}" &
+	grimblast --notify save output "${path}${file}" &
 else
-  grimshot --notify copy output &
+	grimblast --notify copy output &
 fi
 
-mpv /home/tfkhdyt/audio/camera-shutter-6305.mp3 & wait
+mpv /home/tfkhdyt/audio/camera-shutter-6305.mp3 &
+wait

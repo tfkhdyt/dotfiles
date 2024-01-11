@@ -35,8 +35,7 @@ set $menu launcher.sh
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
-output * bg /home/tfkhdyt/Pictures/Backgrounds/luca-baggio-rhmd9XVhgFU-unsplash.jpg fill
-output HDMI-A-1 res 1280x720 pos 0 0
+output * bg /home/tfkhdyt/Pictures/Backgrounds/eberhard-grossgasteiger-CAqkOC51tTM-unsplash.jpg fill
 
 ### Idle configuration
 #
@@ -303,3 +302,4 @@ bindsym $mod+Shift+less move container to output left
 
 include /etc/sway/config.d/*
 include ~/.config/sway/outputs
+include ~/.config/sway/workspaces
