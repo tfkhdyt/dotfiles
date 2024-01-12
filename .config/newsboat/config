@@ -13,9 +13,9 @@ include /usr/share/doc/newsboat/contrib/colorschemes/nord
 # highlight article "https?://[^ ]+" red default
 # highlight article "\\[image\\ [0-9]+\\]" green default
 
-browser "librewolf %u"
-macro m set browser "mpv %u"; open-in-browser ; set browser "librewolf %u"
-macro n set browser "mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "librewolf %u"
+browser "min-browser %u"
+macro m set browser "mpv %u"; open-in-browser ; set browser "min-browser %u"
+macro n set browser "mpv --ytdl-format='bestvideo[height<=240]+bestaudio/best[height<=240]/best' %u"; open-in-browser ; set browser "min-browser %u"
 
 # unbind keys
 unbind-key ENTER
