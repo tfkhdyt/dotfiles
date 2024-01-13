@@ -77,6 +77,7 @@ diffutils
 distrobox
 dmidecode
 dmraid
+dns-over-https
 dnscrypt-proxy
 dnsmasq
 dosfstools
@@ -146,6 +147,7 @@ greetd
 greetd-tuigreet
 grep
 grim
+grimblast-git
 groff
 gsfonts
 gst-libav
@@ -164,6 +166,8 @@ hplip
 htop
 hwinfo
 hyperfine
+hyprland
+hyprpaper
 hyprpicker-git
 imv
 inetutils
@@ -212,6 +216,7 @@ linux-lts
 linux-lts-headers
 localsend-bin
 logrotate
+lolcat
 lsb-release
 lvm2
 lxappearance
@@ -229,6 +234,7 @@ mediainfo
 meld
 mesa-utils
 mesa-vdpau
+min-browser-bin
 mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mlocate
@@ -324,6 +330,7 @@ qpwgraph
 qt5ct
 qt6-wayland
 qt6ct
+rclone
 rebuild-detector
 redis
 reflector
@@ -370,6 +377,7 @@ tenacity-git
 texinfo
 thunar
 time
+timer-bin
 timeshift
 tokei
 trash-cli
@@ -404,7 +412,7 @@ vscodium-bin
 vulkan-radeon
 w3m
 watchexec
-waybar
+waybar-hyprland-git
 wd719x-firmware
 wev
 wget
@@ -412,6 +420,7 @@ which
 whois
 wireless-regdb
 wl-clipboard
+wl-mirror
 wl-screenrec
 wlogout
 wlprop
@@ -420,7 +429,7 @@ wpa_supplicant
 wrk
 xclip
 xdg-desktop-portal-gtk
-xdg-desktop-portal-wlr
+xdg-desktop-portal-hyprland
 xdg-user-dirs
 xdg-utils
 xdotool
