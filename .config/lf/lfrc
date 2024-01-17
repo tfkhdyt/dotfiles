@@ -8,10 +8,7 @@ set dircounts
 set ratios '1:4:3'
 
 set sixel true
-set previewer ctpv
-set cleaner ctpvclear
-&ctpv -s $id
-&ctpvquit $id
+set previewer preview
 
 cmd z %{{
 	result="$(zoxide query --exclude $PWD $@)"
