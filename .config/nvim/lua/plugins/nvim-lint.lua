@@ -9,6 +9,8 @@ return {
 			typescript = { "biomejs" },
 			javascriptreact = { "biomejs" },
 			typescriptreact = { "biomejs" },
+			dockerfile = { "hadolint" },
+			yaml = { "yamllint" },
 		},
 	},
 }
