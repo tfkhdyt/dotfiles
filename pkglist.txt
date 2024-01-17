@@ -77,7 +77,6 @@ diffutils
 distrobox
 dmidecode
 dmraid
-dns-over-https
 dnscrypt-proxy
 dnsmasq
 dosfstools
@@ -135,6 +134,7 @@ gksu
 global
 glow
 gnome-keyring
+gnucash
 gnutls
 go
 go-mod-outdated
@@ -216,7 +216,6 @@ linux-lts
 linux-lts-headers
 localsend-bin
 logrotate
-lolcat
 lsb-release
 lvm2
 lxappearance
@@ -234,7 +233,6 @@ mediainfo
 meld
 mesa-utils
 mesa-vdpau
-min-browser-bin
 mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mlocate
@@ -246,7 +244,6 @@ mpd
 mpv
 mpv-thumbfast-git
 mtools
-mysql-workbench
 namcap
 nano
 nano-syntax-highlighting
@@ -377,7 +374,6 @@ tenacity-git
 texinfo
 thunar
 time
-timer-bin
 timeshift
 tokei
 trash-cli
