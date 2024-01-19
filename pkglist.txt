@@ -1,4 +1,5 @@
 aardvark-dns
+acpi_call
 activate-linux-git
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
@@ -33,6 +34,7 @@ base
 base-devel
 bash-completion
 bat
+batmanager
 bc
 bibata-cursor-theme
 bind
@@ -134,7 +136,6 @@ gksu
 global
 glow
 gnome-keyring
-gnucash
 gnutls
 go
 go-mod-outdated
@@ -250,8 +251,6 @@ nano-syntax-highlighting
 ncmpcpp
 neofetch
 neovim
-network-manager-applet
-networkmanager
 newsboat
 nfs-utils
 nginx
@@ -373,6 +372,8 @@ tealdeer
 tenacity-git
 texinfo
 thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
 time
 timeshift
 tokei
@@ -386,6 +387,7 @@ ttf-liberation
 ttf-ms-fonts
 ttf-opensans
 ttf-plus-jakarta-sans
+tumbler
 turso-cli
 typioca-git
 udiskie
