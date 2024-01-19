@@ -4,7 +4,7 @@ return {
 		events = { "BufWritePost", "BufReadPost", "InsertLeave" },
 		linters_by_ft = {
 			python = { "flake8" },
-			go = { "golangcilint" },
+			-- go = { "golangcilint" },
 			javascript = { "biomejs" },
 			typescript = { "biomejs" },
 			javascriptreact = { "biomejs" },
