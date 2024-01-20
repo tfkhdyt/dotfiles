@@ -23,8 +23,6 @@ export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 export PSQL_HISTORY="$XDG_DATA_HOME/psql_history"
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export WINEPREFIX="$XDG_DATA_HOME"/wine
-export QT_QPA_PLATFORMTHEME=qt6ct
-export CARGO_BIN="$HOME/.cargo/bin/"
 export GOBIN="$XDG_DATA_HOME/go/bin"
 # export PATH="$PATH:$MY_SCRIPTS:$STATUSBAR_SCRIPTS:$PNPM_HOME:$CARGO_BIN:$GOBIN:$HOME/.local/bin:$HOME/.local/share/nvim/mason/bin:$HOME/.detaspace/bin:$HOME/.cache/.bun/bin"
 export FZF_DEFAULT_OPTS="
@@ -43,11 +41,12 @@ export NNN_PLUG="p:preview-tui"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
 export PRETTIERD_DEFAULT_CONFIG="$XDG_CONFIG_HOME/prettierd/.prettierrc"
 export LS_COLORS=$(vivid generate one-dark)
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export CARGO_BIN="$CARGO_HOME/bin"
+export FLY_CONFIG_DIR="$XDG_STATE_HOME"/fly
+export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 
 typeset -U path PATH
 path=($MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN ~/.local/bin ~/.local/share/nvim/mason/bin ~/.detaspace/bin ~/.cache/.bun/bin $path)
 export PATH
 
-# Fix libreoffice freezes or crashes
-export SAL_DISABLE_OPENCL=1
-export SAL_DISABLEGL=1
