@@ -1,7 +1,7 @@
 hyprpaper &
 waybar &
 gammastep -l -6.914744:107.609810 -t 6500:3000 -m wayland &
-gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic' &
+gsettings set org.gnome.desktop.interface cursor-theme 'Chicago95_Cursor_Black' &
 dbus-update-activation-environment --systemd --all &
 /usr/lib/polkit-kde-authentication-agent-1 &
 foot --server &
