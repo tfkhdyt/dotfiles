@@ -45,6 +45,16 @@ export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export CARGO_BIN="$CARGO_HOME/bin"
 export FLY_CONFIG_DIR="$XDG_STATE_HOME"/fly
 export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
+export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
+export WINEPREFIX="$XDG_DATA_HOME"/wine
+export W3M_DIR="$XDG_DATA_HOME"/w3m
+export SQLITE_HISTORY="$XDG_CACHE_HOME"/sqlite_history
+export REDISCLI_HISTFILE="$XDG_DATA_HOME"/redis/rediscli_history
+export XCURSOR_PATH=/usr/share/icons:$XDG_DATA_HOME/icons
+export DVDCSS_CACHE="$XDG_DATA_HOME"/dvdcss
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
+export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
+export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
 
 typeset -U path PATH
 path=($MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN ~/.local/bin ~/.local/share/nvim/mason/bin ~/.detaspace/bin ~/.cache/.bun/bin $path)
