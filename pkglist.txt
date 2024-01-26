@@ -60,6 +60,7 @@ cava
 chafa
 chaotic-keyring
 chaotic-mirrorlist
+chicago95-gtk-theme-git
 cloudflare-warp-bin
 cloudflared
 cmatrix
@@ -126,7 +127,6 @@ gamescope
 gammastep
 gawk
 gcc
-gdb
 genact
 gettext
 ghostscript
@@ -174,6 +174,7 @@ imv
 inetutils
 inxi
 iwd
+iwgtk
 jdk-openjdk
 jfsutils
 jpegoptim
@@ -286,6 +287,7 @@ passff-host-librewolf-git
 patch
 pavucontrol
 pcmanfm
+peazip-qt5
 perl
 php
 php-apache
@@ -355,6 +357,7 @@ sqlc
 sshfs
 steam
 stow
+stpv-git
 sudo
 sudo-rs
 sway
@@ -425,9 +428,12 @@ wlprop
 wmctrl
 wpa_supplicant
 wrk
+xarchiver
 xclip
+xcursor-chicago95-git
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
+xdg-ninja-git
 xdg-user-dirs
 xdg-utils
 xdotool
@@ -457,4 +463,6 @@ zram-generator
 zsh
 zsh-autosuggestions
 zsh-fast-syntax-highlighting
+zsh-history-substring-search
 zsh-pure-prompt
+zsh-syntax-highlighting
