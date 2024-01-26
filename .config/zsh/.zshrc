@@ -1,13 +1,13 @@
 # zmodload zsh/zprof
 # source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
-autoload -Uz promptinit compinit up-line-or-beginning-search down-line-or-beginning-search
+autoload -Uz promptinit compinit
 promptinit
 compinit
 prompt pure
 
-zle -N up-line-or-beginning-search
-zle -N down-line-or-beginning-search
+# zle -N up-line-or-beginning-search
+# zle -N down-line-or-beginning-search
 
 zstyle ':completion:*' menu select
 zstyle ':completion::complete:*' gain-privileges 1
@@ -49,8 +49,15 @@ key[Control-Right]="${terminfo[kRIT5]}"
 [[ -n "${key[Control-Left]}"  ]] && bindkey -- "${key[Control-Left]}"  backward-word
 [[ -n "${key[Control-Right]}" ]] && bindkey -- "${key[Control-Right]}" forward-word
 
-[[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
-[[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
+# [[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
+# [[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
+
+# bindkey '^[[A' history-substring-search-up
+# bindkey '^[[B' history-substring-search-down
+
+bindkey '\eOA' history-substring-search-up # or ^[OA
+bindkey '\eOB' history-substring-search-down # or ^[OB
+bindkey '^R' history-incremental-search-backward
 
 # Finally, make sure the terminal is in application mode, when zle is
 # active. Only then are the values from $terminfo valid.
@@ -89,8 +96,8 @@ bindkey '^[d' kill-word
 
 eval "$(zoxide init zsh)"
 
-source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/doc/pkgfile/command-not-found.zsh
 source ~/.config/zsh/plugins/zsh-abbr.zsh
-
