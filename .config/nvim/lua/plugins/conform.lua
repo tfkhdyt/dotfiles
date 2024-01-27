@@ -19,7 +19,7 @@ return {
 				typescript = { "biome" },
 				javascriptreact = { "biome" },
 				typescriptreact = { "biome" },
-				go = { "gofumpt", "goimports-reviser", "golines" },
+				go = { "gofumpt", "goimports-reviser" },
 				python = { "black" },
 			},
 			-- The options you set here will be merged with the builtin formatters.
