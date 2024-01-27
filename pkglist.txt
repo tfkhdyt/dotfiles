@@ -60,7 +60,6 @@ cava
 chafa
 chaotic-keyring
 chaotic-mirrorlist
-chicago95-gtk-theme-git
 cloudflare-warp-bin
 cloudflared
 cmatrix
@@ -287,7 +286,6 @@ passff-host-librewolf-git
 patch
 pavucontrol
 pcmanfm
-peazip-qt5
 perl
 php
 php-apache
@@ -357,7 +355,6 @@ sqlc
 sshfs
 steam
 stow
-stpv-git
 sudo
 sudo-rs
 sway
@@ -425,6 +422,7 @@ wl-mirror
 wl-screenrec
 wlogout
 wlprop
+wlr-randr
 wmctrl
 wpa_supplicant
 wrk
