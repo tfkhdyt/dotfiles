@@ -6,4 +6,4 @@ dbus-update-activation-environment --systemd --all &
 /usr/lib/polkit-kde-authentication-agent-1 &
 foot --server &
 sway-audio-idle-inhibit &
-swayidle -w timeout 300 'swaylock -f -l --font "JetBrainsMono NFP" -c 000000' timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' before-sleep 'swaylock -f -l --font "JetBrainsMono NFP" -c 000000' &
+swayidle -w timeout 300 'swaylock -f -l --font "JetBrainsMono NFP" -c 000000' timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' timeout 700 "systemctl suspend" before-sleep 'swaylock -f -l --font "JetBrainsMono NFP" -c 000000' &
