@@ -79,6 +79,8 @@ run_cmd() {
 				i3-msg exit
 			elif [[ "$XDG_CURRENT_DESKTOP" == 'sway' ]]; then
 				swaymsg exit
+			elif [[ "$XDG_CURRENT_DESKTOP" == 'Hyprland' ]]; then
+				hyprctl dispatch exit 1
 			elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
 				qdbus org.kde.ksmserver /KSMServer logout 0 0 0
 			fi
