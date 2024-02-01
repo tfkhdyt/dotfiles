@@ -251,6 +251,7 @@ nano-syntax-highlighting
 ncmpcpp
 neofetch
 neovim
+networkmanager
 newsboat
 nfs-utils
 nginx
@@ -326,6 +327,7 @@ qpwgraph
 qt5ct
 qt6-wayland
 qt6ct
+r8168-dkms
 rclone
 rebuild-detector
 redis
@@ -353,6 +355,7 @@ speedtest-cli
 splix
 sqlc
 sshfs
+starship
 steam
 stow
 sudo
@@ -412,6 +415,7 @@ w3m
 watchexec
 waybar-hyprland-git
 wd719x-firmware
+websocat
 wev
 wget
 which
