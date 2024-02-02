@@ -36,6 +36,7 @@ bash-completion
 bat
 batmanager
 bc
+beekeeper-studio-bin
 bibata-cursor-theme
 bind
 binutils
@@ -302,7 +303,6 @@ pkgfile
 playerctl
 pm2
 pnpm
-podlet
 podman
 podman-compose
 polkit-kde-agent
@@ -366,6 +366,7 @@ swaybg
 swayidle
 swaylock
 swtpm
+swww
 syncthing
 sysfsutils
 system-config-printer
@@ -415,8 +416,8 @@ w3m
 watchexec
 waybar-hyprland-git
 wd719x-firmware
-websocat
 wev
+wf-recorder
 wget
 which
 whois
