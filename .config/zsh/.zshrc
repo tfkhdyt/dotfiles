@@ -91,9 +91,17 @@ lfcd () {
     cd "$(command lf -print-last-dir "$@")"
 }
 
+function ya() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 bindkey \^K kill-line
 bindkey '^[d' kill-word
-
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
