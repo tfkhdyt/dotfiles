@@ -1,5 +1,4 @@
-swww init &
-swww_randomize.sh ~/Pictures/Backgrounds &
+hyprpaper &
 waybar &
 gammastep -l -6.914744:107.609810 -t 6500:3000 -m wayland &
 gsettings set org.gnome.desktop.interface cursor-theme 'Chicago95_Cursor_Black' &
