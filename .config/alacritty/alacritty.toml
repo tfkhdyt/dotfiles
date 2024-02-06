@@ -1,0 +1,37 @@
+import = ["/home/tfkhdyt/.config/alacritty/themes/one-dark.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 13.0
+
+[font.bold]
+family = "JetBrainsMono NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono NF"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono NF"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "N"
+mods = "Control|Shift"
+
+[window]
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.7
+
+[window.padding]
+x = 10
+y = 5
