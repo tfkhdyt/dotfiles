@@ -20,3 +20,4 @@ abbr tt=taskwarrior-tui
 abbr p=pnpm
 abbr pc=podman-compose
 abbr sud=sudo-rs
+abbr t=tmux
