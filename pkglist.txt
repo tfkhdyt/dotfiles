@@ -25,6 +25,7 @@ asciinema
 asciinema-agg
 asciiquarium
 atool
+audacity
 auto-epp-rs
 autoconf
 automake
@@ -44,6 +45,7 @@ bison
 bleachbit
 bluez
 bluez-utils
+bore
 bottles
 bottom
 brave-bin
@@ -256,6 +258,7 @@ networkmanager
 newsboat
 nfs-utils
 nginx
+ngrok
 nilfs-utils
 nodejs
 noise-suppression-for-voice
@@ -329,7 +332,6 @@ qt6-wayland
 qt6ct
 r8168-dkms
 rclone
-rebuild-detector
 redis
 reflector
 reflector-simple
@@ -373,7 +375,6 @@ system-config-printer
 systemd-sysvcompat
 taskwarrior-tui
 tealdeer
-tenacity-git
 texinfo
 thunar
 thunar-archive-plugin
