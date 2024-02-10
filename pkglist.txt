@@ -45,7 +45,6 @@ bison
 bleachbit
 bluez
 bluez-utils
-bore
 bottles
 bottom
 brave-bin
