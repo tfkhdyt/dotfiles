@@ -1,7 +1,7 @@
 [user]
 	name = tfkhdyt
-	email = me@tfkhdyt.my.id
-	signingkey = 6D0821A9045D6758
+	email = tfkhdyt@proton.me
+	signingkey = C24D4714A3396C8B
 [init]
 	defaultBranch = master
 # [credential]
