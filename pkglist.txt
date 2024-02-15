@@ -9,6 +9,7 @@ adw-gtk3
 adwaita-qt5-git
 adwaita-qt6-git
 aic94xx-firmware
+air-bin
 alacritty
 alsa-firmware
 alsa-plugins
@@ -103,7 +104,6 @@ expac
 eza
 f2fs-tools
 fakeroot
-fastfetch
 fd
 ffmpeg
 ffmpegthumbnailer
@@ -367,7 +367,6 @@ swaybg
 swayidle
 swaylock
 swtpm
-swww
 syncthing
 sysfsutils
 system-config-printer
