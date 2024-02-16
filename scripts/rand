@@ -3,23 +3,23 @@
 set -euo pipefail
 
 panic() {
-  echo $1
-  exit 1
+	echo "$1"
+	exit 1
 }
 
 if [ $# -eq 1 ]; then
-  MIN=0
-  MAX=$1
+	MIN=0
+	MAX=$1
 elif [ $# -eq 2 ]; then
-  MIN=$1
-  MAX=$2
-  if [ $MIN -ge $MAX ]; then
-    panic "Error: min value can't be greater or equal than max value"
-  fi
+	MIN=$1
+	MAX=$2
+	if [[ $MIN -ge $MAX ]]; then
+		panic "Error: min value can't be greater or equal than max value"
+	fi
 else
-  panic "Error: getting $# argument(s), expecting 1 - 2 arguments"
+	panic "Error: getting $# argument(s), expecting 1 - 2 arguments"
 fi
 
-random=$(LC_ALL=C od -vAn -N2 -t u2 /dev/urandom | tr -d '[:space:]')
+random=$(("$MIN" + "$RANDOM" % "$MAX"))
 
-echo "$(( $random % $MAX + $MIN ))"
+echo $random
