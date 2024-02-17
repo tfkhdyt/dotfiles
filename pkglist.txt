@@ -75,6 +75,7 @@ cups-filters
 cups-pdf
 dbeaver
 dbmate
+ddgr
 debtap
 device-mapper
 dhclient
