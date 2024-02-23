@@ -64,7 +64,7 @@ chafa
 chaotic-keyring
 chaotic-mirrorlist
 cloudflare-warp-bin
-cloudflared
+cloudflared-bin
 cmatrix
 composer
 cpupower
@@ -129,6 +129,7 @@ gamescope
 gammastep
 gawk
 gcc
+geminicommit-bin
 genact
 gettext
 ghostscript
@@ -261,7 +262,7 @@ nginx
 ngrok
 nilfs-utils
 nodejs
-noise-suppression-for-voice
+noisetorch-git
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -291,6 +292,7 @@ passff-host-librewolf-git
 patch
 pavucontrol
 pcmanfm
+pdftk
 perl
 php
 php-apache
@@ -424,7 +426,6 @@ whois
 wireless-regdb
 wl-clipboard
 wl-mirror
-wl-screenrec
 wlogout
 wlprop
 wlr-randr
