@@ -23,7 +23,7 @@ symbol = " "
 format = '\[[$symbol($version(-$name))]($style)\]'
 
 [cmd_duration]
-format = '\[[ $duration]($style)\]'
+format = '\[[ $duration]($style)\]'
 
 [conda]
 symbol = " "
@@ -33,7 +33,7 @@ symbol = " "
 format = '\[[$symbol($version)]($style)\]'
 
 [directory]
-read_only = " "
+read_only = " "
 
 [docker_context]
 symbol = " "
@@ -73,10 +73,10 @@ format = '\[[$symbol($version)]($style)\]'
 
 [memory_usage]
 format = '\[$symbol[$ram( | $swap)]($style)\]'
-symbol = " "
+symbol = "󰍛 "
 
 [nim]
-symbol = " "
+symbol = " "
 
 [nix_shell]
 symbol = " "
@@ -88,7 +88,7 @@ symbol = " "
 
 [package]
 format = '\[[$symbol$version]($style)\]'
-symbol = " "
+symbol = "󰏗 "
 
 [php]
 format = '\[[$symbol($version)]($style)\]'
@@ -121,3 +121,12 @@ format = '\[[$symbol($version)]($style)\]'
 [kotlin]
 disabled = true
 format = '\[[$symbol($version)]($style)\]'
+
+[username]
+format = '\[[$user]($style)@'
+
+[hostname]
+ssh_only = true
+format = '[$hostname](bold green)\] '
+detect_env_vars = ['!TMUX', 'SSH_CONNECTION']
+disabled = false
