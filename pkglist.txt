@@ -415,6 +415,7 @@ vpnc
 vscodium-bin
 vulkan-radeon
 w3m
+warp-terminal
 watchexec
 waybar-hyprland-git
 wd719x-firmware
