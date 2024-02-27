@@ -22,7 +22,7 @@
   "searchby": "name-desc",
   "gitflags": "",
   "removemake": "ask",
-  "sudobin": "sudo-rs",
+  "sudobin": "sudo",
   "sudoflags": "--",
   "requestsplitn": 150,
   "completionrefreshtime": 7,
