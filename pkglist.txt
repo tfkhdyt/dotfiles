@@ -73,7 +73,6 @@ ctpv-git
 cups
 cups-filters
 cups-pdf
-dbeaver
 dbmate
 ddgr
 debtap
@@ -170,7 +169,9 @@ hplip
 htop
 hwinfo
 hyperfine
+hypridle-git
 hyprland
+hyprlock-git
 hyprpaper
 hyprpicker-git
 imv
@@ -272,10 +273,10 @@ ntp
 nwg-displays
 nwg-look
 obs-studio
-octave
 oha
 okular
 opendoas
+openslide
 openssl-1.1
 optipng
 os-prober
@@ -363,7 +364,6 @@ starship
 steam
 stow
 sudo
-sudo-rs
 sway
 sway-audio-idle-inhibit-git
 swaybg
