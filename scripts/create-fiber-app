@@ -1,0 +1,148 @@
+#!/usr/bin/bash
+
+set -euo pipefail
+
+if [[ $# -eq 0 ]]; then
+	printf "Package name? "
+	read -r PACKAGE_NAME
+
+	if [[ -z "$PACKAGE_NAME" ]]; then
+		echo "Error: package name should not be empty"
+		exit 1
+	fi
+else
+	PACKAGE_NAME="$1"
+fi
+
+mapfile -d "/" PACKAGE_PARTS <<<"$PACKAGE_NAME"
+DIR_NAME="${PACKAGE_PARTS[-1]%?}"
+
+# create project directory
+mkdir "$DIR_NAME"
+
+# open the project directory
+cd "$DIR_NAME"
+
+# Initialize Git
+printf "Initialize Git [Y/n]? "
+read -n1 -r GIT
+if [[ -z "$GIT" ]]; then
+	GIT="y"
+else
+	echo
+fi
+
+if [[ ${GIT,,} == "y" ]]; then
+	git init -q
+fi
+
+# Initialize go project
+go mod init "$PACKAGE_NAME" &>/dev/null
+
+DEPS=("github.com/gofiber/fiber/v2" "github.com/joho/godotenv")
+
+# Installing validator
+printf "Install go-playground/validator (Schema Validation Library) [Y/n]? "
+read -n1 -r VALIDATOR
+if [[ -z "$VALIDATOR" ]]; then
+	VALIDATOR="y"
+else
+	echo
+fi
+
+if [[ ${VALIDATOR,,} == "y" ]]; then
+	DEPS+=("github.com/go-playground/validator/v10" "github.com/go-playground/universal-translator" "github.com/go-playground/locales")
+fi
+
+# Installing di
+printf "Install goioc/di (Dependency Injection Library) [Y/n]? "
+read -n1 -r DI
+if [[ -z "$DI" ]]; then
+	DI="y"
+else
+	echo
+fi
+
+if [[ ${DI,,} == "y" ]]; then
+	DEPS+=("github.com/goioc/di")
+fi
+
+# Installing jwt
+printf "Install JWT library [Y/n]? "
+read -n1 -r JWT
+if [[ -z "$JWT" ]]; then
+	JWT="y"
+else
+	echo
+fi
+
+if [[ ${JWT,,} == "y" ]]; then
+	DEPS+=("github.com/golang-jwt/jwt/v5" "github.com/gofiber/contrib/jwt")
+fi
+
+# Installing argon2
+printf "Install argon2 (Password Hashing Library) [Y/n]? "
+read -n1 -r ARGON2
+if [[ -z "$ARGON2" ]]; then
+	ARGON2="y"
+else
+	echo
+fi
+
+if [[ ${ARGON2,,} == "y" ]]; then
+	DEPS+=("github.com/matthewhartstonge/argon2")
+fi
+
+# Installing db library
+echo "Choose your database library:"
+echo "	1. gorm"
+echo "	2. sqlx"
+printf "[1/2/n] (default=n)? "
+read -n1 -r DB
+
+case $DB in
+"1")
+	DEPS+=("gorm.io/gorm")
+	;;
+"2")
+	DEPS+=("github.com/jmoiron/sqlx")
+	;;
+esac
+if [[ -n "$DB" ]]; then
+	echo
+fi
+
+# Installing All Dependencies
+echo "Installing dependencies..."
+go get -u ${DEPS[*]} &>/dev/null
+
+echo ".env" >.gitignore
+echo "PORT=8080" >.env
+
+cat <<EOF >main.go
+package main
+
+import (
+	"os"
+
+	"github.com/gofiber/fiber/v2"
+	_ "github.com/joho/godotenv/autoload"
+)
+
+var port = os.Getenv("PORT")
+
+func main() {
+    app := fiber.New()
+
+    app.Get("/", func(c *fiber.Ctx) error {
+        return c.SendString("Hello, World!")
+    })
+
+    app.Listen(":"+port)
+}
+EOF
+
+printf "Installation success!\n\n"
+echo "Run these commands to start the app:"
+echo "	cd $DIR_NAME"
+echo "	go run ."
