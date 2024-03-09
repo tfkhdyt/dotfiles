@@ -54,8 +54,8 @@ if [[ ${VALIDATOR,,} == "y" ]]; then
 	DEPS+=("github.com/go-playground/validator/v10" "github.com/go-playground/universal-translator" "github.com/go-playground/locales")
 fi
 
-# Installing di
-printf "Install goioc/di (Dependency Injection Library) [Y/n]? "
+# Installing fx
+printf "Install uber/fx (Dependency Injection Framework) [Y/n]? "
 read -n1 -r DI
 if [[ -z "$DI" ]]; then
 	DI="y"
@@ -64,7 +64,7 @@ else
 fi
 
 if [[ ${DI,,} == "y" ]]; then
-	DEPS+=("github.com/goioc/di")
+	DEPS+=("go.uber.org/fx@latest")
 fi
 
 # Installing jwt
@@ -97,6 +97,7 @@ fi
 echo "Choose your database library:"
 echo "	1. gorm"
 echo "	2. sqlx"
+echo "	n. none"
 printf "[1/2/n] (default=n)? "
 read -n1 -r DB
 
@@ -119,7 +120,63 @@ go get -u ${DEPS[*]} &>/dev/null
 echo ".env" >.gitignore
 echo "PORT=8080" >.env
 
-cat <<EOF >main.go
+if [[ ${DI,,} == "y" ]]; then
+	cat <<EOF >main.go
+package main
+
+import (
+	"context"
+	"os"
+
+	"github.com/gofiber/fiber/v2"
+	_ "github.com/joho/godotenv/autoload"
+	"go.uber.org/fx"
+)
+
+type HelloHandler struct{}
+
+func NewHelloHandler() *HelloHandler {
+	return &HelloHandler{}
+}
+
+func (*HelloHandler) Hello(c *fiber.Ctx) error {
+	return c.SendString("Hello, World!")
+}
+
+func NewFiber(lc fx.Lifecycle, helloHandler *HelloHandler) *fiber.App {
+	port := os.Getenv("PORT")
+
+	app := fiber.New()
+
+	app.Get("/", helloHandler.Hello)
+
+	lc.Append(fx.Hook{
+		OnStart: func(ctx context.Context) error {
+			go func() {
+				if err := app.Listen(":" + port); err != nil {
+					panic(err)
+				}
+			}()
+
+			return nil
+		},
+		OnStop: func(ctx context.Context) error {
+			return app.Shutdown()
+		},
+	})
+
+	return nil
+}
+
+func main() {
+	fx.New(
+		fx.Provide(NewHelloHandler),
+		fx.Invoke(NewFiber),
+	).Run()
+}
+EOF
+else
+	cat <<EOF >main.go
 package main
 
 import (
@@ -141,6 +198,7 @@ func main() {
     app.Listen(":"+port)
 }
 EOF
+fi
 
 printf "Installation success!\n\n"
 echo "Run these commands to start the app:"
