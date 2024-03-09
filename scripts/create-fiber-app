@@ -95,18 +95,18 @@ fi
 
 # Installing db library
 echo "Choose your database library:"
-echo "	1. gorm"
-echo "	2. sqlx"
+echo "	1. sqlx"
+echo "	2. gorm"
 echo "	n. none"
 printf "[1/2/n] (default=n)? "
 read -n1 -r DB
 
 case $DB in
 "1")
-	DEPS+=("gorm.io/gorm")
+	DEPS+=("github.com/jmoiron/sqlx")
 	;;
 "2")
-	DEPS+=("github.com/jmoiron/sqlx")
+	DEPS+=("gorm.io/gorm")
 	;;
 esac
 if [[ -n "$DB" ]]; then
