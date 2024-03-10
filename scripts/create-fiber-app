@@ -39,7 +39,7 @@ fi
 # Initialize go project
 go mod init "$PACKAGE_NAME" &>/dev/null
 
-DEPS=("github.com/gofiber/fiber/v2" "github.com/joho/godotenv")
+DEPS=("github.com/gofiber/fiber/v2" "github.com/joho/godotenv" "github.com/guregu/null/v5")
 
 # Installing validator
 printf "Install go-playground/validator (Schema Validation Library) [Y/n]? "
