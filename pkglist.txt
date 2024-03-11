@@ -52,6 +52,7 @@ breeze
 bridge-utils
 brightnessctl
 browserpass
+bruno-bin
 btrfs-progs
 bun-bin
 cantarell-fonts
@@ -114,7 +115,6 @@ firewalld
 fish
 fisher
 flex
-flyctl-bin
 foomatic-db
 foomatic-db-engine
 foomatic-db-gutenprint-ppds
@@ -220,7 +220,6 @@ linux-firmware-qlogic
 linux-headers
 linux-lts
 linux-lts-headers
-localsend-bin
 logrotate
 lsb-release
 lvm2
@@ -260,7 +259,6 @@ networkmanager
 newsboat
 nfs-utils
 nginx
-ngrok
 nilfs-utils
 nodejs
 noisetorch-git
@@ -456,6 +454,7 @@ xsane
 xterm
 yad
 yay
+yazi
 yt-dlp
 zathura
 zathura-pdf-poppler
