@@ -52,7 +52,6 @@ breeze
 bridge-utils
 brightnessctl
 browserpass
-bruno-bin
 btrfs-progs
 bun-bin
 cantarell-fonts
@@ -170,7 +169,7 @@ htop
 hwinfo
 hyperfine
 hypridle-git
-hyprland
+hyprland-git
 hyprlock-git
 hyprpaper
 hyprpicker-git
