@@ -221,6 +221,7 @@ linux-lts
 linux-lts-headers
 logrotate
 lsb-release
+lutris
 lvm2
 lxappearance
 m4
@@ -342,7 +343,6 @@ rsync
 rustdesk-bin
 rustup
 s-nail
-saga-gis
 scrcpy
 screenkey
 sd
@@ -404,14 +404,12 @@ usb_modeswitch
 usbutils
 uwufetch
 v4l2loopback-dkms
-vi
 virt-manager
 vivid
 vpnc
 vscodium-bin
 vulkan-radeon
 w3m
-warp-terminal
 watchexec
 waybar-hyprland-git
 wd719x-firmware
@@ -420,6 +418,7 @@ wf-recorder
 wget
 which
 whois
+wine-gecko
 wireless-regdb
 wl-clipboard
 wl-mirror
