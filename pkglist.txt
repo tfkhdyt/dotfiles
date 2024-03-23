@@ -54,6 +54,7 @@ brightnessctl
 browserpass
 btrfs-progs
 bun-bin
+c-lolcat
 cantarell-fonts
 capitaine-cursors
 cargo-watch
@@ -168,9 +169,9 @@ hplip
 htop
 hwinfo
 hyperfine
-hypridle-git
-hyprland-git
-hyprlock-git
+hypridle
+hyprland
+hyprlock
 hyprpaper
 hyprpicker-git
 imv
@@ -330,7 +331,6 @@ qpwgraph
 qt5ct
 qt6-wayland
 qt6ct
-r8168-dkms
 rclone
 redis
 reflector
@@ -400,6 +400,7 @@ unzip
 upd72020x-fw
 upower
 upscayl-bin
+upx
 usb_modeswitch
 usbutils
 uwufetch
