@@ -19,7 +19,7 @@ return {
 				typescript = { "prettierd" },
 				javascriptreact = { "prettierd" },
 				typescriptreact = { "prettierd" },
-				go = { "gofumpt", "goimports-reviser" },
+				go = { "gofumpt", "goimports-reviser", "golines" },
 				python = { "black" },
 			},
 			-- The options you set here will be merged with the builtin formatters.
