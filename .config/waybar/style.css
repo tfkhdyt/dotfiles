@@ -43,6 +43,7 @@ tooltip {
 }
 
 #workspaces button:hover {
+  background-color: rgba(26, 33, 46, 0.8);
   color: #56b6c2;
   border: 0;
   outline: none;
