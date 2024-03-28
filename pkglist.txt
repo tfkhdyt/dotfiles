@@ -52,6 +52,7 @@ breeze
 bridge-utils
 brightnessctl
 browserpass
+bruno-bin
 btrfs-progs
 bun-bin
 c-lolcat
@@ -291,6 +292,7 @@ passff-host-librewolf-git
 patch
 pavucontrol
 pcmanfm
+pcsx2
 pdftk
 perl
 php
@@ -412,7 +414,7 @@ vscodium-bin
 vulkan-radeon
 w3m
 watchexec
-waybar-hyprland-git
+waybar
 wd719x-firmware
 wev
 wf-recorder
