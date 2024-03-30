@@ -1,6 +1,6 @@
 hyprpaper &
 waybar &
-gammastep -l -6.914744:107.609810 -t 6500:3000 -m wayland &
+# gammastep -l -6.914744:107.609810 -t 6500:3000 -m wayland &
 gsettings set org.gnome.desktop.interface cursor-theme 'capitaine-cursors-light' &
 # hyprctl setcursor 'Bibata-Modern-Ice' 24 &
 dbus-update-activation-environment --systemd --all &
