@@ -21,6 +21,7 @@ return {
 				typescriptreact = { "prettierd" },
 				go = { "gofumpt", "goimports-reviser", "golines" },
 				python = { "black" },
+				json = { "prettierd" },
 			},
 			-- The options you set here will be merged with the builtin formatters.
 			-- You can also define any custom formatters here.
