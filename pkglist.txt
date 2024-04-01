@@ -43,6 +43,7 @@ bind
 binutils
 bison
 bleachbit
+blueman
 bluez
 bluez-utils
 bottles
@@ -113,8 +114,6 @@ ffsend-bin
 file
 findutils
 firewalld
-fish
-fisher
 flex
 foomatic-db
 foomatic-db-engine
@@ -126,7 +125,6 @@ foot
 fsarchiver
 gamemode
 gamescope
-gammastep
 gawk
 gcc
 geminicommit-bin
@@ -209,6 +207,7 @@ libopenraw
 libpulse
 libreoffice-fresh
 libreoffice-fresh-id
+libretro-pcsx2
 librewolf-bin
 libtool
 libtpms
@@ -292,7 +291,6 @@ passff-host-librewolf-git
 patch
 pavucontrol
 pcmanfm
-pcsx2
 pdftk
 perl
 php
@@ -338,6 +336,7 @@ redis
 reflector
 reflector-simple
 reiserfsprogs
+retroarch
 ripgrep
 rofi-lbonn-wayland
 rose-pine-gtk-theme
@@ -372,6 +371,7 @@ syncthing
 sysfsutils
 system-config-printer
 systemd-sysvcompat
+tailspin
 taskwarrior-tui
 tealdeer
 texinfo
@@ -441,8 +441,6 @@ xdg-user-dirs
 xdg-utils
 xdotool
 xf86-input-libinput
-xf86-video-amdgpu
-xf86-video-ati
 xfsprogs
 xh
 xorg-xdpyinfo
@@ -463,7 +461,6 @@ zip
 zoom
 zoxide
 zps
-zram-generator
 zsh
 zsh-autosuggestions
 zsh-fast-syntax-highlighting
