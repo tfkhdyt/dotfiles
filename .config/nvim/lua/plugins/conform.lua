@@ -22,11 +22,15 @@ return {
 				go = { "gofumpt", "goimports-reviser", "golines" },
 				python = { "black" },
 				json = { "prettierd" },
+				-- sql = { "sqlfmt" },
 			},
 			-- The options you set here will be merged with the builtin formatters.
 			-- You can also define any custom formatters here.
 			---@type table<string, conform.FormatterConfigOverride|fun(bufnr: integer): nil|conform.FormatterConfigOverride>
 			formatters = {
+				golines = {
+					prepend_args = { "--max-len=80" },
+				},
 				injected = { options = { ignore_errors = true } },
 				-- goimports_reviser = {
 				-- 	command = "goimports-reviser",
