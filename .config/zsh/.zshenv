@@ -11,7 +11,7 @@ export HISTSIZE=10000
 export SAVEHIST=10000
 export EDITOR=nvim
 export COMPOSER_HOME="$XDG_CONFIG_HOME"/composer/vendor/bin
-export ANDROID_HOME="$XDG_DATA_HOME"/android
+export ANDROID_HOME="~/android-sdk"
 export HISTFILE="$XDG_STATE_HOME"/bash/history
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export GOPATH="$XDG_DATA_HOME"/go
@@ -57,6 +57,6 @@ export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
 
 typeset -U path PATH
-path=($MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN ~/.local/bin ~/.local/share/nvim/mason/bin ~/.detaspace/bin ~/.cache/.bun/bin $path)
+path=($MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN ~/.local/bin ~/.local/share/nvim/mason/bin ~/.detaspace/bin ~/.cache/.bun/bin $ANDROID_HOME/platform-tools $path)
 export PATH
 
