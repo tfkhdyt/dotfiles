@@ -16,6 +16,11 @@ alsa-plugins
 alsa-utils
 amd-ucode
 android-file-transfer
+android-platform
+android-sdk
+android-sdk-build-tools
+android-sdk-cmdline-tools-latest
+android-sdk-platform-tools
 android-tools
 apache
 appmenu-gtk-module
@@ -72,10 +77,10 @@ cmatrix
 composer
 cpupower
 cryptsetup
-ctpv-git
 cups
 cups-filters
 cups-pdf
+dart
 dbmate
 ddgr
 debtap
@@ -115,6 +120,7 @@ file
 findutils
 firewalld
 flex
+flutter
 foomatic-db
 foomatic-db-engine
 foomatic-db-gutenprint-ppds
@@ -179,9 +185,11 @@ inxi
 iwd
 iwgtk
 jdk-openjdk
+jdk21-openjdk
 jfsutils
 jpegoptim
 jq
+k6
 kdeconnect
 kdenlive
 keepassxc
@@ -207,7 +215,6 @@ libopenraw
 libpulse
 libreoffice-fresh
 libreoffice-fresh-id
-libretro-pcsx2
 librewolf-bin
 libtool
 libtpms
@@ -273,7 +280,6 @@ nwg-displays
 nwg-look
 obs-studio
 oha
-opendoas
 openslide
 openssl-1.1
 optipng
@@ -287,12 +293,13 @@ papirus-icon-theme
 parcellite
 pass
 pass-otp
-passff-host-librewolf-git
 patch
 pavucontrol
 pcmanfm
+pcsx2-avx-git
 pdftk
 perl
+pgcli
 php
 php-apache
 php-gd
@@ -336,7 +343,6 @@ redis
 reflector
 reflector-simple
 reiserfsprogs
-retroarch
 ripgrep
 rofi-lbonn-wayland
 rose-pine-gtk-theme
@@ -353,6 +359,7 @@ slurp
 smartmontools
 sof-firmware
 solid5
+spdlog
 speedtest-cli
 splix
 sqlc
@@ -362,7 +369,6 @@ steam
 stow
 sudo
 sway
-sway-audio-idle-inhibit-git
 swaybg
 swayidle
 swaylock
@@ -433,7 +439,6 @@ wpa_supplicant
 wrk
 xarchiver
 xclip
-xcursor-chicago95-git
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-ninja-git
@@ -465,5 +470,4 @@ zsh
 zsh-autosuggestions
 zsh-fast-syntax-highlighting
 zsh-history-substring-search
-zsh-pure-prompt
 zsh-syntax-highlighting
