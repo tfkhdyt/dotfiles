@@ -220,7 +220,7 @@ libtool
 libtpms
 libva-mesa-driver
 libvirt
-lightly-qt
+lightly-kf5-git
 linux
 linux-firmware
 linux-firmware-qlogic
@@ -327,6 +327,7 @@ ppp
 pptpclient
 prayermate-id
 procs
+protontricks-git
 protonup-qt
 python
 python-capng
