@@ -1,58 +1,58 @@
 {
-	"layer": "top",
-	"position": "top",
-	"height": 34,
-	"modules-left": [
-		// "temperature",
-		// "cpu",
-		// "memory",
-		// "custom/slash",
-		"idle_inhibitor",
-		"custom/slash",
-		"hyprland/workspaces",
-		"custom/slash",
-		"hyprland/window"
-		// "custom/right-arrow-bg3"
-		// "custom/right-arrow-bg2"
-		// "custom/right-arrow-bg1"
-	],
-	"modules-center": [
-		"clock"
-		// "custom/left-arrow-bg2",
-		// "custom/pomo",
-		// "custom/right-arrow-bg2"
-	],
-	"modules-right": [
-		// "custom/left-arrow-bg2",
-		// "custom/left-arrow-bg1",
-		"tray",
-		"mpd",
-		"custom/backslash",
-		"network",
-		"custom/backslash",
-		"backlight",
-		"custom/pipewire",
-		"custom/backslash",
-		"battery"
-	],
-	"wlr/workspaces": {
-		"disable-scroll": true,
-		"all-outputs": true,
-		"on-click": "activate",
-		//"format": "{icon}",
-		"persistent_workspaces": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": [],
-			"6": [],
-			"7": [],
-			"8": [],
-			"9": [],
-			"10": []
-		}
-		/*"format-icons": {
+  "layer": "top",
+  "position": "bottom",
+  "height": 34,
+  "modules-left": [
+    // "temperature",
+    // "cpu",
+    // "memory",
+    // "custom/slash",
+    "idle_inhibitor",
+    "custom/slash",
+    "hyprland/workspaces",
+    "custom/slash",
+    "hyprland/window"
+    // "custom/right-arrow-bg3"
+    // "custom/right-arrow-bg2"
+    // "custom/right-arrow-bg1"
+  ],
+  "modules-center": [
+    "clock"
+    // "custom/left-arrow-bg2",
+    // "custom/pomo",
+    // "custom/right-arrow-bg2"
+  ],
+  "modules-right": [
+    // "custom/left-arrow-bg2",
+    // "custom/left-arrow-bg1",
+    "tray",
+    "mpd",
+    "custom/backslash",
+    "network",
+    "custom/backslash",
+    "backlight",
+    "custom/pipewire",
+    "custom/backslash",
+    "battery"
+  ],
+  "wlr/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    //"format": "{icon}",
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    }
+    /*"format-icons": {
       "1": "",
       "2": "",
       "3": "",
@@ -66,232 +66,257 @@
       "default": "",
       "active": ""
     }*/
-	},
-	"tray": {
-		"icon-size": 18,
-		"spacing": 10
-	},
-	"sway/window": {
-		"max-length": 50
-	},
-	"backlight": {
-		"device": "amd_backlight",
-		"format": "{icon} {percent}%",
-		"format-icons": ["󰃞", "󰃟", "󰃠"],
-		"on-scroll-up": "brightnessctl set 1%+ &> /dev/null",
-		"on-scroll-down": "brightnessctl set 1%- &> /dev/null",
-		"min-length": 6
-	},
-	"battery": {
-		"states": {
-			"good": 95,
-			"warning": 30,
-			"critical": 20
-		},
-		"format": "{icon} {capacity}%",
-		"format-charging": " {capacity}%",
-		"format-plugged": " {capacity}%",
-		"format-alt": "{time} {icon}",
-		"format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
-	},
-	"clock": {
-		"format": "{:%a, %e %b %H:%M}",
-		"tooltip-format": "<tt><small>{calendar}</small></tt>",
-		"calendar": {
-			"mode": "month",
-			"on-scroll": 1,
-			"on-click-right": "mode",
-			"format": {
-				"months": "<span color='#e0def4'><b>{}</b></span>",
-				"days": "<span color='#ebbcba'><b>{}</b></span>",
-				"weeks": "<span color='#c4a7e7'><b>W{}</b></span>",
-				"weekdays": "<span color='#9ccfd8'><b>{}</b></span>",
-				"today": "<span color='#f6c177'><b><u>{}</u></b></span>"
-			}
-		}
-	},
-	"network": {
-		"format-wifi": "󰖩 {essid}",
-		"format-ethernet": " {essid}",
-		"format-linked": "{ifname} (No IP) ",
-		"format-disconnected": "󰖪  Disconnected",
-		"tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
-		"on-click": "alacritty -e nmtui",
-		"on-click-right": "alacritty -e ping -O 8.8.8.8"
-	},
-	"pulseaudio": {
-		"format": "{icon} {volume}%",
-		"format-muted": " Muted",
-		"scroll-step": 5,
-		"on-scroll-up": "$HOME/scripts/volume.sh up",
-		"on-scroll-down": "$HOME/scripts/volume.sh down",
-		"on-click": "$HOME/scripts/volume.sh mute",
-		"on-click-right": "pavucontrol",
-		"format-icons": {
-			"headphone": "",
-			"hands-free": "",
-			"headset": "",
-			"phone": "",
-			"portable": "",
-			"car": "",
-			"default": ["󰕿", "󰖀", "󰕾", ""]
-		}
-	},
-	"custom/power": {
-		"format": "⏻",
-		"on-click": "wlogout &> /dev/null"
-	},
-	"mpd": {
-		"format": "{stateIcon} {title}",
-		"state-icons": {
-			"paused": "",
-			"playing": ""
-		},
-		// "artist-len": 15,
-		// "title-len": 15,
-		"max-length": 25,
-		"on-click": "mpc toggle &> /dev/null",
-		"on-click-right": "mpc next &> /dev/null",
-		"on-click-middle": "systemctl --user stop mpd",
-		"tooltip-format": "{stateIcon} {artist} - {title}"
-	},
-	"custom/pacman": {
-		"format": "󰚰 {}",
-		"interval": 7200, // every 6 hours
-		"exec": "$HOME/scripts/number-of-updates", // # of updates
-		"exec-if": "exit 0", // always run; consider advanced run conditions
-		// "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
-		"signal": 8,
-		"on-click": "pkill -SIGRTMIN+8 waybar",
-		"on-click-right": "alacritty -e 'checkupdates & yay -Qua & wait'"
-	},
-	"custom/pomo": {
-		"format": " {}",
-		"interval": 1,
-		"exec": "pomo status",
-		"exec-if": "pgrep pomo"
-	},
-	"idle_inhibitor": {
-		"format": "{icon}",
-		"format-icons": {
-			"activated": "󰅶",
-			"deactivated": "󰾪"
-		}
-	},
-	"custom/right-arrow-fg3": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/left-arrow-fg3": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/right-arrow-fg4": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/left-arrow-fg4": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/left-arrow-gray": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/right-arrow-gray": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/left-arrow-bg4": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/right-arrow-bg4": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/left-arrow-bg3": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/right-arrow-bg3": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/left-arrow-bg2": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/right-arrow-bg2": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/left-arrow-bg1": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/right-arrow-bg1": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/distro": {
-		"format": " ",
-		"tooltip": false,
-		"on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
-	},
-	"hyprland/window": {
-		"format": "{title}"
-		// "separate-outputs": true
-	},
-	"temperature": {
-		// "thermal-zone": 2,
-		"hwmon-path": "/sys/class/hwmon/hwmon5/temp1_input",
-		"critical-threshold": 80,
-		"format-critical": " {temperatureC}°C",
-		"format": " {temperatureC}°C",
-		"on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
-	},
-	"cpu": {
-		"interval": 10,
-		"format": " {usage}%",
-		"max-length": 10
-	},
-	"memory": {
-		"interval": 30,
-		"format": " {}%",
-		"max-length": 10
-	},
-	"custom/audio_idle_inhibitor": {
-		"format": "{icon}",
-		"exec": "sway-audio-idle-inhibit --dry-print-both-waybar",
-		"exec-if": "which sway-audio-idle-inhibit",
-		"return-type": "json",
-		"format-icons": {
-			"output": "",
-			"input": "",
-			"output-input": "  ",
-			"none": ""
-		}
-	},
-	"wireplumber": {
-		"format": "{icon} {volume}%",
-		"format-muted": " Muted",
-		"on-click": "$HOME/scripts/volume.sh mute",
-		"format-icons": ["", "", ""]
-	},
-	"custom/pipewire": {
-		"tooltip": false,
-		"max-length": 12,
-		"exec": "$HOME/.config/waybar/scripts/pipewire.sh",
-		"on-click": "pavucontrol",
-		"on-click-right": "qpwgraph"
-	},
-	"custom/slash": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/backslash": {
-		"format": "",
-		"tooltip": false
-	}
+  },
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+  "sway/window": {
+    "max-length": 50
+  },
+  "backlight": {
+    "device": "amd_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": [
+      "󰃞",
+      "󰃟",
+      "󰃠"
+    ],
+    "on-scroll-up": "brightnessctl set 1%+ &> /dev/null",
+    "on-scroll-down": "brightnessctl set 1%- &> /dev/null",
+    "min-length": 6
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ]
+  },
+  "clock": {
+    "format": "{:%a, %e %b %H:%M}",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "month",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#e0def4'><b>{}</b></span>",
+        "days": "<span color='#ebbcba'><b>{}</b></span>",
+        "weeks": "<span color='#c4a7e7'><b>W{}</b></span>",
+        "weekdays": "<span color='#9ccfd8'><b>{}</b></span>",
+        "today": "<span color='#f6c177'><b><u>{}</u></b></span>"
+      }
+    }
+  },
+  "network": {
+    "format-wifi": "󰖩 {essid}",
+    "format-ethernet": " {essid}",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "󰖪  Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
+    "on-click": "alacritty -e nmtui",
+    "on-click-right": "alacritty -e ping -O 8.8.8.8"
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": " Muted",
+    "scroll-step": 5,
+    "on-scroll-up": "$HOME/scripts/volume.sh up",
+    "on-scroll-down": "$HOME/scripts/volume.sh down",
+    "on-click": "$HOME/scripts/volume.sh mute",
+    "on-click-right": "pavucontrol",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾",
+        ""
+      ]
+    }
+  },
+  "custom/power": {
+    "format": "⏻",
+    "on-click": "wlogout &> /dev/null"
+  },
+  "mpd": {
+    "format": "{stateIcon} {title}",
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    // "artist-len": 15,
+    // "title-len": 15,
+    "max-length": 25,
+    "on-click": "mpc toggle &> /dev/null",
+    "on-click-right": "mpc next &> /dev/null",
+    "on-click-middle": "systemctl --user stop mpd",
+    "tooltip-format": "{stateIcon} {artist} - {title}"
+  },
+  "custom/pacman": {
+    "format": "󰚰 {}",
+    "interval": 7200, // every 6 hours
+    "exec": "$HOME/scripts/number-of-updates", // # of updates
+    "exec-if": "exit 0", // always run; consider advanced run conditions
+    // "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
+    "signal": 8,
+    "on-click": "pkill -SIGRTMIN+8 waybar",
+    "on-click-right": "alacritty -e 'checkupdates & yay -Qua & wait'"
+  },
+  "custom/pomo": {
+    "format": " {}",
+    "interval": 1,
+    "exec": "pomo status",
+    "exec-if": "pgrep pomo"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "󰅶",
+      "deactivated": "󰾪"
+    }
+  },
+  "custom/right-arrow-fg3": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-fg3": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-fg4": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-fg4": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-gray": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-gray": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-bg4": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-bg4": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-bg3": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-bg3": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-bg2": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-bg2": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/left-arrow-bg1": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/right-arrow-bg1": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/distro": {
+    "format": " ",
+    "tooltip": false,
+    "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
+  },
+  "hyprland/window": {
+    "format": "{title}"
+    // "separate-outputs": true
+  },
+  "temperature": {
+    // "thermal-zone": 2,
+    "hwmon-path": "/sys/class/hwmon/hwmon5/temp1_input",
+    "critical-threshold": 80,
+    "format-critical": " {temperatureC}°C",
+    "format": " {temperatureC}°C",
+    "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
+  },
+  "cpu": {
+    "interval": 10,
+    "format": " {usage}%",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "max-length": 10
+  },
+  "custom/audio_idle_inhibitor": {
+    "format": "{icon}",
+    "exec": "sway-audio-idle-inhibit --dry-print-both-waybar",
+    "exec-if": "which sway-audio-idle-inhibit",
+    "return-type": "json",
+    "format-icons": {
+      "output": "",
+      "input": "",
+      "output-input": "  ",
+      "none": ""
+    }
+  },
+  "wireplumber": {
+    "format": "{icon} {volume}%",
+    "format-muted": " Muted",
+    "on-click": "$HOME/scripts/volume.sh mute",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "custom/pipewire": {
+    "tooltip": false,
+    "max-length": 12,
+    "exec": "$HOME/.config/waybar/scripts/pipewire.sh",
+    "on-click": "pavucontrol",
+    "on-click-right": "qpwgraph"
+  },
+  "custom/slash": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/backslash": {
+    "format": "",
+    "tooltip": false
+  }
 }
