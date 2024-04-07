@@ -34,7 +34,7 @@
     # origin = top-center
 
     # Offset from the origin
-    offset = 0x0
+    offset = 0x25
     # offset = 0x75
 
     # Scale factor. It is auto-detected if value is 0.
