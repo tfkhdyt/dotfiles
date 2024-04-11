@@ -21,3 +21,4 @@ abbr p=pnpm
 abbr pc=podman-compose
 abbr sud=sudo
 abbr t=tmux
+abbr code='codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --unity-launch'
