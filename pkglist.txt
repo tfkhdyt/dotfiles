@@ -23,6 +23,7 @@ android-sdk-cmdline-tools-latest
 android-sdk-platform-tools
 android-tools
 apache
+apidog
 appmenu-gtk-module
 arc-gtk-theme
 aria2
@@ -184,7 +185,6 @@ inetutils
 inxi
 iwd
 iwgtk
-jdk-openjdk
 jdk21-openjdk
 jfsutils
 jpegoptim
@@ -246,6 +246,7 @@ mediainfo
 meld
 mesa-utils
 mesa-vdpau
+minio
 mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mlocate
@@ -319,6 +320,7 @@ podman-compose
 polkit-kde-agent
 polychromatic
 pomo
+pomodoro
 poppler-glib
 postgresql
 postgresql-old-upgrade
@@ -358,6 +360,7 @@ seahorse
 sed
 slurp
 smartmontools
+smassh-bin
 sof-firmware
 solid5
 spdlog
@@ -412,6 +415,7 @@ upscayl-bin
 upx
 usb_modeswitch
 usbutils
+uuid
 uwufetch
 v4l2loopback-dkms
 virt-manager
