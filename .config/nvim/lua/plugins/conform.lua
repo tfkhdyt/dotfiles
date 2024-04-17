@@ -24,6 +24,7 @@ return {
 				python = { "black" },
 				json = { "prettierd" },
 				dart = { "dart_format" },
+				markdown = { "markdownlint" },
 				-- sql = { "sqlfmt" },
 			},
 			-- The options you set here will be merged with the builtin formatters.
