@@ -12,6 +12,20 @@ return {
 		local luasnip = require("luasnip")
 		local cmp = require("cmp")
 
+		opts.sorting = {
+			priority_weight = 2,
+			comparators = {
+				cmp.config.compare.offset,
+				cmp.config.compare.exact,
+				cmp.config.compare.score,
+				cmp.config.compare.recently_used,
+				cmp.config.compare.locality,
+				cmp.config.compare.kind,
+				cmp.config.compare.length,
+				cmp.config.compare.order,
+			},
+		}
+
 		opts.preselect = cmp.PreselectMode.None
 		opts.completion = {
 			-- completeopt = "noselect",
