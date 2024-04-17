@@ -96,6 +96,7 @@ dnsmasq
 dosfstools
 downgrade
 dragon-drop-git
+duckstation
 duf
 dunst
 dust
@@ -261,6 +262,7 @@ mtools
 namcap
 nano
 nano-syntax-highlighting
+nb
 ncmpcpp
 neofetch
 neovim
@@ -285,6 +287,7 @@ openslide
 openssl-1.1
 optipng
 os-prober
+otf-geist-mono-nerd
 otf-monaspace
 ouch
 p7zip
@@ -373,6 +376,7 @@ steam
 stow
 sudo
 sway
+sway-audio-idle-inhibit-git
 swaybg
 swayidle
 swaylock
