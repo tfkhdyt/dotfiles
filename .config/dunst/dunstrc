@@ -17,7 +17,7 @@
     #
     # If this option is set to mouse or keyboard, the monitor option
     # will be ignored.
-    follow = none
+    follow = mouse
 
     ### Geometry ###
 
@@ -30,11 +30,11 @@
     height = 100
 
     # Position the notification in the top right corner
-    origin = top-center
+    origin = top-right
     # origin = top-center
 
     # Offset from the origin
-    offset = 0x25
+    offset = 40x40
     # offset = 0x75
 
     # Scale factor. It is auto-detected if value is 0.
