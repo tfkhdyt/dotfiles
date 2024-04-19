@@ -38,8 +38,8 @@ print_log "Updating database and upgrading system..."
 eos-update --yay
 
 # updating pkgfile
-# print_log "Updating pkgfile..."
-# sudo-rs pkgfile -u
+print_log "Updating pkgfile..."
+sudo pkgfile -u -z zstd
 
 # done
 print_log "Update is done, please reboot the system"
