@@ -42,6 +42,9 @@ require("lazy").setup({
 			},
 		},
 	},
+	ui = {
+		border = "rounded",
+	},
 })
 
 vim.opt.foldmethod = "expr"
