@@ -44,7 +44,6 @@ bat
 batmanager
 bc
 beekeeper-studio-bin
-bibata-cursor-theme
 bind
 binutils
 bison
