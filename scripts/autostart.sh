@@ -1,8 +1,8 @@
 hyprpaper &
 waybar &
 # gammastep -l -6.914744:107.609810 -t 6500:3000 -m wayland &
-gsettings set org.gnome.desktop.interface cursor-theme 'capitaine-cursors' &
-hyprctl setcursor 'capitaine-cursors' 24 &
+gsettings set org.gnome.desktop.interface cursor-theme 'phinger-cursors-dark'
+hyprctl setcursor 'phinger-cursors-dark' 24
 dbus-update-activation-environment --systemd --all &
 /usr/lib/polkit-kde-authentication-agent-1 &
 foot --server &
