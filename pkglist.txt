@@ -303,6 +303,7 @@ pcsx2-avx-git
 pdftk
 perl
 pgcli
+phinger-cursors
 php
 php-apache
 php-gd
@@ -374,11 +375,7 @@ starship
 steam
 stow
 sudo
-sway
 sway-audio-idle-inhibit-git
-swaybg
-swayidle
-swaylock
 swtpm
 syncthing
 sysfsutils
@@ -440,7 +437,6 @@ wireless-regdb
 wl-clipboard
 wl-mirror
 wlogout
-wlprop
 wlr-randr
 wmctrl
 wpa_supplicant
