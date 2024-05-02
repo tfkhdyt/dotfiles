@@ -1,6 +1,7 @@
 # zmodload zsh/zprof
 # source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
+typeset -gaU fpath=($fpath ~/.local/share/zsh/completions)
 autoload -Uz promptinit compinit
 promptinit
 compinit
