@@ -141,6 +141,7 @@ ghostscript
 gimp
 git
 gksu
+gleam-bin
 global
 glow
 gnome-keyring
@@ -317,7 +318,6 @@ pkgconf
 pkgfile
 playerctl
 pm2
-pnpm
 podman
 podman-compose
 polkit-kde-agent
@@ -392,6 +392,7 @@ time
 timeshift
 tokei
 trash-cli
+trashy-git
 tree
 ttf-bitstream-vera
 ttf-dejavu
