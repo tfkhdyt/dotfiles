@@ -26,11 +26,6 @@ return {
 		-- 	},
 		-- }
 
-		opts.window = {
-			completion = cmp.config.window.bordered(),
-			documentation = cmp.config.window.bordered(),
-		}
-
 		opts.preselect = cmp.PreselectMode.None
 		opts.completion = {
 			-- completeopt = "noselect",
