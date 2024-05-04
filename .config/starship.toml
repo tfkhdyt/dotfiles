@@ -130,3 +130,6 @@ ssh_only = true
 format = '[$hostname](bold green)\] '
 detect_env_vars = ['!TMUX', 'SSH_CONNECTION']
 disabled = false
+
+[zig]
+format = '\[[$symbol($version)]($style)\]'
