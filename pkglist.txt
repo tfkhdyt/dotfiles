@@ -63,7 +63,6 @@ btrfs-progs
 bun-bin
 c-lolcat
 cantarell-fonts
-capitaine-cursors
 cargo-watch
 catppuccin-gtk-theme-mocha
 cava
@@ -467,7 +466,9 @@ yazi
 yt-dlp
 zathura
 zathura-pdf-poppler
+zig
 zip
+zls
 zoom
 zoxide
 zps
