@@ -26,6 +26,7 @@ return {
 				dart = { "dart_format" },
 				markdown = { "markdownlint" },
 				zig = { "zigfmt" },
+				gleam = { "gleam" },
 				-- sql = { "sqlfmt" },
 			},
 			-- The options you set here will be merged with the builtin formatters.
