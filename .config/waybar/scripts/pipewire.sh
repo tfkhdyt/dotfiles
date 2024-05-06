@@ -20,9 +20,9 @@ while snore $DELAY; do
 		else
 			VOLUME=$((10#${BASH_REMATCH[1]}${BASH_REMATCH[2]}))
 			ICON=(
-				" "
-				" "
-				" "
+				""
+				""
+				""
 			)
 
 			if [[ $VOLUME -gt 50 ]]; then
