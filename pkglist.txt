@@ -9,7 +9,6 @@ adw-gtk3
 adwaita-qt5-git
 adwaita-qt6-git
 aic94xx-firmware
-air-bin
 alacritty
 alsa-firmware
 alsa-plugins
@@ -25,7 +24,6 @@ android-tools
 apache
 apidog
 appmenu-gtk-module
-arc-gtk-theme
 aria2
 asciinema
 asciinema-agg
@@ -287,7 +285,6 @@ openssl-1.1
 optipng
 os-prober
 otf-geist-mono-nerd
-otf-monaspace
 ouch
 p7zip
 pacman
@@ -329,7 +326,7 @@ postgresql-old-upgrade
 postman-bin
 ppp
 pptpclient
-prayermate-id
+prayermate-id-bin
 procs
 protontricks-git
 protonup-qt
