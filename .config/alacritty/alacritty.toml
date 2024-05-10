@@ -1,7 +1,7 @@
-import = ["/home/tfkhdyt/.config/alacritty/themes/catppuccin_mocha.toml"]
+import = ["~/.config/alacritty/themes/catppuccin_mocha.toml"]
 
 [env]
-TERM = "xterm-256color"
+TERM = "alacritty"
 
 [font]
 size = 13.0
@@ -30,8 +30,11 @@ mods = "Control|Shift"
 [window]
 dynamic_padding = true
 dynamic_title = true
-opacity = 0.95
+opacity = 0.85
 
-[window.padding]
-x = 10
-y = 5
+[selection]
+save_to_clipboard = true
+
+# [window.padding]
+# x = 10
+# y = 5
