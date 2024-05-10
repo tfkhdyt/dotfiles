@@ -1,4 +1,4 @@
-include /usr/share/doc/newsboat/contrib/colorschemes/nord
+include ~/.config/newsboat/dark
 
 # color background         default   default
 # color listnormal         default   default
