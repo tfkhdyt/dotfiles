@@ -11,6 +11,7 @@ return {
 			-- typescriptreact = { "biomejs" },
 			dockerfile = { "hadolint" },
 			yaml = { "yamllint" },
+			cpp = { "cpplint" },
 		},
 		---@type table<string,table>
 		linters = {
