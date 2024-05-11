@@ -150,8 +150,6 @@ gosec-bin
 gource
 gparted
 gping
-greetd
-greetd-tuigreet
 grep
 grim
 grimblast-git
@@ -284,7 +282,6 @@ openslide
 openssl-1.1
 optipng
 os-prober
-otf-geist-mono-nerd
 ouch
 p7zip
 pacman
@@ -462,7 +459,7 @@ yay
 yazi
 yt-dlp
 zathura
-zathura-pdf-poppler
+zathura-pdf-mupdf
 zig
 zip
 zls
