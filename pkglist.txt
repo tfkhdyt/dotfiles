@@ -47,6 +47,7 @@ binutils
 bison
 bleachbit
 blueman
+bluetuith-bin
 bluez
 bluez-utils
 bottles
@@ -99,6 +100,7 @@ dust
 e2fsprogs
 efibootmgr
 efitools
+elixir
 endeavouros-keyring
 endeavouros-mirrorlist
 endeavouros-theming
@@ -178,6 +180,7 @@ hyprpaper
 hyprpicker-git
 imv
 inetutils
+inotify-tools
 inxi
 iwd
 iwgtk
@@ -375,7 +378,6 @@ sysfsutils
 system-config-printer
 systemd-sysvcompat
 tailspin
-taskwarrior-tui
 tealdeer
 texinfo
 thunar
