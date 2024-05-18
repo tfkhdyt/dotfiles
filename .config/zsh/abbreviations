@@ -14,6 +14,7 @@ abbr jru='journalctl --user'
 abbr lg=lazygit
 abbr ar2=aria2c
 abbr v=nvim
+abbr nv=neovide
 abbr kdc=kdeconnect-cli
 abbr g=git
 abbr tt=taskwarrior-tui
