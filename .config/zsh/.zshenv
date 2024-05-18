@@ -59,4 +59,6 @@ export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
 typeset -U path PATH
 path=($MY_SCRIPTS $STATUSBAR_SCRIPTS $PNPM_HOME $CARGO_BIN $GOBIN ~/.local/bin ~/.local/share/nvim/mason/bin ~/.detaspace/bin ~/.cache/.bun/bin $ANDROID_HOME/platform-tools $path)
 export PATH
+export NEOVIDE_FORK=1
+
 
