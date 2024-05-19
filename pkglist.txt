@@ -15,11 +15,6 @@ alsa-plugins
 alsa-utils
 amd-ucode
 android-file-transfer
-android-platform
-android-sdk
-android-sdk-build-tools
-android-sdk-cmdline-tools-latest
-android-sdk-platform-tools
 android-tools
 apache
 apidog
@@ -78,7 +73,6 @@ cryptsetup
 cups
 cups-filters
 cups-pdf
-dart
 dbmate
 ddgr
 debtap
@@ -120,7 +114,6 @@ file
 findutils
 firewalld
 flex
-flutter
 foomatic-db
 foomatic-db-engine
 foomatic-db-gutenprint-ppds
@@ -264,6 +257,7 @@ nb
 ncmpcpp
 neofetch
 neovim
+network-manager-applet
 networkmanager
 newsboat
 nfs-utils
@@ -289,6 +283,7 @@ ouch
 p7zip
 pacman
 pacman-contrib
+pamixer
 papirus-icon-theme
 parcellite
 pass
@@ -314,6 +309,7 @@ pkgconf
 pkgfile
 playerctl
 pm2
+pnpm
 podman
 podman-compose
 polkit-kde-agent
@@ -349,7 +345,6 @@ ripgrep
 rofi-lbonn-wayland
 rose-pine-gtk-theme
 rsync
-rustdesk-bin
 rustup
 s-nail
 scrcpy
@@ -372,6 +367,7 @@ steam
 stow
 sudo
 sway-audio-idle-inhibit-git
+swayosd-git
 swtpm
 syncthing
 sysfsutils
@@ -389,6 +385,7 @@ tokei
 trash-cli
 trashy-git
 tree
+tree-sitter-git
 ttf-bitstream-vera
 ttf-dejavu
 ttf-firacode-nerd
@@ -428,6 +425,7 @@ wf-recorder
 wget
 which
 whois
+winbox
 wine-gecko
 wireless-regdb
 wl-clipboard
