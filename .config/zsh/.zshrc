@@ -87,11 +87,7 @@ alias duf='duf --hide special'
 alias adb='HOME="$ANDROID_HOME" adb'
 alias xrdb='xrdb -load "$XDG_CONFIG_HOME/X11/xresources"'
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
-
-lfcd () {
-    # `command` is needed in case `lfcd` is aliased to `lf`
-    cd "$(command lf -print-last-dir "$@")"
-}
+alias vsc="/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --unity-launch"
 
 function ya() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
