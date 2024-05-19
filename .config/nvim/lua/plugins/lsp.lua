@@ -55,32 +55,32 @@ return {
 						},
 					},
 				},
-				tsserver = {
-					settings = {
-						javascript = {
-							inlayHints = {
-								includeInlayEnumMemberValueHints = false,
-								includeInlayFunctionLikeReturnTypeHints = false,
-								includeInlayFunctionParameterTypeHints = true,
-								includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
-								includeInlayParameterNameHintsWhenArgumentMatchesName = true,
-								includeInlayPropertyDeclarationTypeHints = false,
-								includeInlayVariableTypeHints = true,
-							},
-						},
-						typescript = {
-							inlayHints = {
-								includeInlayEnumMemberValueHints = false,
-								includeInlayFunctionLikeReturnTypeHints = false,
-								includeInlayFunctionParameterTypeHints = true,
-								includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
-								includeInlayParameterNameHintsWhenArgumentMatchesName = true,
-								includeInlayPropertyDeclarationTypeHints = false,
-								includeInlayVariableTypeHints = true,
-							},
-						},
-					},
-				},
+				-- tsserver = {
+				-- 	settings = {
+				-- 		javascript = {
+				-- 			inlayHints = {
+				-- 				includeInlayEnumMemberValueHints = false,
+				-- 				includeInlayFunctionLikeReturnTypeHints = false,
+				-- 				includeInlayFunctionParameterTypeHints = true,
+				-- 				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
+				-- 				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+				-- 				includeInlayPropertyDeclarationTypeHints = false,
+				-- 				includeInlayVariableTypeHints = true,
+				-- 			},
+				-- 		},
+				-- 		typescript = {
+				-- 			inlayHints = {
+				-- 				includeInlayEnumMemberValueHints = false,
+				-- 				includeInlayFunctionLikeReturnTypeHints = false,
+				-- 				includeInlayFunctionParameterTypeHints = true,
+				-- 				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
+				-- 				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+				-- 				includeInlayPropertyDeclarationTypeHints = false,
+				-- 				includeInlayVariableTypeHints = true,
+				-- 			},
+				-- 		},
+				-- 	},
+				-- },
 			},
 		},
 	},
