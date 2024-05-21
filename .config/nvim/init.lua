@@ -12,7 +12,7 @@ vim.filetype.add({ extension = { typ = "typst" } })
 vim.g.jsdoc_lehre_path = "/home/tfkhdyt/.local/share/pnpm/lehre"
 
 if vim.g.neovide then
-	vim.o.guifont = "JetBrainsMono NFP:h13" -- text below applies for VimScript
+	vim.o.guifont = "JetBrainsMono NF:h13" -- text below applies for VimScript
 	vim.g.neovide_cursor_vfx_mode = "sonicboom"
 	-- vim.g.neovide_fullscreen = true
 
