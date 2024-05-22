@@ -39,7 +39,7 @@ fi
 # Initialize go project
 go mod init "$PACKAGE_NAME" &>/dev/null
 
-DEPS=("github.com/gofiber/fiber/v2" "github.com/joho/godotenv" "github.com/guregu/null/v5")
+DEPS=("github.com/gofiber/fiber/v2" "github.com/joho/godotenv" "github.com/guregu/null/v5" "github.com/tfkhdyt/fiber-toolbox")
 
 # Installing validator
 printf "Install go-playground/validator (Schema Validation Library) [Y/n]? "
@@ -103,7 +103,7 @@ read -n1 -r DB
 
 case $DB in
 "1")
-	DEPS+=("github.com/jmoiron/sqlx")
+	DEPS+=("github.com/jmoiron/sqlx" "github.com/Masterminds/squirrel")
 	;;
 "2")
 	DEPS+=("gorm.io/gorm")
