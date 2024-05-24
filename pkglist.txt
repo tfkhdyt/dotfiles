@@ -94,7 +94,6 @@ dust
 e2fsprogs
 efibootmgr
 efitools
-elixir
 endeavouros-keyring
 endeavouros-mirrorlist
 endeavouros-theming
@@ -171,6 +170,7 @@ hyprland
 hyprlock
 hyprpaper
 hyprpicker-git
+hyprprop-git
 imv
 inetutils
 inotify-tools
@@ -189,7 +189,6 @@ kernel-install-for-dracut
 klavaro
 kondo
 kvantum
-kvantum-theme-catppuccin-git
 kvantum-theme-materia
 lazygit
 lefthook
@@ -212,7 +211,6 @@ libtool
 libtpms
 libva-mesa-driver
 libvirt
-lightly-kf5-git
 linux
 linux-firmware
 linux-firmware-qlogic
@@ -256,6 +254,7 @@ nano-syntax-highlighting
 nb
 ncmpcpp
 neofetch
+neovide
 neovim
 network-manager-applet
 networkmanager
@@ -367,7 +366,6 @@ steam
 stow
 sudo
 sway-audio-idle-inhibit-git
-swayosd-git
 swtpm
 syncthing
 sysfsutils
@@ -385,7 +383,7 @@ tokei
 trash-cli
 trashy-git
 tree
-tree-sitter-git
+tree-sitter
 ttf-bitstream-vera
 ttf-dejavu
 ttf-firacode-nerd
