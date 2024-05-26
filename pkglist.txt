@@ -17,8 +17,6 @@ amd-ucode
 android-file-transfer
 android-tools
 apache
-apidog
-appmenu-gtk-module
 aria2
 asciinema
 asciinema-agg
@@ -40,6 +38,7 @@ beekeeper-studio-bin
 bind
 binutils
 bison
+bitwarden
 bleachbit
 blueman
 bluetuith-bin
@@ -231,6 +230,7 @@ mangohud
 mariadb
 mbedtls
 mbedtls2
+mcmojave-cursors-git
 mdadm
 mediainfo
 meld
@@ -319,6 +319,7 @@ poppler-glib
 postgresql
 postgresql-old-upgrade
 postman-bin
+posy-cursors
 ppp
 pptpclient
 prayermate-id-bin
@@ -366,6 +367,7 @@ steam
 stow
 sudo
 sway-audio-idle-inhibit-git
+swayidle
 swtpm
 syncthing
 sysfsutils
