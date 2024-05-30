@@ -3,38 +3,38 @@
 # : Manager {{{
 
 [manager]
-cwd = { fg = "#94e2d5" }
+cwd = { fg = "#2aa198" } # Cyan
 
 # Hovered
 hovered = { reversed = true }
 preview_hovered = { underline = true }
 
 # Find
-find_keyword = { fg = "#f9e2af", bold = true, italic = true, underline = true }
-find_position = { fg = "#f5c2e7", bg = "reset", bold = true, italic = true }
+find_keyword = { fg = "#b58900", bold = true, italic = true, underline = true } # Yellow
+find_position = { fg = "#d33682", bg = "reset", bold = true, italic = true }    # Magenta
 
 # Marker
-marker_copied = { fg = "#a6e3a1", bg = "#a6e3a1" }
-marker_cut = { fg = "#f38ba8", bg = "#f38ba8" }
-marker_marked = { fg = "#f9e2af", bg = "#f9e2af" }
-marker_selected = { fg = "#89b4fa", bg = "#89b4fa" }
+marker_copied = { fg = "#859900", bg = "#859900" }   # Green
+marker_cut = { fg = "#dc322f", bg = "#dc322f" }      # Red
+marker_marked = { fg = "#b58900", bg = "#b58900" }   # Yellow
+marker_selected = { fg = "#268bd2", bg = "#268bd2" } # Blue
 
 # Tab
-tab_active = { fg = "#1e1e2e", bg = "#cdd6f4" }
-tab_inactive = { fg = "#cdd6f4", bg = "#45475a" }
+tab_active = { fg = "#002b36", bg = "#839496" }   # Base03, Base0
+tab_inactive = { fg = "#839496", bg = "#073642" } # Base0, Base02
 tab_width = 1
 
 # Count
-count_copied = { fg = "#1e1e2e", bg = "#a6e3a1" }
-count_cut = { fg = "#1e1e2e", bg = "#f38ba8" }
-count_selected = { fg = "#1e1e2e", bg = "#89b4fa" }
+count_copied = { fg = "#002b36", bg = "#859900" }   # Base03, Green
+count_cut = { fg = "#002b36", bg = "#dc322f" }      # Base03, Red
+count_selected = { fg = "#002b36", bg = "#268bd2" } # Base03, Blue
 
 # Border
 border_symbol = "│"
-border_style = { fg = "#7f849c" }
+border_style = { fg = "#586e75" } # Base01
 
 # Highlighting
-syntect_theme = "~/.config/yazi/Catppuccin-mocha.tmTheme"
+# syntect_theme = "~/.config/yazi/Solarized-Dark.tmTheme"
 
 # : }}}
 
@@ -44,24 +44,24 @@ syntect_theme = "~/.config/yazi/Catppuccin-mocha.tmTheme"
 [status]
 separator_open = ""
 separator_close = ""
-separator_style = { fg = "#45475a", bg = "#45475a" }
+separator_style = { fg = "#073642", bg = "#073642" } # Base02, Base02
 
 # Mode
-mode_normal = { fg = "#1e1e2e", bg = "#89b4fa", bold = true }
-mode_select = { fg = "#1e1e2e", bg = "#a6e3a1", bold = true }
-mode_unset = { fg = "#1e1e2e", bg = "#f2cdcd", bold = true }
+mode_normal = { fg = "#002b36", bg = "#268bd2", bold = true } # Base03, Blue
+mode_select = { fg = "#002b36", bg = "#859900", bold = true } # Base03, Green
+mode_unset = { fg = "#002b36", bg = "#cb4b16", bold = true }  # Base03, Orange
 
 # Progress
 progress_label = { fg = "#ffffff", bold = true }
-progress_normal = { fg = "#89b4fa", bg = "#45475a" }
-progress_error = { fg = "#f38ba8", bg = "#45475a" }
+progress_normal = { fg = "#268bd2", bg = "#073642" } # Blue, Base02
+progress_error = { fg = "#dc322f", bg = "#073642" }  # Red, Base02
 
 # Permissions
-permissions_t = { fg = "#89b4fa" }
-permissions_r = { fg = "#f9e2af" }
-permissions_w = { fg = "#f38ba8" }
-permissions_x = { fg = "#a6e3a1" }
-permissions_s = { fg = "#7f849c" }
+permissions_t = { fg = "#268bd2" } # Blue
+permissions_r = { fg = "#b58900" } # Yellow
+permissions_w = { fg = "#dc322f" } # Red
+permissions_x = { fg = "#859900" } # Green
+permissions_s = { fg = "#586e75" } # Base01
 
 # : }}}
 
@@ -69,7 +69,7 @@ permissions_s = { fg = "#7f849c" }
 # : Input {{{
 
 [input]
-border = { fg = "#89b4fa" }
+border = { fg = "#268bd2" }    # Blue
 title = {}
 value = {}
 selected = { reversed = true }
@@ -80,8 +80,8 @@ selected = { reversed = true }
 # : Select {{{
 
 [select]
-border = { fg = "#89b4fa" }
-active = { fg = "#f5c2e7" }
+border = { fg = "#268bd2" } # Blue
+active = { fg = "#d33682" } # Magenta
 inactive = {}
 
 # : }}}
@@ -90,7 +90,7 @@ inactive = {}
 # : Tasks {{{
 
 [tasks]
-border = { fg = "#89b4fa" }
+border = { fg = "#268bd2" }    # Blue
 title = {}
 hovered = { underline = true }
 
@@ -100,12 +100,12 @@ hovered = { underline = true }
 # : Which {{{
 
 [which]
-mask = { bg = "#313244" }
-cand = { fg = "#94e2d5" }
-rest = { fg = "#9399b2" }
-desc = { fg = "#f5c2e7" }
+mask = { bg = "#073642" }            # Base02
+cand = { fg = "#2aa198" }            # Cyan
+rest = { fg = "#93a1a1" }            # Base1
+desc = { fg = "#d33682" }            # Magenta
 separator = "  "
-separator_style = { fg = "#585b70" }
+separator_style = { fg = "#586e75" } # Base01
 
 # : }}}
 
@@ -113,11 +113,11 @@ separator_style = { fg = "#585b70" }
 # : Help {{{
 
 [help]
-on = { fg = "#f5c2e7" }
-exec = { fg = "#94e2d5" }
-desc = { fg = "#9399b2" }
-hovered = { bg = "#585b70", bold = true }
-footer = { fg = "#45475a", bg = "#cdd6f4" }
+on = { fg = "#d33682" }                     # Magenta
+exec = { fg = "#2aa198" }                   # Cyan
+desc = { fg = "#93a1a1" }                   # Base1
+hovered = { bg = "#586e75", bold = true }   # Base01
+footer = { fg = "#073642", bg = "#839496" } # Base02, Base0
 
 # : }}}
 
@@ -128,20 +128,20 @@ footer = { fg = "#45475a", bg = "#cdd6f4" }
 
 rules = [
   # Images
-  { mime = "image/*", fg = "#94e2d5" },
+  { mime = "image/*", fg = "#2aa198" }, # Cyan
 
   # Videos
-  { mime = "{audio,video}/*", fg = "#f9e2af" },
+  { mime = "{audio,video}/*", fg = "#b58900" }, # Yellow
 
   # Archives
-  { mime = "application/*zip", fg = "#f5c2e7" },
-  { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#f5c2e7" },
+  { mime = "application/*zip", fg = "#d33682" },                               # Magenta
+  { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#d33682" }, # Magenta
 
-  { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#a6e3a1" },
+  { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#859900" }, # Green
 
   # Fallback
-  { name = "*", fg = "#cdd6f4" },
-  { name = "*/", fg = "#89b4fa" },
+  { name = "*", fg = "#839496" },  # Base0
+  { name = "*/", fg = "#268bd2" }, # Blue
 ]
 
 # : }}}

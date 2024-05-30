@@ -1,5 +1,3 @@
-@import './rose-pine.css';
-
 * {
   border: none;
   border-radius: 0;
@@ -11,22 +9,27 @@
 }
 
 window#waybar {
-  background: rgba(26, 33, 46, 0.85);
-  color: #34bfd0;
+  background: rgba(0, 20, 26, 0.5);
+  /* base03 */
+  color: #268bd2;
+  /* blue */
 }
 
 tooltip {
-  background: #1a212e;
+  background: #073642;
+  /* base03 */
   border-radius: 0;
   border-width: 2px;
   border-style: solid;
-  border-color: #283347;
+  border-color: #586e75;
+  /* base01 */
 }
 
 #workspaces button {
   padding: 0 5px;
   margin-right: 5px;
-  color: #93a4c3;
+  color: #9DA0ED;
+  /* base1 */
   box-shadow: inset 0 -3px transparent;
   /* Avoid rounded borders under each workspace name */
   border: none;
@@ -34,17 +37,22 @@ tooltip {
 
 #workspaces button.active {
   font-weight: bold;
-  box-shadow: inset 0 -3px #41a7fc;
+  box-shadow: inset 0 -3px #268bd2;
+  /* blue */
 }
 
 #workspaces button.urgent {
-  background-color: #41a7fc;
-  color: #1a212e;
+  background-color: #268bd2;
+  /* blue */
+  color: #073642;
+  /* base03 */
 }
 
 #workspaces button:hover {
-  background-color: rgba(26, 33, 46, 0.8);
-  color: #56b6c2;
+  background-color: rgba(7, 54, 66, 0.5);
+  /* base03 */
+  color: #2aa198;
+  /* cyan */
   border: 0;
   outline: none;
 }
@@ -82,81 +90,98 @@ tooltip {
   padding-right: 5px;
 }
 
-#temperature {
-  /* margin-left: 15px; */
-  /* border-radius: 24px 0 0 24px; */
-  /* padding-left: 25px; */
-}
+/* #temperature { */
+/* margin-left: 15px; */
+/* border-radius: 24px 0 0 24px; */
+/* padding-left: 25px; */
+/* } */
 
 /* module left */
 #custom-distro,
 #cpu,
 #memory,
 #temperature {
-  color: #f65866;
+  color: #dc322f;
+  /* red */
 }
 
 #custom-right-arrow-fg3,
 #custom-left-arrow-fg3 {
-  color: #3c3836;
-  background: #504945;
+  color: #073642;
+  /* base03 */
+  background: #586e75;
+  /* base01 */
 }
 
 #idle_inhibitor,
 #custom-audio_idle_inhibitor {
-  color: #efbd5d;
+  color: #b58900;
+  /* yellow */
   padding-left: 25px;
 }
 
 #custom-right-arrow-fg4,
 #custom-left-arrow-fg4 {
-  color: #504945;
-  background: #665c54;
+  color: #586e75;
+  /* base01 */
+  background: #657b83;
+  /* base00 */
 }
 
 #workspaces {
-  color: #2a324a;
+  color: #002b36;
+  /* base02 */
   padding-right: 0px;
   padding-left: 5px;
 }
 
 #custom-right-arrow-gray,
 #custom-left-arrow-gray {
-  color: #665c54;
-  background: #7c6f64;
+  color: #657b83;
+  /* base00 */
+  background: #839496;
+  /* base0 */
 }
 
 #window {
-  color: #34bfd0;
+  color: #9DA0ED;
+  /* blue */
   /* border-radius: 0 24px 24px 0; */
   padding-right: 25px;
 }
 
 #custom-right-arrow-bg4 {
-  color: #7c6f64;
+  color: #839496;
+  /* base0 */
   background: transparent;
 }
 
 #custom-left-arrow-bg4 {
-  color: #7c6f64;
-  background: #928374;
+  color: #839496;
+  /* base0 */
+  background: #93a1a1;
+  /* base1 */
 }
 
 #custom-pomo {
-  background: #928374;
-  color: #93a4c3;
+  background: #93a1a1;
+  /* base1 */
+  color: #93a1a1;
+  /* base1 */
 }
 
 #custom-right-arrow-bg3,
 #custom-left-arrow-bg3 {
-  color: #928374;
+  color: #93a1a1;
+  /* base1 */
   background: transparent;
 }
 
 /* module right */
 
 #battery {
-  color: #f65866;
+  color: #dc322f;
+  /* red */
   margin-right: 15px;
   /* border-radius: 0 24px 24px 0; */
 }
@@ -165,20 +190,24 @@ tooltip {
 #wireplumber,
 #custom-pipewire,
 #backlight {
-  color: #efbd5d;
+  color: #b58900;
+  /* yellow */
 }
 
 #network {
-  color: #34bfd0;
+  color: #268bd2;
+  /* blue */
 }
 
 #custom-pacman {
-  color: #93a4c3;
+  color: #93a1a1;
+  /* base1 */
 }
 
 #mpd,
 #tray {
-  color: #41a7fc;
+  color: #268bd2;
+  /* blue */
 }
 
 /* ============================== */
@@ -189,7 +218,8 @@ tooltip {
 
 #clock,
 #custom-pomo {
-  color: #93a4c3;
+  color: #FF9468;
+  /* base1 */
   /* border-radius: 24px; */
   padding: 0 25px;
 }
@@ -220,19 +250,22 @@ tooltip {
 #custom-right-arrow-bg2,
 #custom-left-arrow-bg2 {
   background-color: transparent;
-  color: #3c3836;
+  color: #073642;
+  /* base03 */
 }
 
 #custom-right-arrow-bg1,
 #custom-left-arrow-bg1 {
-  color: rgba(26, 33, 46, 0.25);
+  color: rgba(7, 54, 66, 0.25);
+  /* base03 */
   background: transparent;
 }
 
 #custom-slash,
 #custom-backslash {
   background-color: transparent;
-  color: #3c4042;
+  color: #586e75;
+  /* base01 */
   padding: 0;
   margin: 0;
   /* margin-top: 10px; */
