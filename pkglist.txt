@@ -50,7 +50,6 @@ brave-bin
 breeze
 bridge-utils
 brightnessctl
-browserpass
 bruno-bin
 btrfs-progs
 bun-bin
@@ -99,6 +98,7 @@ endeavouros-theming
 eos-hooks
 eos-log-tool
 eos-rankmirrors
+exchango-bin
 exfatprogs
 expac
 eza
@@ -258,6 +258,7 @@ neovide
 neovim
 network-manager-applet
 networkmanager
+networkmanager-openvpn
 newsboat
 nfs-utils
 nginx
@@ -276,6 +277,7 @@ obs-studio
 oha
 openslide
 openssl-1.1
+openvpn
 optipng
 os-prober
 ouch
