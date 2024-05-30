@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/themes/catppuccin_mocha.toml"]
+import = ["~/.config/alacritty/themes/solarized-osaka.toml"]
 
 [env]
 TERM = "alacritty"
