@@ -1,16 +1,29 @@
 return {
-	{
-		"craftzdog/solarized-osaka.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = {
-			transparent = false,
-		},
-	},
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "solarized-osaka",
-		},
-	},
+	-- {
+	-- 	"craftzdog/solarized-osaka.nvim",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- 	opts = {
+	-- 		transparent = false,
+	-- 	},
+	-- },
+	-- {
+	-- 	"maxmx03/solarized.nvim",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- 	opts = {
+	-- 		theme = "neo",
+	-- 	},
+	-- 	config = function()
+	-- 		vim.o.background = "dark" -- or 'light'
+	--
+	-- 		vim.cmd.colorscheme("solarized")
+	-- 	end,
+	-- },
+	-- -{
+	-- 	"LazyVim/LazyVim",
+	-- 	opts = {
+	-- 		colorscheme = "solarized-osaka",
+	-- 	},
+	-- },
 }
