@@ -51,6 +51,7 @@ breeze
 bridge-utils
 brightnessctl
 bruno-bin
+btop
 btrfs-progs
 bun-bin
 c-lolcat
@@ -138,7 +139,6 @@ gnome-keyring
 gnutls
 go
 go-mod-outdated
-go-task
 gosec-bin
 gource
 gparted
@@ -190,9 +190,8 @@ kondo
 kvantum
 kvantum-theme-materia
 lazygit
-lefthook
+lefthook-bin
 less
-lf
 lib32-gnutls
 lib32-libpulse
 lib32-libva-mesa-driver
@@ -292,7 +291,7 @@ pass-otp
 patch
 pavucontrol
 pcmanfm
-pcsx2-avx-git
+pcsx2-latest-bin
 pdftk
 perl
 pgcli
@@ -347,6 +346,7 @@ ripgrep
 rofi-lbonn-wayland
 rose-pine-gtk-theme
 rsync
+rust-analyzer
 rustup
 s-nail
 scrcpy
