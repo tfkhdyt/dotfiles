@@ -9,26 +9,26 @@
 }
 
 window#waybar {
-  background: rgba(0, 20, 26, 0.5);
+  background: rgba(31, 35, 53, 0.75);
   /* base03 */
-  color: #268bd2;
+  color: #b4f9f8;
   /* blue */
 }
 
 tooltip {
-  background: #073642;
+  background: #24283b;
   /* base03 */
   border-radius: 0;
   border-width: 2px;
   border-style: solid;
-  border-color: #586e75;
+  border-color: #565f89;
   /* base01 */
 }
 
 #workspaces button {
   padding: 0 5px;
   margin-right: 5px;
-  color: #9DA0ED;
+  color: #7aa2f7;
   /* base1 */
   box-shadow: inset 0 -3px transparent;
   /* Avoid rounded borders under each workspace name */
@@ -37,21 +37,21 @@ tooltip {
 
 #workspaces button.active {
   font-weight: bold;
-  box-shadow: inset 0 -3px #268bd2;
+  box-shadow: inset 0 -3px #7aa2f7;
   /* blue */
 }
 
 #workspaces button.urgent {
-  background-color: #268bd2;
+  background-color: #7aa2f7;
   /* blue */
-  color: #073642;
+  color: #292e42;
   /* base03 */
 }
 
 #workspaces button:hover {
-  background-color: rgba(7, 54, 66, 0.5);
+  background-color: rgba(31, 35, 53, 0.9);
   /* base03 */
-  color: #2aa198;
+  /* color: #2aa198; */
   /* cyan */
   border: 0;
   outline: none;
@@ -101,7 +101,7 @@ tooltip {
 #cpu,
 #memory,
 #temperature {
-  color: #dc322f;
+  color: #c53b53;
   /* red */
 }
 
@@ -115,7 +115,7 @@ tooltip {
 
 #idle_inhibitor,
 #custom-audio_idle_inhibitor {
-  color: #b58900;
+  color: #ffc777;
   /* yellow */
   padding-left: 25px;
 }
@@ -129,7 +129,7 @@ tooltip {
 }
 
 #workspaces {
-  color: #002b36;
+  color: #414868;
   /* base02 */
   padding-right: 0px;
   padding-left: 5px;
@@ -144,7 +144,7 @@ tooltip {
 }
 
 #window {
-  color: #9DA0ED;
+  color: #41a6b5;
   /* blue */
   /* border-radius: 0 24px 24px 0; */
   padding-right: 25px;
@@ -180,7 +180,7 @@ tooltip {
 /* module right */
 
 #battery {
-  color: #dc322f;
+  color: #c53b53;
   /* red */
   margin-right: 15px;
   /* border-radius: 0 24px 24px 0; */
@@ -190,12 +190,12 @@ tooltip {
 #wireplumber,
 #custom-pipewire,
 #backlight {
-  color: #b58900;
+  color: #ff9e64;
   /* yellow */
 }
 
 #network {
-  color: #268bd2;
+  color: #3d59a1;
   /* blue */
 }
 
@@ -206,7 +206,7 @@ tooltip {
 
 #mpd,
 #tray {
-  color: #268bd2;
+  color: #bb9af7;
   /* blue */
 }
 
@@ -264,7 +264,7 @@ tooltip {
 #custom-slash,
 #custom-backslash {
   background-color: transparent;
-  color: #586e75;
+  color: #414868;
   /* base01 */
   padding: 0;
   margin: 0;

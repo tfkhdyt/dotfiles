@@ -5,10 +5,10 @@ return {
 			style = "warmer",
 		},
 	},
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "onedark",
-		},
-	},
+	-- {
+	-- 	"LazyVim/LazyVim",
+	-- 	opts = {
+	-- 		colorscheme = "onedark",
+	-- 	},
+	-- },
 }

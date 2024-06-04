@@ -29,7 +29,7 @@ return {
 						information = { "undercurl" },
 					},
 				},
-				navic = { enabled = true, custom_bg = "lualine" },
+				-- navic = { enabled = true, custom_bg = "lualine" },
 				neotest = true,
 				neotree = true,
 				noice = true,

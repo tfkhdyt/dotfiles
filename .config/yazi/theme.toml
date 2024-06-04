@@ -1,147 +1,128 @@
-# vim:fileencoding=utf-8:foldmethod=marker
-
-# : Manager {{{
-
 [manager]
-cwd = { fg = "#2aa198" } # Cyan
+# NOTE: can combined with tmTheme (sublime colorshceme file) for preview code highlight
+# highlight = "path/to/tmTheme"
+
+cwd = { fg = "#a9b1d6", italic = true }
 
 # Hovered
-hovered = { reversed = true }
-preview_hovered = { underline = true }
+hovered = { bg = "#292e42" }
+preview_hovered = { bg = "#292e42" }
 
 # Find
-find_keyword = { fg = "#b58900", bold = true, italic = true, underline = true } # Yellow
-find_position = { fg = "#d33682", bg = "reset", bold = true, italic = true }    # Magenta
+find_keyword = { fg = "#16161e", bg = "#ff9e64", bold = true }
+find_position = { fg = "#0db9d7", bg = "#192b38", bold = true }
 
 # Marker
-marker_copied = { fg = "#859900", bg = "#859900" }   # Green
-marker_cut = { fg = "#dc322f", bg = "#dc322f" }      # Red
-marker_marked = { fg = "#b58900", bg = "#b58900" }   # Yellow
-marker_selected = { fg = "#268bd2", bg = "#268bd2" } # Blue
+marker_copied = { fg = "#73daca", bg = "#73daca" }
+marker_cut = { fg = "#f7768e", bg = "#f7768e" }
+marker_marked = { fg = "#bb9af7", bg = "#bb9af7" }
+marker_selected = { fg = "#7aa2f7", bg = "#7aa2f7" }
 
 # Tab
-tab_active = { fg = "#002b36", bg = "#839496" }   # Base03, Base0
-tab_inactive = { fg = "#839496", bg = "#073642" } # Base0, Base02
+tab_active = { fg = "#c0caf5", bg = "#292e42" }
+tab_inactive = { fg = "#3b4261", bg = "#1a1b26" }
 tab_width = 1
 
 # Count
-count_copied = { fg = "#002b36", bg = "#859900" }   # Base03, Green
-count_cut = { fg = "#002b36", bg = "#dc322f" }      # Base03, Red
-count_selected = { fg = "#002b36", bg = "#268bd2" } # Base03, Blue
-
+count_copied = { fg = "#c0caf5", bg = "#41a6b5" }
+count_cut = { fg = "#c0caf5", bg = "#db4b4b" }
+count_selected = { fg = "#c0caf5", bg = "#3d59a1" }
 # Border
 border_symbol = "│"
-border_style = { fg = "#586e75" } # Base01
-
-# Highlighting
-# syntect_theme = "~/.config/yazi/Solarized-Dark.tmTheme"
-
-# : }}}
-
-
-# : Status {{{
+border_style = { fg = "#27a1b9" }
 
 [status]
 separator_open = ""
 separator_close = ""
-separator_style = { fg = "#073642", bg = "#073642" } # Base02, Base02
+separator_style = { fg = "#3b4261", bg = "#3b4261" }
 
 # Mode
-mode_normal = { fg = "#002b36", bg = "#268bd2", bold = true } # Base03, Blue
-mode_select = { fg = "#002b36", bg = "#859900", bold = true } # Base03, Green
-mode_unset = { fg = "#002b36", bg = "#cb4b16", bold = true }  # Base03, Orange
+mode_normal = { fg = "#16161e", bg = "#7aa2f7", bold = true }
+mode_select = { fg = "#16161e", bg = "#bb9af7", bold = true }
+mode_unset = { fg = "#16161e", bg = "#9d7cd8", bold = true }
 
 # Progress
-progress_label = { fg = "#ffffff", bold = true }
-progress_normal = { fg = "#268bd2", bg = "#073642" } # Blue, Base02
-progress_error = { fg = "#dc322f", bg = "#073642" }  # Red, Base02
+progress_label = { fg = "#a9b1d6", bold = true }
+progress_normal = { fg = "#1a1b26" }
+progress_error = { fg = "#f7768e" }
 
 # Permissions
-permissions_t = { fg = "#268bd2" } # Blue
-permissions_r = { fg = "#b58900" } # Yellow
-permissions_w = { fg = "#dc322f" } # Red
-permissions_x = { fg = "#859900" } # Green
-permissions_s = { fg = "#586e75" } # Base01
-
-# : }}}
-
-
-# : Input {{{
-
-[input]
-border = { fg = "#268bd2" }    # Blue
-title = {}
-value = {}
-selected = { reversed = true }
-
-# : }}}
-
-
-# : Select {{{
+permissions_t = { fg = "#7aa2f7" }
+permissions_r = { fg = "#e0af68" }
+permissions_w = { fg = "#f7768e" }
+permissions_x = { fg = "#9ece6a" }
+permissions_s = { fg = "#414868" }
 
 [select]
-border = { fg = "#268bd2" } # Blue
-active = { fg = "#d33682" } # Magenta
-inactive = {}
+border = { fg = "#27a1b9" }
+active = { fg = "#c0caf5", bg = "#283457" }
+inactive = { fg = "#c0caf5" }
 
-# : }}}
-
-
-# : Tasks {{{
-
-[tasks]
-border = { fg = "#268bd2" }    # Blue
+# Input
+[input]
+border = { fg = "#0db9d7" }
 title = {}
-hovered = { underline = true }
+value = { fg = "#9d7cd8" }
+selected = { bg = "#283457" }
 
-# : }}}
+# Completion
+[completion]
+border = { fg = "#0db9d7" }
+active = { fg = "#c0caf5", bg = "#283457" }
+inactive = { fg = "#c0caf5" }
 
+# Tasks
+[tasks]
+border = { fg = "#27a1b9" }
+title = {}
+hovered = { fg = "#c0caf5", bg = "#283457" }
 
-# : Which {{{
-
+# Which
 [which]
-mask = { bg = "#073642" }            # Base02
-cand = { fg = "#2aa198" }            # Cyan
-rest = { fg = "#93a1a1" }            # Base1
-desc = { fg = "#d33682" }            # Magenta
+cols = 3
+mask = { bg = "#16161e" }
+cand = { fg = "#7dcfff" }
+rest = { fg = "#7aa2f7" }
+desc = { fg = "#bb9af7" }
 separator = "  "
-separator_style = { fg = "#586e75" } # Base01
+separator_style = { fg = "#565f89" }
 
-# : }}}
+# Notify
+[notify]
+title_info = { fg = "#0db9d7" }
+title_warn = { fg = "#e0af68" }
+title_error = { fg = "#f7768e" }
 
-
-# : Help {{{
-
+# Help
 [help]
-on = { fg = "#d33682" }                     # Magenta
-exec = { fg = "#2aa198" }                   # Cyan
-desc = { fg = "#93a1a1" }                   # Base1
-hovered = { bg = "#586e75", bold = true }   # Base01
-footer = { fg = "#073642", bg = "#839496" } # Base02, Base0
-
-# : }}}
-
-
-# : File-specific styles {{{
+on = { fg = "#9ece6a" }
+run = { fg = "#bb9af7" }
+hovered = { bg = "#283457" }
+footer = { fg = "#c0caf5", bg = "#1a1b26" }
 
 [filetype]
 
 rules = [
   # Images
-  { mime = "image/*", fg = "#2aa198" }, # Cyan
+  { mime = "image/*", fg = "#e0af68" },
 
-  # Videos
-  { mime = "{audio,video}/*", fg = "#b58900" }, # Yellow
+  # Media
+  { mime = "{audio,video}/*", fg = "#bb9af7" },
 
   # Archives
-  { mime = "application/*zip", fg = "#d33682" },                               # Magenta
-  { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#d33682" }, # Magenta
+  { mime = "application/*zip", fg = "#f7768e" },
+  { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#f7768e" },
 
-  { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#859900" }, # Green
+  # Documents
+  { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#7dcfff" },
+
+  # Empty files
+  # { mime = "inode/x-empty", fg = "#f7768e" },
+
+  # Special files
+  { name = "*", is = "orphan", bg = "#f7768e" },
+  { name = "*", is = "exec", fg = "#9ece6a" },
 
   # Fallback
-  { name = "*", fg = "#839496" },  # Base0
-  { name = "*/", fg = "#268bd2" }, # Blue
+  { name = "*/", fg = "#7aa2f7" },
 ]
-
-# : }}}
