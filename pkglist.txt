@@ -34,7 +34,7 @@ bash-completion
 bat
 batmanager
 bc
-beekeeper-studio-bin
+beekeeper-studio
 bind
 binutils
 bison
@@ -64,7 +64,7 @@ chaotic-keyring
 chaotic-mirrorlist
 checkbashisms
 cloudflare-warp-bin
-cloudflared-bin
+cloudflared
 cmatrix
 composer
 cpupower
@@ -152,6 +152,7 @@ gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-ugly
+gstreamer-vaapi
 gutenprint
 guvcview
 gvfs
@@ -262,7 +263,7 @@ newsboat
 nfs-utils
 nginx
 nilfs-utils
-nodejs
+nodejs-lts-iron
 noisetorch-git
 noto-fonts
 noto-fonts-cjk
@@ -272,6 +273,7 @@ ntfs-3g
 ntp
 nwg-displays
 nwg-look
+obs-gstreamer
 obs-studio
 oha
 openslide
@@ -415,7 +417,6 @@ uwufetch
 v4l2loopback-dkms
 virt-manager
 vivid
-vpnc
 vscodium-bin
 vulkan-radeon
 w3m
