@@ -4,15 +4,16 @@ return {
 		lazy = false,
 		priority = 1000,
 		opts = function()
-			local hour = tonumber(os.date("%H"))
+			-- local hour = tonumber(os.date("%H"))
 			local style = "night"
 
-			if hour >= 4 and hour <= 12 then
-				style = "day"
-			end
+			-- if hour >= 4 and hour <= 12 then
+			-- 	style = "day"
+			-- end
 
 			return {
 				style = style,
+				transparent = true,
 			}
 		end,
 	},
