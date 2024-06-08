@@ -13,7 +13,7 @@ return {
 
 			return {
 				style = style,
-				transparent = true,
+				-- transparent = true,
 			}
 		end,
 	},
