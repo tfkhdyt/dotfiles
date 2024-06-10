@@ -9,6 +9,7 @@ adw-gtk3
 adwaita-qt5-git
 adwaita-qt6-git
 aic94xx-firmware
+air-bin
 alacritty
 alsa-firmware
 alsa-plugins
@@ -131,6 +132,7 @@ gettext
 ghostscript
 gimp
 git
+git-cliff
 gksu
 gleam-bin
 global
@@ -356,6 +358,7 @@ screenkey
 sd
 seahorse
 sed
+showmethekey
 slurp
 smartmontools
 smassh-bin
@@ -410,6 +413,7 @@ upd72020x-fw
 upower
 upscayl-bin
 upx
+urban-cli-bin
 usb_modeswitch
 usbutils
 uuid
@@ -461,6 +465,7 @@ yad
 yay
 yazi
 yt-dlp
+ytfzf
 zathura
 zathura-pdf-mupdf
 zig
