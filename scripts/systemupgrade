@@ -35,7 +35,7 @@ trashy empty --before=7d
 
 # system upgrade
 print_log "Updating database and upgrading system..."
-yay -Syyu
+yay
 
 # updating pkgfile
 print_log "Updating pkgfile..."
