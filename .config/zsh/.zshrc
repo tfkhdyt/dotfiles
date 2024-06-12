@@ -87,7 +87,7 @@ alias duf='duf --hide special'
 alias adb='HOME="$ANDROID_HOME" adb'
 alias xrdb='xrdb -load "$XDG_CONFIG_HOME/X11/xresources"'
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
-alias vsc="/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --unity-launch"
+# alias vsc="gio launch /usr/share/applications/codium-wayland.desktop"
 
 function ya() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
