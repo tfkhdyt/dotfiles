@@ -1,16 +1,16 @@
 {
+  "margin-top": 5,
+  "margin-bottom": 12,
   "layer": "top",
   "position": "top",
-  "height": 34,
+  "height": 39,
   "modules-left": [
     // "temperature",
     // "cpu",
     // "memory",
     // "custom/slash",
     "idle_inhibitor",
-    "custom/slash",
     "hyprland/workspaces",
-    "custom/slash",
     "hyprland/window"
     // "custom/right-arrow-bg3"
     // "custom/right-arrow-bg2"
@@ -18,21 +18,17 @@
   ],
   "modules-center": [
     "clock"
-    // "custom/left-arrow-bg2",
-    // "custom/pomo",
-    // "custom/right-arrow-bg2"
   ],
   "modules-right": [
     // "custom/left-arrow-bg2",
     // "custom/left-arrow-bg1",
     "tray",
+    "cpu",
+    "memory",
     "mpd",
-    "custom/backslash",
     "network",
-    "custom/backslash",
     "backlight",
     "custom/pipewire",
-    "custom/backslash",
     "battery"
   ],
   "wlr/workspaces": {
@@ -111,7 +107,7 @@
     ]
   },
   "clock": {
-    "format": "{:%a, %e %b %H:%M}",
+    "format": "󰃭 {:%a, %e %b  %H:%M}",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "calendar": {
       "mode": "month",
@@ -127,8 +123,8 @@
     }
   },
   "network": {
-    "format-wifi": "󰖩 {essid}",
-    "format-ethernet": " {essid}",
+    "format-wifi": "󰖩 {signalStrength}%",
+    "format-ethernet": " {signalStrength}%",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "󰖪  Disconnected",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
@@ -196,7 +192,7 @@
     "format": "{icon}",
     "format-icons": {
       "activated": "󰅶",
-      "deactivated": "󰾪"
+      "deactivated": "󰣇"
     }
   },
   "custom/right-arrow-fg3": {
@@ -261,8 +257,9 @@
     "on-click": "hyprctl reload && notify-send 'Hyprland has been reloaded'"
   },
   "hyprland/window": {
-    "format": "{title}"
-    // "separate-outputs": true
+    "format": "{title}",
+    "icon": true,
+    "separate-outputs": true
   },
   "temperature": {
     // "thermal-zone": 2,
