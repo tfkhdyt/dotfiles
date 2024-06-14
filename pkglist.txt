@@ -126,6 +126,7 @@ gamemode
 gamescope
 gawk
 gcc
+gdb
 geminicommit-bin
 genact
 gettext
@@ -133,6 +134,7 @@ ghostscript
 gimp
 git
 git-cliff
+git-delta
 gksu
 gleam-bin
 global
@@ -436,7 +438,6 @@ winbox
 wine-gecko
 wireless-regdb
 wl-clipboard
-wl-mirror
 wlogout
 wlr-randr
 wmctrl
@@ -468,9 +469,7 @@ yt-dlp
 ytfzf
 zathura
 zathura-pdf-mupdf
-zig
 zip
-zls
 zoom
 zoxide
 zps
